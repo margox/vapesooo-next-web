@@ -25,3 +25,33 @@ button {
     opacity: 0.9;
   }
 }
+
+.swiper {
+  @apply w-full h-full;
+}
+
+.swiper-slide {
+  @apply flex justify-center items-center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  @apply text-black;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  @apply text-2xl;
+}
+
+.swiper-thumbs {
+  /* @apply h-24; */
+}
+
+.swiper-thumbs .swiper-slide {
+  @apply border-2 border-slate-200 rounded-lg overflow-hidden;
+}
+
+.swiper-thumbs .swiper-slide-thumb-active {
+  @apply border-slate-400;
+}

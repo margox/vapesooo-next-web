@@ -2,10 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
-import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
 import ReactMarkdown from "react-markdown";
+import ImageSlider from "@/components/ImageSlider";
 import { LocalizedLink } from "@/components/Link";
 import { Product } from "@/types/products";
 import { useLocale } from "@/app/store/locale";
@@ -97,40 +95,9 @@ export default function ProductDetailPage() {
       </nav>
 
       <div className="flex flex-col lg:flex-row">
-        {/* Product Images Carousel */}
         <div className="w-full lg:w-1/2 lg:pr-8 mb-8 lg:mb-0">
-          {product.images.length > 0 ? (
-            <Swiper
-              modules={[Navigation, Pagination]}
-              navigation
-              pagination={{ clickable: true }}
-              loop={true}
-              className="rounded-lg overflow-hidden"
-            >
-              {product.images.map((image, index) => (
-                <SwiperSlide key={index}>
-                  <div className="relative h-96 w-full">
-                    <Image
-                      src={image.url}
-                      alt={image.alt || product.title}
-                      fill
-                      className="object-contain"
-                      sizes="(max-width: 768px) 100vw, 50vw"
-                    />
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          ) : (
-            <div className="h-96 bg-gray-200 dark:bg-gray-800 rounded-lg flex items-center justify-center">
-              <p className="text-gray-500 dark:text-gray-400">
-                No images available
-              </p>
-            </div>
-          )}
+          <ImageSlider images={product.images} />
         </div>
-
-        {/* Product Info */}
         <div className="w-full lg:w-1/2">
           <h1 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">
             {product.title}
