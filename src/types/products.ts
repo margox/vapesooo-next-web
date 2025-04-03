@@ -10,6 +10,7 @@ export enum Locales {
 }
 
 export interface Product {
+  brand: string;
   name: string;
   slug: string;
   title: string;
@@ -22,7 +23,7 @@ export interface Product {
   excerpt_locales: {
     [key in Locales]: string;
   };
-  markdown_content_locales: {
+  content: {
     [key in Locales]: string;
   };
   seo: {
@@ -31,12 +32,6 @@ export interface Product {
     og_title: string;
     og_description: string;
   };
-  seo_locales: {
-    [key in Locales]: {
-      meta_description: string;
-      meta_keywords: string;
-    };
-  };
 }
 
 export interface ProductsMap {
@@ -44,7 +39,11 @@ export interface ProductsMap {
 }
 
 export interface Products {
-  [brand: string]: Product[];
+  [brand: string]: {
+    products: Product[];
+    sort: number;
+    enabled: boolean;
+  };
 }
 
 export type Brands = Array<keyof Products>;

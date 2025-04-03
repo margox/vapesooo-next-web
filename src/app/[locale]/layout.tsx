@@ -1,35 +1,32 @@
-import { Locales } from "@/types/products";
-import { Inter } from "next/font/google";
-import { notFound } from "next/navigation";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import { ThemeProvider } from "@/components/ThemeProvider";
-import "./globals.css";
+import { Locales } from '@/types/products'
+import { Inter } from 'next/font/google'
+import { notFound } from 'next/navigation'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
+import { ThemeProvider } from '@/components/ThemeProvider'
+import './globals.css'
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] })
 
-const availableLocalesMap = Object.fromEntries(
-  Object.values(Locales).map((locale) => [locale, true])
-);
+const availableLocalesMap = Object.fromEntries(Object.values(Locales).map((locale) => [locale, true]))
 
 export const metadata = {
-  title: "Vapesooo - Premium Vape Products",
-  description: "Discover our wide range of premium vape products",
-};
+  title: 'Vapesooo - Premium Vape Products',
+  description: 'Discover our wide range of premium vape products',
+}
 
 interface RootLayoutProps {
-  children: React.ReactNode;
-  params: { locale: Locales };
+  children: React.ReactNode
+  params: { locale: Locales; brand: string }
 }
 
 export default async function RootLayout(props: RootLayoutProps) {
-  const { children, params } = props;
-
-  const { locale } = await params;
+  const { children, params } = props
+  const { locale } = await params
 
   // Validate locale
   if (!availableLocalesMap[locale]) {
-    return notFound();
+    return notFound()
   }
 
   return (
@@ -44,5 +41,5 @@ export default async function RootLayout(props: RootLayoutProps) {
         </ThemeProvider>
       </body>
     </html>
-  );
+  )
 }

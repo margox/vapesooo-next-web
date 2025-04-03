@@ -1,12 +1,14 @@
 // import Image from "next/image";
-import { LocalizedLink } from "@/components/Link";
-import ProductCard from "@/components/ProductCard";
-import { products as productsData } from "@/data/index";
+import { LocalizedLink } from '@/components/Link'
+import ProductCard from '@/components/ProductCard'
+import { products as productsData } from '@/data/index'
+
+// Get all brands
+const brands = Object.keys(productsData).sort((a, b) => {
+  return productsData[b].sort - productsData[a].sort
+})
 
 export default function Home() {
-  // Get all brands
-  const brands = Object.keys(productsData);
-
   return (
     <div>
       {/* Hero Section */}
@@ -14,9 +16,7 @@ export default function Home() {
         <div className="relative h-full w-full">
           {/* Placeholder for Hero Slider */}
           <div className="absolute inset-0 flex items-center justify-center">
-            <h1 className="text-3xl md:text-5xl font-bold text-white">
-              Premium Vape Products
-            </h1>
+            <h1 className="text-3xl md:text-5xl font-bold text-white">Premium Vape Products</h1>
           </div>
         </div>
       </section>
@@ -24,19 +24,16 @@ export default function Home() {
       {/* Brand Sections */}
       {brands.map((brand) => {
         // Get first 4 products of this brand
-        const products = productsData[brand].slice(0, 4);
+        const products = productsData[brand].products.slice(0, 4)
 
         return (
           <section key={brand} className="py-12">
             <div className="container mx-auto px-4">
               <div className="flex items-center justify-between mb-8">
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">
-                  {brand}
-                </h2>
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">{brand}</h2>
                 <LocalizedLink
                   href={`/products/brand/${brand.toLowerCase()}`}
-                  className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
-                >
+                  className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">
                   View All Products
                 </LocalizedLink>
               </div>
@@ -48,8 +45,8 @@ export default function Home() {
               </div>
             </div>
           </section>
-        );
+        )
       })}
     </div>
-  );
+  )
 }
