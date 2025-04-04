@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Product } from "@/types/products";
 import { useLocale } from "@/app/store/locale";
 import { LocalizedLink } from "@/components/Link";
+import { useTranslation } from "@/hooks/useTranslation";
 
 interface ProductCardProps {
   product: Product;
@@ -11,6 +12,7 @@ interface ProductCardProps {
 
 export default function ProductCard({ product }: ProductCardProps) {
   const locale = useLocale();
+  const { t } = useTranslation();
   const featuredImage = product.images[0] || {
     url: "/placeholder.jpg",
     alt: product.title,
@@ -45,7 +47,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           )}
           <div className="mt-4">
             <span className="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100 text-xs px-2 py-1 rounded">
-              View Details
+              {t("common.viewDetails")}
             </span>
           </div>
         </div>

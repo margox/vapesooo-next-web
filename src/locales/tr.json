@@ -1,0 +1,40 @@
+{
+  "common": {
+    "home": "Ana Sayfa",
+    "store": "Mağaza",
+    "products": "Ürünler",
+    "contact": "İletişim",
+    "viewAllProducts": "Tüm Ürünleri Görüntüle",
+    "viewDetails": "Detayları Görüntüle",
+    "contactInquiry": "Ürün Sorgusu için İletişim",
+    "backToProducts": "← Ürünlere Geri Dön",
+    "noProductsFound": "Ürün bulunamadı",
+    "productNotFound": "Ürün Bulunamadı",
+    "brandNotFound": "Marka Bulunamadı",
+    "productNotFoundDesc": "Aradığınız ürün mevcut değil.",
+    "brandNotFoundDesc": "Aradığınız marka mevcut değil.",
+    "allProducts": "Tüm Ürünler",
+    "brandProducts": "{{brand}} Ürünleri"
+  },
+  "hero": {
+    "title": "Premium Vape Ürünleri"
+  },
+  "footer": {
+    "tagline": "Seçici müşteriler için premium vape ürünleri. Kalite ve memnuniyet garantilidir.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "contactTitle": "İletişim",
+    "contactDesc": "Sorularınız mı var? Müşteri hizmetleri ekibimizle iletişime geçin.",
+    "contactWhatsApp": "WhatsApp'ta İletişim",
+    "copyright": "© {{year}} Vapesooo. Tüm hakları saklıdır."
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "tr": "Türkçe"
+  }
+} 

@@ -5,6 +5,7 @@ import ImageSlider from '@/components/ImageSlider'
 import { LocalizedLink } from '@/components/Link'
 import { useLocale } from '@/app/store/locale'
 import { productsMap } from '@/data/index'
+import { useTranslation } from '@/hooks/useTranslation'
 
 // Import Swiper styles
 import 'swiper/css'
@@ -18,7 +19,7 @@ export default function ProductDetailPage() {
   const slug = params.slug as string
   const product = productsMap[slug]
   const brandName = product.brand
-
+  const { t } = useTranslation()
   if (!product) {
     return (
       <div className="container mx-auto px-4 py-16 text-center">
@@ -47,13 +48,13 @@ export default function ProductDetailPage() {
         <LocalizedLink
           href="/"
           className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
-          Home
+          {t('common.home')}
         </LocalizedLink>
         <span className="mx-2 text-gray-500 dark:text-gray-400">/</span>
         <LocalizedLink
           href={`/products/brand/${brandName.toLowerCase()}`}
           className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
-          {brandName}
+          {t('common.brandProducts', { brand: brandName })}
         </LocalizedLink>
         <span className="mx-2 text-gray-500 dark:text-gray-400">/</span>
         <span className="text-gray-900 dark:text-gray-100">{product.title}</span>
@@ -73,7 +74,7 @@ export default function ProductDetailPage() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block mb-8 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-md font-medium">
-            Contact for Product Inquiry
+            {t('common.contactInquiry')}
           </a>
         </div>
       </div>

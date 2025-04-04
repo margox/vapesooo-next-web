@@ -1,0 +1,40 @@
+{
+  "common": {
+    "home": "Accueil",
+    "store": "Boutique",
+    "products": "Produits",
+    "contact": "Contact",
+    "viewAllProducts": "Voir tous les produits",
+    "viewDetails": "Voir les détails",
+    "contactInquiry": "Contactez pour une demande de produit",
+    "backToProducts": "← Retour aux produits",
+    "noProductsFound": "Aucun produit trouvé",
+    "productNotFound": "Produit non trouvé",
+    "brandNotFound": "Marque non trouvée",
+    "productNotFoundDesc": "Le produit que vous recherchez n'existe pas.",
+    "brandNotFoundDesc": "La marque que vous recherchez n'existe pas.",
+    "allProducts": "Tous les produits",
+    "brandProducts": "Produits {{brand}}"
+  },
+  "hero": {
+    "title": "Produits Vape Premium"
+  },
+  "footer": {
+    "tagline": "Produits de vape haut de gamme pour les clients exigeants. Qualité et satisfaction garanties.",
+    "quickLinks": "Liens rapides",
+    "contactTitle": "Contact",
+    "contactDesc": "Des questions ? Contactez notre équipe de service client.",
+    "contactWhatsApp": "Contactez sur WhatsApp",
+    "copyright": "© {{year}} Vapesooo. Tous droits réservés."
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "tr": "Türkçe"
+  }
+} 

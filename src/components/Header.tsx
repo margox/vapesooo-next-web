@@ -7,6 +7,7 @@ import { usePathname, useParams } from 'next/navigation'
 import { Locales } from '@/types/products'
 import { LocalizedLink } from '@/components/Link'
 import { brandNames, productsMap, products as productsData } from '@/data/index'
+import { useTranslation } from '@/hooks/useTranslation'
 
 const LOCALE_FLAGS = {
   [Locales.EN]: '🇬🇧',
@@ -19,16 +20,6 @@ const LOCALE_FLAGS = {
   [Locales.TR]: '🇹🇷',
 }
 
-const LOCALE_NAMES = {
-  [Locales.EN]: 'English',
-  [Locales.FR]: 'Français',
-  [Locales.ES]: 'Español',
-  [Locales.DE]: 'Deutsch',
-  [Locales.IT]: 'Italiano',
-  [Locales.PT]: 'Português',
-  [Locales.RU]: 'Русский',
-  [Locales.TR]: 'Türkçe',
-}
 type UseAutoResetFlag = <T>(delay?: number) => [T | null, (value: T) => void]
 
 const useAutoResetFlag: UseAutoResetFlag = <T,>(delay = 100) => {
@@ -48,6 +39,7 @@ export default function Header() {
   const { brand, locale, slug } = useParams()
   const [hidenMenu, setHidenMenu] = useAutoResetFlag<string>()
   const currentRoute = usePathname().replace(new RegExp(`^/${locale}`), '')
+  const { t } = useTranslation()
 
   const isHome = pathname === `/${locale}`
   const isStore = pathname === `/${locale}/products`
@@ -68,14 +60,14 @@ export default function Header() {
               className={`flex items-center px-6 hover:bg-gray-800 h-16 text-gray-700 text-base font-medium uppercase ${
                 isHome ? 'text-lime-500' : 'text-white'
               }`}>
-              Home
+              {t('common.home')}
             </LocalizedLink>
             <LocalizedLink
               href="/products"
               className={`flex items-center px-6 hover:bg-gray-800 h-16 text-gray-700 text-base font-medium uppercase ${
                 isStore ? 'text-lime-500' : 'text-white'
               }`}>
-              Store
+              {t('common.store')}
             </LocalizedLink>
             {brandNames.map((brand) => (
               <div key={brand} className="flex items-center px-6 hover:bg-gray-800 relative h-16 group">
@@ -117,7 +109,7 @@ export default function Header() {
                     className={`block px-6 py-4 text-sm whitespace-nowrap uppercase font-medium bg-gray-800 hover:text-lime-500 ${
                       locale === loc ? 'text-lime-500' : 'text-white'
                     }`}>
-                    {LOCALE_FLAGS[loc]} {LOCALE_NAMES[loc]}
+                    {LOCALE_FLAGS[loc]} {t(`languages.${loc}`)}
                   </Link>
                 ))}
               </div>

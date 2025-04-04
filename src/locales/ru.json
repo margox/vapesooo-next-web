@@ -1,0 +1,40 @@
+{
+  "common": {
+    "home": "Главная",
+    "store": "Магазин",
+    "products": "Продукты",
+    "contact": "Контакт",
+    "viewAllProducts": "Посмотреть все продукты",
+    "viewDetails": "Посмотреть детали",
+    "contactInquiry": "Связаться для запроса о продукте",
+    "backToProducts": "← Вернуться к продуктам",
+    "noProductsFound": "Продукты не найдены",
+    "productNotFound": "Продукт не найден",
+    "brandNotFound": "Бренд не найден",
+    "productNotFoundDesc": "Продукт, который вы ищете, не существует.",
+    "brandNotFoundDesc": "Бренд, который вы ищете, не существует.",
+    "allProducts": "Все продукты",
+    "brandProducts": "Продукты {{brand}}"
+  },
+  "hero": {
+    "title": "Премиум Вейп Продукты"
+  },
+  "footer": {
+    "tagline": "Премиум вейп-продукты для требовательных клиентов. Качество и удовлетворение гарантированы.",
+    "quickLinks": "Быстрые ссылки",
+    "contactTitle": "Контакт",
+    "contactDesc": "Есть вопросы? Свяжитесь с нашей командой обслуживания клиентов.",
+    "contactWhatsApp": "Связаться через WhatsApp",
+    "copyright": "© {{year}} Vapesooo. Все права защищены."
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "tr": "Türkçe"
+  }
+} 

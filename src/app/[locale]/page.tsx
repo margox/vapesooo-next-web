@@ -1,7 +1,9 @@
-// import Image from "next/image";
+'use client'
+
 import { LocalizedLink } from '@/components/Link'
 import ProductCard from '@/components/ProductCard'
 import { products as productsData } from '@/data/index'
+import { useTranslation } from '@/hooks/useTranslation'
 
 // Get all brands
 const brands = Object.keys(productsData).sort((a, b) => {
@@ -9,6 +11,8 @@ const brands = Object.keys(productsData).sort((a, b) => {
 })
 
 export default function Home() {
+  const { t } = useTranslation()
+
   return (
     <div>
       {/* Hero Section */}
@@ -16,7 +20,7 @@ export default function Home() {
         <div className="relative h-full w-full">
           {/* Placeholder for Hero Slider */}
           <div className="absolute inset-0 flex items-center justify-center">
-            <h1 className="text-3xl md:text-5xl font-bold text-white">Premium Vape Products</h1>
+            <h1 className="text-3xl md:text-5xl font-bold text-white">{t('hero.title')}</h1>
           </div>
         </div>
       </section>
@@ -34,7 +38,7 @@ export default function Home() {
                 <LocalizedLink
                   href={`/products/brand/${brand.toLowerCase()}`}
                   className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">
-                  View All Products
+                  {t('common.viewAllProducts')}
                 </LocalizedLink>
               </div>
 
