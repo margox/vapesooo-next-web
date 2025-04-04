@@ -3,9 +3,13 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   images: {
-    domains: [
-      "vapesooo.com",
-      "vapesooo-1318551956.cos.accelerate.myqcloud.com",
+    remotePatterns: [
+      {
+        hostname: "vapesooo.com",
+      },
+      {
+        hostname: "vapesooo-1318551956.cos.accelerate.myqcloud.com",
+      },
     ],
   },
 };

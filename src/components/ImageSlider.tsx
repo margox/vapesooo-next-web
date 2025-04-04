@@ -36,7 +36,7 @@ const ImageSliderInner = ({ images }: SliderProps) => {
               {!!image.url && (
                 <Image
                   fill
-                  src={image.url}
+                  src={image.url + '?imageMogr2/format/webp/thumbnail/1000x1000'}
                   priority={index <= 2 ? true : false}
                   className="absolute inset-0 aspect-square object-contain"
                   alt={`Product image ${index + 1}`}

@@ -2,12 +2,12 @@
 
 import { useEffect, useState } from 'react'
 import { useParams } from 'next/navigation'
+import { ArrowLeftIcon } from '@heroicons/react/24/outline'
 import { LocalizedLink } from '@/components/Link'
 import ProductCard from '@/components/ProductCard'
 import { Product } from '@/types/products'
 import { products as productsData } from '@/data/index'
 import { useTranslation } from '@/hooks/useTranslation'
-
 const brands = Object.keys(productsData)
 
 export default function BrandProductsPage() {
@@ -15,7 +15,7 @@ export default function BrandProductsPage() {
   const brandSlug = params.brand as string
   const [products, setProducts] = useState<Product[]>([])
   const [brandName, setBrandName] = useState<string>('')
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   useEffect(() => {
     // Find the brand with case-insensitive matching
@@ -46,12 +46,13 @@ export default function BrandProductsPage() {
       <div className="mb-8">
         <LocalizedLink
           href="/products"
-          className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">
+          className="flex items-center gap-1 text-slate-600 hover:text-teal-600 dark:text-blue-400 dark:hover:text-blue-300">
+          <ArrowLeftIcon className="w-4 h-4" />
           {t('common.backToProducts')}
         </LocalizedLink>
       </div>
 
-      <h1 className="text-3xl font-bold mb-8 text-gray-900 dark:text-white">
+      <h1 className="text-2xl font-bold mb-8 text-gray-800 dark:text-white">
         {t('common.brandProducts', { brand: brandName })}
       </h1>
 

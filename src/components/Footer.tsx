@@ -45,10 +45,10 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-white">{t('footer.contactTitle')}</h3>
             <p className="text-gray-600 dark:text-gray-400">{t('footer.contactDesc')}</p>
             <a
-              href="https://wa.me/1234567890"
+              href="https://wa.me/8613728716463"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-4 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">
+              className="inline-block mt-4 bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 rounded">
               {t('footer.contactWhatsApp')}
             </a>
           </div>
