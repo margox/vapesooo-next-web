@@ -10,7 +10,7 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import { Locales } from '@/types/products'
 
-export async function generateMetadata({ params }: { params: { slug: string; locale: string } }) {
+export async function generateMetadata({ params }: { params: Promise<{ slug: string; locale: string }> }) {
   const { slug, locale } = await params
   const product = productsMap[slug]
 
@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: { slug: string; loc
   }
 }
 
-export default async function ProductDetailPage({ params }: { params: { slug: string; locale: string } }) {
+export default async function ProductDetailPage({ params }: { params: Promise<{ slug: string; locale: string }> }) {
   const { locale, slug } = await params
   const product = productsMap[slug]
   const brandName = product.brand
