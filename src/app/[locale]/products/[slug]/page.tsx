@@ -10,7 +10,7 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import { Locales } from '@/types/products'
 
-export async function generateMetadata({ params }: { params: { slug: string; locale: Locales } }) {
+export async function generateMetadata({ params }: { params: { slug: string; locale: string } }) {
   const { slug, locale } = await params
   const product = productsMap[slug]
 
@@ -23,12 +23,12 @@ export async function generateMetadata({ params }: { params: { slug: string; loc
 
   return {
     title: product.title,
-    description: product.seo[locale].description,
-    keywords: product.seo[locale].keywords,
+    description: product.seo[locale as Locales].description,
+    keywords: product.seo[locale as Locales].keywords,
   }
 }
 
-export default async function ProductDetailPage({ params }: { params: { slug: string; locale: Locales } }) {
+export default async function ProductDetailPage({ params }: { params: { slug: string; locale: string } }) {
   const { locale, slug } = await params
   const product = productsMap[slug]
   const brandName = product.brand
@@ -48,7 +48,7 @@ export default async function ProductDetailPage({ params }: { params: { slug: st
   }
 
   // Get content based on locale or fall back to default
-  const descriptionContent = product.content?.[locale] || product.content?.[Locales.EN]
+  const descriptionContent = product.content?.[locale as Locales] || product.content?.[Locales.EN]
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -63,18 +63,18 @@ export default async function ProductDetailPage({ params }: { params: { slug: st
             <LocalizedLink
               href="/"
               className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
-              {t(locale, 'common.home')}
+              {t(locale as Locales, 'common.home')}
             </LocalizedLink>
             <span className="mx-2 text-gray-500 dark:text-gray-400">/</span>
             <LocalizedLink
               href={`/products/brand/${brandName.toLowerCase()}`}
               className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
-              {t(locale, 'common.brandProducts', { brand: brandName })}
+              {t(locale as Locales, 'common.brandProducts', { brand: brandName })}
             </LocalizedLink>
           </nav>
           <h1 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">{product.title}</h1>
-          <p className="text-lg mb-6 text-gray-700 dark:text-gray-300">{product.excerpt[locale]}</p>
-          <ProductAskButton productTitle={product.title} locale={locale} />
+          <p className="text-lg mb-6 text-gray-700 dark:text-gray-300">{product.excerpt[locale as Locales]}</p>
+          <ProductAskButton productTitle={product.title} locale={locale as Locales} />
         </div>
       </div>
 
