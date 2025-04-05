@@ -1,0 +1,28 @@
+{
+  "hero_sliders": [
+    {
+      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/hifancy-18k.webp",
+      "product_slug": "hifancy-luxury-box-18000"
+    },
+    {
+      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/hifancy-20k.webp",
+      "product_slug": "hifancy-legend-20000"
+    },
+    {
+      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/2025/03/2025032823174010476.jpg",
+      "product_slug": "hifancy-rainbow-25000"
+    },
+    {
+      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/hifancy-30k.webp",
+      "product_slug": "hifancy-energy-30000"
+    },
+    {
+      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/hifancy-35k.webp",
+      "product_slug": "hifancy-twins-35000"
+    },
+    {
+      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/hifancy-40k.webp",
+      "product_slug": "hifancy-storm-40000"
+    }
+  ]
+}

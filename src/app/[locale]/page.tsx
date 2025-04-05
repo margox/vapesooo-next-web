@@ -3,7 +3,8 @@
 import { LocalizedLink } from '@/components/Link'
 import { ArrowRightIcon } from '@heroicons/react/24/outline'
 import ProductCard from '@/components/ProductCard'
-import { products as productsData } from '@/data/index'
+import { products as productsData, homeHeroProducts } from '@/data/index'
+import HeroSlider from '@/components/HeroSlider'
 import { useTranslation } from '@/hooks/useTranslation'
 
 // Get all brands
@@ -17,12 +18,9 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative max-w-[1920px] mx-auto h-[40vh] md:h-[60vh] bg-gray-100 dark:bg-gray-800">
+      <section className="relative max-w-[1920px] mx-auto aspect-[2/1] overflow-hidden bg-gray-100 dark:bg-gray-800">
         <div className="relative h-full w-full">
-          {/* Placeholder for Hero Slider */}
-          <div className="absolute inset-0 flex items-center justify-center">
-            <h1 className="text-3xl md:text-5xl font-bold text-slate-600">{t('hero.title')}</h1>
-          </div>
+          <HeroSlider images={homeHeroProducts} />
         </div>
       </section>
 

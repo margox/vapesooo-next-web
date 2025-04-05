@@ -1,7 +1,10 @@
 import productsData from './products.json'
-import type { Products } from '@/types/products'
+import homeData from './home.json'
+import type { Products, HomeProductSlider } from '@/types/products'
 
 export const products = productsData as unknown as Products
+
+export const homeHeroProducts = homeData.hero_sliders as unknown as HomeProductSlider
 
 export const brandNames = Object.keys(products)
 

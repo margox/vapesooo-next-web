@@ -9,6 +9,13 @@ export enum Locales {
   TR = 'tr',
 }
 
+export interface HomeProductSliderItem {
+  image: string
+  product_slug: string
+}
+
+export type HomeProductSlider = HomeProductSliderItem[]
+
 export interface Product {
   brand: string
   name: string
