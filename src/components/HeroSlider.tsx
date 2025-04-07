@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { FreeMode, Navigation } from 'swiper/modules'
+import { FreeMode, Navigation, Pagination, Autoplay } from 'swiper/modules'
 import type { HomeProductSliderItem } from '@/types/products'
 import { productsMap } from '@/data'
 import { LocalizedLink } from './Link'
@@ -10,16 +10,30 @@ import { LocalizedLink } from './Link'
 import 'swiper/css'
 import 'swiper/css/free-mode'
 import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+
+import './hero-slider.css'
 
 type SliderProps = {
   images: HomeProductSliderItem[]
 }
 
-const modules = [FreeMode, Navigation]
+const modules = [FreeMode, Navigation, Pagination, Autoplay]
 
 const HeroSlider = ({ images }: SliderProps) => {
   return (
-    <Swiper spaceBetween={10} modules={modules} className="w-ful">
+    <Swiper 
+      spaceBetween={10} 
+      modules={modules} 
+      className="w-full hero-slider"
+      pagination={{
+        clickable: true,
+      }}
+      autoplay={{
+        delay: 5000,
+        disableOnInteraction: false,
+      }}
+    >
       {images.map((image, index) => (
         <SwiperSlide key={image.image + index}>
           <LocalizedLink

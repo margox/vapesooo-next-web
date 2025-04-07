@@ -1,0 +1,23 @@
+.hero-slider .swiper-pagination {
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.2);
+  width: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+  border-radius: 20px;
+  height: 30px;
+  padding: 0 15px;
+}
+
+.hero-slider .swiper-pagination-bullet {
+  background-color: white;
+  opacity: 0.3;
+}
+
+.hero-slider .swiper-pagination-bullet-active {
+  background-color: white;
+  opacity: 1;
+}

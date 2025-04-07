@@ -98,26 +98,20 @@ const VapesoooLogo: React.FC = () => {
         }
 
         .smoke-letter:nth-child(2)::before {
-          filter: blur(0);
           opacity: 1;
         }
         .smoke-letter:nth-child(3)::before {
-          filter: blur(0.8px);
           opacity: 1;
         }
         .smoke-letter:nth-child(4)::before {
-          filter: blur(1px);
           opacity: 1;
         }
 
         .smoke-letter:nth-child(2) .smoke-particle {
-          filter: blur(0.3px);
         }
         .smoke-letter:nth-child(3) .smoke-particle {
-          filter: blur(0.8px);
         }
         .smoke-letter:nth-child(4) .smoke-particle {
-          filter: blur(1.2px);
         }
 
         .perspective-600 {
@@ -140,7 +134,6 @@ const VapesoooLogo: React.FC = () => {
 
         .smoke-particle {
           animation: smoke-dissipate 3s infinite linear;
-          filter: blur(0.5px);
         }
 
         @keyframes smoke-dissipate {
