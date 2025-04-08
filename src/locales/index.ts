@@ -7,6 +7,7 @@ import it from './it.json'
 import pt from './pt.json'
 import ru from './ru.json'
 import tr from './tr.json'
+import pl from './pl.json'
 
 export const translations = {
   [Locales.EN]: en,
@@ -17,6 +18,7 @@ export const translations = {
   [Locales.PT]: pt,
   [Locales.RU]: ru,
   [Locales.TR]: tr,
+  [Locales.PL]: pl,
 }
 
 export const defaultLocale = Locales.EN

@@ -7,6 +7,7 @@ export enum Locales {
   PT = 'pt',
   RU = 'ru',
   TR = 'tr',
+  PL = 'pl',
 }
 
 export interface HomeProductSliderItem {

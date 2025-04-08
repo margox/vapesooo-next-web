@@ -19,6 +19,7 @@ const LOCALE_FLAGS = {
   [Locales.PT]: '🇵🇹',
   [Locales.RU]: '🇷🇺',
   [Locales.TR]: '🇹🇷',
+  [Locales.PL]: '🇵🇱',
 }
 
 type UseAutoResetFlag = <T>(delay?: number) => [T | null, (value: T) => void]
