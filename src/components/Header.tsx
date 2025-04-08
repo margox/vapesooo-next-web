@@ -96,14 +96,14 @@ export default function Header() {
                 {brand}
               </LocalizedLink>
               {hidenMenu !== brand && (
-                <div className="pointer-events-none min-w-48 opacity-0 group-hover:pointer-events-auto divide-y divide-slate-100 group-hover:opacity-100 transition-opacity duration-300 absolute left-0 mt-1 top-full bg-white border border-black/5 bg-clip-padding z-10">
+                <div className="pointer-events-none min-w-48 opacity-0 group-hover:pointer-events-auto divide-y divide-slate-100 group-hover:opacity-100 transition-opacity duration-300 absolute left-0 mt-0 top-full bg-white border border-black/5 bg-clip-padding z-10">
                   {productsData[brand]?.products.map((product) => (
                     <LocalizedLink
                       key={product.slug}
                       onClick={() => setHidenMenu(brand)}
                       href={`/products/${product.slug}`}
                       className="block px-6 py-4 text-sm text-slate-800 whitespace-nowrap uppercase font-medium hover:text-lime-600">
-                      {product.title}
+                      {product.title || product.name}
                     </LocalizedLink>
                   ))}
                 </div>

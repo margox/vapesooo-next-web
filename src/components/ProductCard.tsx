@@ -19,12 +19,12 @@ export default function ProductCard({ product }: ProductCardProps) {
             fill
             // tencent cloud webp and resize to 300x300
             src={featuredImage.url + '?imageMogr2/format/webp/thumbnail/600x600'}
-            alt={featuredImage.alt || product.title}
+            alt={featuredImage.alt || product.title || product.name}
             className="object-cover group-hover:scale-105 transition-transform duration-300 aspect-square"
           />
         </div>
         <div className="p-4">
-          <h3 className="text-sm text-center font-semibold text-gray-900 dark:text-white">{product.title}</h3>
+          <h3 className="text-sm text-center font-semibold text-gray-900 dark:text-white">{product.title || product.name}</h3>
         </div>
       </div>
     </LocalizedLink>

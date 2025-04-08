@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 
   return {
-    title: product.title,
+    title: product.title || product.name,
     description: product.seo[locale as Locales].description,
     keywords: product.seo[locale as Locales].keywords,
   }
@@ -72,9 +72,9 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
               {t(locale as Locales, 'common.brandProducts', { brand: brandName })}
             </LocalizedLink>
           </nav>
-          <h1 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">{product.title}</h1>
+          <h1 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">{product.title || product.name}</h1>
           <p className="text-lg mb-6 text-gray-700 dark:text-gray-300">{product.excerpt[locale as Locales]}</p>
-          <ProductAskButton productTitle={product.title} locale={locale as Locales} />
+          <ProductAskButton productTitle={product.title || product.name} locale={locale as Locales} />
         </div>
       </div>
 
