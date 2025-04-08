@@ -1,12 +1,12 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import { usePathname, useParams } from 'next/navigation'
 // import { useTheme } from './ThemeProvider'
 import { Locales } from '@/types/products'
 import { LocalizedLink } from '@/components/Link'
-import VapesoooLogo from '@/components/VapesoooLogo'
 import { brandNames, productsMap, products as productsData } from '@/data/index'
 import { useTranslation } from '@/hooks/useTranslation'
 
@@ -113,7 +113,7 @@ export default function Header() {
         <div className="relative flex-1 flex items-center justify-center">
           <h1 className="absolute text-transparent pointer-events-none">Vapesooo</h1>
           <LocalizedLink href="/" className="scale-[0.4] md:scale-50">
-            <VapesoooLogo />
+            <Image src="/vapesooo.webp" alt="Vapesooo" width={350} height={100} />
           </LocalizedLink>
         </div>
         <div className="absolute top-0 right-4 z-10 flex items-center space-x-4">
