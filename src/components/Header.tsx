@@ -18,7 +18,7 @@ const LOCALE_FLAGS = {
   [Locales.IT]: '🇮🇹',
   [Locales.PT]: '🇵🇹',
   [Locales.RU]: '🇷🇺',
-  [Locales.TR]: '🇹🇷',
+  // [Locales.TR]: '🇹🇷',
   [Locales.PL]: '🇵🇱',
 }
 

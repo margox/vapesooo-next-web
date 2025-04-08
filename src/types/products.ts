@@ -6,7 +6,7 @@ export enum Locales {
   IT = 'it',
   PT = 'pt',
   RU = 'ru',
-  TR = 'tr',
+  // TR = 'tr',
   PL = 'pl',
 }
 

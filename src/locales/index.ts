@@ -6,7 +6,7 @@ import de from './de.json'
 import it from './it.json'
 import pt from './pt.json'
 import ru from './ru.json'
-import tr from './tr.json'
+// import tr from './tr.json'
 import pl from './pl.json'
 
 export const translations = {
@@ -17,7 +17,7 @@ export const translations = {
   [Locales.IT]: it,
   [Locales.PT]: pt,
   [Locales.RU]: ru,
-  [Locales.TR]: tr,
+  // [Locales.TR]: tr,
   [Locales.PL]: pl,
 }
 
