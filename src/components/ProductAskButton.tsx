@@ -16,7 +16,7 @@ export default function ProductAskButton({ productTitle, locale }: { productTitl
   return (
     <button
       onClick={() => handleAskOnWhatsApp(productTitle)}
-      className="inline-block mb-8 bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-md font-medium">
+      className="inline-block mb-8 bg-lime-600 hover:bg-lime-700 text-white px-6 py-3 rounded-md font-medium">
       {t(locale, 'common.contactInquiry')}
     </button>
   )

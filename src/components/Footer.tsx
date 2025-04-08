@@ -48,7 +48,7 @@ export default function Footer() {
               href="https://wa.me/8613728716463"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-4 bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 rounded">
+              className="inline-block mt-4 bg-lime-600 hover:bg-lime-700 text-white px-4 py-2 rounded">
               {t('footer.contactWhatsApp')}
             </a>
           </div>

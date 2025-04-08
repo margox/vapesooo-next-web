@@ -58,7 +58,7 @@ export default function Header() {
       <div className="relative container mx-auto px-4 flex items-center justify-between h-16">
         {/* Mobile menu button */}
         <button
-          className="md:hidden absolute left-4 z-10 flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-teal-600 focus:outline-none"
+          className="md:hidden absolute left-4 z-10 flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-lime-600 focus:outline-none"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-expanded={mobileMenuOpen}
           aria-label="Toggle menu">
@@ -80,17 +80,17 @@ export default function Header() {
         <nav className="absolute top-0 left-4 z-10 hidden md:flex space-x-12">
           <LocalizedLink
             href="/products"
-            className={`flex items-center hover:text-teal-600 h-16 text-gray-700 text-base font-medium uppercase ${
-              isStore ? 'text-teal-600' : 'text-slate-80'
+            className={`flex items-center hover:text-lime-600 h-16 text-gray-700 text-base font-medium uppercase ${
+              isStore ? 'text-lime-600' : 'text-slate-80'
             }`}>
             {t('common.store')}
           </LocalizedLink>
           {brandNames.map((brand) => (
-            <div key={brand} className="flex items-center hover:text-teal-600 relative h-16 group">
+            <div key={brand} className="flex items-center hover:text-lime-600 relative h-16 group">
               <LocalizedLink
                 href={`/products/brand/${brand.toLowerCase()}`}
                 className={`flex items-center text-base font-medium uppercase ${
-                  currentBrand === brand.toLowerCase() ? 'text-teal-600' : 'text-slate-80'
+                  currentBrand === brand.toLowerCase() ? 'text-lime-600' : 'text-slate-80'
                 }`}>
                 {brand}
               </LocalizedLink>
@@ -101,7 +101,7 @@ export default function Header() {
                       key={product.slug}
                       onClick={() => setHidenMenu(brand)}
                       href={`/products/${product.slug}`}
-                      className="block px-6 py-4 text-sm text-slate-800 whitespace-nowrap uppercase font-medium hover:text-teal-600">
+                      className="block px-6 py-4 text-sm text-slate-800 whitespace-nowrap uppercase font-medium hover:text-lime-600">
                       {product.title}
                     </LocalizedLink>
                   ))}
@@ -119,7 +119,7 @@ export default function Header() {
         <div className="absolute top-0 right-4 z-10 flex items-center space-x-4">
           {/* Language Selector - Desktop */}
           <div className="relative hidden md:block group">
-            <span className="flex items-center justify-center text-base font-medium uppercase text-slate-800 hover:text-teal-600 cursor-pointer relative h-16 ">
+            <span className="flex items-center justify-center text-base font-medium uppercase text-slate-800 hover:text-lime-600 cursor-pointer relative h-16 ">
               {LOCALE_FLAGS[locale as Locales]} {locale}
             </span>
             <div className="pointer-events-none opacity-0 group-hover:pointer-events-auto group-hover:opacity-100 divide-y divide-slate-100 transition-opacity duration-300 absolute top-full right-0 w-48 bg-white border border-black/5 bg-clip-padding py-1 z-10">
@@ -127,8 +127,8 @@ export default function Header() {
                 <Link
                   key={loc}
                   href={`/${loc}${currentRoute}`}
-                  className={`block px-6 py-4 text-sm whitespace-nowrap uppercase font-medium hover:text-teal-600 ${
-                    locale === loc ? 'text-teal-600' : 'text-slate-80'
+                  className={`block px-6 py-4 text-sm whitespace-nowrap uppercase font-medium hover:text-lime-600 ${
+                    locale === loc ? 'text-lime-600' : 'text-slate-80'
                   }`}>
                   {LOCALE_FLAGS[loc]} {t(`languages.${loc}`)}
                 </Link>
@@ -138,7 +138,7 @@ export default function Header() {
 
           {/* Language Selector - Mobile */}
           <button
-            className="md:hidden flex items-center justify-center h-16 p-2 rounded-md text-gray-700 hover:text-teal-600 focus:outline-none"
+            className="md:hidden flex items-center justify-center h-16 p-2 rounded-md text-gray-700 hover:text-lime-600 focus:outline-none"
             onClick={() => setMobileLanguageMenuOpen(!mobileLanguageMenuOpen)}
             aria-expanded={mobileLanguageMenuOpen}
             aria-label="Toggle language menu">
@@ -170,8 +170,8 @@ export default function Header() {
           <LocalizedLink
             href="/products"
             className={`block px-6 py-3 text-base font-medium uppercase ${
-              isStore ? 'text-teal-600' : 'text-slate-800'
-            } hover:text-teal-600 hover:bg-gray-50`}>
+              isStore ? 'text-lime-600' : 'text-slate-800'
+            } hover:text-lime-600 hover:bg-gray-50`}>
             {t('common.store')}
           </LocalizedLink>
 
@@ -180,8 +180,8 @@ export default function Header() {
               key={brand}
               href={`/products/brand/${brand.toLowerCase()}`}
               className={`block px-6 py-3 text-base font-medium uppercase ${
-                currentBrand === brand.toLowerCase() ? 'text-teal-600' : 'text-slate-800'
-              } hover:text-teal-600 hover:bg-gray-50`}>
+                currentBrand === brand.toLowerCase() ? 'text-lime-600' : 'text-slate-800'
+              } hover:text-lime-600 hover:bg-gray-50`}>
               {brand}
             </LocalizedLink>
           ))}
@@ -199,8 +199,8 @@ export default function Header() {
               key={loc}
               href={`/${loc}${currentRoute}`}
               className={`block px-6 py-3 text-base font-medium uppercase ${
-                locale === loc ? 'text-teal-600' : 'text-slate-800'
-              } hover:text-teal-600 hover:bg-gray-50`}>
+                locale === loc ? 'text-lime-600' : 'text-slate-800'
+              } hover:text-lime-600 hover:bg-gray-50`}>
               {LOCALE_FLAGS[loc]} {t(`languages.${loc}`)}
             </Link>
           ))}

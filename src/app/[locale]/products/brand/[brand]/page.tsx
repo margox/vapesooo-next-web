@@ -46,7 +46,7 @@ export default function BrandProductsPage() {
       <div className="mb-8">
         <LocalizedLink
           href="/products"
-          className="flex items-center gap-1 text-slate-600 hover:text-teal-600 dark:text-blue-400 dark:hover:text-blue-300">
+          className="flex items-center gap-1 text-slate-600 hover:text-lime-600 dark:text-blue-400 dark:hover:text-blue-300">
           <ArrowLeftIcon className="w-4 h-4" />
           {t('common.backToProducts')}
         </LocalizedLink>

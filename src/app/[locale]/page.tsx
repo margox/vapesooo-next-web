@@ -36,7 +36,7 @@ export default function Home() {
                 <h2 className="text-xl font-semibold text-gray-900 dark:text-white">{brand}</h2>
                 <LocalizedLink
                   href={`/products/brand/${brand.toLowerCase()}`}
-                  className="group flex items-center gap-1 text-slate-600 hover:text-teal-600 dark:text-blue-400 dark:hover:text-blue-300">
+                  className="group flex items-center gap-1 text-slate-600 hover:text-lime-600 dark:text-blue-400 dark:hover:text-blue-300">
                   {t('common.viewAllProducts')}
                   <ArrowRightIcon className="w-4 h-4 group-hover:-rotate-45 transition-transform duration-300" />
                 </LocalizedLink>
