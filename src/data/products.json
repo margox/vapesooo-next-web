@@ -1595,6 +1595,1412 @@
       }
     ]
   },
+  "GROO": {
+    "sort": 666,
+    "enabled": true,
+    "products": [
+      {
+        "name": "GROO MAX - DOUBLE APPLE",
+        "slug": "groo-max-double-apple",
+        "original_excerpt": "GROO MAX - DOUBLE APPLE",
+        "original_content": "GROO MAX - DOUBLE APPLE\n\nGROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.\n\nFeatures:\n- 1 x GROO MAX disposable device\n- Pre-charged, Simply puff on the device to activate\n- Up to 10000 Puffs per disposable\n- Compact, Light, and Portable",
+        "images": [
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/7530b883-99f8-4ce4-94ba-1851213d2743",
+            "alt": "GROO MAX - DOUBLE APPLE"
+          }
+        ],
+        "original_seo": {
+          "description": "GROO MAX - DOUBLE APPLE",
+          "keywords": null
+        },
+        "content": {
+          "en": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-2'>GROO MAX - DOUBLE APPLE</h2><p class='mb-4'>GROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.</p><h3 class='text-lg font-semibold mb-2'>Features:</h3><ul class='list-disc pl-5 space-y-1'><li>1 x GROO MAX disposable device</li><li>Pre-charged, Simply puff on the device to activate</li><li>Up to 10000 Puffs per disposable</li><li>Compact, Light, and Portable</li></ul></div>",
+          "es": "<div class='text-gray-800 font-sans'><h1 class='text-xl font-bold mb-2'>GROO MAX - MANZANA DOBLE</h1><p class='mb-4'>GROO MAX es un dispositivo para vapeo recreativo, con 10000 PUFFS fabricado en acero inoxidable ligero, proporcionando una sensación cómoda al sostenerlo. Con sabores increíbles y una gran capacidad, GROO MAX estará ahí cuando lo necesites.</p><h2 class='text-lg font-semibold mb-2'>Características:</h2><ul class='list-disc pl-5 mb-4'><li>1 x dispositivo desechable GROO MAX</li><li>Precargado, simplemente inhala para activar</li><li>Hasta 10000 caladas por dispositivo</li><li>Compacto, ligero y portátil</li></ul></div>",
+          "fr": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-gray-800 mb-2'>GROO MAX - DOUBLE POMME</h2><p class='text-gray-700 mb-4'>GROO MAX est un dispositif de vapotage loisir, 10000 PUFFS en acier inoxydable léger, offrant une prise en main confortable. Avec des saveurs exceptionnelles et une grande capacité, GROO MAX sera là quand vous en aurez besoin.</p><h3 class='font-semibold text-gray-800 mb-2'>Caractéristiques :</h3><ul class='list-disc pl-5 text-gray-700'><li>1 x dispositif jetable GROO MAX</li><li>Pré-chargé, il suffit de tirer sur l'appareil pour l'activer</li><li>Jusqu'à 10000 Puffs par dispositif jetable</li><li>Compact, Léger et Portable</li></ul></div>",
+          "de": "<div class='prose max-w-none'><h2 class='text-xl font-bold'>GROO MAX - DOUBLE APPLE</h2><p class='mt-4'>GROO MAX ist ein Gerät für das Freizeit-Dampfen, 10000 PUFFS aus leichtem Edelstahl, das ein angenehmes Handgefühl bietet. Mit erstaunlichen Aromen und einer großen Kapazität ist GROO MAX immer da, wenn Sie ihn brauchen.</p><h3 class='text-lg font-semibold mt-6'>Merkmale:</h3><ul class='list-disc pl-5 mt-2 space-y-1'><li>1 x GROO MAX Einweg-Gerät</li><li>Voraufgeladen, einfach am Gerät ziehen, um es zu aktivieren</li><li>Bis zu 10000 Züge pro Einweg-Gerät</li><li>Kompakt, leicht und tragbar</li></ul></div>",
+          "it": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-gray-800'>GROO MAX - MELA DOPPIA</h1><p class='mt-2 text-gray-700'>GROO MAX è un dispositivo per lo svapo ricreativo, con 10000 PUFFS realizzato in acciaio inossidabile leggero, che offre una sensazione di presa confortevole. Con gusti incredibili e una grande capacità, GROO MAX sarà sempre con te quando ne avrai bisogno.</p><ul class='mt-4 list-disc pl-5 text-gray-700'><li>1 x dispositivo monouso GROO MAX</li><li>Precaricato, basta svapare per attivarlo</li><li>Fino a 10000 puff per dispositivo</li><li>Compatto, leggero e portatile</li></ul></div>",
+          "pt": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-gray-800 mb-2'>GROO MAX - MAÇÃ DUPLA</h1><p class='text-gray-700 mb-4'>GROO MAX é um dispositivo para vaping recreativo, com 10000 PUFFS feito de aço inoxidável leve, proporcionando uma sensação confortável ao segurar. Com sabores incríveis e grande capacidade, o GROO MAX estará disponível sempre que você precisar.</p><h2 class='text-lg font-semibold text-gray-800 mb-2'>Características:</h2><ul class='list-disc pl-5 text-gray-700 space-y-1'><li>1 x dispositivo descartável GROO MAX</li><li>Pré-carregado, basta puxar para ativar</li><li>Até 10000 Puffs por dispositivo</li><li>Compacto, leve e portátil</li></ul></div>",
+          "ru": "<div class='bg-white p-4 rounded-lg shadow-md'><h1 class='text-xl font-bold text-gray-800 mb-2'>GROO MAX - ДВОЙНОЕ ЯБЛОКО</h1><p class='text-gray-600 mb-4'>GROO MAX – это устройство для отдыха и вейпинга, выполненное из легкой нержавеющей стали, обеспечивающее комфортные тактильные ощущения. С потрясающими вкусами и большой емкостью, GROO MAX всегда будет под рукой, когда он вам понадобится.</p><ul class='list-disc pl-5 text-gray-600 space-y-2'><li>1 x одноразовое устройство GROO MAX</li><li>Заряжено заранее, просто сделайте затяжку для активации</li><li>До 10000 затяжек на одно устройство</li><li>Компактный, легкий и портативный</li></ul></div>",
+          "pl": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-2'>GROO MAX - PODWÓJNE JABŁKO</h2><p class='mb-4'>GROO MAX to urządzenie do rekreacyjnego waporyzowania, wykonane z lekkiej stali nierdzewnej, zapewniające komfortowe wrażenia w dłoni. Dzięki niesamowitym smakom i dużej pojemności, GROO MAX będzie tam, gdzie go potrzebujesz.</p><h3 class='font-semibold mb-2'>Cechy:</h3><ul class='list-disc pl-5 space-y-1'><li>1 x jednorazowe urządzenie GROO MAX</li><li>Wstępnie naładowane, wystarczy zaciągnąć się, aby aktywować</li><li>Do 10000 zaciągnięć na urządzeniu</li><li>Kompaktowe, lekkie i przenośne</li></ul></div>"
+        },
+        "excerpt": {
+          "en": "GROO MAX - DOUBLE APPLE",
+          "es": "GROO MAX - MANZANA DOBLE",
+          "fr": "GROO MAX - DOUBLE POMME",
+          "de": "GROO MAX - DOUBLE APPLE",
+          "it": "GROO MAX - MELA DOPPIA",
+          "pt": "GROO MAX - MAÇÃ DUPLA",
+          "ru": "GROO MAX - ДВОЙНОЕ ЯБЛОКО",
+          "pl": "GROO MAX - PODWÓJNE JABŁKO"
+        },
+        "seo": {
+          "en": {
+            "description": "GROO MAX - DOUBLE APPLE",
+            "keywords": "null"
+          },
+          "es": {
+            "description": "GROO MAX - MANZANA DOBLE",
+            "keywords": "null"
+          },
+          "fr": {
+            "description": "GROO MAX - DOUBLE POMME",
+            "keywords": "null"
+          },
+          "de": {
+            "description": "GROO MAX - DOUBLE APPLE",
+            "keywords": "null"
+          },
+          "it": {
+            "description": "GROO MAX - MELA DOPPIA",
+            "keywords": "null"
+          },
+          "pt": {
+            "description": "GROO MAX - MAÇÃ DUPLA",
+            "keywords": "null"
+          },
+          "ru": {
+            "description": "GROO MAX - ДВОЙНОЕ ЯБЛОКО",
+            "keywords": "null"
+          },
+          "pl": {
+            "description": "GROO MAX - PODWÓJNE JABŁKO",
+            "keywords": "null"
+          }
+        }
+      },
+      {
+        "name": "GROO MAX - COFFEE",
+        "slug": "groo-max-coffee",
+        "original_excerpt": "GROO MAX - COFFEE",
+        "original_content": "GROO MAX - COFFEE\n\nGROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.\n\nFeatures:\n- 1 x GROO MAX disposable device\n- Pre-charged, Simply puff on the device to activate\n- Up to 10000 Puffs per disposable\n- Compact, Light, and Portable",
+        "images": [
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/2a222d76-a37f-4470-a0b7-e62ffca01884",
+            "alt": "GROO MAX - COFFEE"
+          }
+        ],
+        "original_seo": {
+          "description": "GROO MAX - COFFEE",
+          "keywords": "GROO MAX, COFFEE, disposable vape, 10000 puffs"
+        },
+        "content": {
+          "en": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-2'>GROO MAX - COFFEE</h2><p class='mb-4'>GROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.</p><h3 class='text-lg font-semibold mb-2'>Features:</h3><ul class='list-disc pl-5 mb-4'><li>1 x GROO MAX disposable device</li><li>Pre-charged, Simply puff on the device to activate</li><li>Up to 10000 Puffs per disposable</li><li>Compact, Light, and Portable</li></ul></div>",
+          "es": "<div class='text-gray-800 font-sans'><h1 class='text-xl font-bold mb-2'>GROO MAX - CAFÉ</h1><p class='mb-4'>GROO MAX es un dispositivo para vapeo recreativo, con <strong>10,000 PUFFS</strong> fabricado en acero inoxidable ligero, proporcionando una sensación cómoda al sostenerlo. Con sabores increíbles y una gran capacidad, GROO MAX estará ahí cuando lo necesites.</p><h2 class='text-lg font-semibold mb-2'>Características:</h2><ul class='list-disc pl-5 space-y-1'><li>1 x dispositivo desechable GROO MAX</li><li>Precargado, simplemente inhala para activar</li><li>Hasta <strong>10,000 Puffs</strong> por dispositivo</li><li>Compacto, ligero y portátil</li></ul></div>",
+          "fr": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold mb-2'>GROO MAX - CAFÉ</h1><p class='mb-4'>GROO MAX est un dispositif de vapotage loisir, 10000 PUFFS fabriqué en acier inoxydable léger, offrant une prise en main confortable. Avec des saveurs exceptionnelles et une grande capacité, GROO MAX sera là dès que vous en aurez besoin.</p><ul class='list-disc pl-5'><li>1 x dispositif jetable GROO MAX</li><li>Pré-chargé, il suffit de tirer sur l'appareil pour l'activer</li><li>Jusqu'à 10000 bouffées par dispositif jetable</li><li>Compact, léger et portable</li></ul></div>",
+          "de": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-2'>GROO MAX - KAFFEE</h2><p class='mb-4'>GROO MAX ist ein Gerät für den Freizeit-Dampfgenuss, mit 10.000 Zügen aus leichtem Edelstahl, das ein angenehmes Handgefühl bietet. Mit erstaunlichen Aromen und einer großen Kapazität ist GROO MAX immer da, wenn Sie ihn brauchen.</p><h3 class='text-lg font-semibold mb-2'>Merkmale:</h3><ul class='list-disc pl-5 space-y-1'><li>1 x GROO MAX Einweg-Gerät</li><li>Vorgeladen, einfach am Gerät ziehen, um es zu aktivieren</li><li>Bis zu 10.000 Züge pro Einweg-Gerät</li><li>Kompakt, leicht und tragbar</li></ul></div>",
+          "it": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-gray-800'>GROO MAX - CAFFÈ</h1><p class='mt-2 text-gray-700'>GROO MAX è un dispositivo per lo svapo ricreativo, con 10000 PUFF realizzato in acciaio inossidabile leggero, che offre una sensazione di presa confortevole. Con gusti incredibili e una grande capacità, GROO MAX sarà sempre a tua disposizione quando ne avrai bisogno.</p><ul class='mt-4 list-disc pl-5 text-gray-700'><li>1 x dispositivo monouso GROO MAX</li><li>Precaricato, basta svapare per attivarlo</li><li>Fino a 10000 puff per dispositivo</li><li>Compatto, leggero e portatile</li></ul></div>",
+          "pt": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-gray-800 mb-2'>GROO MAX - CAFÉ</h1><p class='text-gray-700 mb-4'>GROO MAX é um dispositivo para vaporização recreativa, com 10000 PUFFS feito de aço inoxidável leve, proporcionando uma sensação confortável ao segurar. Com sabores incríveis e grande capacidade, o GROO MAX estará disponível sempre que você precisar.</p><ul class='list-disc pl-5 text-gray-700'><li>1 x dispositivo descartável GROO MAX</li><li>Pré-carregado, basta puxar para ativar</li><li>Até 10000 tragadas por dispositivo</li><li>Compacto, leve e portátil</li></ul></div>",
+          "ru": "<div class='text-gray-800 font-sans'><h1 class='text-2xl font-bold mb-4'>GROO MAX - КОФЕ</h1><p class='mb-4'>GROO MAX — это устройство для отдыха и вейпинга, 10000 затяжек, изготовленное из легкой нержавеющей стали, обеспечивающей комфортное ощущение в руке. С потрясающими вкусами и большой емкостью, GROO MAX будет рядом, когда он вам понадобится.</p><ul class='list-disc pl-5 mb-4'><li>1 x одноразовое устройство GROO MAX</li><li>Предварительно заряженное, просто сделайте затяжку для активации</li><li>До 10000 затяжек на одно устройство</li><li>Компактное, легкое и портативное</li></ul></div>",
+          "pl": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-gray-800 mb-2'>GROO MAX - KAWA</h1><p class='text-gray-700 mb-4'>GROO MAX to urządzenie do rekreacyjnego wapowania, wykonane z lekkiej stali nierdzewnej, zapewniające komfortowe trzymanie w dłoni. Dzięki niesamowitym smakom i dużej pojemności, GROO MAX będzie tam, gdzie go potrzebujesz.</p><ul class='list-disc pl-5 text-gray-700'><li>1 x jednorazowe urządzenie GROO MAX</li><li>Wstępnie naładowane, wystarczy zaciągnąć się, aby aktywować</li><li>Do 10000 zaciągnięć na jednorazowym urządzeniu</li><li>Kompaktowe, lekkie i przenośne</li></ul></div>"
+        },
+        "excerpt": {
+          "en": "GROO MAX - COFFEE",
+          "es": "GROO MAX - CAFÉ",
+          "fr": "GROO MAX - CAFÉ",
+          "de": "GROO MAX - KAFFEE",
+          "it": "GROO MAX - CAFFÈ",
+          "pt": "GROO MAX - CAFÉ",
+          "ru": "GROO MAX - КОФЕ",
+          "pl": "GROO MAX - KAWA"
+        },
+        "seo": {
+          "en": {
+            "description": "GROO MAX - COFFEE",
+            "keywords": "GROO MAX, COFFEE, disposable vape, 10000 puffs"
+          },
+          "es": {
+            "description": "GROO MAX - CAFÉ, dispositivo de vapeo desechable con 10,000 puffs y sabor a café.",
+            "keywords": "GROO MAX, CAFÉ, vape desechable, 10000 puffs"
+          },
+          "fr": {
+            "description": "GROO MAX - CAFÉ",
+            "keywords": "GROO MAX, CAFÉ, cigarette électronique jetable, 10000 bouffées"
+          },
+          "de": {
+            "description": "GROO MAX - KAFFEE",
+            "keywords": "GROO MAX, KAFFEE, Einweg-Vape, 10000 Züge"
+          },
+          "it": {
+            "description": "GROO MAX - CAFFÈ",
+            "keywords": "GROO MAX, CAFFÈ, svapo monouso, 10000 puff"
+          },
+          "pt": {
+            "description": "GROO MAX - CAFÉ",
+            "keywords": "GROO MAX, CAFÉ, vape descartável, 10000 tragadas"
+          },
+          "ru": {
+            "description": "GROO MAX - КОФЕ",
+            "keywords": "GROO MAX, КОФЕ, одноразовый вейп, 10000 затяжек"
+          },
+          "pl": {
+            "description": "GROO MAX - KAWA",
+            "keywords": "GROO MAX, KAWA, jednorazowy e-papieros, 10000 zaciągnięć"
+          }
+        }
+      },
+      {
+        "name": "GROO MAX - ENERGY DRINK",
+        "slug": "groo-max-energy-drink",
+        "original_excerpt": "GROO MAX - ENERGY DRINK",
+        "original_content": "<h2>Description</h2><p>GROO MAX - ENERGY DRINK</p><p>GROO MAX is a device for leisure vaping, <b>10000 PUFFS</b> made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.</p><h4>Features:</h4><ul><li>1 x GROO MAX disposable device</li><li>Pre-charged, Simply puff on the device to activate</li><li>Up to 10000 Puffs per disposable</li><li>Compact, Light, and Portable</li></ul>",
+        "images": [
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/922949b0-f9b8-4cd5-aacd-9a62808e90d1",
+            "alt": "GROO MAX - ENERGY DRINK"
+          }
+        ],
+        "original_seo": {
+          "description": "GROO MAX - ENERGY DRINK",
+          "keywords": null
+        },
+        "content": {
+          "en": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-4'>Description</h2><p class='text-lg font-medium mb-4'>GROO MAX - ENERGY DRINK</p><p class='mb-4'>GROO MAX is a device for leisure vaping, <strong class='font-semibold'>10000 PUFFS</strong> made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.</p><h4 class='font-bold mb-2'>Features:</h4><ul class='list-disc pl-5 space-y-1'><li>1 x GROO MAX disposable device</li><li>Pre-charged, Simply puff on the device to activate</li><li>Up to 10000 Puffs per disposable</li><li>Compact, Light, and Portable</li></ul></div>",
+          "es": "<h2 class='text-xl font-bold mb-2'>Descripción</h2><p class='mb-4'>GROO MAX - ENERGY DRINK</p><p class='mb-4'>GROO MAX es un dispositivo para vapeo recreativo, <b class='font-semibold'>10000 PUFFS</b> fabricado en acero inoxidable ligero, proporcionando una sensación cómoda al sostenerlo. Con sabores increíbles y una gran capacidad, GROO MAX estará ahí cuando lo necesites.</p><h4 class='text-lg font-semibold mb-2'>Características:</h4><ul class='list-disc pl-5 mb-4'><li class='mb-1'>1 x dispositivo desechable GROO MAX</li><li class='mb-1'>Precargado, simplemente inhala para activar</li><li class='mb-1'>Hasta 10000 caladas por dispositivo</li><li class='mb-1'>Compacto, ligero y portátil</li></ul>",
+          "fr": "<h2 class='text-xl font-bold mb-2'>Description</h2><p class='text-lg font-semibold'>GROO MAX - BOISSON ÉNERGISANTE</p><p class='text-gray-700 mb-4'>GROO MAX est un dispositif de vapotage loisir, offrant <b class='font-bold'>10000 PUFFS</b> avec un boîtier en acier inoxydable léger pour un confort en main. Avec des saveurs exceptionnelles et une grande capacité, GROO MAX sera là quand vous en aurez besoin.</p><h4 class='font-bold text-lg mb-2'>Caractéristiques :</h4><ul class='list-disc pl-5 space-y-1'><li class='text-gray-700'>1 x dispositif jetable GROO MAX</li><li class='text-gray-700'>Pré-chargé, il suffit de tirer pour activer</li><li class='text-gray-700'>Jusqu'à 10000 puff par dispositif</li><li class='text-gray-700'>Compact, léger et portable</li></ul>",
+          "de": "<h2 class='text-xl font-bold mb-4'>Beschreibung</h2><p class='mb-2'>GROO MAX - ENERGY DRINK</p><p class='mb-4'>GROO MAX ist ein Gerät für entspanntes Dampfen, <b class='font-semibold'>10000 PUFFS</b> aus leichtem Edelstahl, das ein angenehmes Handgefühl bietet. Mit fantastischen Aromen und einer großen Kapazität ist GROO MAX immer für Sie da, wenn Sie ihn brauchen.</p><h4 class='text-lg font-semibold mb-2'>Merkmale:</h4><ul class='list-disc pl-5 mb-4'><li class='mb-1'>1 x GROO MAX Einweg-Gerät</li><li class='mb-1'>Vorgeladen, einfach ziehen, um zu aktivieren</li><li class='mb-1'>Bis zu 10000 Züge pro Einweg-Gerät</li><li class='mb-1'>Kompakt, leicht und tragbar</li></ul>",
+          "it": "<h2 class='text-xl font-bold mb-4'>Descrizione</h2><p class='text-lg font-semibold mb-2'>GROO MAX - ENERGY DRINK</p><p class='mb-4'>GROO MAX è un dispositivo per lo svapo ricreativo, <b class='font-bold'>10000 PUFF</b> realizzato in acciaio inossidabile leggero, che offre una sensazione di presa confortevole. Con gusti incredibili e una grande capacità, GROO MAX sarà sempre a tua disposizione quando ne avrai bisogno.</p><h4 class='text-lg font-semibold mb-2'>Caratteristiche:</h4><ul class='list-disc pl-5 mb-4'><li class='mb-1'>1 x dispositivo monouso GROO MAX</li><li class='mb-1'>Precaricato, basta svapare per attivarlo</li><li class='mb-1'>Fino a 10000 puff per dispositivo</li><li class='mb-1'>Compatto, leggero e portatile</li></ul>",
+          "pt": "<h2 class='text-xl font-bold mb-4'>Descrição</h2><p class='text-lg font-semibold mb-2'>GROO MAX - ENERGY DRINK</p><p class='text-gray-700 mb-4'>GROO MAX é um dispositivo para vaping recreativo, <b class='font-bold'>10000 PUFFS</b> feito de aço inoxidável leve, proporcionando uma sensação confortável na mão. Com sabores incríveis e uma grande capacidade, o GROO MAX estará lá sempre que você precisar.</p><h4 class='text-lg font-semibold mb-2'>Características:</h4><ul class='list-disc pl-6 mb-4'><li class='text-gray-700'>1 x dispositivo descartável GROO MAX</li><li class='text-gray-700'>Pré-carregado, basta puxar o dispositivo para ativar</li><li class='text-gray-700'>Até 10000 Puffs por dispositivo</li><li class='text-gray-700'>Compacto, leve e portátil</li></ul>",
+          "ru": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-4'>Описание</h2><p class='mb-4'><strong>GROO MAX - ENERGY DRINK</strong></p><p class='mb-4'>GROO MAX — это устройство для отдыха и вейпинга, <b>10000 ЗАРЯДОВ</b>, изготовленное из легкой нержавеющей стали, обеспечивающей комфортные ощущения в руке. С потрясающими вкусами и большой емкостью, GROO MAX будет рядом, когда он вам понадобится.</p><h4 class='text-lg font-semibold mb-3'>Особенности:</h4><ul class='list-disc pl-5 space-y-2'><li>1 x одноразовое устройство GROO MAX</li><li>Предварительно заряжено, просто сделайте затяжку для активации</li><li>До 10000 затяжек на одно устройство</li><li>Компактное, легкое и портативное</li></ul></div>",
+          "pl": "<h2 class='text-xl font-bold mb-2'>Opis</h2><p class='mb-4'><span class='font-semibold'>GROO MAX - ENERGY DRINK</span></p><p class='mb-4'>GROO MAX to urządzenie do rekreacyjnego wapowania, <b class='font-bold'>10000 ZACIĄGNIĘĆ</b> wykonane z lekkiej stali nierdzewnej, zapewniające komfortowy chwyt. Dzięki niesamowitym smakom i dużej pojemności, GROO MAX będzie tam, gdzie go potrzebujesz.</p><h4 class='text-lg font-semibold mb-2'>Cechy:</h4><ul class='list-disc pl-5 mb-4'><li class='mb-1'>1 x jednorazowe urządzenie GROO MAX</li><li class='mb-1'>Wstępnie naładowane, wystarczy zaciągnąć się, aby aktywować</li><li class='mb-1'>Do 10000 zaciągnięć na urządzenie</li><li class='mb-1'>Kompaktowe, lekkie i przenośne</li></ul>"
+        },
+        "excerpt": {
+          "en": "GROO MAX - ENERGY DRINK",
+          "es": "GROO MAX - ENERGY DRINK",
+          "fr": "GROO MAX - BOISSON ÉNERGISANTE",
+          "de": "GROO MAX - ENERGY DRINK",
+          "it": "GROO MAX - ENERGY DRINK",
+          "pt": "GROO MAX - ENERGY DRINK",
+          "ru": "GROO MAX - ENERGY DRINK",
+          "pl": "GROO MAX - ENERGY DRINK"
+        },
+        "seo": {
+          "en": {
+            "description": "GROO MAX - ENERGY DRINK",
+            "keywords": "null"
+          },
+          "es": {
+            "description": "GROO MAX - ENERGY DRINK",
+            "keywords": "null"
+          },
+          "fr": {
+            "description": "GROO MAX - BOISSON ÉNERGISANTE",
+            "keywords": "null"
+          },
+          "de": {
+            "description": "GROO MAX - ENERGY DRINK",
+            "keywords": "null"
+          },
+          "it": {
+            "description": "GROO MAX - ENERGY DRINK",
+            "keywords": "null"
+          },
+          "pt": {
+            "description": "GROO MAX - ENERGY DRINK",
+            "keywords": "null"
+          },
+          "ru": {
+            "description": "GROO MAX - ENERGY DRINK",
+            "keywords": "null"
+          },
+          "pl": {
+            "description": "GROO MAX - ENERGY DRINK",
+            "keywords": "null"
+          }
+        }
+      },
+      {
+        "name": "GROO MAX - LUSH ICE",
+        "slug": "groo-max-lush-ice",
+        "original_excerpt": "GROO MAX - LUSH ICE",
+        "original_content": "GROO MAX - LUSH ICE\n\nGROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.\n\nFeatures:\n- 1 x GROO MAX disposable device\n- Pre-charged, Simply puff on the device to activate\n- Up to 10000 Puffs per disposable\n- Compact, Light, and Portable",
+        "images": [
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/d9f6a58c-8966-4a72-88e7-c625966b8dca",
+            "alt": "GROO MAX - LUSH ICE"
+          }
+        ],
+        "original_seo": {
+          "description": "GROO MAX - LUSH ICE",
+          "keywords": null
+        },
+        "content": {
+          "en": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-4'>GROO MAX - LUSH ICE</h2><p class='mb-4'>GROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.</p><h3 class='text-lg font-semibold mb-2'>Features:</h3><ul class='list-disc pl-5 space-y-1'><li>1 x GROO MAX disposable device</li><li>Pre-charged, Simply puff on the device to activate</li><li>Up to 10000 Puffs per disposable</li><li>Compact, Light, and Portable</li></ul></div>",
+          "es": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-blue-800 mb-2'>GROO MAX - LUSH ICE</h1><p class='text-gray-700 mb-4'>GROO MAX es un dispositivo para vapeo recreativo, con 10000 PUFFS fabricado en acero inoxidable ligero, que proporciona una sensación cómoda en la mano. Con sabores increíbles y una gran capacidad, GROO MAX estará ahí cuando lo necesites.</p><h2 class='text-lg font-semibold text-blue-700 mb-2'>Características:</h2><ul class='list-disc pl-5 text-gray-700'><li>1 x dispositivo desechable GROO MAX</li><li>Precargado, simplemente inhala para activar</li><li>Hasta 10000 caladas por dispositivo</li><li>Compacto, ligero y portátil</li></ul></div>",
+          "fr": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-blue-800 mb-2'>GROO MAX - LUSH ICE</h1><p class='text-gray-700 mb-4'>GROO MAX est un dispositif de vapotage loisir, 10000 PUFFS fabriqué en acier inoxydable léger, offrant une prise en main confortable. Avec des saveurs exceptionnelles et une grande capacité, GROO MAX sera là dès que vous en aurez besoin.</p><h2 class='text-lg font-semibold text-blue-600 mb-2'>Caractéristiques :</h2><ul class='list-disc pl-5 text-gray-700'><li>1 x dispositif jetable GROO MAX</li><li>Pré-chargé, il suffit de tirer sur l'appareil pour l'activer</li><li>Jusqu'à 10000 bouffées par dispositif jetable</li><li>Compact, léger et portable</li></ul></div>",
+          "de": "<div class='prose max-w-none'><h2 class='text-xl font-bold'>GROO MAX - LUSH ICE</h2><p class='mt-4'>GROO MAX ist ein Gerät für entspanntes Vaping, 10000 PUFFS aus leichtem Edelstahl, das ein angenehmes Handgefühl bietet. Mit erstaunlichen Aromen und einer großen Kapazität ist GROO MAX immer da, wenn Sie ihn brauchen.</p><h3 class='text-lg font-semibold mt-6'>Merkmale:</h3><ul class='list-disc pl-5 mt-2'><li>1 x GROO MAX Einweg-Vape</li><li>Vorgeladen, einfach ziehen, um zu aktivieren</li><li>Bis zu 10000 Züge pro Einweg-Gerät</li><li>Kompakt, leicht und tragbar</li></ul></div>",
+          "it": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-blue-800 mb-2'>GROO MAX - LUSH ICE</h1><p class='text-gray-700 mb-4'>GROO MAX è un dispositivo per lo svapo ricreativo, con 10000 PUFFS realizzato in acciaio inossidabile leggero, che offre una sensazione di presa confortevole. Con gusti incredibili e una grande capacità, GROO MAX sarà sempre al tuo fianco quando ne avrai bisogno.</p><h2 class='text-lg font-semibold text-blue-600 mb-2'>Caratteristiche:</h2><ul class='list-disc pl-5 text-gray-700'><li>1 x dispositivo monouso GROO MAX</li><li>Precaricato, basta svapare per attivarlo</li><li>Fino a 10000 puff per dispositivo</li><li>Compatto, leggero e portatile</li></ul></div>",
+          "pt": "<div class='text-gray-800 font-sans'><h1 class='text-xl font-bold mb-2'>GROO MAX - LUSH ICE</h1><p class='mb-4'>GROO MAX é um dispositivo para vaping recreativo, com 10000 PUFFS feito de aço inoxidável leve, proporcionando uma sensação confortável ao segurar. Com sabores incríveis e grande capacidade, o GROO MAX estará disponível sempre que você precisar.</p><h2 class='text-lg font-semibold mb-2'>Características:</h2><ul class='list-disc pl-5 mb-4'><li>1 x dispositivo descartável GROO MAX</li><li>Pré-carregado, basta puxar para ativar</li><li>Até 10000 Puffs por dispositivo</li><li>Compacto, leve e portátil</li></ul></div>",
+          "ru": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-blue-800 mb-2'>GROO MAX - LUSH ICE</h1><p class='text-gray-700 mb-4'>GROO MAX - это устройство для отдыха и вейпинга, выполненное из легкой нержавеющей стали, обеспечивающее комфортные тактильные ощущения. С потрясающими вкусами и большой емкостью, GROO MAX всегда будет рядом, когда он вам понадобится.</p><ul class='list-disc pl-5 text-gray-700'><li class='mb-1'>1 x GROO MAX одноразовое устройство</li><li class='mb-1'>Предварительно заряженное, просто сделайте затяжку для активации</li><li class='mb-1'>До 10000 затяжек на одно устройство</li><li class='mb-1'>Компактное, легкое и портативное</li></ul></div>",
+          "pl": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-blue-800 mb-2'>GROO MAX - LUSH ICE</h1><p class='text-gray-700 mb-4'>GROO MAX to urządzenie do rekreacyjnego wapowania, wykonane z lekkiej stali nierdzewnej, zapewniające komfortowe uczucie w dłoni. Dzięki niesamowitym smakom i dużej pojemności, GROO MAX będzie tam, gdzie go potrzebujesz.</p><ul class='list-disc pl-5 text-gray-700'><li>1 x jednorazowe urządzenie GROO MAX</li><li>Wstępnie naładowane, wystarczy zaciągnąć się, aby aktywować</li><li>Do 10000 zaciągnięć na jednorazówkę</li><li>Kompaktowe, lekkie i przenośne</li></ul></div>"
+        },
+        "excerpt": {
+          "en": "GROO MAX - LUSH ICE",
+          "es": "GROO MAX - LUSH ICE",
+          "fr": "GROO MAX - LUSH ICE",
+          "de": "GROO MAX - LUSH ICE",
+          "it": "GROO MAX - LUSH ICE",
+          "pt": "GROO MAX - LUSH ICE",
+          "ru": "GROO MAX - LUSH ICE",
+          "pl": "GROO MAX - LUSH ICE"
+        },
+        "seo": {
+          "en": {
+            "description": "GROO MAX - LUSH ICE",
+            "keywords": "null"
+          },
+          "es": {
+            "description": "GROO MAX - LUSH ICE",
+            "keywords": "null"
+          },
+          "fr": {
+            "description": "GROO MAX - LUSH ICE",
+            "keywords": "null"
+          },
+          "de": {
+            "description": "GROO MAX - LUSH ICE",
+            "keywords": "null"
+          },
+          "it": {
+            "description": "GROO MAX - LUSH ICE",
+            "keywords": "null"
+          },
+          "pt": {
+            "description": "GROO MAX - LUSH ICE",
+            "keywords": "null"
+          },
+          "ru": {
+            "description": "GROO MAX - LUSH ICE",
+            "keywords": "null"
+          },
+          "pl": {
+            "description": "GROO MAX - LUSH ICE",
+            "keywords": "null"
+          }
+        }
+      },
+      {
+        "name": "GROO MAX - PASSION FRUIT KIWI GUAVA",
+        "slug": "groo-max-passion-fruit-kiwi-guava",
+        "original_excerpt": "GROO MAX - PASSION FRUIT KIWI GUAVA",
+        "original_content": "GROO MAX - PASSION FRUIT KIWI GUAVA\n\nGROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.\n\nFeatures:\n- 1 x GROO MAX disposable device\n- NET WEIGHT: 80g\n- Pre-charged, Simply puff on the device to activate\n- Up to 10000 Puffs per disposable\n- Compact, Light, and Portable",
+        "images": [
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/9f73c44e-71df-4a2f-9699-55f517eb5999",
+            "alt": "GROO MAX - PASSION FRUIT KIWI GUAVA"
+          }
+        ],
+        "original_seo": {
+          "description": "GROO MAX - PASSION FRUIT KIWI GUAVA",
+          "keywords": null
+        },
+        "content": {
+          "en": "<div class='bg-white p-4 rounded-lg shadow-md'><h1 class='text-2xl font-bold text-gray-800 mb-4'>GROO MAX - PASSION FRUIT KIWI GUAVA</h1><p class='text-gray-700 mb-4'>GROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.</p><ul class='list-disc pl-6 text-gray-700'><li class='mb-2'>1 x GROO MAX disposable device</li><li class='mb-2'>NET WEIGHT: 80g</li><li class='mb-2'>Pre-charged, Simply puff on the device to activate</li><li class='mb-2'>Up to 10000 Puffs per disposable</li><li class='mb-2'>Compact, Light, and Portable</li></ul></div>",
+          "es": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-indigo-700 mb-2'>GROO MAX - MARACUYÁ KIWI GUAYABA</h1><p class='text-gray-800 mb-4'>GROO MAX es un dispositivo para vapeo recreativo, con <span class='font-semibold'>10,000 PUFFS</span> fabricado en acero inoxidable ligero, proporcionando una sensación cómoda al sostenerlo. Con sabores increíbles y una gran capacidad, GROO MAX estará ahí cuando lo necesites.</p><h2 class='text-lg font-semibold text-indigo-600 mb-2'>Características:</h2><ul class='list-disc pl-5 text-gray-700 space-y-1'><li>1 x Dispositivo desechable GROO MAX</li><li><span class='font-medium'>PESO NETO:</span> 80g</li><li>Precargado, simplemente inhala para activar</li><li>Hasta <span class='font-medium'>10,000 Puffs</span> por dispositivo</li><li>Compacto, ligero y portátil</li></ul></div>",
+          "fr": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-indigo-700 mb-2'>GROO MAX - FRUIT DE LA PASSION KIWI GOYAVE</h2><p class='text-gray-800 mb-4'>GROO MAX est un dispositif de vapotage de loisir, offrant 10000 PUFFS fabriqué en acier inoxydable léger, procurant une sensation agréable en main. Avec des saveurs incroyables et une grande capacité, GROO MAX sera là chaque fois que vous en aurez besoin.</p><h3 class='text-lg font-semibold text-indigo-600 mb-2'>Caractéristiques :</h3><ul class='list-disc pl-5 text-gray-700 space-y-1'><li>1 x dispositif jetable GROO MAX</li><li>POIDS NET : 80g</li><li>Pré-chargé, il suffit de tirer sur l'appareil pour l'activer</li><li>Jusqu'à 10000 Puffs par dispositif jetable</li><li>Compact, léger et portable</li></ul></div>",
+          "de": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-gray-800'>GROO MAX - PASSIONSFRUCHT KIWI GUAVE</h2><p class='mt-2 text-gray-700'>GROO MAX ist ein Gerät für das Freizeit-Dampfen, 10000 PUFFS aus leichtem Edelstahl, das ein angenehmes Handgefühl bietet. Mit fantastischen Aromen und einer großen Kapazität ist GROO MAX immer da, wenn Sie ihn brauchen.</p><ul class='mt-4 space-y-2 text-gray-700'><li>1 x GROO MAX Einweg-Gerät</li><li>NETTOGEWICHT: 80g</li><li>Vorgeladen, einfach am Gerät ziehen, um es zu aktivieren</li><li>Bis zu 10000 Züge pro Einweg-Gerät</li><li>Kompakt, leicht und tragbar</li></ul></div>",
+          "it": "<div class='text-gray-800 font-sans'><h1 class='text-xl font-bold mb-4'>GROO MAX - FRUTTA DELLA PASSIONE KIWI GUAVA</h1><p class='mb-4'>GROO MAX è un dispositivo per lo svapo ricreativo, con <strong>10000 PUFF</strong> realizzato in acciaio inossidabile leggero, che offre una sensazione di presa confortevole. Con gusti straordinari e una grande capacità, GROO MAX sarà sempre al tuo fianco quando ne avrai bisogno.</p><ul class='list-disc pl-6 mb-4'><li>1 x dispositivo monouso GROO MAX</li><li>PESO NETTO: 80g</li><li>Precaricato, basta aspirare per attivarlo</li><li>Fino a <strong>10000 puff</strong> per dispositivo</li><li>Compatto, leggero e portatile</li></ul></div>",
+          "pt": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-purple-800 mb-2'>GROO MAX - MARACUJÁ KIWI GOIABA</h2><p class='text-gray-700 mb-4'>GROO MAX é um dispositivo para vaping recreativo, com <span class='font-semibold'>10000 PUFFS</span> feito de aço inoxidável leve, proporcionando uma sensação confortável ao segurar. Com sabores incríveis e grande capacidade, o GROO MAX estará disponível sempre que você precisar.</p><ul class='list-disc pl-5 text-gray-700 space-y-1'><li>1 x dispositivo descartável GROO MAX</li><li><span class='font-semibold'>PESO LÍQUIDO:</span> 80g</li><li>Pré-carregado, basta puxar para ativar</li><li>Até <span class='font-semibold'>10000 Puffs</span> por dispositivo</li><li>Compacto, leve e portátil</li></ul></div>",
+          "ru": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-purple-800 mb-2'>GROO MAX - МАРАКУЙЯ КИВИ ГУАВА</h1><p class='text-gray-700 mb-4'>GROO MAX – это устройство для отдыха и вейпинга, 10000 затяжек, изготовленное из легкой нержавеющей стали, обеспечивающей комфортное ощущение в руке. С потрясающими вкусами и большой емкостью, GROO MAX будет рядом, когда он вам понадобится.</p><ul class='list-disc pl-5 text-gray-700'><li>1 x GROO MAX одноразовое устройство</li><li>ВЕС: 80 г</li><li>Предварительно заряжен, просто сделайте затяжку для активации</li><li>До 10000 затяжек на одно устройство</li><li>Компактный, легкий и портативный</li></ul></div>",
+          "pl": "<div class='bg-white p-4 rounded-lg shadow-md'><h1 class='text-xl font-bold text-gray-800 mb-2'>GROO MAX - MARAKUJA KIWI GUJAVA</h1><p class='text-gray-700 mb-4'>GROO MAX to urządzenie do rekreacyjnego wapowania, 10000 PUFFS wykonane z lekkiej stali nierdzewnej, zapewniające komfortowy chwyt. Dzięki niesamowitym smakom i dużej pojemności, GROO MAX będzie tam, gdzie go potrzebujesz.</p><ul class='list-disc pl-5 text-gray-700 space-y-1'><li>1 x jednorazowe urządzenie GROO MAX</li><li>WAGA NETTO: 80g</li><li>Wstępnie naładowane, wystarczy zaciągnąć się, aby aktywować</li><li>Do 10000 zaciągnięć na jednorazówkę</li><li>Kompaktowe, lekkie i przenośne</li></ul></div>"
+        },
+        "excerpt": {
+          "en": "GROO MAX - PASSION FRUIT KIWI GUAVA",
+          "es": "GROO MAX - MARACUYÁ KIWI GUAYABA",
+          "fr": "GROO MAX - FRUIT DE LA PASSION KIWI GOYAVE",
+          "de": "GROO MAX - PASSIONSFRUCHT KIWI GUAVE",
+          "it": "GROO MAX - FRUTTA DELLA PASSIONE KIWI GUAVA",
+          "pt": "GROO MAX - MARACUJÁ KIWI GOIABA",
+          "ru": "GROO MAX - МАРАКУЙЯ КИВИ ГУАВА",
+          "pl": "GROO MAX - MARAKUJA KIWI GUJAVA"
+        },
+        "seo": {
+          "en": {
+            "description": "GROO MAX - PASSION FRUIT KIWI GUAVA",
+            "keywords": "null"
+          },
+          "es": {
+            "description": "GROO MAX - MARACUYÁ KIWI GUAYABA",
+            "keywords": "null"
+          },
+          "fr": {
+            "description": "GROO MAX - FRUIT DE LA PASSION KIWI GOYAVE",
+            "keywords": "null"
+          },
+          "de": {
+            "description": "GROO MAX - PASSIONSFRUCHT KIWI GUAVE",
+            "keywords": "null"
+          },
+          "it": {
+            "description": "GROO MAX - FRUTTA DELLA PASSIONE KIWI GUAVA",
+            "keywords": "null"
+          },
+          "pt": {
+            "description": "GROO MAX - MARACUJÁ KIWI GOIABA - Dispositivo descartável com 10000 puffs, sabor tropical e design portátil.",
+            "keywords": "vape descartável, groo max, maracujá kiwi goiaba, 10000 puffs, vape portátil"
+          },
+          "ru": {
+            "description": "GROO MAX - МАРАКУЙЯ КИВИ ГУАВА",
+            "keywords": "null"
+          },
+          "pl": {
+            "description": "GROO MAX - MARAKUJA KIWI GUJAVA",
+            "keywords": "null"
+          }
+        }
+      },
+      {
+        "name": "GROO MAX -BANANA ICE",
+        "slug": "groo-max-banana-ice",
+        "original_excerpt": "GROO MAX - BANANA ICE",
+        "original_content": "GROO MAX - BANANA ICE\n\nGROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.\n\nFeatures:\n- 1 x GROO MAX disposable device\n- Pre-charged, Simply puff on the device to activate\n- Up to 10000 Puffs per disposable\n- Compact, Light, and Portable",
+        "images": [
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/073c2ead-44ca-4bb2-9069-51201e1be44f",
+            "alt": "GROO MAX -BANANA ICE"
+          }
+        ],
+        "original_seo": {
+          "description": "GROO MAX - BANANA ICE",
+          "keywords": "GROO MAX"
+        },
+        "content": {
+          "en": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-2'>GROO MAX - BANANA ICE</h2><p class='mb-4'>GROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.</p><h3 class='text-lg font-semibold mb-2'>Features:</h3><ul class='list-disc pl-5 mb-4'><li>1 x GROO MAX disposable device</li><li>Pre-charged, Simply puff on the device to activate</li><li>Up to 10000 Puffs per disposable</li><li>Compact, Light, and Portable</li></ul></div>",
+          "es": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-gray-800'>GROO MAX - BANANA ICE</h1><p class='mt-2 text-gray-700'>GROO MAX es un dispositivo para vapeo recreativo, con 10000 PUFFS fabricado en acero inoxidable ligero, proporcionando una sensación cómoda al sostenerlo. Con sabores increíbles y una gran capacidad, GROO MAX estará ahí cuando lo necesites.</p><ul class='mt-4 list-disc pl-5 text-gray-700'><li>1 x dispositivo desechable GROO MAX</li><li>Precargado, simplemente inhala para activar</li><li>Hasta 10000 caladas por dispositivo</li><li>Compacto, ligero y portátil</li></ul></div>",
+          "fr": "<div class='font-sans text-gray-800'><h1 class='text-2xl font-bold mb-4'>GROO MAX - BANANA ICE</h1><p class='mb-4'>GROO MAX est un dispositif de vapotage de loisir, 10000 PUFFS fabriqué en acier inoxydable léger, offrant une prise en main confortable. Avec des saveurs incroyables et une grande capacité, GROO MAX sera là chaque fois que vous en aurez besoin.</p><h2 class='text-xl font-semibold mb-2'>Caractéristiques :</h2><ul class='list-disc pl-5 mb-4'><li>1 x dispositif jetable GROO MAX</li><li>Pré-chargé, il suffit de tirer sur l'appareil pour l'activer</li><li>Jusqu'à 10000 bouffées par dispositif jetable</li><li>Compact, léger et portable</li></ul></div>",
+          "de": "<div class='text-gray-800 font-sans'><h1 class='text-2xl font-bold mb-4'>GROO MAX - BANANA ICE</h1><p class='mb-4'>GROO MAX ist ein Gerät für entspanntes Dampfen, mit 10.000 Zügen aus leichtem Edelstahl, das ein angenehmes Handgefühl bietet. Mit beeindruckenden Aromen und einer großen Kapazität ist GROO MAX immer da, wenn Sie ihn brauchen.</p><h2 class='text-xl font-semibold mb-2'>Merkmale:</h2><ul class='list-disc pl-5 mb-4'><li>1 x GROO MAX Einweg-Gerät</li><li>Vorgeladen, einfach am Gerät ziehen, um es zu aktivieren</li><li>Bis zu 10.000 Züge pro Einweg-Gerät</li><li>Kompakt, leicht und tragbar</li></ul></div>",
+          "it": "<div class='font-sans text-gray-800'><h1 class='text-2xl font-bold mb-4'>GROO MAX - BANANA ICE</h1><p class='mb-4'>GROO MAX è un dispositivo per lo svapo ricreativo, con 10000 PUFFS realizzato in acciaio inossidabile leggero, che offre una sensazione di presa confortevole. Con gusti incredibili e una grande capacità, GROO MAX sarà sempre a tua disposizione quando ne avrai bisogno.</p><h2 class='text-xl font-semibold mb-2'>Caratteristiche:</h2><ul class='list-disc pl-5 mb-4'><li>1 x dispositivo monouso GROO MAX</li><li>Precaricato, basta aspirare per attivare</li><li>Fino a 10000 puff per dispositivo</li><li>Compatto, leggero e portatile</li></ul></div>",
+          "pt": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-gray-800 mb-2'>GROO MAX - BANANA ICE</h2><p class='text-gray-700 mb-4'>GROO MAX é um dispositivo para vaping recreativo, com 10000 PUFFS feito de aço inoxidável leve, proporcionando uma sensação confortável ao segurar. Com sabores incríveis e grande capacidade, o GROO MAX estará disponível sempre que você precisar.</p><ul class='list-disc pl-5 text-gray-700'><li>1 x dispositivo descartável GROO MAX</li><li>Pré-carregado, basta puxar para ativar</li><li>Até 10000 tragadas por dispositivo</li><li>Compacto, leve e portátil</li></ul></div>",
+          "ru": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-gray-800 mb-2'>GROO MAX - BANANA ICE</h1><p class='text-gray-700 mb-4'>GROO MAX - это устройство для отдыха и вейпинга, выполненное из легкой нержавеющей стали, обеспечивающее комфортные тактильные ощущения. С потрясающими вкусами и большой емкостью, GROO MAX всегда будет рядом, когда он вам понадобится.</p><ul class='list-disc pl-5 text-gray-700'><li>1 x GROO MAX одноразовое устройство</li><li>Предварительно заряженное, просто сделайте затяжку для активации</li><li>До 10000 затяжек на одно устройство</li><li>Компактное, легкое и портативное</li></ul></div>",
+          "pl": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-blue-800 mb-2'>GROO MAX - BANANA ICE</h1><p class='text-gray-700 mb-4'>GROO MAX to urządzenie do rekreacyjnego waporyzowania, wykonane z lekkiej stali nierdzewnej, zapewniające komfortowe wrażenia podczas trzymania. Dzięki niesamowitym smakom i dużej pojemności, GROO MAX będzie tam, gdzie go potrzebujesz.</p><ul class='list-disc pl-5 text-gray-700'><li>1 x jednorazowe urządzenie GROO MAX</li><li>Wstępnie naładowane, wystarczy zaciągnąć się, aby aktywować</li><li>Do 10000 zaciągnięć na urządzenie</li><li>Kompaktowe, lekkie i przenośne</li></ul></div>"
+        },
+        "excerpt": {
+          "en": "GROO MAX - BANANA ICE",
+          "es": "GROO MAX - BANANA ICE",
+          "fr": "GROO MAX - BANANA ICE",
+          "de": "GROO MAX - BANANA ICE",
+          "it": "GROO MAX - BANANA ICE",
+          "pt": "GROO MAX - BANANA ICE",
+          "ru": "GROO MAX - BANANA ICE",
+          "pl": "GROO MAX - BANANA ICE"
+        },
+        "seo": {
+          "en": {
+            "description": "GROO MAX - BANANA ICE disposable vape device with 10000 puffs, stainless steel construction, and amazing banana ice flavor.",
+            "keywords": "GROO MAX, banana ice vape, disposable vape, 10000 puffs vape, stainless steel vape"
+          },
+          "es": {
+            "description": "GROO MAX - BANANA ICE",
+            "keywords": "GROO MAX"
+          },
+          "fr": {
+            "description": "GROO MAX - BANANA ICE",
+            "keywords": "GROO MAX"
+          },
+          "de": {
+            "description": "GROO MAX - BANANA ICE",
+            "keywords": "GROO MAX"
+          },
+          "it": {
+            "description": "GROO MAX - BANANA ICE",
+            "keywords": "GROO MAX"
+          },
+          "pt": {
+            "description": "GROO MAX - BANANA ICE, um dispositivo descartável para vaping com até 10000 tragadas e sabor refrescante.",
+            "keywords": "GROO MAX, vape descartável, banana ice, 10000 puff"
+          },
+          "ru": {
+            "description": "GROO MAX - BANANA ICE",
+            "keywords": "GROO MAX"
+          },
+          "pl": {
+            "description": "GROO MAX - BANANA ICE",
+            "keywords": "GROO MAX"
+          }
+        }
+      },
+      {
+        "name": "GROO MAX - BLUEBERRY PEACH SMOOTHIE",
+        "slug": "groo-max-blueberry-peach-smoothie",
+        "original_excerpt": "GROO MAX -BLUEBERRY PEACH SMOOTHIE",
+        "original_content": "GROO MAX -BLUEBERRY PEACH SMOOTHIE\n\nGROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.\n\nFeatures:\n- 1 x GROO MAX disposable device\n- Pre-charged, Simply puff on the device to activate\n- Up to 10000 Puffs per disposable\n- Compact, Light, and Portable",
+        "images": [
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/e92adcaa-ba50-4b0b-94a7-90b9a7e4060e",
+            "alt": "GROO MAX - BLUEBERRY PEACH SMOOTHIE"
+          }
+        ],
+        "original_seo": {
+          "description": "GROO MAX -BLUEBERRY PEACH SMOOTHIE",
+          "keywords": null
+        },
+        "content": {
+          "en": "<div class='bg-white p-6 rounded-lg shadow-md'><h1 class='text-2xl font-bold text-blue-800 mb-4'>GROO MAX - BLUEBERRY PEACH SMOOTHIE</h1><p class='text-gray-700 mb-4'>GROO MAX is a leisure vaping device, crafted from lightweight stainless steel for a comfortable grip. With incredible flavors and a high-capacity design, GROO MAX is ready whenever you need it.</p><ul class='list-disc pl-6 text-gray-700 space-y-2'><li>1 x GROO MAX disposable device</li><li>Pre-charged—simply puff to activate</li><li>Up to 10,000 puffs per device</li><li>Compact, lightweight, and portable</li></ul></div>",
+          "es": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-blue-800 mb-2'>GROO MAX -BATIDO DE ARÁNDANO Y MELOCOTÓN</h1><p class='text-gray-700 mb-4'>GROO MAX es un dispositivo para vapeo recreativo, con 10000 caladas, fabricado en acero inoxidable ligero que proporciona una sensación cómoda al sostenerlo. Con sabores increíbles y una gran capacidad, GROO MAX estará ahí cuando lo necesites.</p><ul class='list-disc pl-5 text-gray-700'><li class='mb-1'>1 x dispositivo desechable GROO MAX</li><li class='mb-1'>Precargado, simplemente inhala para activar</li><li class='mb-1'>Hasta 10000 caladas por dispositivo</li><li class='mb-1'>Compacto, ligero y portátil</li></ul></div>",
+          "fr": "<div class='text-gray-800 font-sans'><h1 class='text-xl font-bold mb-4'>GROO MAX - SMOOTHIE MYRTILLE ET PÊCHE</h1><p class='mb-4'>GROO MAX est un dispositif de vapotage loisir, offrant 10 000 PUFFS en acier inoxydable léger pour un confort en main. Avec des saveurs exceptionnelles et une grande capacité, GROO MAX sera là dès que vous en aurez besoin.</p><h2 class='text-lg font-semibold mb-2'>Caractéristiques :</h2><ul class='list-disc pl-5 space-y-1'><li>1 x dispositif jetable GROO MAX</li><li>Pré-chargé, il suffit de tirer pour activer</li><li>Jusqu'à 10 000 bouffées par dispositif</li><li>Compact, léger et portable</li></ul></div>",
+          "de": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-blue-800'>GROO MAX - BLAUBEER-PFIRRSICH-SMOOTHIE</h2><p class='mt-2 text-gray-700'>GROO MAX ist ein Gerät für entspanntes Dampfen, mit 10.000 Zügen aus leichtem Edelstahl, das ein angenehmes Handgefühl bietet. Mit fantastischen Aromen und einer großen Kapazität ist GROO MAX immer da, wenn Sie ihn brauchen.</p><ul class='mt-3 list-disc pl-5 text-gray-700'><li>1 x GROO MAX Einweg-Gerät</li><li>Vorgeladen, einfach ziehen, um zu aktivieren</li><li>Bis zu 10.000 Züge pro Einweg-Gerät</li><li>Kompakt, leicht und tragbar</li></ul></div>",
+          "it": "<div class='font-sans text-gray-800'><h1 class='text-2xl font-bold mb-4'>GROO MAX -BLUEBERRY PEACH SMOOTHIE</h1><p class='mb-4'>GROO MAX è un dispositivo per lo svapo ricreativo, con <span class='font-semibold'>10000 PUFF</span> realizzato in acciaio inossidabile leggero, che offre una sensazione di presa confortevole. Con gusti incredibili e una grande capacità, GROO MAX sarà sempre al tuo fianco quando ne avrai bisogno.</p><h2 class='text-xl font-semibold mb-2'>Caratteristiche:</h2><ul class='list-disc pl-5 space-y-1'><li>1 x dispositivo monouso GROO MAX</li><li>Precaricato, basta aspirare per attivare</li><li>Fino a <span class='font-semibold'>10000 puff</span> per dispositivo</li><li>Compatto, leggero e portatile</li></ul></div>",
+          "pt": "<div class='font-sans text-gray-800'><h1 class='text-xl font-bold mb-2'>GROO MAX - SMOOTHIE DE MIRTILO E PÊSSEGO</h1><p class='mb-4'>GROO MAX é um dispositivo para vaping recreativo, com 10000 PUFFS feito de aço inoxidável leve, proporcionando uma sensação confortável ao segurar. Com sabores incríveis e grande capacidade, o GROO MAX estará disponível sempre que você precisar.</p><ul class='list-disc pl-5 space-y-2'><li>1 x dispositivo descartável GROO MAX</li><li>Pré-carregado, basta puxar para ativar</li><li>Até 10000 tragadas por dispositivo</li><li>Compacto, leve e portátil</li></ul></div>",
+          "ru": "<div class='font-sans text-gray-800'><h1 class='text-2xl font-bold mb-4'>GROO MAX - СМУЗИ С ЧЕРНИКОЙ И ПЕРСИКОМ</h1><p class='mb-4'>GROO MAX - это устройство для отдыха и вейпинга, 10000 затяжек, изготовленное из легкой нержавеющей стали, обеспечивающей комфортное ощущение в руке. С потрясающими вкусами и большой емкостью, GROO MAX будет рядом, когда он вам понадобится.</p><h2 class='text-xl font-semibold mb-2'>Характеристики:</h2><ul class='list-disc pl-5 space-y-1'><li>1 x Одноразовое устройство GROO MAX</li><li>Предварительно заряжено, просто сделайте затяжку для активации</li><li>До 10000 затяжек на одно устройство</li><li>Компактный, легкий и портативный</li></ul></div>",
+          "pl": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-blue-800 mb-2'>GROO MAX - SMOOTHIE Z JAGODAMI I BRZOSKWINIĄ</h2><p class='text-gray-700 mb-4'>GROO MAX to urządzenie do rekreacyjnego wapowania, oferujące aż 10000 PUFFS, wykonane z lekkiej stali nierdzewnej, zapewniającej komfortowe trzymanie w dłoni. Dzięki niesamowitym smakom i dużej pojemności, GROO MAX będzie zawsze pod ręką, gdy go potrzebujesz.</p><ul class='list-disc pl-5 text-gray-700'><li class='mb-1'>1 x jednorazowe urządzenie GROO MAX</li><li class='mb-1'>Wstępnie naładowane, wystarczy zaciągnąć się, aby aktywować</li><li class='mb-1'>Do 10000 zaciągnięć na jednym urządzeniu</li><li class='mb-1'>Kompaktowe, lekkie i przenośne</li></ul></div>"
+        },
+        "excerpt": {
+          "en": "GROO MAX - BLUEBERRY PEACH SMOOTHIE",
+          "es": "GROO MAX -BATIDO DE ARÁNDANO Y MELOCOTÓN",
+          "fr": "GROO MAX - SMOOTHIE MYRTILLE ET PÊCHE",
+          "de": "GROO MAX - BLAUBEER-PFIRRSICH-SMOOTHIE",
+          "it": "GROO MAX -BLUEBERRY PEACH SMOOTHIE",
+          "pt": "GROO MAX - SMOOTHIE DE MIRTILO E PÊSSEGO",
+          "ru": "GROO MAX - СМУЗИ С ЧЕРНИКОЙ И ПЕРСИКОМ",
+          "pl": "GROO MAX - SMOOTHIE Z JAGODAMI I BRZOSKWINIĄ"
+        },
+        "seo": {
+          "en": {
+            "description": "GROO MAX - BLUEBERRY PEACH SMOOTHIE",
+            "keywords": "null"
+          },
+          "es": {
+            "description": "GROO MAX -BATIDO DE ARÁNDANO Y MELOCOTÓN",
+            "keywords": "null"
+          },
+          "fr": {
+            "description": "GROO MAX - SMOOTHIE MYRTILLE ET PÊCHE",
+            "keywords": "null"
+          },
+          "de": {
+            "description": "GROO MAX - BLAUBEER-PFIRRSICH-SMOOTHIE",
+            "keywords": "null"
+          },
+          "it": {
+            "description": "GROO MAX -BLUEBERRY PEACH SMOOTHIE: dispositivo monouso da 10000 puff con gusto smoothie di mirtillo e pesca.",
+            "keywords": "GROO MAX, svapo monouso, 10000 puff, blueberry peach smoothie, svapo ricreativo"
+          },
+          "pt": {
+            "description": "GROO MAX - SMOOTHIE DE MIRTILO E PÊSSEGO",
+            "keywords": "null"
+          },
+          "ru": {
+            "description": "GROO MAX - СМУЗИ С ЧЕРНИКОЙ И ПЕРСИКОМ",
+            "keywords": "null"
+          },
+          "pl": {
+            "description": "GROO MAX - SMOOTHIE Z JAGODAMI I BRZOSKWINIĄ",
+            "keywords": "null"
+          }
+        }
+      },
+      {
+        "name": "GROO MAX - BLACKBERRY ICE",
+        "slug": "groo-max-blackberry-ice",
+        "original_excerpt": "GROO MAX - BLACKBERRY ICE",
+        "original_content": "<h2>Description</h2><p>GROO MAX - BLACKBERRY ICE</p><p>GROO MAX is a device for leisure vaping, <b>10000 PUFFS</b> made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.</p><h4>Features:</h4><ul><li>1 x GROO MAX disposable device</li><li>Pre-charged, Simply puff on the device to activate</li><li>Up to 10000 Puffs per disposable</li><li>Compact, Light, and Portable</li></ul>",
+        "images": [
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/dbd608ea-7693-46e6-b620-e58ca58c45d1",
+            "alt": "GROO MAX - BLACKBERRY ICE"
+          }
+        ],
+        "original_seo": {
+          "description": "GROO MAX - BLACKBERRY ICE",
+          "keywords": "GROO MAX, BLACKBERRY ICE, disposable vape, 10000 puffs"
+        },
+        "content": {
+          "en": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-4'>Description</h2><p class='text-lg font-medium mb-4'>GROO MAX - BLACKBERRY ICE</p><p class='mb-4'>GROO MAX is a device for leisure vaping, <strong class='font-semibold'>10000 PUFFS</strong> made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.</p><h4 class='text-lg font-semibold mb-3'>Features:</h4><ul class='list-disc pl-5 space-y-2'><li>1 x GROO MAX disposable device</li><li>Pre-charged, Simply puff on the device to activate</li><li>Up to 10000 Puffs per disposable</li><li>Compact, Light, and Portable</li></ul></div>",
+          "es": "<h2 class='text-xl font-bold mb-2'>Descripción</h2><p class='text-lg font-semibold'>GROO MAX - BLACKBERRY ICE</p><p class='mb-4'>GROO MAX es un dispositivo para vapeo recreativo, <b class='font-bold'>10000 PUFFS</b> fabricado en acero inoxidable ligero, proporcionando una sensación cómoda al sostenerlo. Con sabores increíbles y una gran capacidad, GROO MAX estará ahí cuando lo necesites.</p><h4 class='text-lg font-semibold mb-2'>Características:</h4><ul class='list-disc pl-5 space-y-1'><li>1 x dispositivo desechable GROO MAX</li><li>Precargado, simplemente inhala para activar</li><li>Hasta 10000 caladas por dispositivo</li><li>Compacto, ligero y portátil</li></ul>",
+          "fr": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-4'>Description</h2><p class='text-lg font-semibold mb-2'>GROO MAX - BLACKBERRY ICE</p><p class='mb-4'>GROO MAX est un dispositif de vapotage de loisir, <b>10000 PUFFS</b> fabriqué en acier inoxydable léger, offrant une prise en main confortable. Avec des saveurs exceptionnelles et une grande capacité, GROO MAX sera là chaque fois que vous en aurez besoin.</p><h4 class='font-bold mb-2'>Caractéristiques :</h4><ul class='list-disc pl-5 space-y-1'><li>1 x dispositif jetable GROO MAX</li><li>Pré-chargé, il suffit de tirer sur l'appareil pour l'activer</li><li>Jusqu'à 10000 bouffées par dispositif</li><li>Compact, léger et portable</li></ul></div>",
+          "de": "<h2 class='text-xl font-bold mb-2'>Beschreibung</h2><p class='mb-4'>GROO MAX - BLACKBERRY ICE</p><p class='mb-4'>GROO MAX ist ein Gerät für entspanntes Dampfen, <b class='font-semibold'>10000 PUFFS</b> aus leichtem Edelstahl, das ein angenehmes Handgefühl bietet. Mit fantastischen Aromen und einer großen Kapazität ist GROO MAX immer da, wenn Sie ihn brauchen.</p><h4 class='text-lg font-semibold mb-2'>Merkmale:</h4><ul class='list-disc pl-5 mb-4'><li class='mb-1'>1 x GROO MAX Einweg-Gerät</li><li class='mb-1'>Vorgeladen, einfach ziehen, um zu aktivieren</li><li class='mb-1'>Bis zu 10000 Züge pro Einweg-Gerät</li><li class='mb-1'>Kompakt, leicht und tragbar</li></ul>",
+          "it": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-4'>Descrizione</h2><p class='text-lg font-semibold'>GROO MAX - BLACKBERRY ICE</p><p class='mt-2'>GROO MAX è un dispositivo per lo svapo ricreativo, <b class='font-bold'>10000 PUFF</b> realizzato in acciaio inossidabile leggero, che offre una sensazione di presa confortevole. Con gusti straordinari e una grande capacità, GROO MAX sarà sempre con te quando ne avrai bisogno.</p><h4 class='text-lg font-semibold mt-4'>Caratteristiche:</h4><ul class='list-disc pl-5 mt-2 space-y-1'><li>1 x dispositivo monouso GROO MAX</li><li>Precaricato, basta aspirare per attivare</li><li>Fino a 10000 puff per dispositivo</li><li>Compatto, leggero e portatile</li></ul></div>",
+          "pt": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-4'>Descrição</h2><p class='mb-4'><span class='font-bold'>GROO MAX - BLACKBERRY ICE</span></p><p class='mb-4'>O GROO MAX é um dispositivo para vaping recreativo, com <b class='font-bold'>10000 PUFFS</b>, feito de aço inoxidável leve, proporcionando uma sensação confortável ao segurar. Com sabores incríveis e uma grande capacidade, o GROO MAX estará disponível sempre que você precisar.</p><h4 class='text-lg font-semibold mb-3'>Características:</h4><ul class='list-disc pl-5 space-y-2'><li>1 x dispositivo descartável GROO MAX</li><li>Pré-carregado, basta puxar para ativar</li><li>Até 10000 puffs por dispositivo</li><li>Compacto, leve e portátil</li></ul></div>",
+          "ru": "<h2 class='text-xl font-bold mb-4'>Описание</h2><p class='text-lg font-semibold'>GROO MAX - BLACKBERRY ICE</p><p class='mb-4'>GROO MAX — это устройство для отдыха и вейпинга, <b class='font-bold'>10000 затяжек</b>, изготовленное из легкой нержавеющей стали, обеспечивающей комфортное ощущение в руке. С потрясающими вкусами и большой емкостью, GROO MAX всегда будет рядом, когда он вам понадобится.</p><h4 class='text-lg font-semibold mb-2'>Особенности:</h4><ul class='list-disc pl-5 space-y-1'><li>1 x одноразовое устройство GROO MAX</li><li>Предварительно заряжен, просто сделайте затяжку для активации</li><li>До 10000 затяжек на одно устройство</li><li>Компактный, легкий и портативный</li></ul>",
+          "pl": "<h2 class='text-xl font-bold mb-2'>Opis</h2><p class='text-lg font-semibold'>GROO MAX - BLACKBERRY ICE</p><p class='mb-4'>GROO MAX to urządzenie do rekreacyjnego wapowania, <b class='font-bold'>10000 PUFFS</b> wykonane z lekkiej stali nierdzewnej, zapewniające komfortowe uczucie w dłoni. Dzięki niesamowitym smakom i dużej pojemności, GROO MAX będzie tam, gdzie go potrzebujesz.</p><h4 class='text-lg font-semibold mb-2'>Cechy:</h4><ul class='list-disc pl-5 mb-4'><li class='mb-1'>1 x jednorazowe urządzenie GROO MAX</li><li class='mb-1'>Wstępnie naładowane, wystarczy zaciągnąć się, aby aktywować</li><li class='mb-1'>Do 10000 zaciągnięć na urządzenie</li><li class='mb-1'>Kompaktowe, lekkie i przenośne</li></ul>"
+        },
+        "excerpt": {
+          "en": "GROO MAX - BLACKBERRY ICE",
+          "es": "GROO MAX - BLACKBERRY ICE",
+          "fr": "GROO MAX - BLACKBERRY ICE",
+          "de": "GROO MAX - BLACKBERRY ICE",
+          "it": "GROO MAX - BLACKBERRY ICE",
+          "pt": "GROO MAX - BLACKBERRY ICE",
+          "ru": "GROO MAX - BLACKBERRY ICE",
+          "pl": "GROO MAX - BLACKBERRY ICE"
+        },
+        "seo": {
+          "en": {
+            "description": "GROO MAX - BLACKBERRY ICE",
+            "keywords": "GROO MAX, BLACKBERRY ICE, disposable vape, 10000 puffs"
+          },
+          "es": {
+            "description": "GROO MAX - BLACKBERRY ICE",
+            "keywords": "GROO MAX, BLACKBERRY ICE, vape desechable, 10000 caladas"
+          },
+          "fr": {
+            "description": "GROO MAX - BLACKBERRY ICE",
+            "keywords": "GROO MAX, BLACKBERRY ICE, cigarette électronique jetable, 10000 bouffées"
+          },
+          "de": {
+            "description": "GROO MAX - BLACKBERRY ICE",
+            "keywords": "GROO MAX, BLACKBERRY ICE, Einweg-Vape, 10000 Züge"
+          },
+          "it": {
+            "description": "GROO MAX - BLACKBERRY ICE, dispositivo monouso per svapo con 10000 puff e gusto fruttato.",
+            "keywords": "GROO MAX, BLACKBERRY ICE, svapo monouso, 10000 puff"
+          },
+          "pt": {
+            "description": "GROO MAX - BLACKBERRY ICE: dispositivo descartável com 10000 puffs, sabor gelado de amora-preta.",
+            "keywords": "GROO MAX, BLACKBERRY ICE, vape descartável, 10000 puffs, pod descartável"
+          },
+          "ru": {
+            "description": "GROO MAX - BLACKBERRY ICE",
+            "keywords": "GROO MAX, BLACKBERRY ICE, одноразовый вейп, 10000 затяжек"
+          },
+          "pl": {
+            "description": "GROO MAX - BLACKBERRY ICE",
+            "keywords": "GROO MAX, BLACKBERRY ICE, jednorazowy e-papieros, 10000 zaciągnięć"
+          }
+        }
+      },
+      {
+        "name": "GROO MAX -GRAPE ICE",
+        "slug": "groo-max-grape-ice",
+        "original_excerpt": "GROO MAX - GRAPE ICE",
+        "original_content": "GROO MAX - GRAPE ICE\n\nGROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.\n\nFeatures:\n- 1 x GROO MAX disposable device\n- Pre-charged, Simply puff on the device to activate\n- Up to 10000 Puffs per disposable\n- Compact, Light, and Portable",
+        "images": [
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/cfe86a11-d938-47c7-b3a4-6ac695b7a310",
+            "alt": "GROO MAX -GRAPE ICE"
+          }
+        ],
+        "original_seo": {
+          "description": "GROO MAX - GRAPE ICE",
+          "keywords": "GROO MAX, GRAPE ICE, disposable vape, 10000 puffs"
+        },
+        "content": {
+          "en": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-2'>GROO MAX - GRAPE ICE</h2><p class='mb-4'>GROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.</p><h3 class='font-semibold mb-2'>Features:</h3><ul class='list-disc pl-5 space-y-1'><li>1 x GROO MAX disposable device</li><li>Pre-charged, Simply puff on the device to activate</li><li>Up to 10000 Puffs per disposable</li><li>Compact, Light, and Portable</li></ul></div>",
+          "es": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-purple-800'>GROO MAX - GRAPE ICE</h1><p class='mt-2 text-gray-700'>GROO MAX es un dispositivo para vapeo recreativo, con 10000 PUFFS fabricado en acero inoxidable ligero, que proporciona una sensación cómoda al sostenerlo. Con sabores increíbles y una gran capacidad, GROO MAX estará ahí cuando lo necesites.</p><ul class='mt-3 list-disc pl-5 text-gray-700'><li>1 x dispositivo desechable GROO MAX</li><li>Precargado, simplemente inhala para activar</li><li>Hasta 10000 caladas por dispositivo</li><li>Compacto, ligero y portátil</li></ul></div>",
+          "fr": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-purple-800'>GROO MAX - GLACE RAISIN</h1><p class='mt-2 text-gray-700'>GROO MAX est un dispositif de vapotage loisir, 10000 PUFFS fabriqué en acier inoxydable léger, offrant une prise en main confortable. Avec des saveurs exceptionnelles et une grande capacité, GROO MAX sera là quand vous en aurez besoin.</p><ul class='mt-3 list-disc pl-5 text-gray-700'><li>1 x dispositif jetable GROO MAX</li><li>Pré-chargé, il suffit de tirer pour activer</li><li>Jusqu'à 10000 bouffées par dispositif</li><li>Compact, léger et portable</li></ul></div>",
+          "de": "<div class='font-sans text-gray-800'><h1 class='text-2xl font-bold mb-4'>GROO MAX - TRAUBEN EIS</h1><p class='mb-4'>GROO MAX ist ein Gerät für das Freizeit-Dampfen, 10000 PUFFS aus leichtem Edelstahl, das ein angenehmes Handgefühl bietet. Mit erstaunlichen Aromen und einer großen Kapazität ist GROO MAX immer da, wenn Sie ihn brauchen.</p><h2 class='text-xl font-semibold mb-2'>Merkmale:</h2><ul class='list-disc pl-5 space-y-1'><li>1 x GROO MAX Einweg-Gerät</li><li>Voraufgeladen, einfach am Gerät ziehen, um es zu aktivieren</li><li>Bis zu 10000 Züge pro Einweg-Gerät</li><li>Kompakt, leicht und tragbar</li></ul></div>",
+          "it": "<div class='text-gray-800 font-sans'><h1 class='text-2xl font-bold mb-4'>GROO MAX - GRAPE ICE</h1><p class='mb-4'>GROO MAX è un dispositivo per lo svapo ricreativo, con <span class='font-semibold'>10.000 PUFF</span> realizzato in acciaio inossidabile leggero, che offre una sensazione di presa confortevole. Con gusti incredibili e una grande capacità, GROO MAX sarà sempre a tua disposizione quando ne avrai bisogno.</p><h2 class='text-xl font-semibold mb-2'>Caratteristiche:</h2><ul class='list-disc pl-6 mb-4'><li>1 x dispositivo monouso GROO MAX</li><li>Precaricato, basta svapare per attivarlo</li><li>Fino a <span class='font-semibold'>10.000 puff</span> per dispositivo</li><li>Compatto, leggero e portatile</li></ul></div>",
+          "pt": "<div class='font-sans text-gray-800'><h2 class='text-xl font-bold mb-2'>GROO MAX - UVA GELADA</h2><p class='mb-4'>GROO MAX é um dispositivo para vaping recreativo, com 10000 tragadas, feito de aço inoxidável leve, proporcionando uma sensação confortável na mão. Com sabores incríveis e grande capacidade, o GROO MAX estará lá sempre que você precisar.</p><ul class='list-disc pl-5 space-y-1'><li>1 x dispositivo descartável GROO MAX</li><li>Pré-carregado, basta puxar para ativar</li><li>Até 10000 tragadas por dispositivo</li><li>Compacto, leve e portátil</li></ul></div>",
+          "ru": "<div class='text-gray-800 font-sans'><h1 class='text-xl font-bold mb-2'>GROO MAX - ВИНОГРАДНЫЙ ЛЁД</h1><p class='mb-4'>GROO MAX – это устройство для отдыха и вейпинга, 10000 затяжек, изготовленное из легкой нержавеющей стали, обеспечивающей комфортные ощущения в руке. С потрясающими вкусами и большой емкостью, GROO MAX будет рядом, когда он вам понадобится.</p><h2 class='text-lg font-semibold mb-2'>Особенности:</h2><ul class='list-disc pl-5 space-y-1'><li>1 x GROO MAX одноразовое устройство</li><li>Заряжен заранее, просто сделайте затяжку для активации</li><li>До 10000 затяжек на одно устройство</li><li>Компактный, легкий и портативный</li></ul></div>",
+          "pl": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-purple-800'>GROO MAX - GRAPE ICE</h1><p class='mt-2 text-gray-700'>GROO MAX to urządzenie do rekreacyjnego wapowania, 10000 PUFFS wykonane z lekkiej stali nierdzewnej, zapewniające komfortowy chwyt. Dzięki niesamowitym smakom i dużej pojemności, GROO MAX będzie tam, gdzie go potrzebujesz.</p><ul class='mt-4 list-disc pl-5 text-gray-700'><li>1 x jednorazowe urządzenie GROO MAX</li><li>Wstępnie naładowane, wystarczy zaciągnąć się, aby aktywować</li><li>Do 10000 zaciągnięć na urządzenie</li><li>Kompaktowe, lekkie i przenośne</li></ul></div>"
+        },
+        "excerpt": {
+          "en": "GROO MAX - GRAPE ICE",
+          "es": "GROO MAX - GRAPE ICE",
+          "fr": "GROO MAX - GLACE RAISIN",
+          "de": "GROO MAX - TRAUBEN EIS",
+          "it": "GROO MAX - GRAPE ICE",
+          "pt": "GROO MAX - UVA GELADA",
+          "ru": "GROO MAX - ВИНОГРАДНЫЙ ЛЁД",
+          "pl": "GROO MAX - GRAPE ICE"
+        },
+        "seo": {
+          "en": {
+            "description": "GROO MAX - GRAPE ICE",
+            "keywords": "GROO MAX, GRAPE ICE, disposable vape, 10000 puffs"
+          },
+          "es": {
+            "description": "GROO MAX - GRAPE ICE",
+            "keywords": "GROO MAX, GRAPE ICE, vape desechable, 10000 caladas"
+          },
+          "fr": {
+            "description": "GROO MAX - GLACE RAISIN, un dispositif de vapotage jetable avec 10000 bouffées et une saveur rafraîchissante de glace raisin.",
+            "keywords": "GROO MAX, GLACE RAISIN, cigarette électronique jetable, 10000 bouffées"
+          },
+          "de": {
+            "description": "GROO MAX - TRAUBEN EIS",
+            "keywords": "GROO MAX, TRAUBEN EIS, Einweg-Vape, 10000 Züge"
+          },
+          "it": {
+            "description": "GROO MAX - GRAPE ICE, un dispositivo per svapo monouso con 10.000 puff, gusti incredibili e design compatto.",
+            "keywords": "GROO MAX, GRAPE ICE, svapo monouso, 10000 puff"
+          },
+          "pt": {
+            "description": "GROO MAX - UVA GELADA",
+            "keywords": "GROO MAX, UVA GELADA, vape descartável, 10000 tragadas"
+          },
+          "ru": {
+            "description": "GROO MAX - ВИНОГРАДНЫЙ ЛЁД",
+            "keywords": "GROO MAX, ВИНОГРАДНЫЙ ЛЁД, одноразовый вейп, 10000 затяжек"
+          },
+          "pl": {
+            "description": "GROO MAX - GRAPE ICE",
+            "keywords": "GROO MAX, GRAPE ICE, jednorazowy e-papieros, 10000 zaciągnięć"
+          }
+        }
+      },
+      {
+        "name": "GROO MAX - LEMON LIME",
+        "slug": "groo-max-lemon-lime",
+        "original_excerpt": "GROO MAX - LEMON LIME",
+        "original_content": "GROO MAX - LEMON LIME\n\nGROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.\n\nFeatures:\n- 1 x GROO MAX disposable device\n- Pre-charged, Simply puff on the device to activate\n- Up to 10000 Puffs per disposable\n- Compact, Light, and Portable",
+        "images": [
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/c558945c-ed97-414f-9e51-6fbdf3706e08",
+            "alt": "GROO MAX - LEMON LIME"
+          }
+        ],
+        "original_seo": {
+          "description": "GROO MAX - LEMON LIME",
+          "keywords": "GROO MAX, LEMON LIME, disposable vape, 10000 puffs"
+        },
+        "content": {
+          "en": "<div class='font-sans text-gray-800'><h1 class='text-2xl font-bold mb-4'>GROO MAX - LEMON LIME</h1><p class='mb-4'>GROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.</p><h2 class='text-xl font-semibold mb-2'>Features:</h2><ul class='list-disc pl-5 mb-4'><li>1 x GROO MAX disposable device</li><li>Pre-charged, Simply puff on the device to activate</li><li>Up to 10000 Puffs per disposable</li><li>Compact, Light, and Portable</li></ul></div>",
+          "es": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-green-600 mb-2'>GROO MAX - LIMÓN LIMA</h2><p class='text-gray-700 mb-4'>GROO MAX es un dispositivo para vapeo recreativo, con 10000 caladas, fabricado en acero inoxidable ligero que proporciona una sensación cómoda al sostenerlo. Con sabores increíbles y una gran capacidad, GROO MAX estará ahí cuando lo necesites.</p><h3 class='font-semibold text-lg text-gray-800 mb-2'>Características:</h3><ul class='list-disc pl-5 text-gray-700'><li>1 x dispositivo desechable GROO MAX</li><li>Precargado, simplemente inhala para activar</li><li>Hasta 10000 caladas por dispositivo</li><li>Compacto, ligero y portátil</li></ul></div>",
+          "fr": "<div class='font-sans text-gray-800'><h1 class='text-2xl font-bold mb-4'>GROO MAX - CITRON VERT</h1><p class='mb-4'>GROO MAX est un dispositif de vapotage loisir, offrant 10000 PUFFS fabriqué en acier inoxydable léger, procurant une prise en main confortable. Avec des saveurs exceptionnelles et une grande capacité, GROO MAX sera là dès que vous en aurez besoin.</p><ul class='list-disc pl-5 space-y-2'><li>1 x dispositif jetable GROO MAX</li><li>Pré-chargé, il suffit de tirer pour activer</li><li>Jusqu'à 10000 bouffées par dispositif</li><li>Compact, léger et portable</li></ul></div>",
+          "de": "<div class='prose max-w-none'><h2 class='text-xl font-bold'>GROO MAX - ZITRONEN-LIMETTE</h2><p class='mt-2'>GROO MAX ist ein Gerät für entspanntes Dampfen, 10.000 Züge aus leichtem Edelstahl, das ein angenehmes Handgefühl bietet. Mit fantastischen Aromen und einer großen Kapazität ist GROO MAX immer da, wenn Sie ihn brauchen.</p><h3 class='text-lg font-semibold mt-4'>Merkmale:</h3><ul class='list-disc pl-5 mt-2'><li>1 x GROO MAX Einweg-Gerät</li><li>Vorgeladen, einfach am Gerät ziehen, um es zu aktivieren</li><li>Bis zu 10.000 Züge pro Einweg-Gerät</li><li>Kompakt, leicht und tragbar</li></ul></div>",
+          "it": "<div class='font-sans text-gray-800'><h1 class='text-2xl font-bold mb-4'>GROO MAX - LIMONE E LIME</h1><p class='mb-4'>GROO MAX è un dispositivo per lo svapo ricreativo, con <span class='font-semibold'>10.000 PUFF</span> realizzato in acciaio inossidabile leggero, che offre una sensazione di presa confortevole. Con gusti incredibili e una grande capacità, GROO MAX sarà sempre a tua disposizione quando ne avrai bisogno.</p><h2 class='text-xl font-semibold mb-2'>Caratteristiche:</h2><ul class='list-disc pl-5 space-y-1'><li>1 x dispositivo monouso GROO MAX</li><li>Precaricato, basta aspirare per attivarlo</li><li>Fino a <span class='font-semibold'>10.000 puff</span> per dispositivo</li><li>Compatto, leggero e portatile</li></ul></div>",
+          "pt": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-green-600 mb-2'>GROO MAX - LIMÃO E LIMA</h2><p class='text-gray-700 mb-4'>GROO MAX é um dispositivo para vaporização recreativa, com 10000 PUFFS feito de aço inoxidável leve, proporcionando uma sensação confortável na mão. Com sabores incríveis e uma grande capacidade, o GROO MAX estará lá sempre que você precisar.</p><h3 class='font-semibold text-gray-800 mb-2'>Características:</h3><ul class='list-disc pl-5 text-gray-700'><li>1 x dispositivo descartável GROO MAX</li><li>Pré-carregado, basta puxar para ativar</li><li>Até 10000 Puffs por dispositivo</li><li>Compacto, leve e portátil</li></ul></div>",
+          "ru": "<div class='font-sans text-gray-800'><h1 class='text-2xl font-bold mb-4'>GROO MAX - ЛИМОН ЛАЙМ</h1><p class='mb-4'>GROO MAX — это устройство для отдыха и вейпинга, 10000 затяжек, изготовленное из легкой нержавеющей стали, обеспечивающей комфортные ощущения в руке. С потрясающими вкусами и большой емкостью, GROO MAX будет рядом, когда он вам понадобится.</p><h2 class='text-xl font-semibold mb-2'>Особенности:</h2><ul class='list-disc pl-5 mb-4'><li>1 x GROO MAX одноразовое устройство</li><li>Предварительно заряженное, просто сделайте затяжку, чтобы активировать</li><li>До 10000 затяжек на одно устройство</li><li>Компактное, легкое и портативное</li></ul></div>",
+          "pl": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-2'>GROO MAX - LEMON LIME</h2><p class='mb-4'>GROO MAX to urządzenie do rekreacyjnego wapowania, wykonane z lekkiej stali nierdzewnej, zapewniające komfortowy chwyt. Dzięki niesamowitym smakom i dużej pojemności, GROO MAX będzie tam, gdzie go potrzebujesz.</p><h3 class='font-semibold mb-2'>Cechy:</h3><ul class='list-disc pl-5 space-y-1'><li>1 x jednorazowe urządzenie GROO MAX</li><li>Wstępnie naładowane, wystarczy zaciągnąć się, aby aktywować</li><li>Do 10000 zaciągnięć na jednym urządzeniu</li><li>Kompaktowe, lekkie i przenośne</li></ul></div>"
+        },
+        "excerpt": {
+          "en": "GROO MAX - LEMON LIME",
+          "es": "GROO MAX - LIMÓN LIMA",
+          "fr": "GROO MAX - CITRON VERT",
+          "de": "GROO MAX - ZITRONEN-LIMETTE",
+          "it": "GROO MAX - LIMONE E LIME",
+          "pt": "GROO MAX - LIMÃO E LIMA",
+          "ru": "GROO MAX - ЛИМОН ЛАЙМ",
+          "pl": "GROO MAX - LEMON LIME"
+        },
+        "seo": {
+          "en": {
+            "description": "GROO MAX - LEMON LIME",
+            "keywords": "GROO MAX, LEMON LIME, disposable vape, 10000 puffs"
+          },
+          "es": {
+            "description": "GROO MAX - LIMÓN LIMA",
+            "keywords": "GROO MAX, LIMÓN LIMA, vape desechable, 10000 caladas"
+          },
+          "fr": {
+            "description": "GROO MAX - CITRON VERT",
+            "keywords": "GROO MAX, CITRON VERT, cigarette électronique jetable, 10000 bouffées"
+          },
+          "de": {
+            "description": "GROO MAX - ZITRONEN-LIMETTE",
+            "keywords": "GROO MAX, ZITRONEN-LIMETTE, Einweg-Vape, 10000 Züge"
+          },
+          "it": {
+            "description": "GROO MAX - LIMONE E LIME, dispositivo monouso per svapo con 10.000 puff, gustoso e portatile.",
+            "keywords": "GROO MAX, LIMONE E LIME, svapo monouso, 10000 puff"
+          },
+          "pt": {
+            "description": "GROO MAX - LIMÃO E LIMA",
+            "keywords": "GROO MAX, LIMÃO E LIMA, vape descartável, 10000 puffs"
+          },
+          "ru": {
+            "description": "GROO MAX - ЛИМОН ЛАЙМ",
+            "keywords": "GROO MAX, ЛИМОН ЛАЙМ, одноразовый вейп, 10000 затяжек"
+          },
+          "pl": {
+            "description": "GROO MAX - LEMON LIME - jednorazowe e-papierosy o pojemności 10000 zaciągnięć",
+            "keywords": "GROO MAX, LEMON LIME, jednorazowy e-papieros, 10000 zaciągnięć"
+          }
+        }
+      },
+      {
+        "name": "GROO MAX -COCONUT PINEAPPLE",
+        "slug": "groo-max-coconut-pineapple",
+        "original_excerpt": "GROO MAX - COCONUT PINEAPPLE",
+        "original_content": "GROO MAX - COCONUT PINEAPPLE\n\nGROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.\n\nFeatures:\n- 1 x GROO MAX disposable device\n- Pre-charged, Simply puff on the device to activate\n- Up to 10000 Puffs per disposable\n- Compact, Light, and Portable",
+        "images": [
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/87287d37-d7ca-4118-a083-3075f27a2852",
+            "alt": "GROO MAX -COCONUT PINEAPPLE"
+          }
+        ],
+        "original_seo": {
+          "description": "GROO MAX - COCONUT PINEAPPLE",
+          "keywords": ""
+        },
+        "content": {
+          "en": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-2'>GROO MAX - COCONUT PINEAPPLE</h2><p class='mb-4'>GROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.</p><h3 class='font-semibold mb-2'>Features:</h3><ul class='list-disc pl-5 space-y-1'><li>1 x GROO MAX disposable device</li><li>Pre-charged, Simply puff on the device to activate</li><li>Up to 10000 Puffs per disposable</li><li>Compact, Light, and Portable</li></ul></div>",
+          "es": "<div class='text-gray-800 font-sans'><h1 class='text-xl font-bold mb-2'>GROO MAX - COCO PIÑA</h1><p class='mb-4'>GROO MAX es un dispositivo para vapeo recreativo, con 10000 PUFFS fabricado en acero inoxidable ligero, que proporciona una sensación cómoda al sostenerlo. Con sabores increíbles y una gran capacidad, GROO MAX estará ahí cuando lo necesites.</p><ul class='list-disc pl-5 space-y-1'><li>1 x dispositivo desechable GROO MAX</li><li>Precargado, simplemente inhala para activar</li><li>Hasta 10000 caladas por dispositivo</li><li>Compacto, ligero y portátil</li></ul></div>",
+          "fr": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-blue-800'>GROO MAX - COCO ANANAS</h1><p class='mt-2 text-gray-700'>GROO MAX est un dispositif de vapotage de loisir, 10000 PUFFS fabriqué en acier inoxydable léger, offrant une prise en main confortable. Avec des saveurs incroyables et une grande capacité, GROO MAX sera là quand vous en aurez besoin.</p><ul class='mt-4 list-disc pl-5 text-gray-700'><li>1 x dispositif jetable GROO MAX</li><li>Pré-chargé, il suffit de tirer sur l'appareil pour l'activer</li><li>Jusqu'à 10000 bouffées par dispositif jetable</li><li>Compact, léger et portable</li></ul></div>",
+          "de": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-gray-800 mb-2'>GROO MAX - KOKOSNUSS-ANANAS</h2><p class='text-gray-700 mb-4'>GROO MAX ist ein Gerät für den Freizeit-Dampfgenuss, mit 10.000 Zügen aus leichtem Edelstahl, das ein angenehmes Handgefühl bietet. Mit fantastischen Aromen und einer großen Kapazität ist GROO MAX immer da, wenn Sie ihn brauchen.</p><ul class='list-disc pl-5 text-gray-700'><li>1 x GROO MAX Einweg-Dampfgerät</li><li>Vorgeladen, einfach am Gerät ziehen, um es zu aktivieren</li><li>Bis zu 10.000 Züge pro Einweg-Gerät</li><li>Kompakt, leicht und tragbar</li></ul></div>",
+          "it": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-gray-800 mb-2'>GROO MAX - COCCO ANANAS</h2><p class='text-gray-700 mb-4'>GROO MAX è un dispositivo per lo svapo ricreativo, con 10000 PUFF realizzato in acciaio inossidabile leggero, che offre una sensazione di presa confortevole. Con gusti incredibili e una grande capacità, GROO MAX sarà sempre a tua disposizione quando ne avrai bisogno.</p><ul class='list-disc pl-5 text-gray-700'><li>1 x dispositivo monouso GROO MAX</li><li>Precaricato, basta aspirare per attivare</li><li>Fino a 10000 puff per dispositivo</li><li>Compatto, leggero e portatile</li></ul></div>",
+          "pt": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-gray-800 mb-2'>GROO MAX - COCO ABACAXI</h2><p class='text-gray-700 mb-4'>GROO MAX é um dispositivo para vaporização recreativa, com 10000 PUFFS feito de aço inoxidável leve, proporcionando uma sensação confortável ao segurar. Com sabores incríveis e grande capacidade, o GROO MAX estará lá sempre que você precisar.</p><ul class='list-disc pl-5 text-gray-700'><li>1 x dispositivo descartável GROO MAX</li><li>Pré-carregado, basta puxar para ativar</li><li>Até 10000 tragadas por dispositivo</li><li>Compacto, leve e portátil</li></ul></div>",
+          "ru": "<div class='font-sans text-gray-800'><h1 class='text-2xl font-bold mb-4'>GROO MAX - КОКОСОВЫЙ АНАНАС</h1><p class='mb-4'>GROO MAX - это устройство для отдыха и вейпинга, 10000 затяжек, изготовленное из легкой нержавеющей стали, обеспечивающей комфортное ощущение в руке. С потрясающими вкусами и большой емкостью, GROO MAX будет рядом, когда он вам понадобится.</p><h2 class='text-xl font-semibold mb-2'>Характеристики:</h2><ul class='list-disc pl-5 mb-4'><li>1 x одноразовое устройство GROO MAX</li><li>Предварительно заряжено, просто сделайте затяжку для активации</li><li>До 10000 затяжек на одно устройство</li><li>Компактное, легкое и портативное</li></ul></div>",
+          "pl": "<div class='bg-white p-4 rounded-lg shadow-md'><h1 class='text-xl font-bold text-gray-800 mb-2'>GROO MAX - KOKOS ANANAS</h1><p class='text-gray-600 mb-4'>GROO MAX to urządzenie do rekreacyjnego wapowania, 10000 PUFFS wykonane z lekkiej stali nierdzewnej, zapewniające komfortowe uczucie w dłoni. Dzięki niesamowitym smakom i dużej pojemności, GROO MAX będzie tam, gdzie go potrzebujesz.</p><ul class='list-disc pl-5 text-gray-600'><li>1 x jednorazowe urządzenie GROO MAX</li><li>Wstępnie naładowane, wystarczy zaciągnąć się, aby aktywować</li><li>Do 10000 zaciągnięć na jednorazówkę</li><li>Kompaktowe, lekkie i przenośne</li></ul></div>"
+        },
+        "excerpt": {
+          "en": "GROO MAX - COCONUT PINEAPPLE",
+          "es": "GROO MAX - COCO PIÑA",
+          "fr": "GROO MAX - COCO ANANAS",
+          "de": "GROO MAX - KOKOSNUSS-ANANAS",
+          "it": "GROO MAX - COCCO ANANAS",
+          "pt": "GROO MAX - COCO ABACAXI",
+          "ru": "GROO MAX - КОКОСОВЫЙ АНАНАС",
+          "pl": "GROO MAX - KOKOS ANANAS"
+        },
+        "seo": {
+          "en": {
+            "description": "GROO MAX - COCONUT PINEAPPLE",
+            "keywords": ""
+          },
+          "es": {
+            "description": "GROO MAX - COCO PIÑA",
+            "keywords": ""
+          },
+          "fr": {
+            "description": "GROO MAX - COCO ANANAS",
+            "keywords": ""
+          },
+          "de": {
+            "description": "GROO MAX - KOKOSNUSS-ANANAS",
+            "keywords": ""
+          },
+          "it": {
+            "description": "GROO MAX - COCCO ANANAS",
+            "keywords": ""
+          },
+          "pt": {
+            "description": "GROO MAX - COCO ABACAXI",
+            "keywords": "vape, GROO MAX, coco abacaxi, dispositivo descartável, 10000 puff"
+          },
+          "ru": {
+            "description": "GROO MAX - КОКОСОВЫЙ АНАНАС",
+            "keywords": ""
+          },
+          "pl": {
+            "description": "GROO MAX - KOKOS ANANAS",
+            "keywords": ""
+          }
+        }
+      },
+      {
+        "name": "GROO MAX - BLUEBERRY ICE",
+        "slug": "groo-max-blueberry-ice",
+        "original_excerpt": "GROO MAX - BLUEBERRY ICE",
+        "original_content": "GROO MAX - BLUEBERRY ICE\n\nGROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.\n\nFeatures:\n- 1 x GROO MAX disposable device\n- Pre-charged, Simply puff on the device to activate\n- Up to 10000 Puffs per disposable\n- Compact, Light, and Portable",
+        "images": [
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/9a99d269-162c-4829-ad10-3c2dfd2c87a1",
+            "alt": "GROO MAX - BLUEBERRY ICE"
+          }
+        ],
+        "original_seo": {
+          "description": "GROO MAX - BLUEBERRY ICE",
+          "keywords": null
+        },
+        "content": {
+          "en": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-4'>GROO MAX - BLUEBERRY ICE</h2><p class='mb-4'>GROO MAX is a leisure vaping device offering <span class='font-semibold'>10,000 PUFFS</span>, crafted from lightweight stainless steel for a comfortable grip. With <span class='font-semibold'>exceptional flavors</span> and a generous e-liquid capacity, GROO MAX is your reliable vaping companion.</p><h3 class='text-lg font-semibold mb-2'>Features:</h3><ul class='list-disc pl-6 space-y-1'><li>1 × GROO MAX disposable device</li><li>Pre-charged – simply puff to activate</li><li>Up to <span class='font-semibold'>10,000 puffs</span> per device</li><li>Compact, lightweight, and portable design</li></ul></div>",
+          "es": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-blue-800'>GROO MAX - BLUEBERRY ICE</h1><p class='mt-2 text-gray-700'>GROO MAX es un dispositivo para vapeo recreativo, con 10000 caladas, fabricado en acero inoxidable ligero que proporciona una sensación cómoda al sostenerlo. Con sabores increíbles y una gran capacidad, GROO MAX estará ahí cuando lo necesites.</p><ul class='mt-4 list-disc pl-5 text-gray-700'><li>1 x dispositivo desechable GROO MAX</li><li>Precargado, simplemente inhala para activarlo</li><li>Hasta 10000 caladas por dispositivo</li><li>Compacto, ligero y portátil</li></ul></div>",
+          "fr": "<div class='text-gray-800 font-sans'><h1 class='text-xl font-bold mb-2'>GROO MAX - MYRTILLE GLACÉ</h1><p class='mb-4'>GROO MAX est un dispositif de vapotage de loisir, offrant 10000 PUFFS, fabriqué en acier inoxydable léger pour un confort en main. Avec des saveurs exceptionnelles et une grande capacité, GROO MAX sera là quand vous en aurez besoin.</p><ul class='list-disc pl-5 space-y-1'><li>1 x dispositif jetable GROO MAX</li><li>Pré-chargé, il suffit de tirer pour activer</li><li>Jusqu'à 10000 bouffées par dispositif</li><li>Compact, léger et portable</li></ul></div>",
+          "de": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-blue-800'>GROO MAX - BLAUBEER-EIS</h1><p class='mt-2 text-gray-700'>GROO MAX ist ein Gerät für entspanntes Vaping mit 10.000 Zügen aus leichtem Edelstahl, das ein angenehmes Handgefühl bietet. Mit fantastischen Aromen und einer großen Kapazität ist GROO MAX immer da, wenn Sie ihn brauchen.</p><ul class='mt-4 list-disc pl-5 text-gray-700'><li>1 x GROO MAX Einweg-Vape-Gerät</li><li>Vorgeladen – einfach ziehen, um zu aktivieren</li><li>Bis zu 10.000 Züge pro Einweg-Gerät</li><li>Kompakt, leicht und tragbar</li></ul></div>",
+          "it": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-blue-800 mb-2'>GROO MAX - BLUEBERRY ICE</h2><p class='text-gray-700 mb-4'>GROO MAX è un dispositivo per lo svapo ricreativo, con 10000 PUFFS realizzato in acciaio inossidabile leggero, che offre una sensazione di presa confortevole. Con gusti straordinari e una grande capacità, GROO MAX sarà sempre a tua disposizione quando ne avrai bisogno.</p><ul class='list-disc pl-5 text-gray-700'><li>1 x dispositivo monouso GROO MAX</li><li>Precaricato, basta aspirare per attivare</li><li>Fino a 10000 puff per dispositivo</li><li>Compatto, leggero e portatile</li></ul></div>",
+          "pt": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-blue-800 mb-2'>GROO MAX - BLUEBERRY ICE</h1><p class='text-gray-700 mb-4'>GROO MAX é um dispositivo para vaporização recreativa, com 10000 PUFFS, feito de aço inoxidável leve, proporcionando uma sensação confortável ao segurar. Com sabores incríveis e uma grande capacidade, o GROO MAX estará lá sempre que você precisar.</p><h2 class='text-lg font-semibold text-blue-600 mb-2'>Características:</h2><ul class='list-disc pl-5 text-gray-700'><li>1 x dispositivo descartável GROO MAX</li><li>Pré-carregado, basta puxar para ativar</li><li>Até 10000 tragadas por dispositivo</li><li>Compacto, leve e portátil</li></ul></div>",
+          "ru": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-blue-800 mb-2'>GROO MAX - ГОЛУБИКА СО ЛЬДОМ</h1><p class='text-gray-700 mb-4'>GROO MAX — это устройство для отдыха и вейпинга, 10000 затяжек, изготовленное из легкой нержавеющей стали, обеспечивающей комфортные ощущения в руке. С потрясающими вкусами и большой емкостью, GROO MAX будет рядом, когда он вам понадобится.</p><h2 class='text-lg font-semibold text-blue-600 mb-2'>Характеристики:</h2><ul class='list-disc pl-5 text-gray-700 space-y-1'><li>1 x GROO MAX одноразовое устройство</li><li>Заряжен заранее, просто сделайте затяжку, чтобы активировать</li><li>До 10000 затяжек на одно устройство</li><li>Компактный, легкий и портативный</li></ul></div>",
+          "pl": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-blue-800 mb-2'>GROO MAX - BLUEBERRY ICE</h1><p class='text-gray-700 mb-4'>GROO MAX to urządzenie do rekreacyjnego wapowania, wykonane z lekkiej stali nierdzewnej, zapewniające komfortowe wrażenia w dłoni. Dzięki niesamowitym smakom i dużej pojemności, GROO MAX będzie tam, gdzie go potrzebujesz.</p><h2 class='text-lg font-semibold text-blue-700 mb-2'>Cechy:</h2><ul class='list-disc pl-5 text-gray-700'><li>1 x jednorazowe urządzenie GROO MAX</li><li>Wstępnie naładowane, wystarczy zaciągnąć się, aby aktywować</li><li>Do 10000 zaciągnięć na urządzenie</li><li>Kompaktowe, lekkie i przenośne</li></ul></div>"
+        },
+        "excerpt": {
+          "en": "GROO MAX - BLUEBERRY ICE | 10,000 Puff Disposable Vape",
+          "es": "GROO MAX - BLUEBERRY ICE",
+          "fr": "GROO MAX - MYRTILLE GLACÉ",
+          "de": "GROO MAX - BLAUBEER-EIS",
+          "it": "GROO MAX - BLUEBERRY ICE",
+          "pt": "GROO MAX - BLUEBERRY ICE",
+          "ru": "GROO MAX - ГОЛУБИКА СО ЛЬДОМ",
+          "pl": "GROO MAX - BLUEBERRY ICE"
+        },
+        "seo": {
+          "en": {
+            "description": "GROO MAX disposable vape delivers 10,000 puffs of Blueberry Ice flavor in a sleek stainless steel design. Pre-charged & ready to use.",
+            "keywords": "GROO MAX, Blueberry Ice vape, 10000 puff disposable, stainless steel vape, pre-charged vape"
+          },
+          "es": {
+            "description": "GROO MAX - BLUEBERRY ICE",
+            "keywords": "null"
+          },
+          "fr": {
+            "description": "GROO MAX - MYRTILLE GLACÉ",
+            "keywords": "null"
+          },
+          "de": {
+            "description": "GROO MAX - BLAUBEER-EIS",
+            "keywords": "null"
+          },
+          "it": {
+            "description": "GROO MAX - BLUEBERRY ICE",
+            "keywords": "null"
+          },
+          "pt": {
+            "description": "GROO MAX - BLUEBERRY ICE",
+            "keywords": "null"
+          },
+          "ru": {
+            "description": "GROO MAX - ГОЛУБИКА СО ЛЬДОМ",
+            "keywords": "null"
+          },
+          "pl": {
+            "description": "GROO MAX - BLUEBERRY ICE, urządzenie do wapowania o pojemności 10000 zaciągnięć.",
+            "keywords": "GROO MAX, wapowanie, jednorazowe e-papierosy, Blueberry Ice, 10000 zaciągnięć"
+          }
+        }
+      },
+      {
+        "name": "GROO MAX - MANGO GRAPE",
+        "slug": "groo-max-mango-grape",
+        "original_excerpt": "GROO MAX - MANGO GRAPE",
+        "original_content": "GROO MAX - MANGO GRAPE\n\nGROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.\n\nFeatures:\n- 1 x GROO MAX disposable device\n- Pre-charged, Simply puff on the device to activate\n- Up to 10000 Puffs per disposable\n- Compact, Light, and Portable",
+        "images": [
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/d692c4f4-e858-4d8d-b646-fae88acb94eb",
+            "alt": "GROO MAX - MANGO GRAPE"
+          }
+        ],
+        "original_seo": {
+          "description": "GROO MAX - MANGO GRAPE",
+          "keywords": null
+        },
+        "content": {
+          "en": "<div class='prose max-w-none'><h2 class='text-xl font-bold text-gray-800'>GROO MAX - MANGO GRAPE</h2><p class='mt-2 text-gray-600'>GROO MAX is a leisure vaping device with <span class='font-medium'>10,000 PUFFS</span>, crafted from lightweight stainless steel for a comfortable grip. Featuring exceptional flavors and high capacity, GROO MAX is ready whenever you need it.</p><h3 class='mt-4 font-semibold text-gray-700'>Features:</h3><ul class='mt-2 pl-5 list-disc text-gray-600 space-y-1'><li>1 × GROO MAX disposable device</li><li>Pre-charged – simply puff to activate</li><li>Up to <span class='font-medium'>10,000 Puffs</span> per device</li><li>Compact, lightweight, and portable design</li></ul></div>",
+          "es": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-purple-800'>GROO MAX - MANGO UVA</h1><p class='mt-2 text-gray-700'>GROO MAX es un dispositivo para vapeo recreativo, con 10000 caladas, fabricado en acero inoxidable ligero que proporciona una sensación cómoda al sostenerlo. Con sabores increíbles y una gran capacidad, GROO MAX estará ahí cuando lo necesites.</p><ul class='mt-4 list-disc pl-5 text-gray-700'><li>1 x dispositivo desechable GROO MAX</li><li>Precargado, simplemente inhala para activar</li><li>Hasta 10000 caladas por dispositivo</li><li>Compacto, ligero y portátil</li></ul></div>",
+          "fr": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-indigo-800'>GROO MAX - MANGO RAISIN</h1><p class='mt-2 text-gray-700'>GROO MAX est un dispositif de vapotage loisir, 10000 PUFFS fabriqué en acier inoxydable léger, offrant une prise en main confortable. Avec des saveurs incroyables et une grande capacité, GROO MAX sera là quand vous en aurez besoin.</p><ul class='mt-4 list-disc pl-5 text-gray-700'><li>1 x dispositif jetable GROO MAX</li><li>Pré-chargé, il suffit de tirer sur l'appareil pour l'activer</li><li>Jusqu'à 10000 bouffées par dispositif jetable</li><li>Compact, léger et portable</li></ul></div>",
+          "de": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-indigo-700'>GROO MAX - MANGO TRAUBE</h1><p class='mt-2 text-gray-800'>GROO MAX ist ein Gerät für entspanntes Dampfen, 10.000 Züge aus leichtem Edelstahl für ein angenehmes Handgefühl. Mit fantastischen Aromen und großer Kapazität ist GROO MAX immer da, wenn Sie ihn brauchen.</p><ul class='mt-4 list-disc pl-5 text-gray-700'><li>1 x GROO MAX Einweg-Gerät</li><li>Vorgeladen – einfach ziehen, um zu aktivieren</li><li>Bis zu 10.000 Züge pro Einweg-Gerät</li><li>Kompakt, leicht und tragbar</li></ul></div>",
+          "it": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-gray-800 mb-2'>GROO MAX - MANGO UVA</h2><p class='text-gray-700 mb-4'>GROO MAX è un dispositivo per lo svapo ricreativo, con <span class='font-semibold'>10.000 PUFF</span> realizzato in acciaio inossidabile leggero, che offre una sensazione di presa confortevole. Con gusti incredibili e una grande capacità, GROO MAX sarà al tuo fianco ogni volta che ne avrai bisogno.</p><ul class='list-disc pl-5 text-gray-700'><li>1 x dispositivo monouso GROO MAX</li><li>Precaricato, basta aspirare per attivarlo</li><li>Fino a <span class='font-semibold'>10.000 puff</span> per dispositivo</li><li>Compatto, leggero e portatile</li></ul></div>",
+          "pt": "<div class='text-gray-800 font-sans'><h1 class='text-2xl font-bold mb-4'>GROO MAX - MANGO UVA</h1><p class='mb-4'>GROO MAX é um dispositivo para vaping recreativo, com 10000 PUFFS feito de aço inoxidável leve, proporcionando uma sensação confortável ao segurar. Com sabores incríveis e grande capacidade, o GROO MAX estará lá sempre que você precisar.</p><ul class='list-disc pl-6 mb-4'><li>1 x dispositivo descartável GROO MAX</li><li>Pré-carregado, basta puxar para ativar</li><li>Até 10000 tragadas por dispositivo</li><li>Compacto, leve e portátil</li></ul></div>",
+          "ru": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-gray-800 mb-2'>GROO MAX - МАНГО ВИНОГРАД</h1><p class='text-gray-700 mb-4'>GROO MAX - это устройство для отдыха и вейпинга, 10000 затяжек, изготовленное из легкой нержавеющей стали, обеспечивающей комфортные ощущения в руке. С потрясающими вкусами и большой емкостью, GROO MAX будет рядом, когда он вам понадобится.</p><ul class='list-disc pl-5 text-gray-700'><li class='mb-1'>1 x GROO MAX одноразовое устройство</li><li class='mb-1'>Предварительно заряженное, просто сделайте затяжку, чтобы активировать</li><li class='mb-1'>До 10000 затяжек на одно устройство</li><li class='mb-1'>Компактное, легкое и портативное</li></ul></div>",
+          "pl": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-purple-800 mb-2'>GROO MAX - MANGO GRAPE</h2><p class='text-gray-700 mb-4'>GROO MAX to urządzenie do rekreacyjnego wapowania, oferujące aż <span class='font-semibold'>10 000 zaciągnięć</span>, wykonane z lekkiej stali nierdzewnej, zapewniającej komfortowe trzymanie w dłoni. Dzięki niesamowitym smakom i dużej pojemności, GROO MAX będzie zawsze pod ręką, gdy go potrzebujesz.</p><ul class='list-disc pl-5 text-gray-700'><li class='mb-1'>1 x jednorazowe urządzenie GROO MAX</li><li class='mb-1'>Wstępnie naładowane, wystarczy zaciągnąć się, aby aktywować</li><li class='mb-1'>Do 10 000 zaciągnięć na urządzenie</li><li class='mb-1'>Kompaktowe, lekkie i przenośne</li></ul></div>"
+        },
+        "excerpt": {
+          "en": "GROO MAX - MANGO GRAPE",
+          "es": "GROO MAX - MANGO UVA",
+          "fr": "GROO MAX - MANGO RAISIN",
+          "de": "GROO MAX - MANGO TRAUBE",
+          "it": "GROO MAX - MANGO UVA",
+          "pt": "GROO MAX - MANGO UVA",
+          "ru": "GROO MAX - МАНГО ВИНОГРАД",
+          "pl": "GROO MAX - MANGO GRAPE"
+        },
+        "seo": {
+          "en": {
+            "description": "GROO MAX disposable vape with 10,000 puffs in Mango Grape flavor. Lightweight stainless steel design for portability and comfort.",
+            "keywords": "GROO MAX vape, disposable vape, 10000 puffs, mango grape flavor, portable vape device"
+          },
+          "es": {
+            "description": "GROO MAX - MANGO UVA",
+            "keywords": "null"
+          },
+          "fr": {
+            "description": "GROO MAX - MANGO RAISIN",
+            "keywords": "null"
+          },
+          "de": {
+            "description": "GROO MAX - MANGO TRAUBE",
+            "keywords": "null"
+          },
+          "it": {
+            "description": "GROO MAX - MANGO UVA",
+            "keywords": "null"
+          },
+          "pt": {
+            "description": "GROO MAX - MANGO UVA",
+            "keywords": "null"
+          },
+          "ru": {
+            "description": "GROO MAX - МАНГО ВИНОГРАД",
+            "keywords": "null"
+          },
+          "pl": {
+            "description": "GROO MAX - MANGO GRAPE to jednorazowe urządzenie do wapowania oferujące 10 000 zaciągnięć, wykonane z lekkiej stali nierdzewnej.",
+            "keywords": "GROO MAX, wapowanie, jednorazowe e-papierosy, mango grape, 10000 zaciągnięć"
+          }
+        }
+      },
+      {
+        "name": "GROO MAX - GINGER LIME",
+        "slug": "groo-max-ginger-lime",
+        "original_excerpt": "GROO MAX - GINGER LIME",
+        "original_content": "GROO MAX - GINGER LIME\n\nGROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.\n\nFeatures:\n- 1 x GROO MAX disposable device\n- Pre-charged, Simply puff on the device to activate\n- Up to 10000 Puffs per disposable\n- Compact, Light, and Portable",
+        "images": [
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/737aae03-0fe5-4960-915f-ca28fe2f3905",
+            "alt": "GROO MAX - GINGER LIME"
+          }
+        ],
+        "original_seo": {
+          "description": "GROO MAX - GINGER LIME",
+          "keywords": "GROO MAX, GINGER LIME, disposable vape, 10000 puffs"
+        },
+        "content": {
+          "en": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-2'>GROO MAX - GINGER LIME</h2><p class='mb-4'>GROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.</p><h3 class='text-lg font-semibold mb-2'>Features:</h3><ul class='list-disc pl-5 space-y-1'><li>1 x GROO MAX disposable device</li><li>Pre-charged, Simply puff on the device to activate</li><li>Up to 10000 Puffs per disposable</li><li>Compact, Light, and Portable</li></ul></div>",
+          "es": "<div class='text-gray-800 font-sans'><h1 class='text-xl font-bold mb-2'>GROO MAX - JENGIBRE LIMA</h1><p class='mb-4'>GROO MAX es un dispositivo para vapeo recreativo, con 10000 PUFFS fabricado en acero inoxidable ligero, proporcionando una sensación cómoda al sostenerlo. Con sabores increíbles y una gran capacidad, GROO MAX estará ahí cuando lo necesites.</p><h2 class='text-lg font-semibold mb-2'>Características:</h2><ul class='list-disc pl-5 space-y-1'><li>1 x dispositivo desechable GROO MAX</li><li>Precargado, simplemente inhala para activar</li><li>Hasta 10000 caladas por dispositivo</li><li>Compacto, ligero y portátil</li></ul></div>",
+          "fr": "<div class='text-gray-800 font-sans'><h1 class='text-2xl font-bold mb-4'>GROO MAX - GINGER LIME</h1><p class='mb-4'>GROO MAX est un dispositif de vapotage de loisir, offrant 10000 PUFFS, fabriqué en acier inoxydable léger pour un confort en main optimal. Avec des saveurs exceptionnelles et une grande capacité, GROO MAX sera là dès que vous en aurez besoin.</p><ul class='list-disc pl-5 space-y-2'><li>1 x dispositif jetable GROO MAX</li><li>Préchargé, il suffit de tirer pour activer</li><li>Jusqu'à 10000 bouffées par dispositif</li><li>Compact, léger et portable</li></ul></div>",
+          "de": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-gray-800 mb-2'>GROO MAX - INGWER LIMETTE</h2><p class='text-gray-700 mb-4'>GROO MAX ist ein Gerät für entspanntes Dampfen, 10000 PUFFS aus leichtem Edelstahl, das ein angenehmes Handgefühl bietet. Mit erstaunlichen Aromen und einer großen Kapazität ist GROO MAX immer da, wenn Sie ihn brauchen.</p><ul class='list-disc pl-5 text-gray-700'><li>1 x GROO MAX Einweg-Gerät</li><li>Voraufgeladen, einfach am Gerät ziehen, um es zu aktivieren</li><li>Bis zu 10000 Züge pro Einweg-Gerät</li><li>Kompakt, leicht und tragbar</li></ul></div>",
+          "it": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-gray-800'>GROO MAX - ZENZERO LIME</h2><p class='mt-2 text-gray-700'>GROO MAX è un dispositivo per lo svapo ricreativo, con 10000 PUFFS realizzato in acciaio inossidabile leggero, che offre una sensazione di presa confortevole. Con gusti incredibili e una grande capacità, GROO MAX sarà sempre al tuo fianco quando ne avrai bisogno.</p><ul class='mt-4 list-disc pl-5 text-gray-700'><li>1 x dispositivo monouso GROO MAX</li><li>Precaricato, basta aspirare per attivare</li><li>Fino a 10000 puff per dispositivo</li><li>Compatto, leggero e portatile</li></ul></div>",
+          "pt": "<div class='font-sans text-gray-800'><h1 class='text-2xl font-bold mb-4'>GROO MAX - GENGIBRE LIMA</h1><p class='mb-4'>GROO MAX é um dispositivo para vaporização recreativa, com <span class='font-semibold'>10000 PUFFS</span> feito de aço inoxidável leve, proporcionando uma sensação confortável na mão. Com sabores incríveis e grande capacidade, o GROO MAX estará lá sempre que você precisar.</p><ul class='list-disc pl-6 space-y-2'><li>1 x dispositivo descartável GROO MAX</li><li>Pré-carregado, basta puxar para ativar</li><li>Até 10000 puffs por dispositivo</li><li>Compacto, leve e portátil</li></ul></div>",
+          "ru": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold mb-2'>GROO MAX - ИМБИРЬ ЛАЙМ</h1><p class='mb-4'>GROO MAX - это устройство для отдыха и вейпинга, 10000 затяжек, изготовленное из легкой нержавеющей стали, обеспечивающей комфортное ощущение в руке. С потрясающими вкусами и большой емкостью, GROO MAX будет рядом, когда он вам понадобится.</p><h2 class='text-lg font-semibold mb-2'>Характеристики:</h2><ul class='list-disc pl-5'><li class='mb-1'>1 x GROO MAX одноразовое устройство</li><li class='mb-1'>Предварительно заряжено, просто сделайте затяжку для активации</li><li class='mb-1'>До 10000 затяжек на одно устройство</li><li class='mb-1'>Компактное, легкое и портативное</li></ul></div>",
+          "pl": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-gray-800 mb-2'>GROO MAX - IMBIR LIMA</h2><p class='text-gray-700 mb-4'>GROO MAX to urządzenie do rekreacyjnego wapowania, wykonane z lekkiej stali nierdzewnej, zapewniające komfortowe wrażenia podczas użytkowania. Dzięki niesamowitym smakom i dużej pojemności, GROO MAX będzie tam, gdzie go potrzebujesz.</p><ul class='list-disc pl-5 text-gray-700'><li>1 x jednorazowe urządzenie GROO MAX</li><li>Wstępnie naładowane, wystarczy zaciągnąć się, aby aktywować</li><li>Do 10000 zaciągnięć na urządzenie</li><li>Kompaktowe, lekkie i przenośne</li></ul></div>"
+        },
+        "excerpt": {
+          "en": "GROO MAX - GINGER LIME",
+          "es": "GROO MAX - JENGIBRE LIMA",
+          "fr": "GROO MAX - GINGER LIME",
+          "de": "GROO MAX - INGEWER LIMETTE",
+          "it": "GROO MAX - ZENZERO LIME",
+          "pt": "GROO MAX - GENGIBRE LIMA",
+          "ru": "GROO MAX - ИМБИРЬ ЛАЙМ",
+          "pl": "GROO MAX - IMBIR LIMA"
+        },
+        "seo": {
+          "en": {
+            "description": "GROO MAX - GINGER LIME disposable vape with 10000 puffs, stainless steel design and amazing flavors.",
+            "keywords": "GROO MAX, GINGER LIME, disposable vape, 10000 puffs, stainless steel vape"
+          },
+          "es": {
+            "description": "GROO MAX - JENGIBRE LIMA",
+            "keywords": "GROO MAX, JENGIBRE LIMA, vape desechable, 10000 caladas"
+          },
+          "fr": {
+            "description": "GROO MAX - GINGER LIME",
+            "keywords": "GROO MAX, GINGER LIME, cigarette électronique jetable, 10000 bouffées"
+          },
+          "de": {
+            "description": "GROO MAX - INGEWER LIMETTE",
+            "keywords": "GROO MAX, INGEWER LIMETTE, Einweg-Vape, 10000 Züge"
+          },
+          "it": {
+            "description": "GROO MAX - ZENZERO LIME",
+            "keywords": "GROO MAX, ZENZERO LIME, svapo monouso, 10000 puff"
+          },
+          "pt": {
+            "description": "GROO MAX - GENGIBRE LIMA",
+            "keywords": "GROO MAX, GENGIBRE LIMA, vape descartável, 10000 puffs"
+          },
+          "ru": {
+            "description": "GROO MAX - ИМБИРЬ ЛАЙМ",
+            "keywords": "GROO MAX, ИМБИРЬ ЛАЙМ, одноразовый вейп, 10000 затяжек"
+          },
+          "pl": {
+            "description": "GROO MAX - IMBIR LIMA",
+            "keywords": "GROO MAX, IMBIR LIMA, jednorazowy e-papieros, 10000 zaciągnięć"
+          }
+        }
+      },
+      {
+        "name": "GROO MAX - MENTOS MINT",
+        "slug": "groo-max-mentos-mint",
+        "original_excerpt": "GROO MAX -  MENTOS MINT",
+        "original_content": "GROO MAX -  MENTOS MINT\n\nGROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.\n\nFeatures:\n- 1 x GROO MAX disposable device\n- Pre-charged, Simply puff on the device to activate\n- Up to 10000 Puffs per disposable\n- Compact, Light, and Portable",
+        "images": [
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/0cbca7d1-27ea-4b46-b1bd-ffe89ceb2ab5",
+            "alt": "GROO MAX - MENTOS MINT"
+          }
+        ],
+        "original_seo": {
+          "description": "GROO MAX -  MENTOS MINT",
+          "keywords": "GROO MAX, MENTOS MINT, disposable vape, 10000 puffs"
+        },
+        "content": {
+          "en": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-2'>GROO MAX - MENTOS MINT</h2><p class='mb-4'>GROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.</p><h3 class='text-lg font-semibold mb-2'>Features:</h3><ul class='list-disc pl-5 mb-4'><li>1 x GROO MAX disposable device</li><li>Pre-charged, Simply puff on the device to activate</li><li>Up to 10000 Puffs per disposable</li><li>Compact, Light, and Portable</li></ul></div>",
+          "es": "<div class='font-sans text-gray-800'><h1 class='text-2xl font-bold mb-4'>GROO MAX - MENTOS MINT</h1><p class='mb-4'>GROO MAX es un dispositivo para vapeo recreativo, con <span class='font-semibold'>10,000 PUFFS</span> fabricado en acero inoxidable ligero, proporcionando una sensación cómoda al sostenerlo. Con sabores increíbles y una gran capacidad, GROO MAX estará ahí cuando lo necesites.</p><h2 class='text-xl font-semibold mb-2'>Características:</h2><ul class='list-disc pl-6 space-y-1'><li>1 x dispositivo desechable GROO MAX</li><li>Precargado, simplemente inhala para activar</li><li>Hasta <span class='font-semibold'>10,000 Puffs</span> por dispositivo</li><li>Compacto, ligero y portátil</li></ul></div>",
+          "fr": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-blue-800'>GROO MAX - MENTOS MINT</h1><p class='mt-2 text-gray-700'>GROO MAX est un dispositif de vapotage de loisir, offrant 10000 PUFFS, fabriqué en acier inoxydable léger pour un confort en main. Avec des saveurs exceptionnelles et une grande capacité, GROO MAX sera là dès que vous en aurez besoin.</p><ul class='mt-4 list-disc pl-5 text-gray-700'><li>1 x dispositif jetable GROO MAX</li><li>Pré-chargé, il suffit de tirer pour l'activer</li><li>Jusqu'à 10000 Puffs par dispositif</li><li>Compact, léger et portable</li></ul></div>",
+          "de": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold mb-2'>GROO MAX - MENTOS MINT</h1><p class='mb-4'>GROO MAX ist ein Gerät für den Freizeit-Dampfgenuss, bestehend aus leichtem Edelstahl mit 10.000 Zügen, das ein angenehmes Handgefühl bietet. Mit beeindruckenden Aromen und einer großen Kapazität ist GROO MAX immer dann zur Stelle, wenn Sie ihn brauchen.</p><ul class='list-disc pl-5'><li class='mb-1'>1 x GROO MAX Einweg-Vape-Gerät</li><li class='mb-1'>Vorgeladen, einfach ziehen, um zu aktivieren</li><li class='mb-1'>Bis zu 10.000 Züge pro Einweg-Gerät</li><li class='mb-1'>Kompakt, leicht und tragbar</li></ul></div>",
+          "it": "<div class='text-gray-800 font-sans'><h1 class='text-xl font-bold mb-2'>GROO MAX - MENTOS MINT</h1><p class='mb-4'>GROO MAX è un dispositivo per lo svapo ricreativo, con <strong>10.000 PUFF</strong> realizzato in acciaio inossidabile leggero, che offre una sensazione di presa confortevole. Con gusti incredibili e una grande capacità, GROO MAX sarà sempre al tuo fianco quando ne avrai bisogno.</p><ul class='list-disc pl-5 space-y-2'><li>1 x dispositivo monouso GROO MAX</li><li>Precaricato, basta aspirare per attivarlo</li><li>Fino a <strong>10.000 puff</strong> per dispositivo</li><li>Compatto, leggero e portatile</li></ul></div>",
+          "pt": "<div class='font-sans text-gray-800'><h1 class='text-2xl font-bold mb-4'>GROO MAX - MENTOS MINT</h1><p class='mb-4'>GROO MAX é um dispositivo de vaporização para lazer, com <span class='font-semibold'>10.000 PUFFS</span>, feito de aço inoxidável leve, proporcionando uma sensação confortável ao segurar. Com sabores incríveis e grande capacidade, o GROO MAX estará disponível sempre que você precisar.</p><h2 class='text-xl font-semibold mb-2'>Características:</h2><ul class='list-disc pl-6 mb-4'><li>1 x dispositivo descartável GROO MAX</li><li>Pré-carregado, basta puxar para ativar</li><li>Até 10.000 puffs por dispositivo</li><li>Compacto, leve e portátil</li></ul></div>",
+          "ru": "<div class='font-sans text-gray-800'><h1 class='text-2xl font-bold mb-4'>GROO MAX - MENTOS MINT</h1><p class='mb-4'>GROO MAX — это устройство для отдыха и вейпинга, 10000 затяжек, изготовленное из легкой нержавеющей стали, обеспечивающей комфортные тактильные ощущения. С потрясающими вкусами и большой емкостью, GROO MAX будет рядом, когда он вам понадобится.</p><h2 class='text-xl font-semibold mb-2'>Особенности:</h2><ul class='list-disc pl-5 mb-4'><li>1 x GROO MAX одноразовое устройство</li><li>Заряжено заранее, просто сделайте затяжку для активации</li><li>До 10000 затяжек на одно устройство</li><li>Компактный, легкий и портативный</li></ul></div>",
+          "pl": "<div class='font-sans text-gray-800'><h1 class='text-2xl font-bold mb-4'>GROO MAX - MENTOS MINT</h1><p class='mb-4'>GROO MAX to urządzenie do rekreacyjnego waporyzowania, wykonane z lekkiej stali nierdzewnej, zapewniające komfortowy chwyt. Dzięki niesamowitym smakom i dużej pojemności, GROO MAX będzie tam, gdzie go potrzebujesz.</p><ul class='list-disc pl-5 mb-4'><li class='mb-2'>1 x jednorazowe urządzenie GROO MAX</li><li class='mb-2'>Wstępnie naładowane, wystarczy zaciągnąć się, aby aktywować</li><li class='mb-2'>Do 10000 zaciągnięć na urządzenie</li><li class='mb-2'>Kompaktowe, lekkie i przenośne</li></ul></div>"
+        },
+        "excerpt": {
+          "en": "GROO MAX - MENTOS MINT",
+          "es": "GROO MAX - MENTOS MINT",
+          "fr": "GROO MAX - MENTOS MINT",
+          "de": "GROO MAX - MENTOS MINT",
+          "it": "GROO MAX - MENTOS MINT",
+          "pt": "GROO MAX - MENTOS MINT",
+          "ru": "GROO MAX - MENTOS MINT",
+          "pl": "GROO MAX - MENTOS MINT"
+        },
+        "seo": {
+          "en": {
+            "description": "GROO MAX - MENTOS MINT",
+            "keywords": "GROO MAX, MENTOS MINT, disposable vape, 10000 puffs"
+          },
+          "es": {
+            "description": "GROO MAX - MENTOS MINT",
+            "keywords": "GROO MAX, MENTOS MINT, vape desechable, 10000 puffs"
+          },
+          "fr": {
+            "description": "GROO MAX - MENTOS MINT",
+            "keywords": "GROO MAX, MENTOS MINT, cigarette électronique jetable, 10000 puffs"
+          },
+          "de": {
+            "description": "GROO MAX - MENTOS MINT",
+            "keywords": "GROO MAX, MENTOS MINT, Einweg-Vape, 10000 Züge"
+          },
+          "it": {
+            "description": "GROO MAX - MENTOS MINT, dispositivo monouso per svapo con 10.000 puff, gusti eccezionali e design portatile.",
+            "keywords": "GROO MAX, MENTOS MINT, svapo monouso, 10000 puff"
+          },
+          "pt": {
+            "description": "GROO MAX - MENTOS MINT, dispositivo descartável com 10.000 puffs, sabor refrescante de menta.",
+            "keywords": "GROO MAX, MENTOS MINT, vape descartável, 10000 puffs, vaporizador portátil"
+          },
+          "ru": {
+            "description": "GROO MAX - MENTOS MINT",
+            "keywords": "GROO MAX, MENTOS MINT, одноразовый вейп, 10000 затяжек"
+          },
+          "pl": {
+            "description": "GROO MAX - MENTOS MINT",
+            "keywords": "GROO MAX, MENTOS MINT, jednorazowy e-papieros, 10000 zaciągnięć"
+          }
+        }
+      },
+      {
+        "name": "GROO MAX - BLOOD ORANGE MANGO",
+        "slug": "groo-max-blood-orange-mango",
+        "original_excerpt": "GROO MAX - BLOOD ORANGE MANGO",
+        "original_content": "GROO MAX - BLOOD ORANGE MANGO\n\nGROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.\n\nFeatures:\n- 1 xGROO MAX disposable device\n- NET WEIGHT: 80g\n- Pre-charged, Simply puff on the device to activate\n- Up to 10000 Puffs per disposable\n- Compact, Light, and Portable",
+        "images": [
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/bcc35445-603d-46ad-b2c0-962af76af4b1",
+            "alt": "GROO MAX - BLOOD ORANGE MANGO"
+          }
+        ],
+        "original_seo": {
+          "description": "GROO MAX - BLOOD ORANGE MANGO",
+          "keywords": ""
+        },
+        "content": {
+          "en": "<div class='bg-white p-6 rounded-lg shadow-md'><h1 class='text-2xl font-bold text-gray-800 mb-4'>GROO MAX - BLOOD ORANGE MANGO</h1><p class='text-gray-700 mb-4'>GROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.</p><ul class='list-disc pl-6 text-gray-700'><li class='mb-2'>1 x GROO MAX disposable device</li><li class='mb-2'>NET WEIGHT: 80g</li><li class='mb-2'>Pre-charged, Simply puff on the device to activate</li><li class='mb-2'>Up to 10000 Puffs per disposable</li><li class='mb-2'>Compact, Light, and Portable</li></ul></div>",
+          "es": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-orange-600 mb-2'>GROO MAX - NARANJA SANGRIENTA MANGO</h2><p class='text-gray-700 mb-4'>GROO MAX es un dispositivo para vapeo recreativo, con 10000 PUFFS fabricado en acero inoxidable ligero, proporcionando una sensación cómoda al sostenerlo. Con sabores increíbles y una gran capacidad, GROO MAX estará ahí cuando lo necesites.</p><h3 class='font-semibold text-lg mb-2'>Características:</h3><ul class='list-disc pl-5 text-gray-700'><li>1 x Dispositivo desechable GROO MAX</li><li>PESO NETO: 80g</li><li>Precargado, simplemente inhala para activar</li><li>Hasta 10000 caladas por dispositivo</li><li>Compacto, ligero y portátil</li></ul></div>",
+          "fr": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-orange-600 mb-2'>GROO MAX - ORANGE SANGUINE MANGUE</h1><p class='text-gray-700 mb-4'>GROO MAX est un dispositif de vapotage loisir, 10000 PUFFS fabriqué en acier inoxydable léger, offrant une prise en main confortable. Avec des saveurs exceptionnelles et une grande capacité, GROO MAX sera là quand vous en aurez besoin.</p><h2 class='text-lg font-semibold text-gray-800 mb-2'>Caractéristiques :</h2><ul class='list-disc pl-5 text-gray-700'><li>1 x dispositif jetable GROO MAX</li><li>POIDS NET : 80g</li><li>Pré-chargé, il suffit de tirer sur l'appareil pour l'activer</li><li>Jusqu'à 10000 bouffées par dispositif jetable</li><li>Compact, léger et portable</li></ul></div>",
+          "de": "<div class='text-gray-800 font-sans'><h1 class='text-xl font-bold mb-2'>GROO MAX - BLUTORANGE MANGO</h1><p class='mb-4'>GROO MAX ist ein Gerät für den Freizeit-Dampfgenuss, mit 10.000 Zügen aus leichtem Edelstahl, das ein angenehmes Handgefühl bietet. Mit fantastischen Aromen und großer Kapazität ist GROO MAX immer da, wenn Sie ihn brauchen.</p><h2 class='text-lg font-semibold mb-2'>Merkmale:</h2><ul class='list-disc pl-5 mb-4'><li>1 x GROO MAX Einweg-Gerät</li><li>NETTOGEWICHT: 80g</li><li>Vorgeladen, einfach ziehen, um zu aktivieren</li><li>Bis zu 10.000 Züge pro Einweg-Gerät</li><li>Kompakt, leicht und tragbar</li></ul></div>",
+          "it": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-orange-600 mb-2'>GROO MAX - ARANCIA ROSSA MANGO</h2><p class='text-gray-800 mb-4'>GROO MAX è un dispositivo per lo svapo ricreativo, con 10000 PUFFS realizzato in acciaio inossidabile leggero, che offre una sensazione di presa confortevole. Con gusti straordinari e una grande capacità, GROO MAX sarà sempre al tuo fianco quando ne avrai bisogno.</p><ul class='list-disc pl-5 text-gray-700'><li>1 x dispositivo monouso GROO MAX</li><li>PESO NETTO: 80g</li><li>Pre-caricato, basta aspirare per attivare</li><li>Fino a 10000 puff per dispositivo</li><li>Compatto, leggero e portatile</li></ul></div>",
+          "pt": "<div class='text-gray-800 font-sans'><h1 class='text-xl font-bold mb-4'>GROO MAX - LARANJA SANGUE MANGA</h1><p class='mb-4'>GROO MAX é um dispositivo para vaping recreativo, com 10000 PUFFS feito de aço inoxidável leve, proporcionando uma sensação confortável na mão. Com sabores incríveis e uma grande capacidade, o GROO MAX estará lá sempre que você precisar.</p><h2 class='text-lg font-semibold mb-2'>Características:</h2><ul class='list-disc pl-5 mb-4'><li>1 x Dispositivo descartável GROO MAX</li><li>PESO LÍQUIDO: 80g</li><li>Pré-carregado, basta puxar para ativar</li><li>Até 10000 Puffs por dispositivo</li><li>Compacto, leve e portátil</li></ul></div>",
+          "ru": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-orange-600 mb-2'>GROO MAX - КРОВАВЫЙ АПЕЛЬСИН И МАНГО</h1><p class='text-gray-700 mb-4'>GROO MAX – это устройство для отдыха при вейпинге, 10000 затяжек, изготовленное из легкой нержавеющей стали, обеспечивающей комфортные ощущения в руке. С потрясающими вкусами и большой емкостью, GROO MAX будет рядом, когда он вам понадобится.</p><ul class='list-disc pl-5 text-gray-700'><li>1 x GROO MAX одноразовое устройство</li><li>ВЕС НЕТТО: 80г</li><li>Предварительно заряжен, просто сделайте затяжку для активации</li><li>До 10000 затяжек на одно устройство</li><li>Компактный, легкий и портативный</li></ul></div>",
+          "pl": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-orange-600 mb-2'>GROO MAX - POMARAŃCZA KRWISTA MANGO</h1><p class='text-gray-700 mb-4'>GROO MAX to urządzenie do rekreacyjnego wapowania, oferujące 10000 PUFFS, wykonane z lekkiej stali nierdzewnej, zapewniające komfortowy chwyt. Dzięki niesamowitym smakom i dużej pojemności, GROO MAX będzie zawsze pod ręką, gdy go potrzebujesz.</p><ul class='list-disc pl-5 text-gray-700'><li>1 xGROO MAX jednorazowe urządzenie</li><li>WAGA NETTO: 80g</li><li>Wstępnie naładowane, wystarczy zaciągnąć się, aby aktywować</li><li>Do 10000 zaciągnięć na urządzenie</li><li>Kompaktowe, lekkie i przenośne</li></ul></div>"
+        },
+        "excerpt": {
+          "en": "GROO MAX - BLOOD ORANGE MANGO",
+          "es": "GROO MAX - NARANJA SANGRIENTA MANGO",
+          "fr": "GROO MAX - ORANGE SANGUINE MANGUE",
+          "de": "GROO MAX - BLUTORANGE MANGO",
+          "it": "GROO MAX - ARANCIA ROSSA MANGO",
+          "pt": "GROO MAX - LARANJA SANGUE MANGA",
+          "ru": "GROO MAX - КРОВАВЫЙ АПЕЛЬСИН И МАНГО",
+          "pl": "GROO MAX - POMARAŃCZA KRWISTA MANGO"
+        },
+        "seo": {
+          "en": {
+            "description": "GROO MAX - BLOOD ORANGE MANGO",
+            "keywords": "GROO MAX, disposable vape, blood orange mango, 10000 puffs, portable vape"
+          },
+          "es": {
+            "description": "GROO MAX - NARANJA SANGRIENTA MANGO",
+            "keywords": ""
+          },
+          "fr": {
+            "description": "GROO MAX - ORANGE SANGUINE MANGUE",
+            "keywords": ""
+          },
+          "de": {
+            "description": "GROO MAX - BLUTORANGE MANGO",
+            "keywords": ""
+          },
+          "it": {
+            "description": "GROO MAX - ARANCIA ROSSA MANGO",
+            "keywords": "svapo, dispositivo monouso, GROO MAX, arancia rossa mango, 10000 puff"
+          },
+          "pt": {
+            "description": "GROO MAX - LARANJA SANGUE MANGA",
+            "keywords": ""
+          },
+          "ru": {
+            "description": "GROO MAX - КРОВАВЫЙ АПЕЛЬСИН И МАНГО",
+            "keywords": ""
+          },
+          "pl": {
+            "description": "GROO MAX - POMARAŃCZA KRWISTA MANGO",
+            "keywords": ""
+          }
+        }
+      },
+      {
+        "name": "GROO MAX - PINEAPPLE JUICE",
+        "slug": "groo-max-pineapple-juice",
+        "original_excerpt": "GROO MAX - PINEAPPLE JUICE",
+        "original_content": "GROO MAX - PINEAPPLE JUICE\n\nGROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.\n\nFeatures:\n- 1 x GROO MAX disposable device\n- Pre-charged, Simply puff on the device to activate\n- Up to 10000 Puffs per disposable\n- Compact, Light, and Portable",
+        "images": [
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/f0f620da-1958-4633-b58c-4a59ba2c19ce",
+            "alt": "GROO MAX - PINEAPPLE JUICE"
+          }
+        ],
+        "original_seo": {
+          "description": "GROO MAX - PINEAPPLE JUICE",
+          "keywords": "GROO MAX, PINEAPPLE JUICE, vape, disposable vape, 10000 puffs"
+        },
+        "content": {
+          "en": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-2'>GROO MAX - PINEAPPLE JUICE</h2><p class='mb-4'>GROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.</p><h3 class='text-lg font-semibold mb-2'>Features:</h3><ul class='list-disc pl-5 mb-4'><li>1 x GROO MAX disposable device</li><li>Pre-charged, Simply puff on the device to activate</li><li>Up to 10000 Puffs per disposable</li><li>Compact, Light, and Portable</li></ul></div>",
+          "es": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-blue-600'>GROO MAX - JUGO DE PIÑA</h1><p class='mt-2 text-gray-700'>GROO MAX es un dispositivo para vapeo recreativo, con 10000 PUFFS fabricado en acero inoxidable ligero, proporcionando una sensación cómoda al sostenerlo. Con sabores increíbles y una gran capacidad, GROO MAX estará ahí cuando lo necesites.</p><ul class='mt-2 list-disc pl-5 text-gray-700'><li>1 x dispositivo desechable GROO MAX</li><li>Precargado, simplemente inhala para activar</li><li>Hasta 10000 caladas por dispositivo</li><li>Compacto, ligero y portátil</li></ul></div>",
+          "fr": "<div class='font-sans text-gray-800'><h1 class='text-2xl font-bold mb-4'>GROO MAX - JUS D'ANANAS</h1><p class='mb-4'>GROO MAX est un dispositif de vapotage loisir, 10000 PUFFS fabriqué en acier inoxydable léger, offrant une prise en main confortable. Avec des saveurs exceptionnelles et une grande capacité, GROO MAX sera là dès que vous en aurez besoin.</p><h2 class='text-xl font-semibold mb-2'>Caractéristiques :</h2><ul class='list-disc pl-6 mb-4'><li>1 x dispositif jetable GROO MAX</li><li>Pré-chargé, il suffit de tirer pour activer</li><li>Jusqu'à 10000 bouffées par dispositif</li><li>Compact, léger et portable</li></ul></div>",
+          "de": "<div class='prose max-w-none'><h2 class='text-xl font-bold text-gray-800'>GROO MAX - ANANASSAFT</h2><p class='text-gray-600'>GROO MAX ist ein Gerät für entspanntes Dampfen, mit 10.000 Zügen aus leichtem Edelstahl, das ein angenehmes Handgefühl bietet. Mit fantastischen Aromen und einer großen Kapazität ist GROO MAX immer da, wenn Sie ihn brauchen.</p><h3 class='text-lg font-semibold text-gray-700 mt-4'>Merkmale:</h3><ul class='list-disc pl-5 text-gray-600'><li>1 x GROO MAX Einweg-Gerät</li><li>Vorgeladen, einfach am Gerät ziehen, um es zu aktivieren</li><li>Bis zu 10.000 Züge pro Einweg-Gerät</li><li>Kompakt, leicht und tragbar</li></ul></div>",
+          "it": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-gray-800'>GROO MAX - SUCCO DI ANANAS</h1><p class='mt-2 text-gray-700'>GROO MAX è un dispositivo per lo svapo ricreativo, con 10000 PUFFS realizzato in acciaio inossidabile leggero, che offre una sensazione di presa confortevole. Con gusti incredibili e una grande capacità, GROO MAX sarà sempre con te quando ne avrai bisogno.</p><ul class='mt-4 list-disc pl-5 text-gray-700'><li>1 x dispositivo monouso GROO MAX</li><li>Precaricato, basta aspirare per attivare</li><li>Fino a 10000 puff per dispositivo</li><li>Compatto, leggero e portatile</li></ul></div>",
+          "pt": "<div class='text-gray-800 font-sans'><h1 class='text-xl font-bold mb-2'>GROO MAX - SUCO DE ABACAXI</h1><p class='mb-4'>GROO MAX é um dispositivo para vaporização recreativa, com 10000 PUFFS feito de aço inoxidável leve, proporcionando uma sensação confortável ao segurar. Com sabores incríveis e grande capacidade, o GROO MAX estará disponível sempre que você precisar.</p><h2 class='text-lg font-semibold mb-2'>Características:</h2><ul class='list-disc pl-5 space-y-1'><li>1 x Dispositivo descartável GROO MAX</li><li>Pré-carregado, basta puxar para ativar</li><li>Até 10000 Puffs por dispositivo</li><li>Compacto, leve e portátil</li></ul></div>",
+          "ru": "<div class='text-gray-800 font-sans'><h1 class='text-2xl font-bold mb-4'>GROO MAX - АНАНАСОВЫЙ СОК</h1><p class='mb-4'>GROO MAX — это устройство для отдыха и вейпинга, 10000 затяжек, изготовленное из легкой нержавеющей стали, обеспечивающей комфортные ощущения в руке. С потрясающими вкусами и большой емкостью, GROO MAX будет рядом, когда он вам понадобится.</p><ul class='list-disc pl-6 mb-4'><li>1 x Одноразовое устройство GROO MAX</li><li>Предварительно заряжено, просто сделайте затяжку для активации</li><li>До 10000 затяжек на одно устройство</li><li>Компактный, легкий и портативный</li></ul></div>",
+          "pl": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-blue-800'>GROO MAX - SOK ANANASOWY</h1><p class='mt-2 text-gray-700'>GROO MAX to urządzenie do rekreacyjnego wapowania, 10000 PUFFS wykonane z lekkiej stali nierdzewnej, zapewniające komfortowe uczucie w dłoni. Dzięki niesamowitym smakom i dużej pojemności, GROO MAX będzie tam, gdzie go potrzebujesz.</p><ul class='mt-4 list-disc pl-5 text-gray-700'><li>1 x jednorazowe urządzenie GROO MAX</li><li>Wstępnie naładowane, wystarczy zaciągnąć się, aby aktywować</li><li>Do 10000 zaciągnięć na jednorazówkę</li><li>Kompaktowe, lekkie i przenośne</li></ul></div>"
+        },
+        "excerpt": {
+          "en": "GROO MAX - PINEAPPLE JUICE",
+          "es": "GROO MAX - JUGO DE PIÑA",
+          "fr": "GROO MAX - JUS D'ANANAS",
+          "de": "GROO MAX - ANANASSAFT",
+          "it": "GROO MAX - SUCCO DI ANANAS",
+          "pt": "GROO MAX - SUCO DE ABACAXI",
+          "ru": "GROO MAX - АНАНАСОВЫЙ СОК",
+          "pl": "GROO MAX - SOK ANANASOWY"
+        },
+        "seo": {
+          "en": {
+            "description": "GROO MAX - PINEAPPLE JUICE",
+            "keywords": "GROO MAX, PINEAPPLE JUICE, vape, disposable vape, 10000 puffs"
+          },
+          "es": {
+            "description": "GROO MAX - JUGO DE PIÑA",
+            "keywords": "GROO MAX, JUGO DE PIÑA, vape, vape desechable, 10000 caladas"
+          },
+          "fr": {
+            "description": "GROO MAX - JUS D'ANANAS",
+            "keywords": "GROO MAX, JUS D'ANANAS, vape, cigarette électronique jetable, 10000 bouffées"
+          },
+          "de": {
+            "description": "GROO MAX - ANANASSAFT",
+            "keywords": "GROO MAX, ANANASSAFT, Vape, Einweg-Vape, 10000 Züge"
+          },
+          "it": {
+            "description": "GROO MAX - SUCCO DI ANANAS",
+            "keywords": "GROO MAX, SUCCO DI ANANAS, svapo, svapo monouso, 10000 puff"
+          },
+          "pt": {
+            "description": "GROO MAX - SUCO DE ABACAXI",
+            "keywords": "GROO MAX, SUCO DE ABACAXI, vape, vape descartável, 10000 puffs"
+          },
+          "ru": {
+            "description": "GROO MAX - АНАНАСОВЫЙ СОК",
+            "keywords": "GROO MAX, АНАНАСОВЫЙ СОК, вейп, одноразовый вейп, 10000 затяжек"
+          },
+          "pl": {
+            "description": "GROO MAX - SOK ANANASOWY",
+            "keywords": "GROO MAX, SOK ANANASOWY, wapowanie, jednorazowy waporyzator, 10000 zaciągnięć"
+          }
+        }
+      },
+      {
+        "name": "GROO MAX - BLACKBERRY RASPBERRY",
+        "slug": "groo-max-blackberry-raspberry",
+        "original_excerpt": "GROO MAX - BLACKBERRY RASPBERRY",
+        "original_content": "<h2>Description</h2><p>GROO MAX - BLACKBERRY RASPBERRY</p><p>GROO MAX is a device for leisure vaping, <b>10000 PUFFS</b> made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.</p><h4>Features:</h4><ul><li>1 x GROO MAX disposable device</li><li>Pre-charged, Simply puff on the device to activate</li><li>Up to 10000 Puffs per disposable</li><li>Compact, Light, and Portable</li></ul>",
+        "images": [
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/610010f4-898a-4332-9b10-00a2f5b5909c",
+            "alt": "GROO MAX - BLACKBERRY RASPBERRY"
+          }
+        ],
+        "original_seo": {
+          "description": "GROO MAX - BLACKBERRY RASPBERRY",
+          "keywords": null
+        },
+        "content": {
+          "en": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-4'>Description</h2><p class='text-lg font-medium text-gray-800'>GROO MAX - BLACKBERRY RASPBERRY</p><p class='text-gray-700 mb-4'>GROO MAX is a device for leisure vaping, <strong class='font-semibold'>10000 PUFFS</strong> made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.</p><h4 class='font-bold text-lg mb-2'>Features:</h4><ul class='list-disc pl-5 space-y-1 text-gray-700'><li>1 x GROO MAX disposable device</li><li>Pre-charged, Simply puff on the device to activate</li><li>Up to 10000 Puffs per disposable</li><li>Compact, Light, and Portable</li></ul></div>",
+          "es": "<h2 class='text-xl font-bold mb-2'>Descripción</h2><p class='text-lg font-semibold'>GROO MAX - MORAS Y FRAMBUESAS</p><p class='text-gray-700'>GROO MAX es un dispositivo para vapeo recreativo, <b class='font-bold'>10,000 PUFFS</b> fabricado en acero inoxidable ligero, proporcionando una sensación cómoda al sostenerlo. Con sabores increíbles y una gran capacidad, GROO MAX estará ahí cuando lo necesites.</p><h4 class='text-lg font-bold mt-4 mb-2'>Características:</h4><ul class='list-disc pl-5 space-y-1'><li class='text-gray-700'>1 x dispositivo desechable GROO MAX</li><li class='text-gray-700'>Precargado, simplemente inhala para activar</li><li class='text-gray-700'>Hasta 10,000 caladas por dispositivo</li><li class='text-gray-700'>Compacto, ligero y portátil</li></ul>",
+          "fr": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-4'>Description</h2><p class='text-lg mb-4'><strong>GROO MAX - MÛRE FRAMBOISE</strong></p><p class='mb-4'>GROO MAX est un dispositif de vapotage loisir, offrant <strong>10000 PUFFS</strong> grâce à son boîtier en acier inoxydable léger, procurant une prise en main confortable. Avec des saveurs exceptionnelles et une grande autonomie, GROO MAX sera là quand vous en aurez besoin.</p><h4 class='font-semibold mb-2'>Caractéristiques :</h4><ul class='list-disc pl-6 space-y-2'><li>1 x dispositif jetable GROO MAX</li><li>Pré-chargé, il suffit de tirer pour activer</li><li>Jusqu'à 10000 bouffées par dispositif</li><li>Compact, léger et portable</li></ul></div>",
+          "de": "<h2 class='text-xl font-bold mb-2'>Beschreibung</h2><p class='text-lg font-semibold'>GROO MAX - BROMBEERE HIMBEERE</p><p class='mb-4'>GROO MAX ist ein Gerät für entspanntes Dampfen, <b class='font-bold'>10.000 ZÜGE</b> aus leichtem Edelstahl, das ein angenehmes Handgefühl bietet. Mit fantastischen Aromen und einer großen Kapazität ist GROO MAX immer da, wenn Sie ihn brauchen.</p><h4 class='font-bold mb-2'>Merkmale:</h4><ul class='list-disc pl-5'><li class='mb-1'>1 x GROO MAX Einweg-Gerät</li><li class='mb-1'>Vorgeladen, einfach ziehen, um zu aktivieren</li><li class='mb-1'>Bis zu 10.000 Züge pro Einweg-Gerät</li><li class='mb-1'>Kompakt, leicht und tragbar</li></ul>",
+          "it": "<h2 class='text-xl font-bold mb-4'>Descrizione</h2><p class='text-lg font-semibold'>GROO MAX - BLACKBERRY RASPBERRY</p><p class='mb-4'>GROO MAX è un dispositivo per lo svapo ricreativo, <b class='font-bold'>10000 PUFF</b> realizzato in acciaio inossidabile leggero, che offre una sensazione di presa confortevole. Con gusti incredibili e una grande capacità, GROO MAX sarà sempre al tuo fianco quando ne avrai bisogno.</p><h4 class='text-lg font-bold mb-2'>Caratteristiche:</h4><ul class='list-disc pl-5 mb-4'><li class='mb-1'>1 x dispositivo monouso GROO MAX</li><li class='mb-1'>Precaricato, basta aspirare per attivare</li><li class='mb-1'>Fino a 10000 puff per dispositivo</li><li class='mb-1'>Compatto, leggero e portatile</li></ul>",
+          "pt": "<h2 class='text-xl font-bold mb-2'>Descrição</h2><p class='text-lg font-semibold'>GROO MAX - BLACKBERRY RASPBERRY</p><p class='text-gray-700'>GROO MAX é um dispositivo para vaping recreativo, <b class='font-bold'>10000 PUFFS</b> feito de aço inoxidável leve, proporcionando uma sensação confortável na mão. Com sabores incríveis e grande capacidade, o GROO MAX estará lá sempre que você precisar.</p><h4 class='text-lg font-semibold mt-4 mb-2'>Características:</h4><ul class='list-disc pl-5 space-y-1'><li class='text-gray-700'>1 x dispositivo descartável GROO MAX</li><li class='text-gray-700'>Pré-carregado, basta puxar para ativar</li><li class='text-gray-700'>Até 10000 Puffs por dispositivo</li><li class='text-gray-700'>Compacto, leve e portátil</li></ul>",
+          "ru": "<h2 class='text-xl font-bold mb-4'>Описание</h2><p class='text-lg font-semibold mb-2'>GROO MAX - BLACKBERRY RASPBERRY</p><p class='mb-4'>GROO MAX — это устройство для отдыха и вейпинга, <b class='font-bold'>10000 ЗАКУРОВ</b>, изготовленное из легкой нержавеющей стали, обеспечивающей комфортное ощущение в руке. С потрясающими вкусами и большой емкостью, GROO MAX будет рядом, когда он вам понадобится.</p><h4 class='text-lg font-semibold mb-2'>Характеристики:</h4><ul class='list-disc pl-5 mb-4'><li class='mb-1'>1 x одноразовое устройство GROO MAX</li><li class='mb-1'>Предварительно заряжено, просто затянитесь, чтобы активировать</li><li class='mb-1'>До 10000 затяжек на одно устройство</li><li class='mb-1'>Компактное, легкое и портативное</li></ul>",
+          "pl": "<h2 class='text-xl font-bold mb-2'>Opis</h2><p class='text-lg font-semibold'>GROO MAX - JEŻYNA MALINA</p><p class='text-gray-700'>GROO MAX to urządzenie do rekreacyjnego wapowania, <b class='font-bold'>10 000 ZACIĄGNIĘĆ</b>, wykonane z lekkiej stali nierdzewnej, zapewniające komfortowy chwyt. Dzięki niesamowitym smakom i dużej pojemności, GROO MAX będzie tam, gdzie go potrzebujesz.</p><h4 class='text-lg font-semibold mt-4 mb-2'>Cechy:</h4><ul class='list-disc pl-5 space-y-1'><li class='text-gray-700'>1 x jednorazowe urządzenie GROO MAX</li><li class='text-gray-700'>Wstępnie naładowane, wystarczy zaciągnąć się, aby aktywować</li><li class='text-gray-700'>Do 10 000 zaciągnięć na urządzenie</li><li class='text-gray-700'>Kompaktowe, lekkie i przenośne</li></ul>"
+        },
+        "excerpt": {
+          "en": "GROO MAX - BLACKBERRY RASPBERRY",
+          "es": "GROO MAX - MORAS Y FRAMBUESAS",
+          "fr": "GROO MAX - MÛRE FRAMBOISE",
+          "de": "GROO MAX - BROMBEERE HIMBEERE",
+          "it": "GROO MAX - BLACKBERRY RASPBERRY",
+          "pt": "GROO MAX - BLACKBERRY RASPBERRY",
+          "ru": "GROO MAX - BLACKBERRY RASPBERRY",
+          "pl": "GROO MAX - JEŻYNA MALINA"
+        },
+        "seo": {
+          "en": {
+            "description": "GROO MAX - BLACKBERRY RASPBERRY - A premium disposable vape device offering 10,000 puffs with delicious blackberry raspberry flavor.",
+            "keywords": "GROO MAX, disposable vape, 10000 puffs, blackberry raspberry vape, portable vape device"
+          },
+          "es": {
+            "description": "GROO MAX - MORAS Y FRAMBUESAS",
+            "keywords": "null"
+          },
+          "fr": {
+            "description": "GROO MAX - MÛRE FRAMBOISE, un dispositif de vapotage jetable offrant jusqu'à 10000 bouffées.",
+            "keywords": "vape, vapotage, GROO MAX, mûre framboise, cigarette électronique, 10000 puff"
+          },
+          "de": {
+            "description": "GROO MAX - BROMBEERE HIMBEERE",
+            "keywords": "null"
+          },
+          "it": {
+            "description": "GROO MAX - BLACKBERRY RASPBERRY",
+            "keywords": "null"
+          },
+          "pt": {
+            "description": "GROO MAX - BLACKBERRY RASPBERRY",
+            "keywords": "null"
+          },
+          "ru": {
+            "description": "GROO MAX - BLACKBERRY RASPBERRY",
+            "keywords": "null"
+          },
+          "pl": {
+            "description": "GROO MAX - JEŻYNA MALINA",
+            "keywords": "null"
+          }
+        }
+      },
+      {
+        "name": "GROO MAX - SKITTLES",
+        "slug": "groo-max-skittles",
+        "original_excerpt": "GROO MAX - SKITTLES",
+        "original_content": "GROO MAX - SKITTLES\n\nGROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.\n\nFeatures:\n- 1 x GROO MAX disposable device\n- Pre-charged, Simply puff on the device to activate\n- Up to 10000 Puffs per disposable\n- Compact, Light, and Portable",
+        "images": [
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/c948e6bd-b370-48de-846e-662500efe9b2",
+            "alt": "GROO MAX - SKITTLES"
+          }
+        ],
+        "original_seo": {
+          "description": "GROO MAX - SKITTLES",
+          "keywords": null
+        },
+        "content": {
+          "en": "<div class='prose max-w-none'><h2 class='text-xl font-bold text-gray-800'>GROO MAX - SKITTLES</h2><p class='mt-4 text-gray-700'>GROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.</p><h3 class='mt-6 text-lg font-semibold text-gray-800'>Features:</h3><ul class='mt-2 list-disc pl-5 text-gray-700'><li>1 x GROO MAX disposable device</li><li>Pre-charged, Simply puff on the device to activate</li><li>Up to 10000 Puffs per disposable</li><li>Compact, Light, and Portable</li></ul></div>",
+          "es": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-purple-600 mb-2'>GROO MAX - SKITTLES</h1><p class='text-gray-700 mb-4'>GROO MAX es un dispositivo para vapeo recreativo, con <span class='font-semibold'>10,000 PUFFS</span> fabricado en acero inoxidable ligero, proporcionando una sensación cómoda al sostenerlo. Con sabores increíbles y una gran capacidad, GROO MAX estará ahí cuando lo necesites.</p><h2 class='text-lg font-semibold text-gray-800 mb-2'>Características:</h2><ul class='list-disc pl-5 space-y-1 text-gray-700'><li>1 x Dispositivo desechable GROO MAX</li><li>Precargado, simplemente inhala para activar</li><li>Hasta <span class='font-semibold'>10,000 Puffs</span> por dispositivo</li><li>Compacto, ligero y portátil</li></ul></div>",
+          "fr": "<div class='text-gray-800 font-sans'><h1 class='text-2xl font-bold mb-4'>GROO MAX - SKITTLES</h1><p class='mb-4'>GROO MAX est un dispositif de vapotage loisir, 10000 PUFFS fabriqué en acier inoxydable léger, offrant une prise en main confortable. Avec des saveurs incroyables et une grande capacité, GROO MAX sera là dès que vous en aurez besoin.</p><h2 class='text-xl font-semibold mb-2'>Caractéristiques :</h2><ul class='list-disc pl-5 mb-4'><li>1 x dispositif jetable GROO MAX</li><li>Pré-chargé, il suffit de tirer sur l'appareil pour l'activer</li><li>Jusqu'à 10000 Puffs par dispositif jetable</li><li>Compact, léger et portable</li></ul></div>",
+          "de": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-blue-600 mb-2'>GROO MAX - SKITTLES</h2><p class='text-gray-700 mb-4'>GROO MAX ist ein Gerät für das Freizeit-Dampfen, bestehend aus leichtem Edelstahl mit 10.000 Zügen, das ein angenehmes Handgefühl bietet. Mit erstaunlichen Aromen und einer großen Kapazität ist GROO MAX immer da, wenn Sie ihn brauchen.</p><ul class='list-disc pl-5 text-gray-700'><li>1 x GROO MAX Einweg-Gerät</li><li>Vorgeladen, einfach am Gerät ziehen, um es zu aktivieren</li><li>Bis zu 10.000 Züge pro Einweg-Gerät</li><li>Kompakt, leicht und tragbar</li></ul></div>",
+          "it": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-purple-600 mb-2'>GROO MAX - SKITTLES</h2><p class='text-gray-700 mb-4'>GROO MAX è un dispositivo per lo svapo ricreativo, con <span class='font-semibold'>10000 PUFF</span> realizzato in acciaio inossidabile leggero, che offre una sensazione di presa confortevole. Con gusti incredibili e una grande capacità, GROO MAX sarà sempre al tuo fianco quando ne avrai bisogno.</p><h3 class='text-lg font-semibold text-gray-800 mb-2'>Caratteristiche:</h3><ul class='list-disc pl-5 text-gray-700 space-y-1'><li>1 x dispositivo monouso GROO MAX</li><li>Precaricato, basta aspirare per attivarlo</li><li>Fino a <span class='font-semibold'>10000 puff</span> per dispositivo</li><li>Compatto, leggero e portatile</li></ul></div>",
+          "pt": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-purple-600 mb-2'>GROO MAX - SKITTLES</h1><p class='text-gray-700 mb-4'>GROO MAX é um dispositivo para vaporização recreativa, com 10000 PUFFS feito de aço inoxidável leve, proporcionando uma sensação confortável ao segurar. Com sabores incríveis e grande capacidade, o GROO MAX estará lá sempre que você precisar.</p><ul class='list-disc pl-5 text-gray-700'><li>1 x dispositivo descartável GROO MAX</li><li>Pré-carregado, basta puxar para ativar</li><li>Até 10000 tragadas por dispositivo</li><li>Compacto, leve e portátil</li></ul></div>",
+          "ru": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-purple-600 mb-2'>GROO MAX - SKITTLES</h1><p class='text-gray-700 mb-4'>GROO MAX — это устройство для отдыха и вейпинга, выполненное из легкой нержавеющей стали, обеспечивающее комфортные тактильные ощущения. С потрясающими вкусами и большой емкостью, GROO MAX всегда будет под рукой, когда он вам понадобится.</p><ul class='list-disc pl-5 text-gray-700'><li>1 x одноразовое устройство GROO MAX</li><li>Предварительно заряжено, просто сделайте затяжку для активации</li><li>До 10000 затяжек на одно устройство</li><li>Компактное, легкое и портативное</li></ul></div>",
+          "pl": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-purple-600 mb-2'>GROO MAX - SKITTLES</h1><p class='text-gray-700 mb-4'>GROO MAX to urządzenie do rekreacyjnego wapowania, wykonane z lekkiej stali nierdzewnej, zapewniające komfortowe uczucie w dłoni. Dzięki niesamowitym smakom i dużej pojemności, GROO MAX będzie tam, gdzie go potrzebujesz.</p><ul class='list-disc pl-5 text-gray-700'><li>1 x jednorazowe urządzenie GROO MAX</li><li>Wstępnie naładowane, wystarczy zaciągnąć się, aby aktywować</li><li>Do 10000 zaciągnięć na jednorazowym urządzeniu</li><li>Kompaktowe, lekkie i przenośne</li></ul></div>"
+        },
+        "excerpt": {
+          "en": "GROO MAX - SKITTLES",
+          "es": "GROO MAX - SKITTLES",
+          "fr": "GROO MAX - SKITTLES",
+          "de": "GROO MAX - SKITTLES",
+          "it": "GROO MAX - SKITTLES",
+          "pt": "GROO MAX - SKITTLES",
+          "ru": "GROO MAX - SKITTLES",
+          "pl": "GROO MAX - SKITTLES"
+        },
+        "seo": {
+          "en": {
+            "description": "GROO MAX - SKITTLES",
+            "keywords": "null"
+          },
+          "es": {
+            "description": "GROO MAX - SKITTLES: Dispositivo desechable de vapeo con 10,000 puffs, sabores increíbles y diseño portátil.",
+            "keywords": "vapeo desechable, GROO MAX, 10.000 puffs, SKITTLES, vapeo recreativo"
+          },
+          "fr": {
+            "description": "GROO MAX - SKITTLES",
+            "keywords": "null"
+          },
+          "de": {
+            "description": "GROO MAX - SKITTLES",
+            "keywords": "null"
+          },
+          "it": {
+            "description": "GROO MAX - SKITTLES, dispositivo per svapo ricreativo con 10000 puff, acciaio inossidabile e gusti incredibili.",
+            "keywords": "GROO MAX, svapo, SKITTLES, dispositivo monouso, 10000 puff"
+          },
+          "pt": {
+            "description": "GROO MAX - SKITTLES",
+            "keywords": "null"
+          },
+          "ru": {
+            "description": "GROO MAX - SKITTLES",
+            "keywords": "null"
+          },
+          "pl": {
+            "description": "GROO MAX - SKITTLES",
+            "keywords": "null"
+          }
+        }
+      },
+      {
+        "name": "GROO MAX - STRAWBERRY WATERMELON",
+        "slug": "groo-max-strawberry-watermelon",
+        "original_excerpt": "GROO MAX - STRAWBERRY WATERMELON",
+        "original_content": "GROO MAX - STRAWBERRY WATERMELON\n\nGROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.\n\nFeatures:\n- 1 x GROO MAX disposable device\n- Pre-charged, Simply puff on the device to activate\n- Up to 10000 Puffs per disposable\n- Compact, Light, and Portable",
+        "images": [
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/04a529de-f76f-47b8-bb75-421c06af0693",
+            "alt": "GROO MAX - STRAWBERRY WATERMELON"
+          }
+        ],
+        "original_seo": {
+          "description": "GROO MAX - STRAWBERRY WATERMELON",
+          "keywords": null
+        },
+        "content": {
+          "en": "<div class='prose max-w-none'><h2 class='text-xl font-bold mb-2'>GROO MAX - STRAWBERRY WATERMELON</h2><p class='mb-4'>GROO MAX is a device for leisure vaping, 10000 PUFFS made of light Stainless Steel, providing a comfortable hand feeling. With amazing flavors and a large capacity, GROO MAX will be there whenever you need it.</p><h3 class='font-semibold mb-2'>Features:</h3><ul class='list-disc pl-5 space-y-1'><li>1 x GROO MAX disposable device</li><li>Pre-charged, Simply puff on the device to activate</li><li>Up to 10000 Puffs per disposable</li><li>Compact, Light, and Portable</li></ul></div>",
+          "es": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-red-500 mb-2'>GROO MAX - FRESA Y SANDÍA</h2><p class='text-gray-700 mb-4'>GROO MAX es un dispositivo para vapeo recreativo, con 10000 caladas fabricado en acero inoxidable ligero, proporcionando una sensación cómoda al sostenerlo. Con sabores increíbles y una gran capacidad, GROO MAX estará ahí cuando lo necesites.</p><h3 class='font-semibold text-lg mb-2'>Características:</h3><ul class='list-disc pl-5 space-y-1'><li class='text-gray-700'>1 x dispositivo desechable GROO MAX</li><li class='text-gray-700'>Precargado, simplemente inhala para activar</li><li class='text-gray-700'>Hasta 10000 caladas por dispositivo</li><li class='text-gray-700'>Compacto, ligero y portátil</li></ul></div>",
+          "fr": "<div class='text-gray-800 font-sans'><h1 class='text-xl font-bold mb-2'>GROO MAX - FRAISE PASTÈQUE</h1><p class='mb-4'>GROO MAX est un dispositif de vapotage de loisir, 10000 PUFFS en acier inoxydable léger, offrant une prise en main confortable. Avec des saveurs incroyables et une grande capacité, GROO MAX sera là quand vous en aurez besoin.</p><h2 class='text-lg font-semibold mb-2'>Caractéristiques :</h2><ul class='list-disc pl-5 space-y-1'><li>1 x dispositif jetable GROO MAX</li><li>Pré-chargé, il suffit de tirer sur l'appareil pour l'activer</li><li>Jusqu'à 10000 bouffées par dispositif jetable</li><li>Compact, léger et portable</li></ul></div>",
+          "de": "<div class='bg-white p-4 rounded-lg shadow-md'><h1 class='text-2xl font-bold text-gray-800 mb-4'>GROO MAX - ERDBEER-WASSERMELONE</h1><p class='text-gray-600 mb-4'>GROO MAX ist ein Gerät für entspanntes Dampfen, mit 10.000 Zügen aus leichtem Edelstahl, das ein angenehmes Handgefühl bietet. Mit fantastischen Aromen und einer großen Kapazität ist GROO MAX immer da, wenn Sie ihn brauchen.</p><ul class='list-disc pl-5 text-gray-600'><li>1 x GROO MAX Einweg-Gerät</li><li>Vorgeladen, einfach am Gerät ziehen, um es zu aktivieren</li><li>Bis zu 10.000 Züge pro Einweg-Gerät</li><li>Kompakt, leicht und tragbar</li></ul></div>",
+          "it": "<div class='bg-gray-100 p-4 rounded-lg'><h1 class='text-xl font-bold text-red-500 mb-2'>GROO MAX - FRAGOLA ANGURIA</h1><p class='text-gray-700 mb-4'>GROO MAX è un dispositivo per lo svapo ricreativo, con 10000 PUFFS realizzato in acciaio inossidabile leggero, che offre una sensazione di presa confortevole. Con gusti incredibili e una grande capacità, GROO MAX sarà sempre con te quando ne avrai bisogno.</p><h2 class='text-lg font-semibold text-gray-800 mb-2'>Caratteristiche:</h2><ul class='list-disc pl-5 text-gray-700'><li>1 x dispositivo monouso GROO MAX</li><li>Precaricato, basta aspirare per attivare</li><li>Fino a 10000 puff per dispositivo</li><li>Compatto, leggero e portatile</li></ul></div>",
+          "pt": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-gray-800 mb-2'>GROO MAX - MORANGO MELANCIA</h2><p class='text-gray-700 mb-4'>GROO MAX é um dispositivo para vaping recreativo, 10000 PUFFS feito de aço inoxidável leve, proporcionando uma sensação confortável na mão. Com sabores incríveis e uma grande capacidade, o GROO MAX estará lá sempre que você precisar.</p><h3 class='font-semibold text-gray-800 mb-2'>Características:</h3><ul class='list-disc pl-5 text-gray-700'><li>1 x dispositivo descartável GROO MAX</li><li>Pré-carregado, basta puxar para ativar</li><li>Até 10000 Puffs por dispositivo</li><li>Compacto, leve e portátil</li></ul></div>",
+          "ru": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-gray-800'>GROO MAX - КЛУБНИЧНЫЙ АРБУЗ</h2><p class='mt-2 text-gray-700'>GROO MAX — это устройство для отдыха и вейпинга, 10000 затяжек, изготовленное из легкой нержавеющей стали, обеспечивающей комфортное ощущение в руке. С потрясающими вкусами и большой емкостью, GROO MAX будет рядом, когда он вам понадобится.</p><ul class='mt-4 space-y-2 text-gray-700'><li class='flex items-start'><span class='mr-2'>•</span> 1 x Одноразовое устройство GROO MAX</li><li class='flex items-start'><span class='mr-2'>•</span> Предварительно заряжено, просто сделайте затяжку, чтобы активировать</li><li class='flex items-start'><span class='mr-2'>•</span> До 10000 затяжек на одно устройство</li><li class='flex items-start'><span class='mr-2'>•</span> Компактное, легкое и портативное</li></ul></div>",
+          "pl": "<div class='bg-gray-100 p-4 rounded-lg'><h2 class='text-xl font-bold text-gray-800 mb-2'>GROO MAX - TRUSKAWKA ARBUZ</h2><p class='text-gray-700 mb-4'>GROO MAX to urządzenie do rekreacyjnego wapowania, wykonane z lekkiej stali nierdzewnej, zapewniające komfortowe wrażenia podczas trzymania. Dzięki niesamowitym smakom i dużej pojemności, GROO MAX będzie tam, gdzie go potrzebujesz.</p><ul class='list-disc pl-5 text-gray-700'><li>1 x jednorazowe urządzenie GROO MAX</li><li>Wstępnie naładowane, wystarczy zaciągnąć się, aby aktywować</li><li>Do 10000 zaciągnięć na urządzenie</li><li>Kompaktowe, lekkie i przenośne</li></ul></div>"
+        },
+        "excerpt": {
+          "en": "GROO MAX - STRAWBERRY WATERMELON",
+          "es": "GROO MAX - FRESA Y SANDÍA",
+          "fr": "GROO MAX - FRAISE PASTÈQUE",
+          "de": "GROO MAX - ERDBEER-WASSERMELONE",
+          "it": "GROO MAX - FRAGOLA ANGURIA",
+          "pt": "GROO MAX - MORANGO MELANCIA",
+          "ru": "GROO MAX - КЛУБНИЧНЫЙ АРБУЗ",
+          "pl": "GROO MAX - TRUSKAWKA ARBUZ"
+        },
+        "seo": {
+          "en": {
+            "description": "GROO MAX - STRAWBERRY WATERMELON",
+            "keywords": "null"
+          },
+          "es": {
+            "description": "GROO MAX - FRESA Y SANDÍA",
+            "keywords": "null"
+          },
+          "fr": {
+            "description": "GROO MAX - FRAISE PASTÈQUE",
+            "keywords": "null"
+          },
+          "de": {
+            "description": "GROO MAX - ERDBEER-WASSERMELONE",
+            "keywords": "null"
+          },
+          "it": {
+            "description": "GROO MAX - FRAGOLA ANGURIA",
+            "keywords": "null"
+          },
+          "pt": {
+            "description": "GROO MAX - MORANGO MELANCIA",
+            "keywords": "null"
+          },
+          "ru": {
+            "description": "GROO MAX - КЛУБНИЧНЫЙ АРБУЗ",
+            "keywords": "null"
+          },
+          "pl": {
+            "description": "GROO MAX - TRUSKAWKA ARBUZ",
+            "keywords": "null"
+          }
+        }
+      }
+    ]
+  },
   "Vapsolo": {
     "sort": 888,
     "enabled": true,

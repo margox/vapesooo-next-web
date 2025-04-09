@@ -2,7 +2,9 @@
   "common": {
     "home": "Главная",
     "store": "Магазин",
+    "brands": "Бренды",
     "products": "Продукты",
+    "viewAll": "Посмотреть все",
     "contact": "Контакт",
     "viewAllProducts": "Посмотреть все продукты",
     "viewDetails": "Посмотреть детали",

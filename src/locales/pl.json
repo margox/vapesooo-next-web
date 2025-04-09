@@ -2,7 +2,9 @@
   "common": {
     "home": "Strona główna",
     "store": "Sklep",
+    "brands": "Marki",
     "products": "Produkty",
+    "viewAll": "Zobacz wszystkie",
     "contact": "Kontakt",
     "viewAllProducts": "Zobacz wszystkie produkty",
     "viewDetails": "Zobacz szczegóły",

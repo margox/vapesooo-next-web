@@ -2,7 +2,9 @@
   "common": {
     "home": "Ana Sayfa",
     "store": "Mağaza",
+    "brands": "Markalar",
     "products": "Ürünler",
+    "viewAll": "Tümünü Görüntüle",
     "contact": "İletişim",
     "viewAllProducts": "Tüm Ürünleri Görüntüle",
     "viewDetails": "Detayları Görüntüle",

@@ -2,7 +2,9 @@
   "common": {
     "home": "Home",
     "store": "Store",
+    "brands": "Brands",
     "products": "Products",
+    "viewAll": "View All",
     "contact": "Contact",
     "viewAllProducts": "View All Products",
     "viewDetails": "View Details",

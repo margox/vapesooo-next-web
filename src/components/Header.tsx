@@ -40,18 +40,22 @@ export default function Header() {
   const pathname = usePathname()
   const { brand, locale, slug } = useParams()
   const [hidenMenu, setHidenMenu] = useAutoResetFlag<string>()
+  const [activeBrand, setActiveBrand] = useState<string | null>(null)
   const currentRoute = usePathname().replace(new RegExp(`^/${locale}`), '')
   const { t } = useTranslation()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [mobileLanguageMenuOpen, setMobileLanguageMenuOpen] = useState(false)
+  const [mobileBrandsMenuOpen, setMobileBrandsMenuOpen] = useState(false)
 
   const isStore = pathname === `/${locale}/products`
+  const isBrandsPage = pathname.includes(`/${locale}/products/brand/`)
   const currentBrand = slug ? productsMap[slug as string]?.brand.toLowerCase() : brand
 
   // Close mobile menu when route changes
   useEffect(() => {
     setMobileMenuOpen(false)
     setMobileLanguageMenuOpen(false)
+    setMobileBrandsMenuOpen(false)
   }, [pathname])
 
   return (
@@ -86,30 +90,57 @@ export default function Header() {
             }`}>
             {t('common.store')}
           </LocalizedLink>
-          {brandNames.map((brand) => (
-            <div key={brand} className="flex items-center hover:text-lime-600 relative h-16 group">
-              <LocalizedLink
-                href={`/products/brand/${brand.toLowerCase()}`}
-                className={`flex items-center text-base font-medium uppercase ${
-                  currentBrand === brand.toLowerCase() ? 'text-lime-600' : 'text-slate-80'
-                }`}>
-                {brand}
-              </LocalizedLink>
-              {hidenMenu !== brand && (
-                <div className="pointer-events-none min-w-48 opacity-0 group-hover:pointer-events-auto divide-y divide-slate-100 group-hover:opacity-100 transition-opacity duration-300 absolute left-0 mt-0 top-full bg-white border border-black/5 bg-clip-padding z-10">
-                  {productsData[brand]?.products.map((product) => (
-                    <LocalizedLink
-                      key={product.slug}
-                      onClick={() => setHidenMenu(brand)}
-                      href={`/products/${product.slug}`}
-                      className="block px-6 py-4 text-sm text-slate-800 whitespace-nowrap uppercase font-medium hover:text-lime-600">
-                      {product.title || product.name}
-                    </LocalizedLink>
-                  ))}
+
+          {/* Consolidated Brands dropdown */}
+          <div className="flex items-center hover:text-lime-600 relative h-16 group">
+            <span
+              className={`flex items-center text-base font-medium uppercase cursor-pointer ${
+                isBrandsPage ? 'text-lime-600' : 'text-slate-80'
+              }`}>
+              {t('common.brands')}
+            </span>
+            <div className="pointer-events-none min-w-48 opacity-0 group-hover:pointer-events-auto group-hover:opacity-100 transition-opacity duration-300 absolute left-0 mt-0 top-full bg-white border border-black/5 bg-clip-padding z-10">
+              {brandNames.map((brandName) => (
+                <div
+                  key={brandName}
+                  className="relative group/brand"
+                  onMouseEnter={() => setActiveBrand(brandName)}
+                  onMouseLeave={() => setActiveBrand(null)}>
+                  <LocalizedLink
+                    href={`/products/brand/${brandName.toLowerCase()}`}
+                    className={`block px-6 py-4 text-sm text-slate-800 whitespace-nowrap uppercase font-medium hover:text-lime-600 ${
+                      currentBrand === brandName.toLowerCase() ? 'text-lime-600' : ''
+                    }`}>
+                    {brandName}
+                  </LocalizedLink>
+
+                  {/* Products submenu for each brand */}
+                  {activeBrand === brandName && hidenMenu !== brandName && (
+                    <div className="absolute left-full top-0 bg-white border border-black/5 bg-clip-padding z-10 min-w-48">
+                      {productsData[brandName]?.products.slice(0, 6).map((product) => (
+                        <LocalizedLink
+                          key={product.slug}
+                          onClick={() => setHidenMenu(brandName)}
+                          href={`/products/${product.slug}`}
+                          className="block px-6 py-4 text-sm text-slate-800 whitespace-nowrap uppercase font-medium hover:text-lime-600">
+                          {product.title || product.name}
+                        </LocalizedLink>
+                      ))}
+
+                      {/* "View all products" link if there are more than 6 products */}
+                      {productsData[brandName]?.products.length > 6 && (
+                        <LocalizedLink
+                          href={`/products/brand/${brandName.toLowerCase()}`}
+                          className="block px-6 py-4 text-sm text-lime-600 whitespace-nowrap uppercase font-medium hover:text-lime-700 bg-gray-50 border-t border-gray-100">
+                          {t('common.viewAll')} ({productsData[brandName]?.products.length})
+                        </LocalizedLink>
+                      )}
+                    </div>
+                  )}
                 </div>
-              )}
+              ))}
             </div>
-          ))}
+          </div>
         </nav>
         <div className="relative flex-1 flex items-center justify-center">
           <h1 className="absolute text-transparent pointer-events-none">Vapesooo</h1>
@@ -176,16 +207,46 @@ export default function Header() {
             {t('common.store')}
           </LocalizedLink>
 
-          {brandNames.map((brand) => (
-            <LocalizedLink
-              key={brand}
-              href={`/products/brand/${brand.toLowerCase()}`}
-              className={`block px-6 py-3 text-base font-medium uppercase ${
-                currentBrand === brand.toLowerCase() ? 'text-lime-600' : 'text-slate-800'
-              } hover:text-lime-600 hover:bg-gray-50`}>
-              {brand}
-            </LocalizedLink>
-          ))}
+          {/* Mobile Brands menu */}
+          <div className="block">
+            <button
+              onClick={() => setMobileBrandsMenuOpen(!mobileBrandsMenuOpen)}
+              className={`w-full text-left px-6 py-3 text-base font-medium uppercase ${
+                isBrandsPage ? 'text-lime-600' : 'text-slate-800'
+              } hover:text-lime-600 hover:bg-gray-50 flex justify-between items-center`}>
+              {t('common.brands')}
+              <svg
+                className="h-4 w-4"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d={mobileBrandsMenuOpen ? 'M5 15l7-7 7 7' : 'M19 9l-7 7-7-7'}
+                />
+              </svg>
+            </button>
+
+            {/* Mobile brands submenu */}
+            <div
+              className={`transition-all duration-300 overflow-hidden bg-gray-50 ${
+                mobileBrandsMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
+              }`}>
+              {brandNames.map((brand) => (
+                <LocalizedLink
+                  key={brand}
+                  href={`/products/brand/${brand.toLowerCase()}`}
+                  className={`block px-10 py-3 text-base font-medium uppercase ${
+                    currentBrand === brand.toLowerCase() ? 'text-lime-600' : 'text-slate-800'
+                  } hover:text-lime-600 hover:bg-gray-100`}>
+                  {brand}
+                </LocalizedLink>
+              ))}
+            </div>
+          </div>
         </nav>
       </div>
 
