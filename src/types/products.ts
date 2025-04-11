@@ -22,6 +22,8 @@ export interface Product {
   name: string
   slug: string
   title: string
+  cover?: string
+  bigscreen?: boolean
   images: {
     url: string
     alt: string
@@ -31,6 +33,10 @@ export interface Product {
   }
   content: {
     [key in Locales]: string
+  }
+  raw_seo?: {
+    description: string
+    keywords: string
   }
   seo: {
     [key in Locales]: {
@@ -49,6 +55,7 @@ export interface Products {
     products: Product[]
     sort: number
     enabled: boolean
+    bigscreen?: boolean
   }
 }
 

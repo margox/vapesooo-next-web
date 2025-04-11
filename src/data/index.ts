@@ -11,7 +11,12 @@ export const brandNames = Object.keys(products)
 export const brands = Object.values(products)
 
 export const productsMap = Object.fromEntries(
-  Object.keys(products).flatMap((brand) =>
-    products[brand].products.map((product) => ((product.brand = brand), [product.slug, product]))
-  )
+  Object.keys(products).flatMap((brand) => {
+    const bigscreen = products[brand].bigscreen
+    return products[brand].products.map((product) => {
+      product.brand = brand
+      product.bigscreen = bigscreen
+      return [product.slug, product]
+    })
+  })
 )

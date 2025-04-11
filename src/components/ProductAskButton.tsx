@@ -12,7 +12,25 @@ const handleAskOnWhatsApp = (productTitle: string) => {
   window.open(`https://api.whatsapp.com/send/?phone=${phone}&text=${encodeURIComponent(textEN)}`, '_blank')
 }
 
-export default function ProductAskButton({ productTitle, locale }: { productTitle: string; locale: Locales }) {
+export default function ProductAskButton({
+  productTitle,
+  locale,
+  sticky,
+}: {
+  productTitle: string
+  locale: Locales
+  sticky?: boolean
+}) {
+  if (sticky) {
+    return (
+      <button
+        onClick={() => handleAskOnWhatsApp(productTitle)}
+        className="sticky bottom-12 left-1/2 -translate-x-1/2 mb-8 bg-slate-800 hover:bg-slate-700 shadow-xl shadow-slate-900/30 text-white px-6 py-3 rounded-full font-medium">
+        {t(locale, 'common.contactInquiry')}
+      </button>
+    )
+  }
+
   return (
     <button
       onClick={() => handleAskOnWhatsApp(productTitle)}

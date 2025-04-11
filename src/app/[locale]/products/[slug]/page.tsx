@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import ImageSlider from '@/components/ImageSlider'
 import { LocalizedLink } from '@/components/Link'
 import { productsMap } from '@/data/index'
@@ -18,6 +19,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     return {
       title: 'Product Not Found',
       description: 'The product you&apos;re looking for doesn&apos;t exist.',
+    }
+  }
+
+  if (product.raw_seo) {
+    return {
+      title: product.title || product.name,
+      description: product.raw_seo.description,
+      keywords: product.raw_seo.keywords,
     }
   }
 
@@ -43,6 +52,26 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
           className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md">
           View All Products
         </LocalizedLink>
+      </div>
+    )
+  }
+
+  if (product.bigscreen) {
+    return (
+      <div className="max-w-[1920px] mx-auto">
+        {product.images.map((image) => (
+          <div key={image.url} className="w-full h-full">
+            <Image
+              alt={image.alt}
+              className="w-full h-auto"
+              src={image.url + '?imageMogr2/format/webp/thumbnail/1920x'}
+              width={1920}
+              height={1080}
+            />
+          </div>
+        ))}
+        <div className="h-8" />
+        <ProductAskButton sticky productTitle={product.title || product.name} locale={locale as Locales} />
       </div>
     )
   }

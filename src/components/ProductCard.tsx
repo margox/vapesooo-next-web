@@ -9,7 +9,7 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ product }: ProductCardProps) {
-  const featuredImage = product.images[0]
+  const featuredImage = product.cover ? { url: product.cover, alt: product.name } : product.images[0]
 
   return (
     <LocalizedLink href={`/products/${product.slug}`}>
@@ -24,7 +24,9 @@ export default function ProductCard({ product }: ProductCardProps) {
           />
         </div>
         <div className="p-4">
-          <h3 className="text-sm text-center font-semibold text-gray-900 dark:text-white">{product.title || product.name}</h3>
+          <h3 className="text-sm text-center font-semibold text-gray-900 dark:text-white">
+            {product.title || product.name}
+          </h3>
         </div>
       </div>
     </LocalizedLink>
