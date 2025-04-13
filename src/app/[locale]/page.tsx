@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative max-w-[1920px] mx-auto aspect-[2/1] overflow-hidden bg-gray-100 dark:bg-gray-800">
+      <section className="relative max-w-[1920px] mx-auto aspect-[1920/700] overflow-hidden bg-gray-100 dark:bg-gray-800">
         <div className="relative h-full w-full">
           <HeroSlider images={homeHeroProducts} />
         </div>

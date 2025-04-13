@@ -1,28 +1,28 @@
 {
   "hero_sliders": [
     {
-      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/hifancy-18k.webp",
-      "product_slug": "hifancy-luxury-box-18000"
+      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/banner/vapesolo-galaxy.webp",
+      "path": "/products/brand/vapsolo"
     },
     {
-      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/hifancy-20k.webp",
-      "product_slug": "hifancy-legend-20000"
+      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/banner/hifancy.webp",
+      "path": "/products/brand/hifancy"
     },
     {
-      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/2025/03/2025032823174010476.jpg",
-      "product_slug": "hifancy-rainbow-25000"
+      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/banner/mrvi.webp",
+      "path": "/products/brand/mrvi"
     },
     {
-      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/hifancy-30k.webp",
-      "product_slug": "hifancy-energy-30000"
+      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/banner/groo.webp",
+      "path": "/products/brand/groo"
     },
     {
-      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/hifancy-35k.webp",
-      "product_slug": "hifancy-twins-35000"
+      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/banner/alibarbar.webp",
+      "path": "/products/brand/alibarbar"
     },
     {
-      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/hifancy-40k.webp",
-      "product_slug": "hifancy-storm-40000"
+      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/banner/bou.webp",
+      "path": "/products/brand/bou"
     }
   ]
 }

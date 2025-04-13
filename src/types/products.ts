@@ -12,7 +12,7 @@ export enum Locales {
 
 export interface HomeProductSliderItem {
   image: string
-  product_slug: string
+  path: string
 }
 
 export type HomeProductSlider = HomeProductSliderItem[]
