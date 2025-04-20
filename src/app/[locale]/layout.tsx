@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { ThemeProvider } from '@/components/ThemeProvider'
+import { AgeVerification } from '@/components/AgeVerification'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -39,6 +40,7 @@ export default async function RootLayout(props: RootLayoutProps) {
             <main className="flex-grow">{children}</main>
             <Footer />
           </div>
+          <AgeVerification locale={locale} />
         </ThemeProvider>
       </body>
       <Script async src="https://www.googletagmanager.com/gtag/js?id=G-KCB1EYWH1H" strategy="afterInteractive" />

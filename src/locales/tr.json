@@ -40,5 +40,15 @@
     "ru": "Русский",
     "tr": "Türkçe",
     "pl": "Polski"
+  },
+  "ageVerification": {
+    "title": "Yaş Doğrulama",
+    "message": "Bu web sitesi 21 yaş ve üzeri yetişkinlere yönelik vape ürünleri içermektedir.",
+    "question": "21 yaş veya üzerinde misiniz?",
+    "yes": "Evet, 21+ yaşındayım",
+    "no": "Hayır, 21 yaşından küçüğüm",
+    "warning": "Yaş Kısıtlamalı İçerik",
+    "warningMessage": "Bu web sitesi yalnızca 21 yaş ve üzeri yetişkinlere yönelik vape ürünleri içermektedir.",
+    "proceed": "21 yaşından büyüğüm, devam et"
   }
 }

@@ -40,5 +40,15 @@
     "pt": "Portugalski",
     "ru": "Rosyjski",
     "tr": "Turecki"
+  },
+  "ageVerification": {
+    "title": "Weryfikacja wieku",
+    "message": "Ta strona zawiera produkty vapingowe przeznaczone dla osób powyżej 21 roku życia.",
+    "question": "Czy masz 21 lat lub więcej?",
+    "yes": "Tak, mam 21+",
+    "no": "Nie, mam poniżej 21 lat",
+    "warning": "Treść z ograniczeniem wiekowym",
+    "warningMessage": "Ta strona zawiera produkty vapingowe przeznaczone wyłącznie dla osób powyżej 21 roku życia.",
+    "proceed": "Mam powyżej 21 lat, kontynuuj"
   }
 }

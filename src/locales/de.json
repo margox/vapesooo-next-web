@@ -40,5 +40,15 @@
     "ru": "Русский",
     "tr": "Türkçe",
     "pl": "Polski"
+  },
+  "ageVerification": {
+    "title": "Altersüberprüfung",
+    "message": "Diese Website enthält Vape-Produkte, die nur für Erwachsene ab 21 Jahren bestimmt sind.",
+    "question": "Sind Sie 21 Jahre oder älter?",
+    "yes": "Ja, ich bin 21+",
+    "no": "Nein, ich bin unter 21",
+    "warning": "Altersbeschränkter Inhalt",
+    "warningMessage": "Diese Website enthält Vape-Produkte, die nur für Erwachsene ab 21 Jahren bestimmt sind.",
+    "proceed": "Ich bin über 21, fortfahren"
   }
 } 
