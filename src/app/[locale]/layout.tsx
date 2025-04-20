@@ -53,6 +53,7 @@ gtag('js', new Date());
 gtag('config', 'G-KCB1EYWH1H');
 `}
       </Script>
+      <Script defer data-domain="vapesooo.com" src="https://stat.jianli.online/js/plausible.js"></Script>
     </html>
   )
 }
