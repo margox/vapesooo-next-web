@@ -48,6 +48,7 @@ export default function Header() {
   const [mobileBrandsMenuOpen, setMobileBrandsMenuOpen] = useState(false)
 
   const isStore = pathname === `/${locale}/products`
+  const isAbout = pathname === `/${locale}/about`
   const isBrandsPage = pathname.includes(`/${locale}/products/brand/`)
   const currentBrand = slug ? productsMap[slug as string]?.brand.toLowerCase() : brand
 
@@ -83,13 +84,13 @@ export default function Header() {
 
         {/* Desktop Navigation */}
         <nav className="absolute top-0 left-4 z-10 hidden md:flex space-x-12">
-          <LocalizedLink
+          {/* <LocalizedLink
             href="/products"
             className={`flex items-center hover:text-lime-600 h-16 text-gray-700 text-base font-medium uppercase ${
               isStore ? 'text-lime-600' : 'text-slate-80'
             }`}>
             {t('common.store')}
-          </LocalizedLink>
+          </LocalizedLink> */}
 
           {/* Consolidated Brands dropdown */}
           <div className="flex items-center hover:text-lime-600 relative h-16 group">
@@ -141,6 +142,14 @@ export default function Header() {
               ))}
             </div>
           </div>
+
+          <LocalizedLink
+            href="/about"
+            className={`flex items-center hover:text-lime-600 h-16 text-gray-700 text-base font-medium uppercase ${
+              isAbout ? 'text-lime-600' : 'text-slate-80'
+            }`}>
+            {t('common.about')}
+          </LocalizedLink>
         </nav>
         <div className="relative flex-1 flex items-center justify-center">
           <h1 className="absolute text-transparent pointer-events-none">Vapesooo</h1>

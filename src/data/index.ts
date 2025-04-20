@@ -1,6 +1,7 @@
 import productsData from './products.json'
 import homeData from './home.json'
 import type { Products, HomeProductSlider } from '@/types/products'
+import aboutData from './about.json'
 
 export const products = productsData as unknown as Products
 
@@ -20,3 +21,5 @@ export const productsMap = Object.fromEntries(
     })
   })
 )
+
+export const about = aboutData as unknown as Record<string, (typeof aboutData)['en']>

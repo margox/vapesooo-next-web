@@ -1,0 +1,641 @@
+{
+  "en": {
+    "qualityPromise": {
+      "title": "Our Promise: Quality Over Quantity",
+      "subtitle": "In a market saturated with options, vapesooo stands as a beacon of reliability.",
+      "criteriaTitle": "Our expert team tests every product against non-negotiable criteria:",
+      "criteria": [
+        {
+          "title": "Material Safety",
+          "desc": "Toxin-free, durable components.",
+          "icon": "🛡️"
+        },
+        {
+          "title": "Flavor Authenticity",
+          "desc": "Rich, consistent tastes without compromise.",
+          "icon": "👅"
+        },
+        {
+          "title": "Engineering Precision",
+          "desc": "Smooth performance and ergonomic design.",
+          "icon": "⚙️"
+        },
+        {
+          "title": "Sustainability",
+          "desc": "Eco-conscious manufacturing and recyclability.",
+          "icon": "🌱"
+        }
+      ],
+      "footerText": "We continuously scout emerging brands, ensuring our catalog evolves with the latest innovations. Whether you're chasing bold new flavors or sleek, pocket-friendly devices, vapesooo is your one-stop destination for certified excellence."
+    },
+    "entrepreneurs": {
+      "title": "Empowering Global Entrepreneurs",
+      "subtitle": "Beyond serving vapers, vapesooo is building a worldwide network of passionate advocates. Our mission extends to empowering aspiring entrepreneurs through our Global Partnership Program.",
+      "benefitsTitle": "By joining as a Regional Sales Representative, you'll gain exclusive access to:",
+      "benefits": [
+        "Curated Product Portfolios: Sell only top-tier, vapesooo-certified brands.",
+        "Business Support: Personalized training, marketing tools, and profit-sharing models.",
+        "Supply Chain Advantage: Competitive pricing and logistics backed by our robust network."
+      ],
+      "footerText": "Whether you're in Dubai, Berlin, or Jakarta, we provide the resources to launch and scale your vaping business effortlessly. Together, we're redefining what it means to succeed in this industry—one partnership at a time."
+    },
+    "trust": {
+      "title": "Why Trust Us?",
+      "reasons": [
+        {
+          "title": "Transparency",
+          "desc": "Unbiased reviews, no paid promotions."
+        },
+        {
+          "title": "Innovation",
+          "desc": "Stay ahead with trends spotted by our global scout team."
+        },
+        {
+          "title": "Community-Driven",
+          "desc": "We listen to vapers and entrepreneurs alike to shape our offerings."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Join the vapesooo Movement",
+      "forVapers": {
+        "title": "For vapers:",
+        "desc": "Explore with confidence. Every product here is a promise."
+      },
+      "forEntrepreneurs": {
+        "title": "For entrepreneurs:",
+        "desc": "Build your future with a partner invested in your growth."
+      },
+      "buttonText": "Visit vapesooo today",
+      "footerText": "where quality meets opportunity, and every puff (or partnership) is a step toward something extraordinary."
+    }
+  },
+  "zh": {
+    "qualityPromise": {
+      "title": "我们的承诺：质量胜于数量",
+      "subtitle": "在众多选择的市场中，vapesooo是可靠性的灯塔。",
+      "criteriaTitle": "我们的专业团队按照不可协商的标准测试每款产品：",
+      "criteria": [
+        {
+          "title": "材料安全",
+          "desc": "无毒、耐用的组件。",
+          "icon": "🛡️"
+        },
+        {
+          "title": "风味真实性",
+          "desc": "丰富、一致的口感，绝不妥协。",
+          "icon": "👅"
+        },
+        {
+          "title": "工程精度",
+          "desc": "流畅的性能和人体工学设计。",
+          "icon": "⚙️"
+        },
+        {
+          "title": "可持续性",
+          "desc": "环保制造和可回收性。",
+          "icon": "🌱"
+        }
+      ],
+      "footerText": "我们不断寻找新兴品牌，确保我们的产品目录与时俱进。无论您追求大胆的新口味还是时尚便携的设备，vapesooo都是您获得认证卓越的一站式目的地。"
+    },
+    "entrepreneurs": {
+      "title": "赋能全球创业者",
+      "subtitle": "除了服务电子烟用户，vapesooo正在建立一个全球热情倡导者网络。我们的使命还包括通过全球合作伙伴计划赋能有抱负的创业者。",
+      "benefitsTitle": "作为区域销售代表加入，您将获得独家访问权限：",
+      "benefits": [
+        "精选产品组合：只销售经过vapesooo认证的顶级品牌。",
+        "业务支持：个性化培训、营销工具和利润分享模式。",
+        "供应链优势：由我们强大网络支持的竞争性定价和物流。"
+      ],
+      "footerText": "无论您在迪拜、柏林还是雅加达，我们都提供轻松启动和扩展电子烟业务所需的资源。我们正在重新定义这个行业的成功标准——一次一个合作伙伴。"
+    },
+    "trust": {
+      "title": "为什么信任我们？",
+      "reasons": [
+        {
+          "title": "透明度",
+          "desc": "无偏见评论，无付费推广。"
+        },
+        {
+          "title": "创新",
+          "desc": "通过我们的全球侦察团队发现的趋势保持领先。"
+        },
+        {
+          "title": "社区驱动",
+          "desc": "我们倾听电子烟用户和创业者的意见来塑造我们的产品。"
+        }
+      ]
+    },
+    "cta": {
+      "title": "加入vapesooo运动",
+      "forVapers": {
+        "title": "对于电子烟用户：",
+        "desc": "放心探索。这里的每款产品都是一个承诺。"
+      },
+      "forEntrepreneurs": {
+        "title": "对于创业者：",
+        "desc": "与一个投资于您成长的伙伴一起建设未来。"
+      },
+      "buttonText": "立即访问vapesooo",
+      "footerText": "在这里，质量遇见机会，每一口（或每一次合作）都是迈向非凡的一步。"
+    }
+  },
+  "fr": {
+    "qualityPromise": {
+      "title": "Notre Promesse : Qualité avant Quantité",
+      "subtitle": "Dans un marché saturé d'options, vapesooo se distingue comme un phare de fiabilité.",
+      "criteriaTitle": "Notre équipe d'experts teste chaque produit selon des critères non négociables :",
+      "criteria": [
+        {
+          "title": "Sécurité des Matériaux",
+          "desc": "Composants sans toxines et durables.",
+          "icon": "🛡️"
+        },
+        {
+          "title": "Authenticité des Saveurs",
+          "desc": "Des goûts riches et constants sans compromis.",
+          "icon": "👅"
+        },
+        {
+          "title": "Précision d'Ingénierie",
+          "desc": "Performance fluide et design ergonomique.",
+          "icon": "⚙️"
+        },
+        {
+          "title": "Durabilité",
+          "desc": "Fabrication écologique et recyclabilité.",
+          "icon": "🌱"
+        }
+      ],
+      "footerText": "Nous recherchons continuellement de nouvelles marques, garantissant que notre catalogue évolue avec les dernières innovations. Que vous recherchiez de nouvelles saveurs audacieuses ou des appareils élégants et portables, vapesooo est votre destination unique pour une excellence certifiée."
+    },
+    "entrepreneurs": {
+      "title": "Autonomiser les Entrepreneurs Mondiaux",
+      "subtitle": "Au-delà du service aux vapoteurs, vapesooo construit un réseau mondial de passionnés. Notre mission s'étend à l'autonomisation des entrepreneurs aspirants grâce à notre Programme de Partenariat Global.",
+      "benefitsTitle": "En rejoignant en tant que Représentant des Ventes Régional, vous bénéficierez d'un accès exclusif à :",
+      "benefits": [
+        "Portefeuilles de Produits Sélectionnés : Vendez uniquement des marques certifiées vapesooo de premier ordre.",
+        "Soutien Commercial : Formation personnalisée, outils marketing et modèles de partage des bénéfices.",
+        "Avantage de la Chaîne d'Approvisionnement : Prix compétitifs et logistique soutenus par notre réseau robuste."
+      ],
+      "footerText": "Que vous soyez à Dubaï, Berlin ou Jakarta, nous fournissons les ressources pour lancer et développer votre entreprise de vapotage sans effort. Ensemble, nous redéfinissons ce que signifie réussir dans cette industrie—un partenariat à la fois."
+    },
+    "trust": {
+      "title": "Pourquoi Nous Faire Confiance ?",
+      "reasons": [
+        {
+          "title": "Transparence",
+          "desc": "Avis impartiaux, pas de promotions payées."
+        },
+        {
+          "title": "Innovation",
+          "desc": "Restez en avance avec les tendances repérées par notre équipe de scouts mondiaux."
+        },
+        {
+          "title": "Axé sur la Communauté",
+          "desc": "Nous écoutons les vapoteurs et les entrepreneurs pour façonner nos offres."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Rejoignez le Mouvement vapesooo",
+      "forVapers": {
+        "title": "Pour les vapoteurs :",
+        "desc": "Explorez en toute confiance. Chaque produit ici est une promesse."
+      },
+      "forEntrepreneurs": {
+        "title": "Pour les entrepreneurs :",
+        "desc": "Construisez votre avenir avec un partenaire investi dans votre croissance."
+      },
+      "buttonText": "Visitez vapesooo aujourd'hui",
+      "footerText": "où la qualité rencontre l'opportunité, et chaque bouffée (ou partenariat) est un pas vers quelque chose d'extraordinaire."
+    }
+  },
+  "es": {
+    "qualityPromise": {
+      "title": "Nuestra Promesa: Calidad sobre Cantidad",
+      "subtitle": "En un mercado saturado de opciones, vapesooo se erige como un faro de confiabilidad.",
+      "criteriaTitle": "Nuestro equipo de expertos evalúa cada producto con criterios no negociables:",
+      "criteria": [
+        {
+          "title": "Seguridad de Materiales",
+          "desc": "Componentes libres de toxinas y duraderos.",
+          "icon": "🛡️"
+        },
+        {
+          "title": "Autenticidad de Sabores",
+          "desc": "Sabores ricos y consistentes sin compromisos.",
+          "icon": "👅"
+        },
+        {
+          "title": "Precisión de Ingeniería",
+          "desc": "Rendimiento suave y diseño ergonómico.",
+          "icon": "⚙️"
+        },
+        {
+          "title": "Sostenibilidad",
+          "desc": "Fabricación ecológica y reciclabilidad.",
+          "icon": "🌱"
+        }
+      ],
+      "footerText": "Constantemente exploramos nuevas marcas, asegurando que nuestro catálogo evolucione con las últimas innovaciones. Ya sea que busques sabores audaces o dispositivos elegantes y portátiles, vapesooo es tu destino para excelencia certificada."
+    },
+    "entrepreneurs": {
+      "title": "Empoderando Emprendedores Globales",
+      "subtitle": "Más allá de servir a vapeadores, vapesooo construye una red mundial de defensores apasionados. Nuestra misión incluye empoderar emprendedores a través de nuestro Programa de Asociación Global.",
+      "benefitsTitle": "Como Representante de Ventas Regional, obtendrás acceso exclusivo a:",
+      "benefits": [
+        "Portafolios Curados: Vende solo marcas certificadas vapesooo de primer nivel.",
+        "Soporte Empresarial: Capacitación personalizada, herramientas de marketing y modelos de reparto de ganancias.",
+        "Ventaja en Cadena de Suministro: Precios competitivos y logística respaldada por nuestra red robusta."
+      ],
+      "footerText": "Ya sea en Dubái, Berlín o Yakarta, proporcionamos los recursos para lanzar y escalar tu negocio de vapeo sin esfuerzo. Juntos redefinimos el éxito en esta industria—una asociación a la vez."
+    },
+    "trust": {
+      "title": "¿Por Qué Confiar en Nosotros?",
+      "reasons": [
+        {
+          "title": "Transparencia",
+          "desc": "Reseñas imparciales, sin promociones pagadas."
+        },
+        {
+          "title": "Innovación",
+          "desc": "Mantente adelante con tendencias identificadas por nuestro equipo global."
+        },
+        {
+          "title": "Impulsado por la Comunidad",
+          "desc": "Escuchamos a vapeadores y emprendedores para moldear nuestra oferta."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Únete al Movimiento vapesooo",
+      "forVapers": {
+        "title": "Para vapeadores:",
+        "desc": "Explora con confianza. Cada producto aquí es una promesa."
+      },
+      "forEntrepreneurs": {
+        "title": "Para emprendedores:",
+        "desc": "Construye tu futuro con un socio comprometido con tu crecimiento."
+      },
+      "buttonText": "Visita vapesooo hoy",
+      "footerText": "donde la calidad se encuentra con la oportunidad, y cada calada (o asociación) es un paso hacia algo extraordinario."
+    }
+  },
+  "de": {
+    "qualityPromise": {
+      "title": "Unser Versprechen: Qualität vor Quantität",
+      "subtitle": "In einem mit Optionen gesättigten Markt steht vapesooo als Leuchtturm der Zuverlässigkeit.",
+      "criteriaTitle": "Unser Expertenteam prüft jedes Produkt nach nicht verhandelbaren Kriterien:",
+      "criteria": [
+        {
+          "title": "Materialsicherheit",
+          "desc": "Giftfreie, langlebige Komponenten.",
+          "icon": "🛡️"
+        },
+        {
+          "title": "Geschmacksauthentizität",
+          "desc": "Reiche, konsistente Aromen ohne Kompromisse.",
+          "icon": "👅"
+        },
+        {
+          "title": "Ingenieurspräzision",
+          "desc": "Reibungslose Leistung und ergonomisches Design.",
+          "icon": "⚙️"
+        },
+        {
+          "title": "Nachhaltigkeit",
+          "desc": "Umweltbewusste Herstellung und Recyclingfähigkeit.",
+          "icon": "🌱"
+        }
+      ],
+      "footerText": "Wir suchen kontinuierlich nach neuen Marken und stellen sicher, dass unser Katalog mit den neuesten Innovationen wächst. Ob Sie nach neuen Geschmacksrichtungen oder schlanken, tragbaren Geräten suchen – vapesooo ist Ihr Ziel für zertifizierte Exzellenz."
+    },
+    "entrepreneurs": {
+      "title": "Unterstützung für globale Unternehmer",
+      "subtitle": "Über die Bedienung von Vapern hinaus baut vapesooo ein weltweites Netzwerk leidenschaftlicher Befürworter auf. Unsere Mission erstreckt sich auf die Förderung angehender Unternehmer durch unser Global Partnership Program.",
+      "benefitsTitle": "Als Regional Sales Representative erhalten Sie exklusiven Zugang zu:",
+      "benefits": [
+        "Kuratierte Produktportfolios: Verkaufen Sie nur erstklassige, von vapesooo zertifizierte Marken.",
+        "Unterstützung für Unternehmen: Personalisiertes Training, Marketing-Tools und Gewinnbeteiligungsmodelle.",
+        "Lieferkettenvorteile: Wettbewerbsfähige Preise und Logistik, gestützt durch unser robustes Netzwerk."
+      ],
+      "footerText": "Egal, ob Sie in Dubai, Berlin oder Jakarta sind – wir bieten die Ressourcen, um Ihr Vaping-Geschäft mühelos zu starten und auszubauen. Gemeinsam definieren wir neu, was Erfolg in dieser Branche bedeutet – eine Partnerschaft nach der anderen."
+    },
+    "trust": {
+      "title": "Warum uns vertrauen?",
+      "reasons": [
+        {
+          "title": "Transparenz",
+          "desc": "Unvoreingenommene Bewertungen, keine bezahlten Werbungen."
+        },
+        {
+          "title": "Innovation",
+          "desc": "Bleiben Sie mit Trends vorne, die von unserem globalen Scout-Team entdeckt werden."
+        },
+        {
+          "title": "Gemeinschaftsorientiert",
+          "desc": "Wir hören Vapern und Unternehmern zu, um unser Angebot zu gestalten."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Werden Sie Teil der vapesooo-Bewegung",
+      "forVapers": {
+        "title": "Für Vaper:",
+        "desc": "Entdecken Sie mit Vertrauen. Jedes Produkt hier ist ein Versprechen."
+      },
+      "forEntrepreneurs": {
+        "title": "Für Unternehmer:",
+        "desc": "Gestalten Sie Ihre Zukunft mit einem Partner, der in Ihr Wachstum investiert."
+      },
+      "buttonText": "Besuchen Sie vapesooo heute",
+      "footerText": "wo Qualität auf Gelegenheit trifft und jeder Zug (oder jede Partnerschaft) ein Schritt zu etwas Außergewöhnlichem ist."
+    }
+  },
+  "it": {
+    "qualityPromise": {
+      "title": "La Nostra Promessa: Qualità Prima di Tutto",
+      "subtitle": "In un mercato saturo di opzioni, vapesooo si distingue come faro di affidabilità.",
+      "criteriaTitle": "Il nostro team di esperti testa ogni prodotto secondo criteri non negoziabili:",
+      "criteria": [
+        {
+          "title": "Sicurezza dei Materiali",
+          "desc": "Componenti privi di tossine e durevoli.",
+          "icon": "🛡️"
+        },
+        {
+          "title": "Autenticità del Gusto",
+          "desc": "Sapori ricchi e consistenti senza compromessi.",
+          "icon": "👅"
+        },
+        {
+          "title": "Precisione Ingegneristica",
+          "desc": "Prestazioni fluide e design ergonomico.",
+          "icon": "⚙️"
+        },
+        {
+          "title": "Sostenibilità",
+          "desc": "Produzione ecologica e riciclabilità.",
+          "icon": "🌱"
+        }
+      ],
+      "footerText": "Cerchiamo costantemente nuovi brand, garantendo che il nostro catalogo evolva con le ultime innovazioni. Che tu cerchi nuovi gusti audaci o dispositivi eleganti e tascabili, vapesooo è la tua destinazione per l'eccellenza certificata."
+    },
+    "entrepreneurs": {
+      "title": "Potenziamo Imprenditori Globali",
+      "subtitle": "Oltre a servire i vaper, vapesooo sta costruendo una rete mondiale di appassionati sostenitori. La nostra missione si estende al potenziamento degli aspiranti imprenditori attraverso il nostro Programma di Partnership Globale.",
+      "benefitsTitle": "Unendoti come Rappresentante di Vendita Regionale, avrai accesso esclusivo a:",
+      "benefits": [
+        "Portafogli Prodotti Curati: Vendi solo marchi certificati vapesooo di prima qualità.",
+        "Supporto Commerciale: Formazione personalizzata, strumenti di marketing e modelli di profit-sharing.",
+        "Vantaggio nella Catena di Approvvigionamento: Prezzi competitivi e logistica supportata dalla nostra solida rete."
+      ],
+      "footerText": "Che tu sia a Dubai, Berlino o Giacarta, forniamo le risorse per lanciare e far crescere la tua attività di vaping senza sforzo. Insieme, ridefiniamo il significato di successo in questo settore—una partnership alla volta."
+    },
+    "trust": {
+      "title": "Perché Sceglierci?",
+      "reasons": [
+        {
+          "title": "Trasparenza",
+          "desc": "Recensioni imparziali, nessuna promozione a pagamento."
+        },
+        {
+          "title": "Innovazione",
+          "desc": "Resta al passo con le tendenze individuate dal nostro team globale."
+        },
+        {
+          "title": "Guidati dalla Comunità",
+          "desc": "Ascoltiamo vaper e imprenditori per modellare la nostra offerta."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Unisciti al Movimento vapesooo",
+      "forVapers": {
+        "title": "Per i vaper:",
+        "desc": "Esplora con fiducia. Ogni prodotto qui è una promessa."
+      },
+      "forEntrepreneurs": {
+        "title": "Per imprenditori:",
+        "desc": "Costruisci il tuo futuro con un partner investito nella tua crescita."
+      },
+      "buttonText": "Visita vapesooo oggi",
+      "footerText": "dove la qualità incontra l'opportunità e ogni boccata (o partnership) è un passo verso qualcosa di straordinario."
+    }
+  },
+  "pt": {
+    "qualityPromise": {
+      "title": "Nossa Promessa: Qualidade Acima de Quantidade",
+      "subtitle": "Em um mercado saturado de opções, a vapesooo destaca-se como um farol de confiabilidade.",
+      "criteriaTitle": "Nossa equipe de especialistas testa cada produto contra critérios não negociáveis:",
+      "criteria": [
+        {
+          "title": "Segurança dos Materiais",
+          "desc": "Componentes livres de toxinas e duráveis.",
+          "icon": "🛡️"
+        },
+        {
+          "title": "Autenticidade do Sabor",
+          "desc": "Sabores ricos e consistentes sem comprometimento.",
+          "icon": "👅"
+        },
+        {
+          "title": "Precisão de Engenharia",
+          "desc": "Desempenho suave e design ergonômico.",
+          "icon": "⚙️"
+        },
+        {
+          "title": "Sustentabilidade",
+          "desc": "Fabricação ecológica e reciclabilidade.",
+          "icon": "🌱"
+        }
+      ],
+      "footerText": "Continuamente buscamos novas marcas, garantindo que nosso catálogo evolua com as últimas inovações. Quer você busque novos sabores ousados ou dispositivos elegantes e portáteis, a vapesooo é seu destino para excelência certificada."
+    },
+    "entrepreneurs": {
+      "title": "Capacitando Empreendedores Globais",
+      "subtitle": "Além de atender vapers, a vapesooo está construindo uma rede mundial de defensores apaixonados. Nossa missão inclui capacitar aspirantes a empreendedores através do nosso Programa de Parceria Global.",
+      "benefitsTitle": "Ao se juntar como Representante de Vendas Regional, você terá acesso exclusivo a:",
+      "benefits": [
+        "Portfólios de Produtos Curados: Venda apenas marcas certificadas vapesooo de primeira linha.",
+        "Suporte Empresarial: Treinamento personalizado, ferramentas de marketing e modelos de participação nos lucros.",
+        "Vantagem na Cadeia de Suprimentos: Preços competitivos e logística apoiada por nossa rede robusta."
+      ],
+      "footerText": "Esteja você em Dubai, Berlim ou Jacarta, fornecemos os recursos para iniciar e expandir seu negócio de vaping sem esforço. Juntos, estamos redefinindo o que significa ter sucesso neste setor - uma parceria de cada vez."
+    },
+    "trust": {
+      "title": "Por Que Confiar na Nossa?",
+      "reasons": [
+        {
+          "title": "Transparência",
+          "desc": "Avaliações imparciais, sem promoções pagas."
+        },
+        {
+          "title": "Inovação",
+          "desc": "Fique à frente com tendências identificadas por nossa equipe global."
+        },
+        {
+          "title": "Orientado pela Comunidade",
+          "desc": "Ouvimos vapers e empreendedores para moldar nossas ofertas."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Junte-se ao Movimento vapesooo",
+      "forVapers": {
+        "title": "Para vapers:",
+        "desc": "Explore com confiança. Cada produto aqui é uma promessa."
+      },
+      "forEntrepreneurs": {
+        "title": "Para empreendedores:",
+        "desc": "Construa seu futuro com um parceiro investido em seu crescimento."
+      },
+      "buttonText": "Visite vapesooo hoje",
+      "footerText": "onde qualidade encontra oportunidade, e cada baforada (ou parceria) é um passo em direção a algo extraordinário."
+    }
+  },
+  "ru": {
+    "qualityPromise": {
+      "title": "Наше Обещание: Качество Превыше Количества",
+      "subtitle": "На перенасыщенном рынке vapesooo является маяком надежности.",
+      "criteriaTitle": "Наша команда экспертов проверяет каждый продукт по строгим критериям:",
+      "criteria": [
+        {
+          "title": "Безопасность Материалов",
+          "desc": "Нетоксичные, долговечные компоненты.",
+          "icon": "🛡️"
+        },
+        {
+          "title": "Аутентичность Вкуса",
+          "desc": "Насыщенные, стабильные вкусы без компромиссов.",
+          "icon": "👅"
+        },
+        {
+          "title": "Точность Конструкции",
+          "desc": "Плавная работа и эргономичный дизайн.",
+          "icon": "⚙️"
+        },
+        {
+          "title": "Устойчивость",
+          "desc": "Экологичное производство и перерабатываемость.",
+          "icon": "🌱"
+        }
+      ],
+      "footerText": "Мы постоянно ищем новые бренды, чтобы наш каталог соответствовал последним инновациям. Хотите ли вы смелые новые вкусы или элегантные компактные устройства - vapesooo это ваш выбор сертифицированного качества."
+    },
+    "entrepreneurs": {
+      "title": "Поддержка Глобальных Предпринимателей",
+      "subtitle": "Помимо обслуживания вейперов, vapesooo создает всемирную сеть увлеченных сторонников. Наша миссия включает поддержку начинающих предпринимателей через Глобальную Партнерскую Программу.",
+      "benefitsTitle": "Став Региональным Торговым Представителем, вы получите:",
+      "benefits": [
+        "Отобранные Продуктовые Портфели: Продавайте только лучшие бренды, сертифицированные vapesooo.",
+        "Бизнес-Поддержка: Персональное обучение, маркетинговые инструменты и модели распределения прибыли.",
+        "Преимущества Цепочки Поставок: Конкурентные цены и логистика при поддержке нашей надежной сети."
+      ],
+      "footerText": "Где бы вы ни были - в Дубае, Берлине или Джакарте - мы предоставим ресурсы для легкого старта и развития вашего вейп-бизнеса. Вместе мы переопределяем успех в этой отрасли - шаг за шагом, партнерство за партнерством."
+    },
+    "trust": {
+      "title": "Почему Нам Можно Доверять?",
+      "reasons": [
+        {
+          "title": "Прозрачность",
+          "desc": "Объективные обзоры, без платных рекламных акций."
+        },
+        {
+          "title": "Инновации",
+          "desc": "Будьте впереди с трендами, обнаруженными нашей глобальной командой."
+        },
+        {
+          "title": "Ориентация на Сообщество",
+          "desc": "Мы прислушиваемся к вейперам и предпринимателям, чтобы формировать наше предложение."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Присоединяйтесь к Движению vapesooo",
+      "forVapers": {
+        "title": "Для вейперов:",
+        "desc": "Исследуйте с уверенностью. Каждый продукт здесь - это обещание."
+      },
+      "forEntrepreneurs": {
+        "title": "Для предпринимателей:",
+        "desc": "Стройте свое будущее с партнером, инвестирующим в ваш рост."
+      },
+      "buttonText": "Посетите vapesooo сегодня",
+      "footerText": "где качество встречается с возможностями, и каждая затяжка (или партнерство) - это шаг к чему-то необыкновенному."
+    }
+  },
+  "pl": {
+    "qualityPromise": {
+      "title": "Nasza Obietnica: Jakość Ponad Ilość",
+      "subtitle": "Na nasyconym rynku vapesooo wyróżnia się jako wzór niezawodności.",
+      "criteriaTitle": "Nasz zespół ekspertów testuje każdy produkt według rygorystycznych kryteriów:",
+      "criteria": [
+        {
+          "title": "Bezpieczeństwo Materiałów",
+          "desc": "Komponenty wolne od toksyn i trwałe.",
+          "icon": "🛡️"
+        },
+        {
+          "title": "Autentyczność Smaku",
+          "desc": "Bogate, spójne smaki bez kompromisów.",
+          "icon": "👅"
+        },
+        {
+          "title": "Precyzja Inżynieryjna",
+          "desc": "Płynne działanie i ergonomiczny design.",
+          "icon": "⚙️"
+        },
+        {
+          "title": "Zrównoważony Rozwój",
+          "desc": "Ekologiczna produkcja i możliwość recyklingu.",
+          "icon": "🌱"
+        }
+      ],
+      "footerText": "Stale poszukujemy nowych marek, zapewniając, że nasz katalog ewoluuje wraz z najnowszymi innowacjami. Niezależnie od tego, czy szukasz odważnych nowych smaków, czy eleganckich, kieszonkowych urządzeń, vapesooo to Twój wybór certyfikowanej doskonałości."
+    },
+    "entrepreneurs": {
+      "title": "Wspieranie Globalnych Przedsiębiorców",
+      "subtitle": "Poza obsługą użytkowników e-papierosów, vapesooo buduje światową sieć pasjonatów. Nasza misja obejmuje wspieranie początkujących przedsiębiorców poprzez Globalny Program Partnerski.",
+      "benefitsTitle": "Dołączając jako Regionalny Przedstawiciel Handlowy, zyskasz dostęp do:",
+      "benefits": [
+        "Starannie Wyselekcjonowane Produkty: Sprzedawaj tylko najlepsze marki certyfikowane przez vapesooo.",
+        "Wsparcie Biznesowe: Spersonalizowane szkolenia, narzędzia marketingowe i modele podziału zysków.",
+        "Przewaga w Łańcuchu Dostaw: Konkurencyjne ceny i logistyka wspierana przez naszą solidną sieć."
+      ],
+      "footerText": "Nieważne, czy jesteś w Dubaju, Berlinie czy Dżakarcie - zapewniamy zasoby do łatwego rozpoczęcia i rozwoju Twojego biznesu vapingowego. Wspólnie redefiniujemy znaczenie sukcesu w tej branży - krok po kroku, partnerstwo po partnerstwie."
+    },
+    "trust": {
+      "title": "Dlaczego Nam Zaufać?",
+      "reasons": [
+        {
+          "title": "Przejrzystość",
+          "desc": "Obiektywne recenzje, brak płatnych promocji."
+        },
+        {
+          "title": "Innowacyjność",
+          "desc": "Bądź na bieżąco z trendami wykrywanymi przez nasz globalny zespół."
+        },
+        {
+          "title": "Nastawienie na Społeczność",
+          "desc": "Słuchamy użytkowników e-papierosów i przedsiębiorców, aby kształtować naszą ofertę."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Dołącz do Ruchu vapesooo",
+      "forVapers": {
+        "title": "Dla użytkowników e-papierosów:",
+        "desc": "Eksploruj z pewnością siebie. Każdy produkt tutaj to obietnica."
+      },
+      "forEntrepreneurs": {
+        "title": "Dla przedsiębiorców:",
+        "desc": "Buduj swoją przyszłość z partnerem zaangażowanym w Twój rozwój."
+      },
+      "buttonText": "Odwiedź vapesooo już dziś",
+      "footerText": "gdzie jakość spotyka się z możliwością, a każdy puff (lub partnerstwo) to krok w kierunku czegoś niezwykłego."
+    }
+  }
+}
