@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react'
 import { t } from '@/locales'
 import { Locales } from '@/types/products'
-import { ExclamationCircleIcon } from '@heroicons/react/24/outline'
 
 interface AgeVerificationProps {
   locale: Locales
