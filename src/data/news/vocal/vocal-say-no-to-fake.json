@@ -1,0 +1,43 @@
+{
+  "slug": "vocal-say-no-to-fake",
+  "en": {
+    "title": "Company News - VOZOL",
+    "description": "Latest news and updates from VOZOL company",
+    "content": "<div class=\"content\">\n  <h1>Company News</h1>\n  <p>Stay updated with the latest news and announcements from VOZOL.</p>\n  <div class=\"news-container\">\n    <!-- News articles would be listed here -->\n  </div>\n</div>"
+  },
+  "es": {
+    "title": "Noticias de la Empresa - VOZOL",
+    "description": "Últimas noticias y actualizaciones de la empresa VOZOL.",
+    "content": "<div class=\"content\">\n  <h1>Noticias de la Empresa</h1>\n  <p>Mantente al día con las últimas noticias y anuncios de VOZOL.</p>\n  <div class=\"news-container\">\n    <!-- Aquí se listarían los artículos de noticias -->\n  </div>\n</div>"
+  },
+  "fr": {
+    "title": "Actualités de l'Entreprise - VOZOL",
+    "description": "Dernières nouvelles et mises à jour de la société VOZOL",
+    "content": "<div class=\"content\">\n  <h1>Actualités de l'entreprise</h1>\n  <p>Restez informé des dernières nouvelles et annonces de VOZOL.</p>\n  <div class=\"news-container\">\n    <!-- Les articles de presse seraient listés ici -->\n  </div>\n</div>"
+  },
+  "de": {
+    "title": "Firmennachrichten - VOZOL",
+    "description": "Aktuelle Neuigkeiten und Updates von der Firma VOZOL",
+    "content": "<div class=\"content\">\n  <h1>Unternehmensnachrichten</h1>\n  <p>Bleiben Sie auf dem Laufenden mit den neuesten Nachrichten und Ankündigungen von VOZOL.</p>\n  <div class=\"news-container\">\n    <!-- Hier würden die Nachrichtenartikel aufgelistet werden -->\n  </div>\n</div>"
+  },
+  "it": {
+    "title": "企业新闻 - VOZOL",
+    "description": "Ultime notizie e aggiornamenti dall'azienda VOZOL",
+    "content": "<div class=\"content\">\n  <h1>Novità Aziendali</h1>\n  <p>Rimani aggiornato con le ultime notizie e annunci da VOZOL.</p>\n  <div class=\"news-container\">\n    <!-- Gli articoli delle notizie sarebbero elencati qui -->\n  </div>\n</div>"
+  },
+  "pt": {
+    "title": "Notícias da Empresa - VOZOL",
+    "description": "Últimas notícias e atualizações da empresa VOZOL",
+    "content": "<div class=\"content\">\n  <h1>Notícias da Empresa</h1>\n  <p>Mantenha-se atualizado com as últimas notícias e anúncios da VOZOL.</p>\n  <div class=\"news-container\">\n    <!-- Artigos de notícias seriam listados aqui -->\n  </div>\n</div>"
+  },
+  "ru": {
+    "title": "Новости компании - VOZOL",
+    "description": "Последние новости и обновления от компании VOZOL.",
+    "content": "<div class=\"content\">\n  <h1>Новости компании</h1>\n  <p>Будьте в курсе последних новостей и анонсов от VOZOL.</p>\n  <div class=\"news-container\">\n    <!-- Здесь будут размещены новостные статьи -->\n  </div>\n</div>"
+  },
+  "pl": {
+    "title": "Aktualności Firmy - VOZOL",
+    "description": "Najnowsze wiadomości i aktualizacje od firmy VOZOL",
+    "content": "<div class=\"content\">\n  <h1>Aktualności Firmy</h1>\n  <p>Bądź na bieżąco z najnowszymi wiadomościami i ogłoszeniami od VOZOL.</p>\n  <div class=\"news-container\">\n    <!-- Tutaj będą umieszczone artykuły z aktualnościami -->\n  </div>\n</div>"
+  }
+}

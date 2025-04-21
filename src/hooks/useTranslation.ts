@@ -1,5 +1,3 @@
-'use client'
-
 import { useLocale } from '@/app/store/locale'
 import { t } from '@/locales'
 

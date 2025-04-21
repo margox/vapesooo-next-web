@@ -1,0 +1,43 @@
+{
+  "slug": "bou-16",
+  "en": {
+    "title": "IECIE Electronic Cigarette Exhibition",
+    "description": "IECIE Electronic Cigarette Exhibition, started in 2015, is currently the most influential and large-scale electronic cigarette exhibition in the world, covering solutions from the upstream accessories supply chain of the electronic cigarette industry to downstream finished equipment and other solutions, and has become a global leader in electronic cigarette product technology and brands. Excellent display and promotion platform.",
+    "content": "<div class=\"news-del-out\">\n  <div class=\"news-detail\">\n    <div class=\"news-dtl-title\"></div>\n    <div class=\"news-dtl-time\">\n      <div>\n        <span class=\"news-dtl-times\"></span>\n      </div>\n    </div>\n    <div class=\"news-str-detail\"></div>\n  </div>\n  <div class=\"articles\">\n    <div class=\"art-title\">Related News</div>\n    <div class=\"artline\"></div>\n    <div class=\"atrout\">\n      <div id=\"newsid\"></div>\n    </div>\n  </div>\n</div>"
+  },
+  "es": {
+    "title": "Exposición IECIE de Cigarrillos Electrónicos",
+    "description": "La Exposición de Cigarrillos Electrónicos IECIE, iniciada en 2015, es actualmente la exposición de cigarrillos electrónicos más influyente y a gran escala del mundo. Abarca soluciones que van desde la cadena de suministro de accesorios en la industria de cigarrillos electrónicos hasta equipos terminados y otras soluciones, convirtiéndose en una plataforma líder a nivel mundial para la exhibición y promoción de tecnología y marcas de productos de cigarrillos electrónicos.",
+    "content": "<div class=\"news-del-out\">\n  <div class=\"news-detail\">\n    <div class=\"news-dtl-title\"></div>\n    <div class=\"news-dtl-time\">\n      <div>\n        <span class=\"news-dtl-times\"></span>\n      </div>\n    </div>\n    <div class=\"news-str-detail\"></div>\n  </div>\n  <div class=\"articles\">\n    <div class=\"art-title\">Noticias Relacionadas</div>\n    <div class=\"artline\"></div>\n    <div class=\"atrout\">\n      <div id=\"newsid\"></div>\n    </div>\n  </div>\n</div>"
+  },
+  "fr": {
+    "title": "Exposition IECIE sur la Cigarette Électronique",
+    "description": "L’IECIE, salon international de la cigarette électronique, lancé en 2015, est aujourd’hui le plus influent et le plus grand salon dédié à ce secteur dans le monde. Il couvre l’ensemble des solutions, de la chaîne d’approvisionnement en composants en amont jusqu’aux équipements finis en aval, s’imposant comme une plateforme incontournable pour la mise en avant des technologies et des marques leaders du secteur de la cigarette électronique à l’échelle mondiale.",
+    "content": "<div class=\"news-del-out\">\n  <div class=\"news-detail\">\n    <div class=\"news-dtl-title\"></div>\n    <div class=\"news-dtl-time\">\n      <div>\n        <span class=\"news-dtl-times\"></span>\n      </div>\n    </div>\n    <div class=\"news-str-detail\"></div>\n  </div>\n  <div class=\"articles\">\n    <div class=\"art-title\">Actualités connexes</div>\n    <div class=\"artline\"></div>\n    <div class=\"atrout\">\n      <div id=\"newsid\"></div>\n    </div>\n  </div>\n</div>"
+  },
+  "de": {
+    "title": "IECIE E-Zigaretten Ausstellung",
+    "description": "Die IECIE Electronic Cigarette Exhibition, die 2015 ins Leben gerufen wurde, ist derzeit die weltweit einflussreichste und größte E-Zigaretten-Messe. Sie deckt Lösungen von der upstream-Zubehörlieferkette der E-Zigarettenindustrie bis hin zu downstream-Endgeräten und anderen Lösungen ab und hat sich zu einer führenden globalen Plattform für die Präsentation und Förderung von E-Zigaretten-Produkttechnologien und Marken entwickelt.",
+    "content": "<div class=\"news-del-out\">\n  <div class=\"news-detail\">\n    <div class=\"news-dtl-title\"></div>\n    <div class=\"news-dtl-time\">\n      <div>\n        <span class=\"news-dtl-times\"></span>\n      </div>\n    </div>\n    <div class=\"news-str-detail\"></div>\n  </div>\n  <div class=\"articles\">\n    <div class=\"art-title\">Verwandte Nachrichten</div>\n    <div class=\"artline\"></div>\n    <div class=\"atrout\">\n      <div id=\"newsid\"></div>\n    </div>\n  </div>\n</div>"
+  },
+  "it": {
+    "title": "IECIE电子烟展览会",
+    "description": "IECIE电子烟展始于2015年，是目前全球影响力最大、规模最大的电子烟展，覆盖电子烟行业上游配件供应链到下游成品设备等解决方案，已成为全球电子烟产品技术与品牌首屈一指的优质展示推广平台。",
+    "content": "<div class=\"news-del-out\">\n  <div class=\"news-detail\">\n    <div class=\"news-dtl-title\"></div>\n    <div class=\"news-dtl-time\">\n      <div>\n        <span class=\"news-dtl-times\"></span>\n      </div>\n    </div>\n    <div class=\"news-str-detail\"></div>\n  </div>\n  <div class=\"articles\">\n    <div class=\"art-title\">Notizie Correlate</div>\n    <div class=\"artline\"></div>\n    <div class=\"atrout\">\n      <div id=\"newsid\"></div>\n    </div>\n  </div>\n</div>"
+  },
+  "pt": {
+    "title": "Exposição IECIE de Cigarros Eletrônicos",
+    "description": "A IECIE Electronic Cigarette Exhibition, iniciada em 2015, é atualmente a feira de cigarros eletrônicos mais influente e de grande escala do mundo. Ela abrange soluções desde a cadeia de suprimentos de acessórios a montante da indústria de cigarros eletrônicos até equipamentos acabados a jusante e outras soluções, tornando-se uma plataforma líder global para a exibição e promoção de tecnologia e marcas de produtos de cigarros eletrônicos.",
+    "content": "```html\n<div class=\"news-del-out\">\n  <div class=\"news-detail\">\n    <div class=\"news-dtl-title\"></div>\n    <div class=\"news-dtl-time\">\n      <div>\n        <span class=\"news-dtl-times\"></span>\n      </div>\n    </div>\n    <div class=\"news-str-detail\"></div>\n  </div>\n  <div class=\"articles\">\n    <div class=\"art-title\">Notícias Relacionadas</div>\n    <div class=\"artline\"></div>\n    <div class=\"atrout\">\n      <div id=\"newsid\"></div>\n    </div>\n  </div>\n</div>\n```"
+  },
+  "ru": {
+    "title": "IECIE Выставка электронных сигарет",
+    "description": "Выставка электронных сигарет IECIE, основанная в 2015 году, на сегодняшний день является самой влиятельной и масштабной выставкой электронных сигарет в мире. Она охватывает решения от поставщиков комплектующих для верхнего уровня производственной цепочки индустрии электронных сигарет до готового оборудования и других решений для нижнего уровня, став ведущей мировой платформой для демонстрации и продвижения передовых технологий и брендов в сфере электронных сигарет.",
+    "content": "<div class=\"news-del-out\">\n  <div class=\"news-detail\">\n    <div class=\"news-dtl-title\"></div>\n    <div class=\"news-dtl-time\">\n      <div>\n        <span class=\"news-dtl-times\"></span>\n      </div>\n    </div>\n    <div class=\"news-str-detail\"></div>\n  </div>\n  <div class=\"articles\">\n    <div class=\"art-title\">Связанные новости</div>\n    <div class=\"artline\"></div>\n    <div class=\"atrout\">\n      <div id=\"newsid\"></div>\n    </div>\n  </div>\n</div>"
+  },
+  "pl": {
+    "title": "IECIE Targi Elektronicznych Papierosów",
+    "description": "IECIE Targi Elektronicznych Papierosów, rozpoczęte w 2015 roku, są obecnie najbardziej wpływowymi i największymi targami elektronicznych papierosów na świecie. Obejmują rozwiązania od łańcucha dostaw akcesoriów w górę strumienia przemysłu elektronicznych papierosów po gotowe urządzenia i inne rozwiązania w dół strumienia, stając się globalną platformą prezentacji i promocji dla wiodących technologii i marek produktów związanych z elektronicznymi papierosami.",
+    "content": "<div class=\"news-del-out\">\n  <div class=\"news-detail\">\n    <div class=\"news-dtl-title\"></div>\n    <div class=\"news-dtl-time\">\n      <div>\n        <span class=\"news-dtl-times\"></span>\n      </div>\n    </div>\n    <div class=\"news-str-detail\"></div>\n  </div>\n  <div class=\"articles\">\n    <div class=\"art-title\">Powiązane wiadomości</div>\n    <div class=\"artline\"></div>\n    <div class=\"atrout\">\n      <div id=\"newsid\"></div>\n    </div>\n  </div>\n</div>"
+  }
+}

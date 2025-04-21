@@ -1,0 +1,43 @@
+{
+  "slug": "bou-20",
+  "en": {
+    "title": "IECIE Overseas Exhibition",
+    "description": "As a member of Informa, the world's leading expo group, IECIE is an exhibition platform with global influence in the vertical field of electronic cigarettes. Take an important step with exhibitors and partners: IECIE 2022 officially moved overseas, and the overall layout from Asia to the United States and Europe will be completed within three years.",
+    "content": "<div class=\"news-del-out\">\n  <div class=\"news-detail\">\n    <div class=\"news-dtl-title\"></div>\n    <div class=\"news-dtl-time\">\n      <div>\n        <span class=\"news-dtl-times\"></span>\n      </div>\n    </div>\n    <div class=\"news-str-detail\"></div>\n  </div>\n  <div class=\"articles\">\n    <div class=\"art-title\">Related News</div>\n    <div class=\"artline\"></div>\n    <div class=\"atrout\">\n      <div id=\"newsid\"></div>\n    </div>\n  </div>\n</div>"
+  },
+  "es": {
+    "title": "Exposición Internacional IECIE en el Extranjero",
+    "description": "Como miembro de Informa, el grupo líder mundial en ferias, IECIE es una plataforma de exposiciones con influencia global en el campo vertical de los cigarrillos electrónicos. Damos un paso importante junto a expositores y socios: IECIE 2022 se traslada oficialmente al extranjero, completando en tres años un despliegue integral desde Asia hasta Estados Unidos y Europa.",
+    "content": "<div class=\"news-del-out\">\n  <div class=\"news-detail\">\n    <div class=\"news-dtl-title\"></div>\n    <div class=\"news-dtl-time\">\n      <div>\n        <span class=\"news-dtl-times\"></span>\n      </div>\n    </div>\n    <div class=\"news-str-detail\"></div>\n  </div>\n  <div class=\"articles\">\n    <div class=\"art-title\">Noticias Relacionadas</div>\n    <div class=\"artline\"></div>\n    <div class=\"atrout\">\n      <div id=\"newsid\"></div>\n    </div>\n  </div>\n</div>"
+  },
+  "fr": {
+    "title": "Exposition IECIE à l'étranger",
+    "description": "En tant que membre d'Informa, le leader mondial des salons professionnels, IECIE est une plateforme d'exposition d'envergure mondiale dans le domaine vertical des cigarettes électroniques. Nous franchissons une étape cruciale avec nos exposants et partenaires : IECIE 2022 s'installe officiellement à l'étranger, avec un déploiement complet de l'Asie vers les États-Unis et l'Europe prévu sur trois ans.",
+    "content": "<div class=\"news-del-out\">\n  <div class=\"news-detail\">\n    <div class=\"news-dtl-title\"></div>\n    <div class=\"news-dtl-time\">\n      <div>\n        <span class=\"news-dtl-times\"></span>\n      </div>\n    </div>\n    <div class=\"news-str-detail\"></div>\n  </div>\n  <div class=\"articles\">\n    <div class=\"art-title\">Actualités connexes</div>\n    <div class=\"artline\"></div>\n    <div class=\"atrout\">\n      <div id=\"newsid\"></div>\n    </div>\n  </div>\n</div>"
+  },
+  "de": {
+    "title": "IECIE Auslandsmesse",
+    "description": "Als Mitglied von Informa, der weltweit führenden Messe-Gruppe, ist IECIE eine Ausstellungsplattform mit globalem Einfluss im spezialisierten Bereich der E-Zigaretten. Gemeinsam mit Ausstellern und Partnern wird ein wichtiger Schritt unternommen: IECIE 2022 expandiert offiziell ins Ausland und wird innerhalb von drei Jahren den globalen Aufbau von Asien über die USA bis nach Europa abschließen.",
+    "content": "<div class=\"news-del-out\">\n  <div class=\"news-detail\">\n    <div class=\"news-dtl-title\"></div>\n    <div class=\"news-dtl-time\">\n      <div>\n        <span class=\"news-dtl-times\"></span>\n      </div>\n    </div>\n    <div class=\"news-str-detail\"></div>\n  </div>\n  <div class=\"articles\">\n    <div class=\"art-title\">Verwandte Nachrichten</div>\n    <div class=\"artline\"></div>\n    <div class=\"atrout\">\n      <div id=\"newsid\"></div>\n    </div>\n  </div>\n</div>"
+  },
+  "it": {
+    "title": "IECIE海外展会",
+    "description": "作为全球领先的会展集团英富曼旗下成员，IECIE是电子烟垂直领域具有全球影响力的展览平台。与展商及合作伙伴共同迈出重要一步：IECIE 2022正式出海，三年内完成从亚洲到欧美市场的整体布局。",
+    "content": "<div class=\"news-del-out\">\n  <div class=\"news-detail\">\n    <div class=\"news-dtl-title\"></div>\n    <div class=\"news-dtl-time\">\n      <div>\n        <span class=\"news-dtl-times\"></span>\n      </div>\n    </div>\n    <div class=\"news-str-detail\"></div>\n  </div>\n  <div class=\"articles\">\n    <div class=\"art-title\">Notizie Correlate</div>\n    <div class=\"artline\"></div>\n    <div class=\"atrout\">\n      <div id=\"newsid\"></div>\n    </div>\n  </div>\n</div>"
+  },
+  "pt": {
+    "title": "Exposição Internacional IECIE no Exterior",
+    "description": "Como membro da Informa, o principal grupo de exposições do mundo, o IECIE é uma plataforma de exposições com influência global no campo vertical de cigarros eletrônicos. Dando um passo importante com expositores e parceiros: o IECIE 2022 oficialmente expandiu para o exterior, e o planejamento completo da Ásia para os Estados Unidos e Europa será concluído em três anos.",
+    "content": "```html\n<div class=\"news-del-out\">\n  <div class=\"news-detail\">\n    <div class=\"news-dtl-title\"></div>\n    <div class=\"news-dtl-time\">\n      <div>\n        <span class=\"news-dtl-times\"></span>\n      </div>\n    </div>\n    <div class=\"news-str-detail\"></div>\n  </div>\n  <div class=\"articles\">\n    <div class=\"art-title\">Notícias Relacionadas</div>\n    <div class=\"artline\"></div>\n    <div class=\"atrout\">\n      <div id=\"newsid\"></div>\n    </div>\n  </div>\n</div>\n```"
+  },
+  "ru": {
+    "title": "IECIE Зарубежная выставка",
+    "description": "Как член Informa, ведущей мировой выставочной группы, IECIE является влиятельной платформой в вертикальной нише электронных сигарет. Вместе с экспонентами и партнерами мы делаем важный шаг: в 2022 году IECIE официально выходит на зарубежные рынки, завершив за три года глобальную экспансию из Азии в США и Европу.",
+    "content": "<div class=\"news-del-out\">\n  <div class=\"news-detail\">\n    <div class=\"news-dtl-title\"></div>\n    <div class=\"news-dtl-time\">\n      <div>\n        <span class=\"news-dtl-times\"></span>\n      </div>\n    </div>\n    <div class=\"news-str-detail\"></div>\n  </div>\n  <div class=\"articles\">\n    <div class=\"art-title\">Связанные новости</div>\n    <div class=\"artline\"></div>\n    <div class=\"atrout\">\n      <div id=\"newsid\"></div>\n    </div>\n  </div>\n</div>"
+  },
+  "pl": {
+    "title": "IECIE Wystawy Zagraniczne",
+    "description": "Jako członek Informa, wiodącej na świecie grupy targowej, IECIE jest platformą wystawienniczą o globalnym zasięgu w branży e-papierosów. Wraz z wystawcami i partnerami podejmujemy ważny krok: IECIE 2022 oficjalnie wychodzi poza granice Azji, rozpoczynając ekspansję na rynki amerykański i europejski. Pełna globalna obecność zostanie osiągnięta w ciągu trzech lat.",
+    "content": "<div class=\"news-del-out\">\n  <div class=\"news-detail\">\n    <div class=\"news-dtl-title\"></div>\n    <div class=\"news-dtl-time\">\n      <div>\n        <span class=\"news-dtl-times\"></span>\n      </div>\n    </div>\n    <div class=\"news-str-detail\"></div>\n  </div>\n  <div class=\"articles\">\n    <div class=\"art-title\">Powiązane wiadomości</div>\n    <div class=\"artline\"></div>\n    <div class=\"atrout\">\n      <div id=\"newsid\"></div>\n    </div>\n  </div>\n</div>"
+  }
+}

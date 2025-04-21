@@ -50,5 +50,11 @@
     "warning": "Age Restricted Content",
     "warningMessage": "This website contains vape products that are only intended for adults 21 years of age or older.",
     "proceed": "I am over 21, proceed"
+  },
+  "News": {
+    "latest_news": "Latest News",
+    "view_all_news": "View All News",
+    "read_more": "Read More",
+    "news": "News"
   }
 }
