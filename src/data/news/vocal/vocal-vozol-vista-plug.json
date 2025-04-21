@@ -1,0 +1,43 @@
+{
+  "slug": "vocal-vozol-vista-plug",
+  "en": {
+    "title": "Company News - VOZOL",
+    "description": "Latest news and updates from VOZOL company.",
+    "content": "<div class=\"content\"><h1>Company News</h1><p>Stay updated with the latest news and announcements from VOZOL.</p></div>"
+  },
+  "es": {
+    "title": "Noticias de la Empresa - VOZOL",
+    "description": "Últimas noticias y actualizaciones de la empresa VOZOL.",
+    "content": "<div class=\"content\"><h1>Noticias de la Empresa</h1><p>Mantente al día con las últimas noticias y anuncios de VOZOL.</p></div>"
+  },
+  "fr": {
+    "title": "Actualités de l'entreprise - VOZOL",
+    "description": "Dernières nouvelles et mises à jour de l'entreprise VOZOL.",
+    "content": "<div class=\"content\"><h1>Actualités de l'entreprise</h1><p>Restez informé des dernières nouvelles et annonces de VOZOL.</p></div>"
+  },
+  "de": {
+    "title": "Firmennachrichten - VOZOL",
+    "description": "Aktuelle Neuigkeiten und Updates von der Firma VOZOL.",
+    "content": "<div class=\"content\"><h1>Unternehmensnachrichten</h1><p>Bleiben Sie auf dem Laufenden mit den neuesten Nachrichten und Ankündigungen von VOZOL.</p></div>"
+  },
+  "it": {
+    "title": "企业新闻 - VOZOL",
+    "description": "VOZOL公司最新动态与资讯更新。",
+    "content": "<div class=\"content\"><h1>Notizie Aziendali</h1><p>Rimani aggiornato con le ultime novità e annunci da VOZOL.</p></div>"
+  },
+  "pt": {
+    "title": "Notícias da Empresa - VOZOL",
+    "description": "Últimas notícias e atualizações da empresa VOZOL.",
+    "content": "<div class=\"content\"><h1>Notícias da Empresa</h1><p>Mantenha-se atualizado com as últimas notícias e anúncios da VOZOL.</p></div>"
+  },
+  "ru": {
+    "title": "Новости компании - VOZOL",
+    "description": "Последние новости и обновления от компании VOZOL.",
+    "content": "<div class=\"content\"><h1>Новости компании</h1><p>Будьте в курсе последних новостей и объявлений от VOZOL.</p></div>"
+  },
+  "pl": {
+    "title": "Aktualności Firmy - VOZOL",
+    "description": "Najnowsze wiadomości i aktualności firmy VOZOL.",
+    "content": "<div class=\"content\"><h1>Aktualności Firmy</h1><p>Bądź na bieżąco z najnowszymi wiadomościami i ogłoszeniami od VOZOL.</p></div>"
+  }
+}

@@ -23,3 +23,27 @@ export const productsMap = Object.fromEntries(
 )
 
 export const about = aboutData as unknown as Record<string, (typeof aboutData)['en']>
+
+// Define interfaces for news data
+export interface NewsContent {
+  title: string
+  description: string
+  content: string
+}
+
+export interface NewsItem {
+  slug: string
+  en: NewsContent
+  es: NewsContent
+  fr: NewsContent
+  de: NewsContent
+  it: NewsContent
+  pt: NewsContent
+  ru: NewsContent
+  pl: NewsContent
+}
+
+export interface BrandNews {
+  brand: string
+  news: NewsItem[]
+}
