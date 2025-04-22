@@ -1,5 +1,6 @@
 import { headers } from 'next/headers'
 import { notFound } from 'next/navigation'
+import './styles.css'
 
 interface Props {
   params: {
@@ -26,14 +27,15 @@ async function getNewsDetail(slug: string) {
   return res.json()
 }
 
-export default async function NewsDetailPage({ params: { slug } }: Props) {
+export default async function NewsDetailPage({ params }: Props) {
+  const { slug } = await params
   const news = await getNewsDetail(slug)
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <article className="prose lg:prose-xl mx-auto">
-        <h1>{news.en.title}</h1>
-        <div className="mt-6" dangerouslySetInnerHTML={{ __html: news.en.content }} />
+    <div className="container mx-auto px-4 py-8 page-news">
+      <article className="news prose lg:prose-xl mx-auto">
+        <h1 className="text-3xl font-bold mt-5 mb-8">{news.en.title}</h1>
+        <div className="news-content mt-6" dangerouslySetInnerHTML={{ __html: news.en.content }} />
       </article>
     </div>
   )

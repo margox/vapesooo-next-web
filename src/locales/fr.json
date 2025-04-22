@@ -6,6 +6,7 @@
     "products": "Produits",
     "viewAll": "Voir tous",
     "about": "À propos",
+    "news": "Actualités",
     "contact": "Contact",
     "viewAllProducts": "Voir tous les produits",
     "viewDetails": "Voir les détails",
@@ -50,5 +51,11 @@
     "warning": "Contenu réservé aux adultes",
     "warningMessage": "Ce site contient des produits de vapotage qui sont uniquement destinés aux adultes de 21 ans ou plus.",
     "proceed": "J'ai plus de 21 ans, continuer"
+  },
+  "news": {
+    "latest_news": "Dernières actualités",
+    "view_all_news": "Voir toutes les actualités",
+    "read_more": "Lire la suite",
+    "news": "Actualités"
   }
 }

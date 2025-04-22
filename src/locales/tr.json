@@ -7,6 +7,7 @@
     "viewAll": "Tümünü Görüntüle",
     "contact": "İletişim",
     "about": "Hakkımızda",
+    "news": "Haberler",
     "viewAllProducts": "Tüm Ürünleri Görüntüle",
     "viewDetails": "Detayları Görüntüle",
     "contactInquiry": "Ürün Sorgusu için İletişim",
@@ -50,5 +51,11 @@
     "warning": "Yaş Kısıtlamalı İçerik",
     "warningMessage": "Bu web sitesi yalnızca 21 yaş ve üzeri yetişkinlere yönelik vape ürünleri içermektedir.",
     "proceed": "21 yaşından büyüğüm, devam et"
+  },
+  "news": {
+    "latest_news": "Son Haberler",
+    "view_all_news": "Tüm Haberleri Görüntüle",
+    "read_more": "Devamını Oku",
+    "news": "Haberler"
   }
 }
