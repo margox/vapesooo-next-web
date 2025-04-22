@@ -3,12 +3,6 @@ import { notFound } from 'next/navigation'
 import BrandNewsPage from './components/BrandNewsPage'
 import { NewsItem } from '@/data'
 
-interface Props {
-  params: {
-    brand: string
-  }
-}
-
 async function getBrandNews(brand: string) {
   const headersList = await headers()
   const host = headersList.get('host')
@@ -30,7 +24,8 @@ async function getBrandNews(brand: string) {
   return res.json() as Promise<{ data: NewsItem[] }>
 }
 
-export default async function Page({ params: { brand } }: Props) {
+export default async function Page({ params }: { params: Promise<{ brand: string; locale: string }> }) {
+  const { brand } = await params
   const { data: news } = await getBrandNews(brand)
   return <BrandNewsPage brand={brand} news={news} />
 }

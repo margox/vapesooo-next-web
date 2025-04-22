@@ -2,12 +2,6 @@ import { headers } from 'next/headers'
 import { notFound } from 'next/navigation'
 import './styles.css'
 
-interface Props {
-  params: {
-    slug: string
-  }
-}
-
 async function getNewsDetail(slug: string) {
   const headersList = await headers()
   const host = headersList.get('host')
@@ -27,7 +21,7 @@ async function getNewsDetail(slug: string) {
   return res.json()
 }
 
-export default async function NewsDetailPage({ params }: Props) {
+export default async function NewsDetailPage({ params }: { params: Promise<{ slug: string; locale: string }> }) {
   const { slug } = await params
   const news = await getNewsDetail(slug)
 
