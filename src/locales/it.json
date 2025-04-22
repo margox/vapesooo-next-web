@@ -6,6 +6,7 @@
     "products": "Prodotti",
     "viewAll": "Visualizza tutti",
     "about": "Chi Siamo",
+    "news": "Notizie",
     "product": "Prodotto",
     "contact": "Contatto",
     "viewAllProducts": "Visualizza tutti i prodotti",
@@ -51,5 +52,11 @@
     "warning": "Contenuto con restrizioni di età",
     "warningMessage": "Questo sito contiene prodotti vape destinati solo a persone di età superiore ai 21 anni.",
     "proceed": "Ho più di 21 anni, procedi"
+  },
+  "news": {
+    "latest_news": "Ultime notizie",
+    "view_all_news": "Vedi tutte le notizie",
+    "read_more": "Leggi di più",
+    "news": "Notizie"
   }
 }

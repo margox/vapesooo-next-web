@@ -1,0 +1,71 @@
+.page-news .news .news-content {
+  border: 1px solid #e1e2e3;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+
+  /* 段落样式 */
+  p {
+    margin: 1.2em 0;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+  }
+
+  /* 标题样式 */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 1.5em 0 0.8em;
+    line-height: 1.4;
+    color: #222;
+  }
+
+  /* 列表样式 */
+  ul,
+  ol {
+    margin: 1em 0;
+    padding-left: 2em;
+  }
+
+  ul li,
+  ol li {
+    margin: 0.5em 0;
+    line-height: 1.6;
+  }
+
+  /* 链接样式 */
+  a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  a:hover {
+    color: #004499;
+    text-decoration: underline;
+  }
+
+  /* 引用样式 */
+  blockquote {
+    margin: 1.5em 0;
+    padding: 1em 1.5em;
+    border-left: 4px solid #ddd;
+    background-color: #f9f9f9;
+    font-style: italic;
+  }
+
+  blockquote p {
+    margin: 0;
+  }
+
+  /* 图片样式 */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 1.5em 0;
+  }
+}

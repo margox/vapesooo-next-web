@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 /* Disable dark mode for this project */
 @custom-variant dark (&:where(.___disabled_dark, .___disabled_dark *));
@@ -55,4 +55,8 @@ button {
 
 .swiper-thumbs .swiper-slide-thumb-active {
   @apply border-slate-400;
+}
+
+.random-pro-list {
+  display: none;
 }

@@ -4,6 +4,7 @@
     "store": "Store",
     "brands": "Brands",
     "about": "About",
+    "news": "News",
     "products": "Products",
     "viewAll": "View All",
     "contact": "Contact",
@@ -51,10 +52,9 @@
     "warningMessage": "This website contains vape products that are only intended for adults 21 years of age or older.",
     "proceed": "I am over 21, proceed"
   },
-  "News": {
-    "latest_news": "Latest News",
+  "news": {
+    "latest_news": "Latest Vape News",
     "view_all_news": "View All News",
-    "read_more": "Read More",
-    "news": "News"
+    "read_more": "Read More"
   }
 }

@@ -48,7 +48,8 @@ export default function Header() {
   const [mobileBrandsMenuOpen, setMobileBrandsMenuOpen] = useState(false)
 
   const isStore = pathname === `/${locale}/products`
-  const isAbout = pathname === `/${locale}/about`
+  const isAbout = pathname.includes(`/${locale}/about`)
+  const isNews = pathname.includes(`/${locale}/news`)
   const isBrandsPage = pathname.includes(`/${locale}/products/brand/`)
   const currentBrand = slug ? productsMap[slug as string]?.brand.toLowerCase() : brand
 
@@ -142,6 +143,14 @@ export default function Header() {
               ))}
             </div>
           </div>
+
+          <LocalizedLink
+            href="/news"
+            className={`flex items-center hover:text-lime-600 h-16 text-gray-700 text-base font-medium uppercase ${
+              isNews ? 'text-lime-600' : 'text-slate-80'
+            }`}>
+            {t('common.news')}
+          </LocalizedLink>
 
           <LocalizedLink
             href="/about"
