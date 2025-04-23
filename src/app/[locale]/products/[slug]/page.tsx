@@ -102,7 +102,10 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             </LocalizedLink>
           </nav>
           <h1 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">{product.title || product.name}</h1>
-          <p className="text-lg mb-6 text-gray-700 dark:text-gray-300">{product.excerpt[locale as Locales]}</p>
+          <p
+            className="text-lg mb-6 text-gray-700 dark:text-gray-300"
+            dangerouslySetInnerHTML={{ __html: product.excerpt[locale as Locales] }}
+          />
           <ProductAskButton productTitle={product.title || product.name} locale={locale as Locales} />
         </div>
       </div>
