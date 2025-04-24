@@ -1,31 +1,20 @@
 'use client'
 
-import { useEffect, useState } from 'react'
 import { useParams } from 'next/navigation'
 import { ArrowLeftIcon } from '@heroicons/react/24/outline'
 import { LocalizedLink } from '@/components/Link'
 import ProductCard from '@/components/ProductCard'
-import { Product } from '@/types/products'
 import { products as productsData } from '@/data/index'
 import { useTranslation } from '@/hooks/useTranslation'
+
 const brands = Object.keys(productsData)
 
 export default function BrandProductsPage() {
   const params = useParams()
   const brandSlug = params.brand as string
-  const [products, setProducts] = useState<Product[]>([])
-  const [brandName, setBrandName] = useState<string>('')
   const { t } = useTranslation()
 
-  useEffect(() => {
-    // Find the brand with case-insensitive matching
-    const foundBrand = brands.find((brand) => brand.toLowerCase() === brandSlug.toLowerCase())
-
-    if (foundBrand) {
-      setBrandName(foundBrand)
-      setProducts(productsData[foundBrand].products || [])
-    }
-  }, [brandSlug])
+  const brandName = brands.find((brand) => brand.toLowerCase() === brandSlug.toLowerCase())
 
   if (!brandName) {
     return (
@@ -40,6 +29,8 @@ export default function BrandProductsPage() {
       </div>
     )
   }
+
+  const products = productsData[brandName].products
 
   return (
     <div className="container mx-auto px-4 py-8">

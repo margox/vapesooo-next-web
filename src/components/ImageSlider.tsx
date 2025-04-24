@@ -1,24 +1,24 @@
-"use client";
+'use client'
 
-import Image from "next/image";
-import { useState, useEffect } from "react";
-import type { Swiper as SwiperType } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Navigation, Thumbs } from "swiper/modules";
+import Image from 'next/image'
+import { useState } from 'react'
+import type { Swiper as SwiperType } from 'swiper'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { FreeMode, Navigation, Thumbs } from 'swiper/modules'
 
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/navigation";
-import "swiper/css/thumbs";
+import 'swiper/css'
+import 'swiper/css/free-mode'
+import 'swiper/css/navigation'
+import 'swiper/css/thumbs'
 
 type SliderProps = {
-  images: { url: string; alt: string }[];
-};
+  images: { url: string; alt: string }[]
+}
 
-const modules = [FreeMode, Navigation, Thumbs];
+const modules = [FreeMode, Navigation, Thumbs]
 
 const ImageSliderInner = ({ images }: SliderProps) => {
-  const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
+  const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null)
 
   return (
     <div className="flex flex-col gap-y-4">
@@ -28,8 +28,7 @@ const ImageSliderInner = ({ images }: SliderProps) => {
           swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
         }}
         modules={modules}
-        className="w-full aspect-square border border-slate-200 overflow-hidden rounded-lg"
-      >
+        className="w-full aspect-square border border-slate-200 overflow-hidden rounded-lg">
         {images.map((image, index) => (
           <SwiperSlide key={image.url + index}>
             <div className="relative aspect-square w-full overflow-hidden bg-slate-50">
@@ -54,8 +53,7 @@ const ImageSliderInner = ({ images }: SliderProps) => {
         freeMode={true}
         watchSlidesProgress={true}
         modules={modules}
-        className="swiper-thumbs"
-      >
+        className="swiper-thumbs">
         {images.map((image, index) => (
           <SwiperSlide key={`thumb-${image.url}`}>
             <div className="relative aspect-square w-full overflow-hidden bg-ui-bg-subtle cursor-pointer">
@@ -74,21 +72,8 @@ const ImageSliderInner = ({ images }: SliderProps) => {
         ))}
       </Swiper>
     </div>
-  );
-};
+  )
+}
 
-const ImageSlider = ({ images }: SliderProps) => {
-  const [isReady, setIsReady] = useState(false);
 
-  useEffect(() => {
-    setIsReady(true);
-  }, []);
-
-  if (!isReady) {
-    return null;
-  }
-
-  return <ImageSliderInner images={images} />;
-};
-
-export default ImageSlider;
+export default ImageSliderInner
