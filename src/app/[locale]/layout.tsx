@@ -15,6 +15,7 @@ const availableLocalesMap = Object.fromEntries(Object.values(Locales).map((local
 export const metadata = {
   title: 'Vapesooo - Premium Vape Products',
   description: 'Discover our wide range of premium vape products',
+  'ahrefs-site-verification': '0e1f228a5e1ae52de55da7bedbfa59ff585cbb4ac23ac1533ce6b72302ef2ff9',
 }
 
 interface RootLayoutProps {
