@@ -162,9 +162,9 @@ export default function Header() {
         </nav>
         <div className="relative flex-1 flex items-center justify-center">
           <h1 className="absolute text-transparent pointer-events-none">Vapesooo</h1>
-          <LocalizedLink href="/" className="scale-[0.4] md:scale-50">
+          <Link href="/" className="scale-[0.4] md:scale-50">
             <Image src="/vapesooo.webp" alt="Vapesooo" width={350} height={100} />
-          </LocalizedLink>
+          </Link>
         </div>
         <div className="absolute top-0 right-4 z-10 flex items-center space-x-4">
           {/* Language Selector - Desktop */}
