@@ -1,4 +1,4 @@
-import { Locales } from '@/types/products'
+import { t, Locales } from '@/locales'
 import { Inter } from 'next/font/google'
 import Script from 'next/script'
 import { notFound } from 'next/navigation'
@@ -12,10 +12,34 @@ const inter = Inter({ subsets: ['latin'] })
 
 const availableLocalesMap = Object.fromEntries(Object.values(Locales).map((locale) => [locale, true]))
 
-export const metadata = {
-  title: 'Vapesooo - Premium Vape Products',
-  description: 'Discover our wide range of premium vape products',
-  'ahrefs-site-verification': '0e1f228a5e1ae52de55da7bedbfa59ff585cbb4ac23ac1533ce6b72302ef2ff9',
+export async function generateMetadata({ params }: { params: Promise<{ slug: string; locale: string }> }) {
+  const { locale } = await params
+
+  return {
+    title: t(locale as Locales, 'meta.title'),
+    description: t(locale as Locales, 'meta.description'),
+    openGraph: {
+      title: t(locale as Locales, 'meta.title'),
+      description: t(locale as Locales, 'meta.description'),
+      type: 'website',
+      locale: locale,
+      siteName: t(locale as Locales, 'meta.title'),
+      images: [
+        {
+          url: 'https://vapesooo-1318551956.cos.accelerate.myqcloud.com/ogcard.webp?q-sign-algorithm=sha1&q-ak=AKIDNOhYTzjYc0NUK3aT7yMj1wJuECKiT7iMHE2kTfymqdweDFakh5Mq-TBs2BgGnlfS&q-sign-time=1745591419;1745595019&q-key-time=1745591419;1745595019&q-header-list=&q-url-param-list=ci-process&q-signature=e99ac42002952e5dc4ecb4433a03e82519f3da96&x-cos-security-token=YbWR6DYm9zoZL2NBs0s8iM7F3b63O1Qa5fe7334883a767f01b23b54ec228acb0BEpCJ2kREvNRUtrsu005GiNVXLpsnKLx0RdQltLrBEh1veh8aEpIdNEqAliOkFxChzVKhoiVau2sxNqMHEF1caB8VrvN5N-tBbFScpGSF-PZSgyomLid0bVPNdh8v660yEAPeYDwXoNvSaGcBS5AJlh2_XISh8bhAn_1QXBQ0naDELPOLFm3bFvBrkAYsfuKyaf03HI3KXfjJJDDamlIOs3IZD4u5FP5d0IudwZOQ6GHIbzKLF2YmqwaileSR2_9s1r45Q_Jztryj6R5OK7QKg&ci-process=originImage',
+          width: 1200,
+          height: 628,
+          alt: t(locale as Locales, 'meta.title'),
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: t(locale as Locales, 'meta.title'),
+      description: t(locale as Locales, 'meta.description'),
+      images: ['https://vapesooo-1318551956.cos.accelerate.myqcloud.com/ogcard.webp?q-sign-algorithm=sha1&q-ak=AKIDNOhYTzjYc0NUK3aT7yMj1wJuECKiT7iMHE2kTfymqdweDFakh5Mq-TBs2BgGnlfS&q-sign-time=1745591419;1745595019&q-key-time=1745591419;1745595019&q-header-list=&q-url-param-list=ci-process&q-signature=e99ac42002952e5dc4ecb4433a03e82519f3da96&x-cos-security-token=YbWR6DYm9zoZL2NBs0s8iM7F3b63O1Qa5fe7334883a767f01b23b54ec228acb0BEpCJ2kREvNRUtrsu005GiNVXLpsnKLx0RdQltLrBEh1veh8aEpIdNEqAliOkFxChzVKhoiVau2sxNqMHEF1caB8VrvN5N-tBbFScpGSF-PZSgyomLid0bVPNdh8v660yEAPeYDwXoNvSaGcBS5AJlh2_XISh8bhAn_1QXBQ0naDELPOLFm3bFvBrkAYsfuKyaf03HI3KXfjJJDDamlIOs3IZD4u5FP5d0IudwZOQ6GHIbzKLF2YmqwaileSR2_9s1r45Q_Jztryj6R5OK7QKg&ci-process=originImage'],
+    },
+  }
 }
 
 interface RootLayoutProps {
@@ -56,7 +80,6 @@ gtag('config', 'G-KCB1EYWH1H');
       </Script>
       <Script src="https://analytics.ahrefs.com/analytics.js" data-key="S8nE2uoHgS2SFpcYMgb8Hw" async></Script>
       <Script defer data-domain="vapesooo.com" src="https://stat.jianli.online/js/plausible.js"></Script>
-      
     </html>
   )
 }

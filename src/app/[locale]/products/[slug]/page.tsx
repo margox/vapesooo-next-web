@@ -3,13 +3,12 @@ import ImageSlider from '@/components/ImageSlider'
 import { LocalizedLink } from '@/components/Link'
 import { productsMap } from '@/data/index'
 import ProductAskButton from '@/components/ProductAskButton'
-import { t } from '@/locales'
+import { Locales, t } from '@/locales'
 
 // Import Swiper styles
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
-import { Locales } from '@/types/products'
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string; locale: string }> }) {
   const { slug, locale } = await params
@@ -27,6 +26,19 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       title: product.title || product.name,
       description: product.raw_seo.description,
       keywords: product.raw_seo.keywords,
+      openGraph: {
+        title: product.title || product.name,
+        description: product.raw_seo.description,
+        images: product.images.map((image) => ({
+          url: image.url,
+        })),
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: product.title || product.name,
+        description: product.raw_seo.description,
+        images: product.images.map((image) => image.url),
+      },
     }
   }
 
@@ -34,6 +46,19 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: product.title || product.name,
     description: product.seo[locale as Locales].description,
     keywords: product.seo[locale as Locales].keywords,
+    openGraph: {
+      title: product.title || product.name,
+      description: product.seo[locale as Locales].description,
+      images: product.images.map((image) => ({
+        url: image.url,
+      })),
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: product.title || product.name,
+      description: product.seo[locale as Locales].description,
+      images: product.images.map((image) => image.url),
+    },
   }
 }
 

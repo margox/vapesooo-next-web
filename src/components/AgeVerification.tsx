@@ -1,8 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { t } from '@/locales'
-import { Locales } from '@/types/products'
+import { t, Locales } from '@/locales'
 
 interface AgeVerificationProps {
   locale: Locales

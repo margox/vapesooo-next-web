@@ -1,5 +1,5 @@
 import { NextResponse, NextRequest } from 'next/server'
-import { Locales } from '@/types/products'
+import { Locales, locales } from '@/locales'
 
 export function middleware(request: NextRequest) {
   const browserLanguage = request.headers.get('accept-language')
@@ -7,11 +7,11 @@ export function middleware(request: NextRequest) {
 
   let redirectLocale = 'en'
 
-  if (Object.values(Locales).includes(locale)) {
+  if (locales.includes(locale)) {
     redirectLocale = locale
   }
 
-  return NextResponse.redirect(new URL(`/${redirectLocale}`, request.url))
+  return NextResponse.redirect(new URL(`/${redirectLocale}`, request.url), 301)
 }
 
 export const config = {

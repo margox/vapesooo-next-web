@@ -1,4 +1,3 @@
-import { Locales } from '@/types/products'
 import en from './en.json'
 import fr from './fr.json'
 import es from './es.json'
@@ -8,6 +7,21 @@ import pt from './pt.json'
 import ru from './ru.json'
 // import tr from './tr.json'
 import pl from './pl.json'
+
+export enum Locales {
+  EN = 'en',
+  FR = 'fr',
+  ES = 'es',
+  DE = 'de',
+  IT = 'it',
+  PT = 'pt',
+  RU = 'ru',
+  // TR = 'tr',
+  PL = 'pl',
+}
+
+// convert locales to array
+export const locales = [Locales.EN, Locales.FR, Locales.ES, Locales.DE, Locales.IT, Locales.PT, Locales.RU, Locales.PL]
 
 export const translations = {
   [Locales.EN]: en,

@@ -1,30 +1,55 @@
-'use client'
-
-import { useParams } from 'next/navigation'
 import { ArrowLeftIcon } from '@heroicons/react/24/outline'
 import { LocalizedLink } from '@/components/Link'
 import ProductCard from '@/components/ProductCard'
+import { t, Locales } from '@/locales'
 import { products as productsData } from '@/data/index'
-import { useTranslation } from '@/hooks/useTranslation'
 
 const brands = Object.keys(productsData)
 
-export default function BrandProductsPage() {
-  const params = useParams()
-  const brandSlug = params.brand as string
-  const { t } = useTranslation()
+export async function generateMetadata({ params }: { params: Promise<{ brand: string; locale: string }> }) {
+  const { brand: brandSlug, locale } = await params
+
+  const brandName = brands.find((brand) => brand.toLowerCase() === brandSlug.toLowerCase())
+
+  if (!brandName) {
+    return {
+      title: 'Brand Not Found',
+      description: 'The brand you&apos;re looking for doesn&apos;t exist.',
+    }
+  }
+
+  return {
+    title: `${brandName} - ${t(locale as Locales, 'common.brandProducts', { brand: brandName })}`,
+    description: `Explore ${brandName} products on our website. We offer a wide range of ${brandName} products for all your vaping needs.`,
+    openGraph: {
+      title: `${brandName} - ${t(locale as Locales, 'common.brandProducts', { brand: brandName })}`,
+      description: `Explore ${brandName} products on our website. We offer a wide range of ${brandName} products for all your vaping needs.`,
+      images: productsData[brandName].products.map((product) => product.images[0].url),
+    },
+    twitter: {
+      title: `${brandName} - ${t(locale as Locales, 'common.brandProducts', { brand: brandName })}`,
+      description: `Explore ${brandName} products on our website. We offer a wide range of ${brandName} products for all your vaping needs.`,
+      images: productsData[brandName].products.map((product) => product.images[0].url),
+    },
+  }
+}
+
+export default async function BrandProductsPage({ params }: { params: Promise<{ brand: string; locale: string }> }) {
+  const { brand: brandSlug, locale } = await params
 
   const brandName = brands.find((brand) => brand.toLowerCase() === brandSlug.toLowerCase())
 
   if (!brandName) {
     return (
       <div className="container mx-auto px-4 py-16 text-center">
-        <h1 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">{t('common.brandNotFound')}</h1>
-        <p className="mb-8 text-gray-600 dark:text-gray-400">{t('common.brandNotFoundDesc')}</p>
+        <h1 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">
+          {t(locale as Locales, 'common.brandNotFound')}
+        </h1>
+        <p className="mb-8 text-gray-600 dark:text-gray-400">{t(locale as Locales, 'common.brandNotFoundDesc')}</p>
         <LocalizedLink
           href="/products"
           className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md">
-          {t('common.viewAllProducts')}
+          {t(locale as Locales, 'common.viewAllProducts')}
         </LocalizedLink>
       </div>
     )
@@ -39,12 +64,12 @@ export default function BrandProductsPage() {
           href="/products"
           className="flex items-center gap-1 text-slate-600 hover:text-lime-600 dark:text-blue-400 dark:hover:text-blue-300">
           <ArrowLeftIcon className="w-4 h-4" />
-          {t('common.backToProducts')}
+          {t(locale as Locales, 'common.backToProducts')}
         </LocalizedLink>
       </div>
 
       <h1 className="text-2xl font-bold mb-8 text-gray-800 dark:text-white">
-        {t('common.brandProducts', { brand: brandName })}
+        {t(locale as Locales, 'common.brandProducts', { brand: brandName })}
       </h1>
 
       {products.length > 0 ? (
@@ -55,7 +80,7 @@ export default function BrandProductsPage() {
         </div>
       ) : (
         <div className="flex items-center justify-center h-64 bg-white dark:bg-gray-800 rounded-lg">
-          <p className="text-gray-500 dark:text-gray-400">{t('common.noProductsFound')}</p>
+          <p className="text-gray-500 dark:text-gray-400">{t(locale as Locales, 'common.noProductsFound')}</p>
         </div>
       )}
     </div>

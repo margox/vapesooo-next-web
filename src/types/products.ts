@@ -1,14 +1,4 @@
-export enum Locales {
-  EN = 'en',
-  FR = 'fr',
-  ES = 'es',
-  DE = 'de',
-  IT = 'it',
-  PT = 'pt',
-  RU = 'ru',
-  // TR = 'tr',
-  PL = 'pl',
-}
+import { Locales } from '@/locales'
 
 export interface HomeProductSliderItem {
   image: string

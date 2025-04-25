@@ -1,7 +1,6 @@
 'use client'
 
-import { Locales } from '@/types/products'
-import { t } from '@/locales'
+import { t, Locales } from '@/locales'
 
 const handleAskOnWhatsApp = (productTitle: string) => {
   // https://api.whatsapp.com/send/?phone=8613728716463%E2%80%AC&text=
