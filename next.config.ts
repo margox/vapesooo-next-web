@@ -11,7 +11,13 @@ const nextConfig: NextConfig = {
         hostname: 'vapesooo-1318551956.cos.accelerate.myqcloud.com',
       },
     ],
-  }
+  },
+  rewrites: async () => [
+    {
+      source: '/',
+      destination: '/en',
+    },
+  ],
 }
 
 export default nextConfig

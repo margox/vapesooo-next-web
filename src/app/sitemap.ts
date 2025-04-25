@@ -13,7 +13,14 @@ async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // 获取所有品牌数据
   // 注意：这里需要根据您的实际数据获取方式进行修改
 
-  const sitemapEntries: MetadataRoute.Sitemap = []
+  const sitemapEntries: MetadataRoute.Sitemap = [
+    {
+      url: `${baseUrl}/`,
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 1,
+    },
+  ]
 
   // 添加首页的所有语言版本
   locales.forEach((locale) => {

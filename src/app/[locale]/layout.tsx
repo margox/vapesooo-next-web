@@ -23,6 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: t(locale as Locales, 'meta.description'),
       type: 'website',
       locale: locale,
+      url: 'https://vapesooo.com',
       siteName: t(locale as Locales, 'meta.title'),
       images: [
         {
@@ -36,6 +37,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     twitter: {
       card: 'summary_large_image',
       title: t(locale as Locales, 'meta.title'),
+      url: 'https://vapesooo.com',
       description: t(locale as Locales, 'meta.description'),
       images: ['https://vapesooo-1318551956.cos.accelerate.myqcloud.com/ogcard.webp?q-sign-algorithm=sha1&q-ak=AKIDNOhYTzjYc0NUK3aT7yMj1wJuECKiT7iMHE2kTfymqdweDFakh5Mq-TBs2BgGnlfS&q-sign-time=1745591419;1745595019&q-key-time=1745591419;1745595019&q-header-list=&q-url-param-list=ci-process&q-signature=e99ac42002952e5dc4ecb4433a03e82519f3da96&x-cos-security-token=YbWR6DYm9zoZL2NBs0s8iM7F3b63O1Qa5fe7334883a767f01b23b54ec228acb0BEpCJ2kREvNRUtrsu005GiNVXLpsnKLx0RdQltLrBEh1veh8aEpIdNEqAliOkFxChzVKhoiVau2sxNqMHEF1caB8VrvN5N-tBbFScpGSF-PZSgyomLid0bVPNdh8v660yEAPeYDwXoNvSaGcBS5AJlh2_XISh8bhAn_1QXBQ0naDELPOLFm3bFvBrkAYsfuKyaf03HI3KXfjJJDDamlIOs3IZD4u5FP5d0IudwZOQ6GHIbzKLF2YmqwaileSR2_9s1r45Q_Jztryj6R5OK7QKg&ci-process=originImage'],
     },
@@ -58,6 +60,9 @@ export default async function RootLayout(props: RootLayoutProps) {
 
   return (
     <html lang={locale} suppressHydrationWarning>
+      <head>
+        <link rel="canonical" href={`https://vapesooo.com/${locale}`} />
+      </head>
       <body className={inter.className}>
         <ThemeProvider>
           <div className="flex flex-col min-h-screen">
