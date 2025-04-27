@@ -9,6 +9,7 @@ import { Locales } from '@/locales'
 import { LocalizedLink } from '@/components/Link'
 import { brandNames, productsMap, products as productsData } from '@/data/index'
 import { useTranslation } from '@/hooks/useTranslation'
+import { Bars3Icon, XMarkIcon, ChevronUpIcon, ChevronDownIcon } from '@heroicons/react/24/outline'
 
 const LOCALE_FLAGS = {
   [Locales.EN]: '🇬🇧',
@@ -51,6 +52,7 @@ export default function Header() {
   const isAbout = pathname.includes(`/${locale}/about`)
   const isNews = pathname.includes(`/${locale}/news`)
   const isBrandsPage = pathname.includes(`/${locale}/products/brand/`)
+  const isFAQ = pathname.includes(`/${locale}/faq`)
   const currentBrand = slug ? productsMap[slug as string]?.brand.toLowerCase() : brand
 
   // Close mobile menu when route changes
@@ -69,18 +71,7 @@ export default function Header() {
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-expanded={mobileMenuOpen}
           aria-label="Toggle menu">
-          <svg
-            className="h-6 w-6"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor">
-            {mobileMenuOpen ? (
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-            ) : (
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-            )}
-          </svg>
+          {mobileMenuOpen ? <XMarkIcon className="h-6 w-6" /> : <Bars3Icon className="h-6 w-6" />}
         </button>
 
         {/* Desktop Navigation */}
@@ -159,6 +150,14 @@ export default function Header() {
             }`}>
             {t('common.about')}
           </LocalizedLink>
+
+          <LocalizedLink
+            href="/faq"
+            className={`flex items-center hover:text-lime-600 h-16 text-gray-700 text-base font-medium uppercase ${
+              isFAQ ? 'text-lime-600' : 'text-slate-80'
+            }`}>
+            FAQ
+          </LocalizedLink>
         </nav>
         <div className="relative flex-1 flex items-center justify-center">
           <h1 className="absolute text-transparent pointer-events-none">Vapesooo</h1>
@@ -197,7 +196,7 @@ export default function Header() {
             </span>
           </button>
 
-          {/* Theme Toggle */}
+          {/* Theme Toggle (commented out but updated) */}
           {/* <button
               onClick={toggleTheme}
               className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-black/5"
@@ -233,19 +232,7 @@ export default function Header() {
                 isBrandsPage ? 'text-lime-600' : 'text-slate-800'
               } hover:text-lime-600 hover:bg-gray-50 flex justify-between items-center`}>
               {t('common.brands')}
-              <svg
-                className="h-4 w-4"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d={mobileBrandsMenuOpen ? 'M5 15l7-7 7 7' : 'M19 9l-7 7-7-7'}
-                />
-              </svg>
+              {mobileBrandsMenuOpen ? <ChevronUpIcon className="h-4 w-4" /> : <ChevronDownIcon className="h-4 w-4" />}
             </button>
 
             {/* Mobile brands submenu */}
@@ -265,6 +252,33 @@ export default function Header() {
               ))}
             </div>
           </div>
+
+          {/* Add News link */}
+          <LocalizedLink
+            href="/news"
+            className={`block px-6 py-3 text-base font-medium uppercase ${
+              isNews ? 'text-lime-600' : 'text-slate-800'
+            } hover:text-lime-600 hover:bg-gray-50`}>
+            {t('common.news')}
+          </LocalizedLink>
+
+          {/* Add About link */}
+          <LocalizedLink
+            href="/about"
+            className={`block px-6 py-3 text-base font-medium uppercase ${
+              isAbout ? 'text-lime-600' : 'text-slate-800'
+            } hover:text-lime-600 hover:bg-gray-50`}>
+            {t('common.about')}
+          </LocalizedLink>
+
+          {/* Add FAQ link */}
+          <LocalizedLink
+            href="/faq"
+            className={`block px-6 py-3 text-base font-medium uppercase ${
+              isFAQ ? 'text-lime-600' : 'text-slate-800'
+            } hover:text-lime-600 hover:bg-gray-50`}>
+            FAQ
+          </LocalizedLink>
         </nav>
       </div>
 

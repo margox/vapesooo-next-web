@@ -1,0 +1,338 @@
+{
+  "en": [
+    {
+      "question": "Are you a manufacturer?",
+      "answer": "Yes, we are an experienced manufacturer with our own patent molds and production lines."
+    },
+    {
+      "question": "Can we put our brand (logo) on the product?",
+      "answer": "Yes, we can print your brand (logo) on the Vape Pen."
+    },
+    {
+      "question": "What is your delivery port?",
+      "answer": "Our nearest port is in Shenzhen, China."
+    },
+    {
+      "question": "Where is your Vape factory located?",
+      "answer": "Our factory is located in Shenzhen, near Hong Kong."
+    },
+    {
+      "question": "Do you offer a guarantee for the Vape Pen?",
+      "answer": "Yes, we offer 6 months guarantee for the Vape Pen."
+    },
+    {
+      "question": "What is your main product line?",
+      "answer": "We are a professional manufacturer of Vape Pens, Vape Mods, Disposable Vapes, and Electronic Cigarettes."
+    },
+    {
+      "question": "How does your factory do quality control?",
+      "answer": "We do 100% testing pass before the delivery of goods."
+    },
+    {
+      "question": "How to pay?",
+      "answer": "We support PayPal, Western Union and bank transfer. You can select according to your situation."
+    },
+    {
+      "question": "Do you have any MOQ limit?",
+      "answer": "Normally our MOQ is 100pcs each model. For sample orders, MOQ is 50 sets."
+    },
+    {
+      "question": "Can I have a sample order?",
+      "answer": "Yes, we welcome sample orders to test and check quality."
+    }
+  ],
+  "fr": [
+    {
+      "question": "Êtes-vous un fabricant ?",
+      "answer": "Oui, nous sommes un fabricant expérimenté avec nos propres moules brevetés et lignes de production."
+    },
+    {
+      "question": "Pouvons-nous mettre notre marque (logo) sur le produit ?",
+      "answer": "Oui, nous pouvons imprimer votre marque (logo) sur le stylo vapoteur."
+    },
+    {
+      "question": "Quel est votre port de livraison ?",
+      "answer": "Notre port le plus proche est à Shenzhen, en Chine."
+    },
+    {
+      "question": "Où est située votre usine de vapoteurs ?",
+      "answer": "Notre usine est située à Shenzhen, près de Hong Kong."
+    },
+    {
+      "question": "Offrez-vous une garantie pour le stylo vapoteur ?",
+      "answer": "Oui, nous offrons une garantie de 6 mois pour le stylo vapoteur."
+    },
+    {
+      "question": "Quelle est votre principale gamme de produits ?",
+      "answer": "Nous sommes un fabricant professionnel de stylos vapoteurs, mods vapoteurs, vapoteurs jetables et cigarettes électroniques."
+    },
+    {
+      "question": "Comment votre usine effectue-t-elle le contrôle qualité ?",
+      "answer": "Nous effectuons des tests à 100% avant la livraison des marchandises."
+    },
+    {
+      "question": "Comment payer ?",
+      "answer": "Nous acceptons PayPal, Western Union et les virements bancaires. Vous pouvez choisir selon votre situation."
+    },
+    {
+      "question": "Avez-vous une limite de quantité minimale de commande (MOQ) ?",
+      "answer": "Normalement, notre MOQ est de 100 pièces par modèle. Pour les commandes d'échantillons, le MOQ est de 50 ensembles."
+    },
+    {
+      "question": "Puis-je passer une commande d'échantillon ?",
+      "answer": "Oui, nous acceptons les commandes d'échantillons pour tester et vérifier la qualité."
+    }
+  ],
+  "es": [
+    {
+      "question": "¿Son ustedes fabricantes?",
+      "answer": "Sí, somos un fabricante experimentado con nuestros propios moldes patentados y líneas de producción."
+    },
+    {
+      "question": "¿Podemos poner nuestra marca (logo) en el producto?",
+      "answer": "Sí, podemos imprimir su marca (logo) en el vaporizador."
+    },
+    {
+      "question": "¿Cuál es su puerto de entrega?",
+      "answer": "Nuestro puerto más cercano está en Shenzhen, China."
+    },
+    {
+      "question": "¿Dónde está ubicada su fábrica de vaporizadores?",
+      "answer": "Nuestra fábrica está ubicada en Shenzhen, cerca de Hong Kong."
+    },
+    {
+      "question": "¿Ofrecen garantía para el vaporizador?",
+      "answer": "Sí, ofrecemos 6 meses de garantía para el vaporizador."
+    },
+    {
+      "question": "¿Cuál es su línea principal de productos?",
+      "answer": "Somos fabricantes profesionales de vaporizadores, mods de vapeo, vaporizadores desechables y cigarrillos electrónicos."
+    },
+    {
+      "question": "¿Cómo realiza su fábrica el control de calidad?",
+      "answer": "Realizamos pruebas al 100% antes de la entrega de los productos."
+    },
+    {
+      "question": "¿Cómo se puede pagar?",
+      "answer": "Aceptamos PayPal, Western Union y transferencia bancaria. Puede seleccionar según su situación."
+    },
+    {
+      "question": "¿Tienen algún límite de cantidad mínima de pedido (MOQ)?",
+      "answer": "Normalmente, nuestro MOQ es de 100 unidades por modelo. Para pedidos de muestras, el MOQ es de 50 conjuntos."
+    },
+    {
+      "question": "¿Puedo hacer un pedido de muestra?",
+      "answer": "Sí, aceptamos pedidos de muestras para probar y verificar la calidad."
+    }
+  ],
+  "de": [
+    {
+      "question": "Sind Sie ein Hersteller?",
+      "answer": "Ja, wir sind ein erfahrener Hersteller mit eigenen patentierten Formen und Produktionslinien."
+    },
+    {
+      "question": "Können wir unsere Marke (Logo) auf das Produkt setzen?",
+      "answer": "Ja, wir können Ihre Marke (Logo) auf den Vape-Stift drucken."
+    },
+    {
+      "question": "Was ist Ihr Lieferhafen?",
+      "answer": "Unser nächstgelegener Hafen ist in Shenzhen, China."
+    },
+    {
+      "question": "Wo befindet sich Ihre Vape-Fabrik?",
+      "answer": "Unsere Fabrik befindet sich in Shenzhen, in der Nähe von Hongkong."
+    },
+    {
+      "question": "Bieten Sie eine Garantie für den Vape-Stift an?",
+      "answer": "Ja, wir bieten 6 Monate Garantie für den Vape-Stift."
+    },
+    {
+      "question": "Was ist Ihre Hauptproduktlinie?",
+      "answer": "Wir sind ein professioneller Hersteller von Vape-Stiften, Vape-Mods, Einweg-Vapes und elektronischen Zigaretten."
+    },
+    {
+      "question": "Wie führt Ihre Fabrik die Qualitätskontrolle durch?",
+      "answer": "Wir führen 100% Tests vor der Lieferung der Waren durch."
+    },
+    {
+      "question": "Wie kann man bezahlen?",
+      "answer": "Wir unterstützen PayPal, Western Union und Banküberweisung. Sie können je nach Ihrer Situation auswählen."
+    },
+    {
+      "question": "Haben Sie eine Mindestbestellmenge (MOQ)?",
+      "answer": "Normalerweise beträgt unsere MOQ 100 Stück pro Modell. Für Musterbetellungen beträgt die MOQ 50 Sets."
+    },
+    {
+      "question": "Kann ich eine Musterbestellung aufgeben?",
+      "answer": "Ja, wir begrüßen Musterbestellungen zum Testen und zur Qualitätsprüfung."
+    }
+  ],
+  "it": [
+    {
+      "question": "Siete un produttore?",
+      "answer": "Sì, siamo un produttore esperto con i nostri stampi brevettati e linee di produzione."
+    },
+    {
+      "question": "Possiamo mettere il nostro marchio (logo) sul prodotto?",
+      "answer": "Sì, possiamo stampare il vostro marchio (logo) sulla penna vaporizzatore."
+    },
+    {
+      "question": "Qual è il vostro porto di consegna?",
+      "answer": "Il nostro porto più vicino è a Shenzhen, Cina."
+    },
+    {
+      "question": "Dove si trova la vostra fabbrica di vaporizzatori?",
+      "answer": "La nostra fabbrica si trova a Shenzhen, vicino a Hong Kong."
+    },
+    {
+      "question": "Offrite una garanzia per la penna vaporizzatore?",
+      "answer": "Sì, offriamo 6 mesi di garanzia per la penna vaporizzatore."
+    },
+    {
+      "question": "Qual è la vostra linea principale di prodotti?",
+      "answer": "Siamo un produttore professionale di penne vaporizzatori, mod vaporizzatori, vaporizzatori usa e getta e sigarette elettroniche."
+    },
+    {
+      "question": "Come effettua il controllo qualità la vostra fabbrica?",
+      "answer": "Effettuiamo test al 100% prima della consegna della merce."
+    },
+    {
+      "question": "Come si può pagare?",
+      "answer": "Accettiamo PayPal, Western Union e bonifico bancario. Potete scegliere in base alla vostra situazione."
+    },
+    {
+      "question": "Avete un limite di quantità minima d'ordine (MOQ)?",
+      "answer": "Normalmente il nostro MOQ è di 100 pezzi per modello. Per gli ordini di campioni, il MOQ è di 50 set."
+    },
+    {
+      "question": "Posso fare un ordine di campioni?",
+      "answer": "Sì, accettiamo ordini di campioni per testare e verificare la qualità."
+    }
+  ],
+  "pt": [
+    {
+      "question": "Vocês são fabricantes?",
+      "answer": "Sim, somos um fabricante experiente com nossos próprios moldes patenteados e linhas de produção."
+    },
+    {
+      "question": "Podemos colocar nossa marca (logo) no produto?",
+      "answer": "Sim, podemos imprimir sua marca (logo) no vaporizador."
+    },
+    {
+      "question": "Qual é o seu porto de entrega?",
+      "answer": "Nosso porto mais próximo é em Shenzhen, China."
+    },
+    {
+      "question": "Onde está localizada a sua fábrica de vaporizadores?",
+      "answer": "Nossa fábrica está localizada em Shenzhen, perto de Hong Kong."
+    },
+    {
+      "question": "Vocês oferecem garantia para o vaporizador?",
+      "answer": "Sim, oferecemos 6 meses de garantia para o vaporizador."
+    },
+    {
+      "question": "Qual é a sua principal linha de produtos?",
+      "answer": "Somos fabricantes profissionais de vaporizadores, mods de vape, vaporizadores descartáveis e cigarros eletrônicos."
+    },
+    {
+      "question": "Como a sua fábrica faz o controle de qualidade?",
+      "answer": "Fazemos testes 100% antes da entrega dos produtos."
+    },
+    {
+      "question": "Como pagar?",
+      "answer": "Aceitamos PayPal, Western Union e transferência bancária. Você pode selecionar de acordo com sua situação."
+    },
+    {
+      "question": "Vocês têm algum limite de quantidade mínima de pedido (MOQ)?",
+      "answer": "Normalmente, nosso MOQ é de 100 peças por modelo. Para pedidos de amostras, o MOQ é de 50 conjuntos."
+    },
+    {
+      "question": "Posso fazer um pedido de amostra?",
+      "answer": "Sim, aceitamos pedidos de amostras para testar e verificar a qualidade."
+    }
+  ],
+  "ru": [
+    {
+      "question": "Вы производитель?",
+      "answer": "Да, мы опытный производитель с собственными запатентованными формами и производственными линиями."
+    },
+    {
+      "question": "Можем ли мы разместить наш бренд (логотип) на продукте?",
+      "answer": "Да, мы можем напечатать ваш бренд (логотип) на вейп-ручке."
+    },
+    {
+      "question": "Какой у вас порт доставки?",
+      "answer": "Наш ближайший порт находится в Шэньчжэне, Китай."
+    },
+    {
+      "question": "Где находится ваша фабрика по производству вейпов?",
+      "answer": "Наша фабрика находится в Шэньчжэне, недалеко от Гонконга."
+    },
+    {
+      "question": "Предоставляете ли вы гарантию на вейп-ручку?",
+      "answer": "Да, мы предоставляем 6-месячную гарантию на вейп-ручку."
+    },
+    {
+      "question": "Какая у вас основная линейка продуктов?",
+      "answer": "Мы профессиональный производитель вейп-ручек, вейп-модов, одноразовых вейпов и электронных сигарет."
+    },
+    {
+      "question": "Как ваша фабрика осуществляет контроль качества?",
+      "answer": "Мы проводим 100% тестирование перед отправкой товаров."
+    },
+    {
+      "question": "Как оплатить?",
+      "answer": "Мы поддерживаем PayPal, Western Union и банковский перевод. Вы можете выбрать в соответствии с вашей ситуацией."
+    },
+    {
+      "question": "Есть ли у вас ограничение по минимальному объему заказа (MOQ)?",
+      "answer": "Обычно наш MOQ составляет 100 штук каждой модели. Для заказов образцов MOQ составляет 50 комплектов."
+    },
+    {
+      "question": "Могу ли я сделать заказ образца?",
+      "answer": "Да, мы приветствуем заказы образцов для тестирования и проверки качества."
+    }
+  ],
+  "pl": [
+    {
+      "question": "Czy jesteście producentem?",
+      "answer": "Tak, jesteśmy doświadczonym producentem z własnymi opatentowanymi formami i liniami produkcyjnymi."
+    },
+    {
+      "question": "Czy możemy umieścić naszą markę (logo) na produkcie?",
+      "answer": "Tak, możemy wydrukować Twoją markę (logo) na e-papierosie."
+    },
+    {
+      "question": "Jaki jest wasz port dostawy?",
+      "answer": "Nasz najbliższy port znajduje się w Shenzhen, Chiny."
+    },
+    {
+      "question": "Gdzie znajduje się wasza fabryka e-papierosów?",
+      "answer": "Nasza fabryka znajduje się w Shenzhen, w pobliżu Hongkongu."
+    },
+    {
+      "question": "Czy oferujecie gwarancję na e-papieros?",
+      "answer": "Tak, oferujemy 6-miesięczną gwarancję na e-papieros."
+    },
+    {
+      "question": "Jaka jest wasza główna linia produktów?",
+      "answer": "Jesteśmy profesjonalnym producentem e-papierosów, modów vapingowych, jednorazowych e-papierosów i papierosów elektronicznych."
+    },
+    {
+      "question": "Jak wasza fabryka przeprowadza kontrolę jakości?",
+      "answer": "Przeprowadzamy 100% testów przed dostawą towarów."
+    },
+    {
+      "question": "Jak zapłacić?",
+      "answer": "Obsługujemy PayPal, Western Union i przelewy bankowe. Możesz wybrać zgodnie ze swoją sytuacją."
+    },
+    {
+      "question": "Czy macie jakiś limit minimalnej ilości zamówienia (MOQ)?",
+      "answer": "Zazwyczaj nasz MOQ to 100 sztuk każdego modelu. Dla zamówień próbek MOQ wynosi 50 zestawów."
+    },
+    {
+      "question": "Czy mogę złożyć zamówienie na próbkę?",
+      "answer": "Tak, przyjmujemy zamówienia na próbki w celu przetestowania i sprawdzenia jakości."
+    }
+  ]
+}
