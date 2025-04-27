@@ -11,9 +11,9 @@ export async function generateMetadata(): Promise<Metadata> {
   }
 }
 
-export default function FAQPage({ params }: { params: { locale: string } }) {
-  const locale = params.locale as Locales
-  const faqs = getFAQs(locale)
+export default async function FAQPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params
+  const faqs = getFAQs(locale as Locales)
 
   return (
     <div className="container mx-auto px-4 py-12">
