@@ -74,14 +74,14 @@ export default function Header() {
           {mobileMenuOpen ? <XMarkIcon className="h-6 w-6" /> : <Bars3Icon className="h-6 w-6" />}
         </button>
 
-        <div className="relative flex items-center justify-center">
+        <div className="md:relative md:left-0 md:translate-x-0 flex items-center justify-center absolute left-1/2 -translate-x-1/2">
           <h1 className="absolute text-transparent pointer-events-none">Vapesooo</h1>
-          <Link href="/" className="scale-[0.4] md:scale-[0.4]">
-            <Image src="/vapesooo.webp" alt="Vapesooo" width={350} height={100} />
+          <Link href="/">
+            <Image src="/vapesooo.webp" alt="Vapesooo" width={140} height={42} />
           </Link>
         </div>
         {/* Desktop Navigation */}
-        <nav className="flex-1 hidden md:flex space-x-12">
+        <nav className="flex-1 hidden ml-12 md:flex space-x-12">
           {/* Consolidated Brands dropdown */}
           <div className="flex items-center hover:text-lime-600 relative h-16 group">
             <span
