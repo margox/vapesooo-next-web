@@ -64,7 +64,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 transition-all duration-300 bg-white/80 backdrop-blur-lg border-b border-black/5">
-      <div className="relative container mx-auto px-4 flex items-center justify-between h-16">
+      <div className="relative container mx-auto px-4 flex items-center h-16">
         {/* Mobile menu button */}
         <button
           className="md:hidden absolute left-4 z-10 flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-lime-600 focus:outline-none"
@@ -74,16 +74,14 @@ export default function Header() {
           {mobileMenuOpen ? <XMarkIcon className="h-6 w-6" /> : <Bars3Icon className="h-6 w-6" />}
         </button>
 
+        <div className="relative flex items-center justify-center">
+          <h1 className="absolute text-transparent pointer-events-none">Vapesooo</h1>
+          <Link href="/" className="scale-[0.4] md:scale-[0.4]">
+            <Image src="/vapesooo.webp" alt="Vapesooo" width={350} height={100} />
+          </Link>
+        </div>
         {/* Desktop Navigation */}
-        <nav className="absolute top-0 left-4 z-10 hidden md:flex space-x-12">
-          {/* <LocalizedLink
-            href="/products"
-            className={`flex items-center hover:text-lime-600 h-16 text-gray-700 text-base font-medium uppercase ${
-              isStore ? 'text-lime-600' : 'text-slate-80'
-            }`}>
-            {t('common.store')}
-          </LocalizedLink> */}
-
+        <nav className="flex-1 hidden md:flex space-x-12">
           {/* Consolidated Brands dropdown */}
           <div className="flex items-center hover:text-lime-600 relative h-16 group">
             <span
@@ -158,13 +156,16 @@ export default function Header() {
             }`}>
             FAQ
           </LocalizedLink>
+
+          <LocalizedLink
+            href="/contact"
+            className={`flex items-center hover:text-lime-600 h-16 text-gray-700 text-base font-medium uppercase ${
+              pathname.includes(`/${locale}/contact`) ? 'text-lime-600' : 'text-slate-80'
+            }`}>
+            {t('common.contact')}
+          </LocalizedLink>
         </nav>
-        <div className="relative flex-1 flex items-center justify-center">
-          <h1 className="absolute text-transparent pointer-events-none">Vapesooo</h1>
-          <Link href="/" className="scale-[0.4] md:scale-50">
-            <Image src="/vapesooo.webp" alt="Vapesooo" width={350} height={100} />
-          </Link>
-        </div>
+
         <div className="absolute top-0 right-4 z-10 flex items-center space-x-4">
           {/* Language Selector - Desktop */}
           <div className="relative hidden md:block group">
@@ -278,6 +279,14 @@ export default function Header() {
               isFAQ ? 'text-lime-600' : 'text-slate-800'
             } hover:text-lime-600 hover:bg-gray-50`}>
             FAQ
+          </LocalizedLink>
+
+          <LocalizedLink
+            href="/contact"
+            className={`block px-6 py-3 text-base font-medium uppercase ${
+              pathname.includes(`/${locale}/contact`) ? 'text-lime-600' : 'text-slate-800'
+            } hover:text-lime-600 hover:bg-gray-50`}>
+            {t('common.contact')}
           </LocalizedLink>
         </nav>
       </div>

@@ -61,5 +61,24 @@
   "meta": {
     "title": "Vapesooo - Produtos Vape Premium",
     "description": "Explore nossa ampla gama de produtos vape premium, incluindo cigarros eletrônicos, mods vape, e-líquidos e acessórios."
+  },
+  "contact": {
+    "pageTitle": "Entre em Contato - Vapesooo",
+    "pageDescription": "Entre em contato com a Vapesooo. Contate-nos para quaisquer consultas, parcerias ou suporte.",
+    "title": "Entre em Contato",
+    "getInTouch": "Entre em Contato",
+    "email": "Email",
+    "followUs": "Siga-nos",
+    "sendMessage": "Envie-nos uma Mensagem",
+    "form": {
+      "name": "Seu Nome",
+      "email": "Seu Email",
+      "subject": "Assunto",
+      "message": "Mensagem",
+      "send": "Enviar Mensagem",
+      "sending": "Enviando...",
+      "successMessage": "Sua mensagem foi enviada com sucesso. Entraremos em contato em breve!",
+      "errorMessage": "Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente mais tarde."
+    }
   }
 }

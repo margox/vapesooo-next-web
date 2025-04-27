@@ -62,5 +62,24 @@
   "meta": {
     "title": "Vapesooo - Prodotti Vape Premium",
     "description": "Scopri la nostra vasta gamma di prodotti vape premium, tra cui sigarette elettroniche, mod vape, e-liquid e accessori."
+  },
+  "contact": {
+    "pageTitle": "Contattaci - Vapesooo",
+    "pageDescription": "Mettiti in contatto con Vapesooo. Contattaci per qualsiasi domanda, partnership o supporto.",
+    "title": "Contattaci",
+    "getInTouch": "Mettiti in Contatto",
+    "email": "Email",
+    "followUs": "Seguici",
+    "sendMessage": "Inviaci un Messaggio",
+    "form": {
+      "name": "Il tuo Nome",
+      "email": "La tua Email",
+      "subject": "Oggetto",
+      "message": "Messaggio",
+      "send": "Invia Messaggio",
+      "sending": "Invio in corso...",
+      "successMessage": "Il tuo messaggio è stato inviato con successo. Ti risponderemo presto!",
+      "errorMessage": "Si è verificato un errore durante l'invio del messaggio. Riprova più tardi."
+    }
   }
 }

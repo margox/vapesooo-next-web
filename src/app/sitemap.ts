@@ -96,6 +96,16 @@ async function sitemap(): Promise<MetadataRoute.Sitemap> {
     })
   })
 
+  // 添加所有语言的contact页面
+  locales.forEach((locale) => {
+    sitemapEntries.push({
+      url: `${baseUrl}/${locale}/contact`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    })
+  })
+
   return sitemapEntries
 }
 
