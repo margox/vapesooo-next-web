@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import { Locales, t } from '@/locales'
 import { SocialLinks } from '@/components/SocialLinks'
 
-export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
 
   return {
