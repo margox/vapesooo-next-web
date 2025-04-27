@@ -66,13 +66,33 @@ async function sitemap(): Promise<MetadataRoute.Sitemap> {
     })
   })
 
-  // 添加所有语言的about
+  // 添加所有语言的about页面
   locales.forEach((locale) => {
     sitemapEntries.push({
       url: `${baseUrl}/${locale}/about`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.7,
+    })
+  })
+
+  // 添加所有语言的FAQ页面
+  locales.forEach((locale) => {
+    sitemapEntries.push({
+      url: `${baseUrl}/${locale}/faq`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.7,
+    })
+  })
+
+  // 添加所有语言的news页面
+  locales.forEach((locale) => {
+    sitemapEntries.push({
+      url: `${baseUrl}/${locale}/news`,
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.8,
     })
   })
 
