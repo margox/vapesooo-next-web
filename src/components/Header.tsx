@@ -1,7 +1,6 @@
 'use client'
 
 import Link from 'next/link'
-import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import { usePathname, useParams } from 'next/navigation'
 // import { useTheme } from './ThemeProvider'
@@ -77,7 +76,7 @@ export default function Header() {
         <div className="md:relative md:left-0 md:translate-x-0 flex items-center justify-center absolute left-1/2 -translate-x-1/2">
           <h1 className="absolute text-transparent pointer-events-none">Vapesooo</h1>
           <Link href="/">
-            <Image src="/vapesooo.webp" alt="Vapesooo" width={140} height={42} />
+            <img src="/vapesooo.webp" alt="Vapesooo" width={140} height={42} />
           </Link>
         </div>
         {/* Desktop Navigation */}

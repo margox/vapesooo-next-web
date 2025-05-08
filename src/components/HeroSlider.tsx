@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { FreeMode, Navigation, Pagination, Autoplay } from 'swiper/modules'
 import type { HomeProductSliderItem } from '@/types/products'
@@ -38,11 +37,9 @@ const HeroSlider = ({ images }: SliderProps) => {
             href={`${image.path}`}
             className="relative block aspect-[1920/700] w-full overflow-hidden bg-slate-50">
             {!!image.image && (
-              <Image
-                fill
+              <img
                 src={image.image + '?imageMogr2/thumbnail/1920x'}
-                priority={index <= 2 ? true : false}
-                className="absolute inset-0 aspect-square object-cover"
+                className="absolute inset-0 object-cover"
                 alt={image.path}
               />
             )}

@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import ImageSlider from '@/components/ImageSlider'
 import { LocalizedLink } from '@/components/Link'
 import { productsMap } from '@/data/index'
@@ -86,7 +85,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
       <div className="max-w-[1920px] mx-auto">
         {product.images.map((image) => (
           <div key={image.url} className="w-full h-full">
-            <Image
+            <img
               alt={image.alt}
               className="w-full h-auto"
               src={image.url + '?imageMogr2/format/webp/thumbnail/1920x'}
