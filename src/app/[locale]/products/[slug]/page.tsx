@@ -138,7 +138,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
       {descriptionContent && (
         <div className="mt-12 bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
           <div
-            className="prose dark:prose-invert max-w-none"
+            className="prose dark:prose-invert max-w-none whitespace-pre-wrap"
             dangerouslySetInnerHTML={{ __html: descriptionContent }}
           />
         </div>

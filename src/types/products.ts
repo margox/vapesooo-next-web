@@ -14,6 +14,8 @@ export interface Product {
   title: string
   cover?: string
   bigscreen?: boolean
+  menuTitle?: string
+  puffs?: number
   images: {
     url: string
     alt: string
@@ -43,6 +45,7 @@ export interface ProductsMap {
 export interface Products {
   [brand: string]: {
     products: Product[]
+    puffs?: number[]
     sort: number
     enabled: boolean
     bigscreen?: boolean

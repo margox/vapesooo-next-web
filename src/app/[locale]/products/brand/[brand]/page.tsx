@@ -34,8 +34,15 @@ export async function generateMetadata({ params }: { params: Promise<{ brand: st
   }
 }
 
-export default async function BrandProductsPage({ params }: { params: Promise<{ brand: string; locale: string }> }) {
+export default async function BrandProductsPage({
+  params,
+  searchParams,
+}: {
+  params: Promise<{ brand: string; locale: string }>
+  searchParams: Promise<{ puffs?: string }>
+}) {
   const { brand: brandSlug, locale } = await params
+  const { puffs } = await searchParams
 
   const brandName = brands.find((brand) => brand.toLowerCase() === brandSlug.toLowerCase())
 
@@ -55,7 +62,15 @@ export default async function BrandProductsPage({ params }: { params: Promise<{ 
     )
   }
 
-  const products = productsData[brandName].products
+  let products = productsData[brandName].products
+
+  // Filter by puffs if puffs parameter is provided
+  if (puffs) {
+    const puffsValue = parseInt(puffs, 10)
+    if (!isNaN(puffsValue)) {
+      products = products.filter((product) => product.puffs === puffsValue)
+    }
+  }
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -69,7 +84,9 @@ export default async function BrandProductsPage({ params }: { params: Promise<{ 
       </div>
 
       <h1 className="text-2xl font-bold mb-8 text-gray-800 dark:text-white">
-        {t(locale as Locales, 'common.brandProducts', { brand: brandName })}
+        {puffs && !isNaN(parseInt(puffs, 10))
+          ? `${brandName} - ${Math.floor(parseInt(puffs, 10) / 1000)}K Puffs`
+          : t(locale as Locales, 'common.brandProducts', { brand: brandName })}
       </h1>
 
       {products.length > 0 ? (

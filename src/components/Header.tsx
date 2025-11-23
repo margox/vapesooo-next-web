@@ -113,7 +113,7 @@ export default function Header() {
                           onClick={() => setHidenMenu(brandName)}
                           href={`/products/${product.slug}`}
                           className="block px-6 py-4 text-sm text-slate-800 whitespace-nowrap uppercase font-medium hover:text-lime-600">
-                          {product.title || product.name}
+                          {product.menuTitle || product.title || product.name}
                         </LocalizedLink>
                       ))}
 
