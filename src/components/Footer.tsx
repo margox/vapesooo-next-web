@@ -55,7 +55,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-800 text-center text-gray-600 dark:text-gray-400">
-          <p>&copy; {currentYear.toString()} Shenzhen Guyu Cherry Technology Co., Ltd.</p>
+          <p>&copy; {currentYear.toString()} Shenzhen Qingfang Technology Co., Ltd.</p>
         </div>
       </div>
     </footer>
