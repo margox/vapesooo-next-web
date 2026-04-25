@@ -1,19 +1,18 @@
-'use client'
-
 import { LocalizedLink } from '@/components/Link'
 import { ArrowRightIcon } from '@heroicons/react/24/outline'
 import ProductCard from '@/components/ProductCard'
-import { products as productsData, homeHeroProducts } from '@/data/index'
+import { getVisibleBrandNames, getVisibleHomeHeroProducts, products as productsData } from '@/data/index'
 import HeroSlider from '@/components/HeroSlider'
-import { useTranslation } from '@/hooks/useTranslation'
+import { Locales, t } from '@/locales'
+import { getRequestBrowserLanguage } from '@/app/request-language'
 
-// Get all brands
-const brands = Object.keys(productsData).sort((a, b) => {
-  return productsData[b].sort - productsData[a].sort
-})
-
-export default function Home() {
-  const { t } = useTranslation()
+export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params
+  const browserLanguage = await getRequestBrowserLanguage()
+  const brands = getVisibleBrandNames(browserLanguage).sort((a, b) => {
+    return productsData[b].sort - productsData[a].sort
+  })
+  const homeHeroProducts = getVisibleHomeHeroProducts(browserLanguage)
 
   return (
     <div>
@@ -37,7 +36,7 @@ export default function Home() {
                 <LocalizedLink
                   href={`/products/brand/${brand.toLowerCase()}`}
                   className="group flex items-center gap-1 text-slate-600 hover:text-lime-600 dark:text-blue-400 dark:hover:text-blue-300">
-                  {t('common.viewAllProducts')}
+                  {t(locale as Locales, 'common.viewAllProducts')}
                   <ArrowRightIcon className="w-4 h-4 group-hover:-rotate-45 transition-transform duration-300" />
                 </LocalizedLink>
               </div>

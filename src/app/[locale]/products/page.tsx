@@ -1,12 +1,13 @@
 // import Link from "next/link";
 import ProductCard from '@/components/ProductCard'
-import { products as productsData } from '@/data/index'
+import { getVisibleProducts } from '@/data/index'
 import { t, Locales } from '@/locales'
-
-const allProducts = Object.values(productsData).flatMap((brand) => brand.products)
+import { getRequestBrowserLanguage } from '@/app/request-language'
 
 export default async function ProductsPage({ params }: { params: Promise<{ brand: string; locale: string }> }) {
   const { locale } = await params
+  const browserLanguage = await getRequestBrowserLanguage()
+  const allProducts = getVisibleProducts(browserLanguage)
 
   return (
     <div className="container mx-auto px-4 py-8">

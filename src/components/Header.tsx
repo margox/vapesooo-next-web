@@ -6,7 +6,12 @@ import { usePathname, useParams } from 'next/navigation'
 // import { useTheme } from './ThemeProvider'
 import { Locales } from '@/locales'
 import { LocalizedLink } from '@/components/Link'
-import { brandNames, productsMap, products as productsData } from '@/data/index'
+import {
+  getPreferredLanguageCode,
+  getVisibleBrandNames,
+  getVisibleProductsMap,
+  products as productsData,
+} from '@/data/index'
 import { useTranslation } from '@/hooks/useTranslation'
 import { Bars3Icon, XMarkIcon, ChevronUpIcon, ChevronDownIcon } from '@heroicons/react/24/outline'
 
@@ -35,7 +40,11 @@ const useAutoResetFlag: UseAutoResetFlag = <T,>(delay = 100) => {
   return [value, setValue] as const
 }
 
-export default function Header() {
+interface HeaderProps {
+  browserLanguage?: string
+}
+
+export default function Header({ browserLanguage: initialBrowserLanguage }: HeaderProps) {
   // const { theme, toggleTheme } = useTheme()
   const pathname = usePathname()
   const { brand, locale, slug } = useParams()
@@ -46,13 +55,20 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [mobileLanguageMenuOpen, setMobileLanguageMenuOpen] = useState(false)
   const [mobileBrandsMenuOpen, setMobileBrandsMenuOpen] = useState(false)
+  const [browserLanguage, setBrowserLanguage] = useState(initialBrowserLanguage)
+  const visibleBrandNames = getVisibleBrandNames(browserLanguage)
+  const visibleProductsMap = getVisibleProductsMap(browserLanguage)
 
   const isStore = pathname === `/${locale}/products`
   const isAbout = pathname.includes(`/${locale}/about`)
   const isNews = pathname.includes(`/${locale}/news`)
   const isBrandsPage = pathname.includes(`/${locale}/products/brand/`)
   const isFAQ = pathname.includes(`/${locale}/faq`)
-  const currentBrand = slug ? productsMap[slug as string]?.brand.toLowerCase() : brand
+  const currentBrand = slug ? visibleProductsMap[slug as string]?.brand.toLowerCase() : brand
+
+  useEffect(() => {
+    setBrowserLanguage(getPreferredLanguageCode(navigator.languages) ?? initialBrowserLanguage)
+  }, [initialBrowserLanguage])
 
   // Close mobile menu when route changes
   useEffect(() => {
@@ -90,7 +106,7 @@ export default function Header() {
               {t('common.brands')}
             </span>
             <div className="pointer-events-none min-w-48 opacity-0 group-hover:pointer-events-auto group-hover:opacity-100 transition-opacity duration-300 absolute left-0 mt-0 top-full bg-white border border-black/5 bg-clip-padding z-10">
-              {brandNames.map((brandName) => (
+              {visibleBrandNames.map((brandName) => (
                 <div
                   key={brandName}
                   className="relative group/brand"
@@ -240,7 +256,7 @@ export default function Header() {
               className={`transition-all duration-300 overflow-hidden bg-gray-50 ${
                 mobileBrandsMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
               }`}>
-              {brandNames.map((brand) => (
+              {visibleBrandNames.map((brand) => (
                 <LocalizedLink
                   key={brand}
                   href={`/products/brand/${brand.toLowerCase()}`}

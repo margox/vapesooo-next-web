@@ -1,8 +1,9 @@
 import ImageSlider from '@/components/ImageSlider'
 import { LocalizedLink } from '@/components/Link'
-import { productsMap } from '@/data/index'
+import { getVisibleProductsMap } from '@/data/index'
 import ProductAskButton from '@/components/ProductAskButton'
 import { Locales, t } from '@/locales'
+import { getRequestBrowserLanguage } from '@/app/request-language'
 
 // Import Swiper styles
 import 'swiper/css'
@@ -11,7 +12,8 @@ import 'swiper/css/pagination'
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string; locale: string }> }) {
   const { slug, locale } = await params
-  const product = productsMap[slug]
+  const browserLanguage = await getRequestBrowserLanguage()
+  const product = getVisibleProductsMap(browserLanguage)[slug]
 
   if (!product) {
     return {
@@ -63,8 +65,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function ProductDetailPage({ params }: { params: Promise<{ slug: string; locale: string }> }) {
   const { locale, slug } = await params
-  const product = productsMap[slug]
-  const brandName = product.brand
+  const browserLanguage = await getRequestBrowserLanguage()
+  const product = getVisibleProductsMap(browserLanguage)[slug]
 
   if (!product) {
     return (
@@ -79,6 +81,8 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
       </div>
     )
   }
+
+  const brandName = product.brand
 
   if (product.bigscreen) {
     return (

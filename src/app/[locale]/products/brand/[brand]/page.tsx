@@ -2,12 +2,13 @@ import { ArrowLeftIcon } from '@heroicons/react/24/outline'
 import { LocalizedLink } from '@/components/Link'
 import ProductCard from '@/components/ProductCard'
 import { t, Locales } from '@/locales'
-import { products as productsData } from '@/data/index'
-
-const brands = Object.keys(productsData)
+import { getVisibleBrandNames, products as productsData } from '@/data/index'
+import { getRequestBrowserLanguage } from '@/app/request-language'
 
 export async function generateMetadata({ params }: { params: Promise<{ brand: string; locale: string }> }) {
   const { brand: brandSlug, locale } = await params
+  const browserLanguage = await getRequestBrowserLanguage()
+  const brands = getVisibleBrandNames(browserLanguage)
 
   const brandName = brands.find((brand) => brand.toLowerCase() === brandSlug.toLowerCase())
 
@@ -43,7 +44,9 @@ export default async function BrandProductsPage({
 }) {
   const { brand: brandSlug, locale } = await params
   const { puffs } = await searchParams
+  const browserLanguage = await getRequestBrowserLanguage()
 
+  const brands = getVisibleBrandNames(browserLanguage)
   const brandName = brands.find((brand) => brand.toLowerCase() === brandSlug.toLowerCase())
 
   if (!brandName) {

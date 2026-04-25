@@ -6,6 +6,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { ThemeProvider } from '@/components/ThemeProvider'
 import { AgeVerification } from '@/components/AgeVerification'
+import { getRequestBrowserLanguage } from '@/app/request-language'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -52,6 +53,7 @@ interface RootLayoutProps {
 export default async function RootLayout(props: RootLayoutProps) {
   const { children, params } = props
   const { locale } = await params
+  const browserLanguage = await getRequestBrowserLanguage()
 
   // Validate locale
   if (!availableLocalesMap[locale]) {
@@ -66,7 +68,7 @@ export default async function RootLayout(props: RootLayoutProps) {
       <body className={inter.className}>
         <ThemeProvider>
           <div className="flex flex-col min-h-screen">
-            <Header />
+            <Header browserLanguage={browserLanguage} />
             <main className="flex-grow">{children}</main>
             <Footer />
           </div>
