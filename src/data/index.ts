@@ -2,6 +2,7 @@ import productsData from './products.json'
 import homeData from './home.json'
 import type { Products, HomeProductSlider } from '@/types/products'
 import aboutData from './about.json'
+import { getPreferredLanguageCode } from '@/lib/language'
 
 export const products = productsData as unknown as Products
 
@@ -9,11 +10,6 @@ export const homeHeroProducts = homeData.hero_sliders as unknown as HomeProductS
 
 export const excludesBandsMap: Record<string, string[]> = {
   zh: ['eonys'],
-}
-
-export const getPreferredLanguageCode = (languages: string | readonly string[] | undefined): string | undefined => {
-  const preferredLanguage = typeof languages === 'string' ? languages.split(',')[0] : languages?.[0]
-  return preferredLanguage?.trim().toLowerCase().split(/[-_;]/)[0]
 }
 
 export const brandNames = Object.keys(products)

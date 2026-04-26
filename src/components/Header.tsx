@@ -6,12 +6,8 @@ import { usePathname, useParams } from 'next/navigation'
 // import { useTheme } from './ThemeProvider'
 import { Locales } from '@/locales'
 import { LocalizedLink } from '@/components/Link'
-import {
-  getPreferredLanguageCode,
-  getVisibleBrandNames,
-  getVisibleProductsMap,
-  products as productsData,
-} from '@/data/index'
+import { getVisibleBrandNames, getVisibleProductsMap, products as productsData } from '@/data/index'
+import { getPreferredLanguageCode } from '@/lib/language'
 import { useTranslation } from '@/hooks/useTranslation'
 import { Bars3Icon, XMarkIcon, ChevronUpIcon, ChevronDownIcon } from '@heroicons/react/24/outline'
 

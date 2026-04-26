@@ -1,5 +1,5 @@
 import { headers } from 'next/headers'
-import { getPreferredLanguageCode } from '@/data/index'
+import { getPreferredLanguageCode } from '@/lib/language'
 
 export const getRequestBrowserLanguage = async () => {
   const headersList = await headers()

@@ -2,7 +2,7 @@
 import ProductCard from '@/components/ProductCard'
 import { getVisibleProducts } from '@/data/index'
 import { t, Locales } from '@/locales'
-import { getRequestBrowserLanguage } from '@/app/request-language'
+import { getRequestBrowserLanguage } from '@/lib/request-language'
 
 export default async function ProductsPage({ params }: { params: Promise<{ brand: string; locale: string }> }) {
   const { locale } = await params

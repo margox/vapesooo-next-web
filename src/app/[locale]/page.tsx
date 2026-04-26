@@ -4,7 +4,7 @@ import ProductCard from '@/components/ProductCard'
 import { getVisibleBrandNames, getVisibleHomeHeroProducts, products as productsData } from '@/data/index'
 import HeroSlider from '@/components/HeroSlider'
 import { Locales, t } from '@/locales'
-import { getRequestBrowserLanguage } from '@/app/request-language'
+import { getRequestBrowserLanguage } from '@/lib/request-language'
 
 export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params

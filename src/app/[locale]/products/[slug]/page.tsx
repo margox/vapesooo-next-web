@@ -3,7 +3,7 @@ import { LocalizedLink } from '@/components/Link'
 import { getVisibleProductsMap } from '@/data/index'
 import ProductAskButton from '@/components/ProductAskButton'
 import { Locales, t } from '@/locales'
-import { getRequestBrowserLanguage } from '@/app/request-language'
+import { getRequestBrowserLanguage } from '@/lib/request-language'
 
 // Import Swiper styles
 import 'swiper/css'

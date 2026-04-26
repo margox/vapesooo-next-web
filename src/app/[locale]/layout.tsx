@@ -6,7 +6,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { ThemeProvider } from '@/components/ThemeProvider'
 import { AgeVerification } from '@/components/AgeVerification'
-import { getRequestBrowserLanguage } from '@/app/request-language'
+import { getRequestBrowserLanguage } from '@/lib/request-language'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })

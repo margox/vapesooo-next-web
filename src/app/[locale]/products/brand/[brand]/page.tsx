@@ -3,7 +3,7 @@ import { LocalizedLink } from '@/components/Link'
 import ProductCard from '@/components/ProductCard'
 import { t, Locales } from '@/locales'
 import { getVisibleBrandNames, products as productsData } from '@/data/index'
-import { getRequestBrowserLanguage } from '@/app/request-language'
+import { getRequestBrowserLanguage } from '@/lib/request-language'
 
 export async function generateMetadata({ params }: { params: Promise<{ brand: string; locale: string }> }) {
   const { brand: brandSlug, locale } = await params
