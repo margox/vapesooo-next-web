@@ -1,13 +1,15 @@
 import { notFound } from 'next/navigation'
-import { getNewsByBrandAndSlug, getNewsData } from '@/data/server'
-import { Locales, locales } from '@/locales'
+import { getNewsByBrandAndSlug } from '@/data/server'
+import { Locales } from '@/locales'
 import { createPageMetadata, getLocalizedUrl, SITE_NAME } from '@/lib/seo'
 import './styles.css'
 
+// Generate article pages on demand so all localized article HTML is not bundled
+// into the SSR function during deployment.
+export const revalidate = 86400
+
 export function generateStaticParams() {
-  return locales.flatMap((locale) =>
-    getNewsData().flatMap(({ brand, news }) => news.map(({ slug }) => ({ locale, brand, slug })))
-  )
+  return []
 }
 
 export async function generateMetadata({

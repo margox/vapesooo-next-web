@@ -2,7 +2,7 @@ import ImageSlider from '@/components/ImageSlider'
 import { LocalizedLink } from '@/components/Link'
 import { productsMap } from '@/data/index'
 import ProductAskButton from '@/components/ProductAskButton'
-import { Locales, locales, t } from '@/locales'
+import { Locales, t } from '@/locales'
 import { createPageMetadata, getLocalizedUrl } from '@/lib/seo'
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
@@ -12,8 +12,12 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
+// Keep the large product catalog out of the deployment bundle. Product pages are
+// generated on first request and then cached by the platform.
+export const revalidate = 86400
+
 export function generateStaticParams() {
-  return locales.flatMap((locale) => Object.keys(productsMap).map((slug) => ({ locale, slug })))
+  return []
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string; locale: string }> }) {
