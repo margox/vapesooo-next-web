@@ -4,18 +4,35 @@ import ProductCard from '@/components/ProductCard'
 import { getVisibleBrandNames, getVisibleHomeHeroProducts, products as productsData } from '@/data/index'
 import HeroSlider from '@/components/HeroSlider'
 import { Locales, t } from '@/locales'
-import { getRequestBrowserLanguage } from '@/lib/request-language'
+import { createPageMetadata, getLocalizedUrl, SITE_NAME } from '@/lib/seo'
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params
+  return createPageMetadata({
+    locale: locale as Locales,
+    title: t(locale as Locales, 'meta.title'),
+    description: t(locale as Locales, 'meta.description'),
+  })
+}
 
 export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
-  const browserLanguage = await getRequestBrowserLanguage()
-  const brands = getVisibleBrandNames(browserLanguage).sort((a, b) => {
+  const brands = getVisibleBrandNames(locale).sort((a, b) => {
     return productsData[b].sort - productsData[a].sort
   })
-  const homeHeroProducts = getVisibleHomeHeroProducts(browserLanguage)
+  const homeHeroProducts = getVisibleHomeHeroProducts(locale)
+  const websiteJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE_NAME,
+    url: getLocalizedUrl(locale),
+    inLanguage: locale,
+  }
 
   return (
     <div>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
+      <h1 className="sr-only">{t(locale as Locales, 'meta.title')}</h1>
       {/* Hero Section */}
       <section className="relative max-w-[1920px] mx-auto aspect-[1920/700] overflow-hidden bg-gray-100 dark:bg-gray-800">
         <div className="relative h-full w-full">
@@ -43,7 +60,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {products.map((product) => (
-                  <ProductCard key={product.slug} product={product} />
+                  <ProductCard key={product.slug} product={product} locale={locale} />
                 ))}
               </div>
             </div>

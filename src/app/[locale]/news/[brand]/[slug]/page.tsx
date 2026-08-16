@@ -1,35 +1,60 @@
-import { headers } from 'next/headers'
 import { notFound } from 'next/navigation'
+import { getNewsByBrandAndSlug, getNewsData } from '@/data/server'
+import { Locales, locales } from '@/locales'
+import { createPageMetadata, getLocalizedUrl, SITE_NAME } from '@/lib/seo'
 import './styles.css'
 
-async function getNewsDetail(slug: string) {
-  const headersList = await headers()
-  const host = headersList.get('host')
-  const protocol = process?.env?.NODE_ENV === 'development' ? 'http' : 'https'
-
-  const res = await fetch(`${protocol}://${host}/api/news?action=detail&slug=${slug}`, {
-    cache: 'no-store',
-  })
-
-  if (!res.ok) {
-    if (res.status === 404) {
-      return notFound()
-    }
-    throw new Error('Failed to fetch news detail')
-  }
-
-  return res.json()
+export function generateStaticParams() {
+  return locales.flatMap((locale) =>
+    getNewsData().flatMap(({ brand, news }) => news.map(({ slug }) => ({ locale, brand, slug })))
+  )
 }
 
-export default async function NewsDetailPage({ params }: { params: Promise<{ slug: string; locale: string }> }) {
-  const { slug } = await params
-  const news = await getNewsDetail(slug)
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ brand: string; slug: string; locale: string }>
+}) {
+  const { brand, slug, locale } = await params
+  const news = getNewsByBrandAndSlug(brand, slug)
+  if (!news) return { title: 'News Not Found', robots: { index: false, follow: false } }
+
+  const content = news[locale as Locales] || news.en
+  return createPageMetadata({
+    locale: locale as Locales,
+    path: `/news/${brand}/${slug}`,
+    title: content.title,
+    description: content.description,
+    type: 'article',
+  })
+}
+
+export default async function NewsDetailPage({
+  params,
+}: {
+  params: Promise<{ brand: string; slug: string; locale: string }>
+}) {
+  const { brand, slug, locale } = await params
+  const news = getNewsByBrandAndSlug(brand, slug)
+  if (!news) notFound()
+
+  const content = news[locale as Locales] || news.en
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: content.title,
+    description: content.description,
+    inLanguage: locale,
+    url: getLocalizedUrl(locale, `/news/${brand}/${slug}`),
+    publisher: { '@type': 'Organization', name: SITE_NAME, url: getLocalizedUrl(locale) },
+  }
 
   return (
     <div className="container mx-auto px-4 py-8 page-news">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
       <article className="news prose lg:prose-xl mx-auto">
-        <h1 className="text-3xl font-bold mt-5 mb-8">{news.en.title}</h1>
-        <div className="news-content mt-6" dangerouslySetInnerHTML={{ __html: news.en.content }} />
+        <h1 className="text-3xl font-bold mt-5 mb-8">{content.title}</h1>
+        <div className="news-content mt-6" dangerouslySetInnerHTML={{ __html: content.content }} />
       </article>
     </div>
   )

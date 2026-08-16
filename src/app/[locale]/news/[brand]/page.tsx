@@ -1,31 +1,32 @@
-import { headers } from 'next/headers'
 import { notFound } from 'next/navigation'
 import BrandNewsPage from './components/BrandNewsPage'
-import { NewsItem } from '@/data'
+import { Locales, t } from '@/locales'
+import { getNewsByBrand, getNewsData } from '@/data/server'
+import { createPageMetadata } from '@/lib/seo'
 
-async function getBrandNews(brand: string) {
-  const headersList = await headers()
-  const host = headersList.get('host')
-  const protocol = process?.env?.NODE_ENV === 'development' ? 'http' : 'https'
+export function generateStaticParams() {
+  return getNewsData().map(({ brand }) => ({ brand }))
+}
 
-  console.log('brand', brand)
+export async function generateMetadata({ params }: { params: Promise<{ brand: string; locale: string }> }) {
+  const { brand, locale } = await params
+  const news = getNewsByBrand(brand)
+  if (!news) return { title: 'News Not Found', robots: { index: false, follow: false } }
 
-  const res = await fetch(`${protocol}://${host}/api/news?action=list&brand=${brand}`, {
-    cache: 'no-store',
+  const title = `${brand} ${t(locale as Locales, 'common.news')}`
+  return createPageMetadata({
+    locale: locale as Locales,
+    path: `/news/${brand}`,
+    title,
+    description: `${title} - Vapesooo`,
+    type: 'article',
   })
-
-  if (!res.ok) {
-    if (res.status === 404) {
-      return notFound()
-    }
-    throw new Error('Failed to fetch brand news')
-  }
-
-  return res.json() as Promise<{ data: NewsItem[] }>
 }
 
 export default async function Page({ params }: { params: Promise<{ brand: string; locale: string }> }) {
-  const { brand } = await params
-  const { data: news } = await getBrandNews(brand)
-  return <BrandNewsPage brand={brand} news={news} />
+  const { brand, locale } = await params
+  const news = getNewsByBrand(brand)
+  if (!news) notFound()
+
+  return <BrandNewsPage brand={brand} news={news} locale={locale as Locales} />
 }

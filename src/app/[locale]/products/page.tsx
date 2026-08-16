@@ -2,12 +2,23 @@
 import ProductCard from '@/components/ProductCard'
 import { getVisibleProducts } from '@/data/index'
 import { t, Locales } from '@/locales'
-import { getRequestBrowserLanguage } from '@/lib/request-language'
+import { createPageMetadata } from '@/lib/seo'
 
-export default async function ProductsPage({ params }: { params: Promise<{ brand: string; locale: string }> }) {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
-  const browserLanguage = await getRequestBrowserLanguage()
-  const allProducts = getVisibleProducts(browserLanguage)
+  const title = t(locale as Locales, 'common.allProducts')
+
+  return createPageMetadata({
+    locale: locale as Locales,
+    path: '/products',
+    title,
+    description: `${title} - Vapesooo`,
+  })
+}
+
+export default async function ProductsPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params
+  const allProducts = getVisibleProducts(locale)
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -16,7 +27,7 @@ export default async function ProductsPage({ params }: { params: Promise<{ brand
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {allProducts.map((product) => (
-          <ProductCard key={product.slug} product={product} />
+          <ProductCard key={product.slug} product={product} locale={locale} />
         ))}
       </div>
     </div>

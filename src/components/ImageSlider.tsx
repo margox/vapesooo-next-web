@@ -4,6 +4,7 @@ import { useState } from 'react'
 import type { Swiper as SwiperType } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules'
+import Image from 'next/image'
 
 import 'swiper/css'
 import 'swiper/css/free-mode'
@@ -32,11 +33,15 @@ const ImageSliderInner = ({ images }: SliderProps) => {
           <SwiperSlide key={image.url + index}>
             <div className="relative aspect-square w-full overflow-hidden bg-slate-50">
               {!!image.url && (
-                <img
+                <Image
                   src={image.url + '?imageMogr2/format/webp/thumbnail/1000x1000'}
                   className="absolute inset-0 aspect-square object-contain"
-                  alt={`Product image ${index + 1}`}
+                  alt={image.alt || `Product image ${index + 1}`}
+                  fill
+                  priority={index === 0}
+                  decoding={index === 0 ? 'sync' : 'async'}
                   sizes="(max-width: 576px) 280px, (max-width: 768px) 360px, (max-width: 992px) 480px, 800px"
+                  unoptimized
                 />
               )}
             </div>
@@ -55,11 +60,14 @@ const ImageSliderInner = ({ images }: SliderProps) => {
           <SwiperSlide key={`thumb-${image.url}`}>
             <div className="relative aspect-square w-full overflow-hidden bg-ui-bg-subtle cursor-pointer">
               {!!image.url && (
-                <img
+                <Image
                   src={`${image.url}?imageMogr2/thumbnail/100x/format/webp`}
                   className="absolute inset-0 aspect-square object-contain"
-                  alt={`Product thumbnail ${index + 1}`}
+                  alt={`${image.alt || 'Product'} thumbnail ${index + 1}`}
+                  fill
+                  decoding="async"
                   sizes="100px"
+                  unoptimized
                 />
               )}
             </div>

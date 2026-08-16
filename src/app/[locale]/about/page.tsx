@@ -1,7 +1,20 @@
 import React from 'react'
 import { about } from '@/data'
+import { Locales } from '@/locales'
+import { createPageMetadata } from '@/lib/seo'
 
-export default async function AboutPage({ params }: { params: Promise<{ slug: string; locale: string }> }) {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params
+  const data = about[locale] || about.en
+  return createPageMetadata({
+    locale: locale as Locales,
+    path: '/about',
+    title: data.qualityPromise.title,
+    description: data.qualityPromise.subtitle,
+  })
+}
+
+export default async function AboutPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
   const data = about[locale] || about['en']
 

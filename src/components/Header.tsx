@@ -1,13 +1,12 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import { usePathname, useParams } from 'next/navigation'
 // import { useTheme } from './ThemeProvider'
 import { Locales } from '@/locales'
 import { LocalizedLink } from '@/components/Link'
-import { getVisibleBrandNames, getVisibleProductsMap, products as productsData } from '@/data/index'
-import { getPreferredLanguageCode } from '@/lib/language'
 import { useTranslation } from '@/hooks/useTranslation'
 import { Bars3Icon, XMarkIcon, ChevronUpIcon, ChevronDownIcon } from '@heroicons/react/24/outline'
 
@@ -36,14 +35,20 @@ const useAutoResetFlag: UseAutoResetFlag = <T,>(delay = 100) => {
   return [value, setValue] as const
 }
 
-interface HeaderProps {
-  browserLanguage?: string
+export interface HeaderBrand {
+  name: string
+  total: number
+  products: Array<{ slug: string; title: string }>
 }
 
-export default function Header({ browserLanguage: initialBrowserLanguage }: HeaderProps) {
+interface HeaderProps {
+  brands: HeaderBrand[]
+}
+
+export default function Header({ brands }: HeaderProps) {
   // const { theme, toggleTheme } = useTheme()
   const pathname = usePathname()
-  const { brand, locale, slug } = useParams()
+  const { brand, locale } = useParams()
   const [hidenMenu, setHidenMenu] = useAutoResetFlag<string>()
   const [activeBrand, setActiveBrand] = useState<string | null>(null)
   const currentRoute = usePathname().replace(new RegExp(`^/${locale}`), '')
@@ -51,20 +56,13 @@ export default function Header({ browserLanguage: initialBrowserLanguage }: Head
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [mobileLanguageMenuOpen, setMobileLanguageMenuOpen] = useState(false)
   const [mobileBrandsMenuOpen, setMobileBrandsMenuOpen] = useState(false)
-  const [browserLanguage, setBrowserLanguage] = useState(initialBrowserLanguage)
-  const visibleBrandNames = getVisibleBrandNames(browserLanguage)
-  const visibleProductsMap = getVisibleProductsMap(browserLanguage)
 
   const isStore = pathname === `/${locale}/products`
   const isAbout = pathname.includes(`/${locale}/about`)
   const isNews = pathname.includes(`/${locale}/news`)
   const isBrandsPage = pathname.includes(`/${locale}/products/brand/`)
   const isFAQ = pathname.includes(`/${locale}/faq`)
-  const currentBrand = slug ? visibleProductsMap[slug as string]?.brand.toLowerCase() : brand
-
-  useEffect(() => {
-    setBrowserLanguage(getPreferredLanguageCode(navigator.languages) ?? initialBrowserLanguage)
-  }, [initialBrowserLanguage])
+  const currentBrand = brand
 
   // Close mobile menu when route changes
   useEffect(() => {
@@ -86,10 +84,9 @@ export default function Header({ browserLanguage: initialBrowserLanguage }: Head
         </button>
 
         <div className="md:relative md:left-0 md:translate-x-0 flex items-center justify-center absolute left-1/2 -translate-x-1/2">
-          <h1 className="absolute text-transparent pointer-events-none">Vapesooo</h1>
-          <Link href="/">
-            <img src="/vapesooo.webp" alt="Vapesooo" width={140} height={42} />
-          </Link>
+          <LocalizedLink href="/">
+            <Image src="/vapesooo.webp" alt="Vapesooo" width={140} height={42} priority />
+          </LocalizedLink>
         </div>
         {/* Desktop Navigation */}
         <nav className="flex-1 hidden ml-12 md:flex space-x-12">
@@ -102,39 +99,39 @@ export default function Header({ browserLanguage: initialBrowserLanguage }: Head
               {t('common.brands')}
             </span>
             <div className="pointer-events-none min-w-48 opacity-0 group-hover:pointer-events-auto group-hover:opacity-100 transition-opacity duration-300 absolute left-0 mt-0 top-full bg-white border border-black/5 bg-clip-padding z-10">
-              {visibleBrandNames.map((brandName) => (
+              {brands.map((brand) => (
                 <div
-                  key={brandName}
+                  key={brand.name}
                   className="relative group/brand"
-                  onMouseEnter={() => setActiveBrand(brandName)}
+                  onMouseEnter={() => setActiveBrand(brand.name)}
                   onMouseLeave={() => setActiveBrand(null)}>
                   <LocalizedLink
-                    href={`/products/brand/${brandName.toLowerCase()}`}
+                    href={`/products/brand/${brand.name.toLowerCase()}`}
                     className={`block px-6 py-4 text-sm text-slate-800 whitespace-nowrap uppercase font-medium hover:text-lime-600 ${
-                      currentBrand === brandName.toLowerCase() ? 'text-lime-600' : ''
+                      currentBrand === brand.name.toLowerCase() ? 'text-lime-600' : ''
                     }`}>
-                    {brandName}
+                    {brand.name}
                   </LocalizedLink>
 
                   {/* Products submenu for each brand */}
-                  {activeBrand === brandName && hidenMenu !== brandName && (
+                  {activeBrand === brand.name && hidenMenu !== brand.name && (
                     <div className="absolute left-full top-0 bg-white border border-black/5 bg-clip-padding z-10 min-w-48">
-                      {productsData[brandName]?.products.slice(0, 6).map((product) => (
+                      {brand.products.map((product) => (
                         <LocalizedLink
                           key={product.slug}
-                          onClick={() => setHidenMenu(brandName)}
+                          onClick={() => setHidenMenu(brand.name)}
                           href={`/products/${product.slug}`}
                           className="block px-6 py-4 text-sm text-slate-800 whitespace-nowrap uppercase font-medium hover:text-lime-600">
-                          {product.menuTitle || product.title || product.name}
+                          {product.title}
                         </LocalizedLink>
                       ))}
 
                       {/* "View all products" link if there are more than 6 products */}
-                      {productsData[brandName]?.products.length > 6 && (
+                      {brand.total > 6 && (
                         <LocalizedLink
-                          href={`/products/brand/${brandName.toLowerCase()}`}
+                          href={`/products/brand/${brand.name.toLowerCase()}`}
                           className="block px-6 py-4 text-sm text-lime-600 whitespace-nowrap uppercase font-medium hover:text-lime-700 bg-gray-50 border-t border-gray-100">
-                          {t('common.viewAll')} ({productsData[brandName]?.products.length})
+                          {t('common.viewAll')} ({brand.total})
                         </LocalizedLink>
                       )}
                     </div>
@@ -252,14 +249,14 @@ export default function Header({ browserLanguage: initialBrowserLanguage }: Head
               className={`transition-all duration-300 overflow-hidden bg-gray-50 ${
                 mobileBrandsMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
               }`}>
-              {visibleBrandNames.map((brand) => (
+              {brands.map((brand) => (
                 <LocalizedLink
-                  key={brand}
-                  href={`/products/brand/${brand.toLowerCase()}`}
+                  key={brand.name}
+                  href={`/products/brand/${brand.name.toLowerCase()}`}
                   className={`block px-10 py-3 text-base font-medium uppercase ${
-                    currentBrand === brand.toLowerCase() ? 'text-lime-600' : 'text-slate-800'
+                    currentBrand === brand.name.toLowerCase() ? 'text-lime-600' : 'text-slate-800'
                   } hover:text-lime-600 hover:bg-gray-100`}>
-                  {brand}
+                  {brand.name}
                 </LocalizedLink>
               ))}
             </div>

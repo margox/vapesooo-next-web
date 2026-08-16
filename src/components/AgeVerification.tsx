@@ -63,7 +63,7 @@ export function AgeVerification({ locale }: AgeVerificationProps) {
                 </button>
                 <button
                   onClick={handleAgeConfirm}
-                  className="flex-1 bg-lime-600 hover:bg-lime-700 text-white font-medium py-3 px-6 rounded-lg transition">
+                  className="flex-1 bg-lime-700 hover:bg-lime-800 text-white font-medium py-3 px-6 rounded-lg transition">
                   {t(locale, 'ageVerification.yes')}
                 </button>
               </div>
@@ -81,7 +81,7 @@ export function AgeVerification({ locale }: AgeVerificationProps) {
               <p className="mb-8 text-gray-600 dark:text-gray-300">{t(locale, 'ageVerification.warningMessage')}</p>
               <button
                 onClick={handleAgeConfirm}
-                className="w-full bg-lime-600 hover:bg-lime-700 text-white font-medium py-3 px-6 rounded-lg transition">
+                className="w-full bg-lime-700 hover:bg-lime-800 text-white font-medium py-3 px-6 rounded-lg transition">
                 {t(locale, 'ageVerification.proceed')}
               </button>
             </div>

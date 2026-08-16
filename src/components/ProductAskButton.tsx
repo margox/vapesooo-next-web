@@ -33,7 +33,7 @@ export default function ProductAskButton({
   return (
     <button
       onClick={() => handleAskOnWhatsApp(productTitle)}
-      className="inline-block mb-8 bg-lime-600 hover:bg-lime-700 text-white px-6 py-3 rounded-md font-medium">
+      className="inline-block mb-8 bg-lime-700 hover:bg-lime-800 text-white px-6 py-3 rounded-md font-medium">
       {t(locale, 'common.contactInquiry')}
     </button>
   )

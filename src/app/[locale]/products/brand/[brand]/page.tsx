@@ -3,12 +3,16 @@ import { LocalizedLink } from '@/components/Link'
 import ProductCard from '@/components/ProductCard'
 import { t, Locales } from '@/locales'
 import { getVisibleBrandNames, products as productsData } from '@/data/index'
-import { getRequestBrowserLanguage } from '@/lib/request-language'
+import { createPageMetadata } from '@/lib/seo'
+import { notFound } from 'next/navigation'
+
+export function generateStaticParams() {
+  return Object.keys(productsData).map((brand) => ({ brand: brand.toLowerCase() }))
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ brand: string; locale: string }> }) {
   const { brand: brandSlug, locale } = await params
-  const browserLanguage = await getRequestBrowserLanguage()
-  const brands = getVisibleBrandNames(browserLanguage)
+  const brands = getVisibleBrandNames(locale)
 
   const brandName = brands.find((brand) => brand.toLowerCase() === brandSlug.toLowerCase())
 
@@ -19,20 +23,16 @@ export async function generateMetadata({ params }: { params: Promise<{ brand: st
     }
   }
 
-  return {
-    title: `${brandName} - ${t(locale as Locales, 'common.brandProducts', { brand: brandName })}`,
-    description: `Explore ${brandName} products on our website. We offer a wide range of ${brandName} products for all your vaping needs.`,
-    openGraph: {
-      title: `${brandName} - ${t(locale as Locales, 'common.brandProducts', { brand: brandName })}`,
-      description: `Explore ${brandName} products on our website. We offer a wide range of ${brandName} products for all your vaping needs.`,
-      images: productsData[brandName].products.map((product) => product.images[0].url),
-    },
-    twitter: {
-      title: `${brandName} - ${t(locale as Locales, 'common.brandProducts', { brand: brandName })}`,
-      description: `Explore ${brandName} products on our website. We offer a wide range of ${brandName} products for all your vaping needs.`,
-      images: productsData[brandName].products.map((product) => product.images[0].url),
-    },
-  }
+  const title = t(locale as Locales, 'common.brandProducts', { brand: brandName })
+  const description = `Explore ${brandName} vape products, specifications and product details on Vapesooo.`
+
+  return createPageMetadata({
+    locale: locale as Locales,
+    path: `/products/brand/${brandSlug.toLowerCase()}`,
+    title,
+    description,
+    images: productsData[brandName].products.slice(0, 1).map((product) => product.images[0].url),
+  })
 }
 
 export default async function BrandProductsPage({
@@ -44,25 +44,11 @@ export default async function BrandProductsPage({
 }) {
   const { brand: brandSlug, locale } = await params
   const { puffs } = await searchParams
-  const browserLanguage = await getRequestBrowserLanguage()
-
-  const brands = getVisibleBrandNames(browserLanguage)
+  const brands = getVisibleBrandNames(locale)
   const brandName = brands.find((brand) => brand.toLowerCase() === brandSlug.toLowerCase())
 
   if (!brandName) {
-    return (
-      <div className="container mx-auto px-4 py-16 text-center">
-        <h1 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">
-          {t(locale as Locales, 'common.brandNotFound')}
-        </h1>
-        <p className="mb-8 text-gray-600 dark:text-gray-400">{t(locale as Locales, 'common.brandNotFoundDesc')}</p>
-        <LocalizedLink
-          href="/products"
-          className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md">
-          {t(locale as Locales, 'common.viewAllProducts')}
-        </LocalizedLink>
-      </div>
-    )
+    notFound()
   }
 
   let products = productsData[brandName].products
@@ -95,7 +81,7 @@ export default async function BrandProductsPage({
       {products.length > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {products.map((product) => (
-            <ProductCard key={product.slug} product={product} />
+            <ProductCard key={product.slug} product={product} locale={locale} />
           ))}
         </div>
       ) : (

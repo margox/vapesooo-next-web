@@ -1,24 +1,24 @@
-import { headers } from 'next/headers'
 import NewsPage from './components/NewsPage'
-import { NewsItem } from '@/data'
+import { Locales, t } from '@/locales'
+import { getNewsData } from '@/data/server'
+import { createPageMetadata } from '@/lib/seo'
 
-async function getNews() {
-  const headersList = await headers()
-  const host = headersList.get('host')
-  const protocol = process?.env?.NODE_ENV === 'development' ? 'http' : 'https'
-
-  const res = await fetch(`${protocol}://${host}/api/news`, {
-    cache: 'no-store',
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params
+  const title = t(locale as Locales, 'news.latest_news')
+  return createPageMetadata({
+    locale: locale as Locales,
+    path: '/news',
+    title,
+    description: `${title} - Vapesooo`,
   })
-
-  if (!res.ok) {
-    throw new Error('Failed to fetch news')
-  }
-
-  return res.json() as Promise<Array<{ brand: string; news: NewsItem }>>
 }
 
-export default async function Page() {
-  const brandNews = await getNews()
-  return <NewsPage brandNews={brandNews} />
+export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params
+  const brandNews = getNewsData()
+    .filter(({ news }) => news.length > 0)
+    .map(({ brand, news }) => ({ brand, news: news[0] }))
+
+  return <NewsPage brandNews={brandNews} locale={locale as Locales} />
 }

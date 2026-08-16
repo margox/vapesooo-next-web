@@ -3,6 +3,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { FreeMode, Navigation, Pagination, Autoplay } from 'swiper/modules'
 import type { HomeProductSliderItem } from '@/types/products'
+import Image from 'next/image'
 import { LocalizedLink } from './Link'
 
 import 'swiper/css'
@@ -37,10 +38,16 @@ const HeroSlider = ({ images }: SliderProps) => {
             href={`${image.path}`}
             className="relative block aspect-[1920/700] w-full overflow-hidden bg-slate-50">
             {!!image.image && (
-              <img
+              <Image
                 src={image.image + '?imageMogr2/thumbnail/1920x'}
-                className="absolute inset-0 object-cover"
-                alt={image.path}
+                className="absolute inset-0 h-full w-full object-cover"
+                alt={`${image.path.split('/').filter(Boolean).pop() || 'Vapesooo'} vape products`}
+                fill
+                sizes="100vw"
+                priority={index === 0}
+                fetchPriority={index === 0 ? 'high' : undefined}
+                decoding={index === 0 ? 'sync' : 'async'}
+                unoptimized
               />
             )}
           </LocalizedLink>

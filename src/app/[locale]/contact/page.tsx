@@ -1,14 +1,17 @@
 import { Metadata } from 'next'
 import { Locales, t } from '@/locales'
 import { SocialLinks } from '@/components/SocialLinks'
+import { createPageMetadata } from '@/lib/seo'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
 
-  return {
+  return createPageMetadata({
+    locale: locale as Locales,
+    path: '/contact',
     title: t(locale as Locales, 'contact.pageTitle'),
     description: t(locale as Locales, 'contact.pageDescription'),
-  }
+  })
 }
 
 export default async function ContactPage({ params }: { params: Promise<{ locale: string }> }) {

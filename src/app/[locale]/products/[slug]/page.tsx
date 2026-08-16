@@ -1,100 +1,81 @@
 import ImageSlider from '@/components/ImageSlider'
 import { LocalizedLink } from '@/components/Link'
-import { getVisibleProductsMap } from '@/data/index'
+import { productsMap } from '@/data/index'
 import ProductAskButton from '@/components/ProductAskButton'
-import { Locales, t } from '@/locales'
-import { getRequestBrowserLanguage } from '@/lib/request-language'
+import { Locales, locales, t } from '@/locales'
+import { createPageMetadata, getLocalizedUrl } from '@/lib/seo'
+import { notFound } from 'next/navigation'
+import Image from 'next/image'
 
 // Import Swiper styles
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
+export function generateStaticParams() {
+  return locales.flatMap((locale) => Object.keys(productsMap).map((slug) => ({ locale, slug })))
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string; locale: string }> }) {
   const { slug, locale } = await params
-  const browserLanguage = await getRequestBrowserLanguage()
-  const product = getVisibleProductsMap(browserLanguage)[slug]
+  const product = productsMap[slug]
 
   if (!product) {
     return {
       title: 'Product Not Found',
-      description: 'The product you&apos;re looking for doesn&apos;t exist.',
+      robots: { index: false, follow: false },
     }
   }
 
-  if (product.raw_seo) {
-    return {
-      title: product.title || product.name,
-      description: product.raw_seo.description,
-      keywords: product.raw_seo.keywords,
-      openGraph: {
-        title: product.title || product.name,
-        description: product.raw_seo.description,
-        images: product.images.map((image) => ({
-          url: image.url,
-        })),
-      },
-      twitter: {
-        card: 'summary_large_image',
-        title: product.title || product.name,
-        description: product.raw_seo.description,
-        images: product.images.map((image) => image.url),
-      },
-    }
-  }
-
-  return {
+  const localizedSeo = product.seo?.[locale as Locales]
+  return createPageMetadata({
+    locale: locale as Locales,
+    path: `/products/${slug}`,
     title: product.title || product.name,
-    description: product.seo[locale as Locales].description,
-    keywords: product.seo[locale as Locales].keywords,
-    openGraph: {
-      title: product.title || product.name,
-      description: product.seo[locale as Locales].description,
-      images: product.images.map((image) => ({
-        url: image.url,
-      })),
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: product.title || product.name,
-      description: product.seo[locale as Locales].description,
-      images: product.images.map((image) => image.url),
-    },
-  }
+    description: localizedSeo?.description || product.raw_seo?.description || product.name,
+    keywords: localizedSeo?.keywords || product.raw_seo?.keywords,
+    images: product.images.slice(0, 4).map((image) => image.url),
+  })
 }
 
 export default async function ProductDetailPage({ params }: { params: Promise<{ slug: string; locale: string }> }) {
   const { locale, slug } = await params
-  const browserLanguage = await getRequestBrowserLanguage()
-  const product = getVisibleProductsMap(browserLanguage)[slug]
+  const product = productsMap[slug]
 
   if (!product) {
-    return (
-      <div className="container mx-auto px-4 py-16 text-center">
-        <h1 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Product Not Found</h1>
-        <p className="mb-8 text-gray-600 dark:text-gray-400">The product you&apos;re looking for doesn&apos;t exist.</p>
-        <LocalizedLink
-          href="/products"
-          className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md">
-          View All Products
-        </LocalizedLink>
-      </div>
-    )
+    notFound()
   }
 
   const brandName = product.brand
+  const localizedSeo = product.seo?.[locale as Locales]
+  const productJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: product.title || product.name,
+    description: localizedSeo?.description || product.raw_seo?.description || product.name,
+    image: product.images.map((image) => image.url),
+    brand: { '@type': 'Brand', name: brandName },
+    url: getLocalizedUrl(locale, `/products/${slug}`),
+    inLanguage: locale,
+    manufacturer: { '@type': 'Organization', name: brandName },
+  }
+  const productJsonLdScript = (
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }} />
+  )
 
   if (product.bigscreen) {
     return (
       <div className="max-w-[1920px] mx-auto">
+        {productJsonLdScript}
         {product.images.map((image) => (
           <div key={image.url} className="w-full h-full">
-            <img
+            <Image
               alt={image.alt}
               className="w-full h-auto"
               src={image.url + '?imageMogr2/format/webp/thumbnail/1920x'}
               width={1920}
               height={1080}
+              unoptimized
             />
           </div>
         ))}
@@ -109,6 +90,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 
   return (
     <div className="container mx-auto px-4 py-8">
+      {productJsonLdScript}
       {/* Breadcrumb */}
 
       <div className="flex flex-col lg:flex-row">
