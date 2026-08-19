@@ -14,12 +14,14 @@ export async function generateMetadata({ params }: { params: Promise<{ brand: st
   if (!news) return { title: 'News Not Found', robots: { index: false, follow: false } }
 
   const title = `${brand} ${t(locale as Locales, 'common.news')}`
+  const availableLocales = [...new Set(news.flatMap((item) => Object.keys(item).filter((key) => key !== 'slug')))]
   return createPageMetadata({
     locale: locale as Locales,
     path: `/news/${brand}`,
     title,
     description: `${title} - Vapesooo`,
     type: 'article',
+    availableLocales,
   })
 }
 

@@ -21,13 +21,16 @@ export async function generateMetadata({
   const news = getNewsByBrandAndSlug(brand, slug)
   if (!news) return { title: 'News Not Found', robots: { index: false, follow: false } }
 
-  const content = news[locale as Locales] || news.en
+  const content = news[locale as Locales]
+  if (!content) return { title: 'News Not Found', robots: { index: false, follow: false } }
+  const availableLocales = Object.keys(news).filter((key) => key !== 'slug')
   return createPageMetadata({
     locale: locale as Locales,
     path: `/news/${brand}/${slug}`,
     title: content.title,
     description: content.description,
     type: 'article',
+    availableLocales,
   })
 }
 
@@ -40,7 +43,8 @@ export default async function NewsDetailPage({
   const news = getNewsByBrandAndSlug(brand, slug)
   if (!news) notFound()
 
-  const content = news[locale as Locales] || news.en
+  const content = news[locale as Locales]
+  if (!content) notFound()
   const articleJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',

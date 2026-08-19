@@ -1,4 +1,4 @@
-import { readdirSync, readFileSync } from 'fs'
+import { readdirSync, readFileSync, statSync } from 'fs'
 import { join } from 'path'
 import { BrandNews, NewsItem } from './index'
 
@@ -17,7 +17,9 @@ export function getNewsData(): BrandNews[] {
 
     const news = newsFiles.map((file) => {
       const content = readFileSync(join(brandDir, file), 'utf8')
-      return JSON.parse(content) as NewsItem
+      const newsItem = JSON.parse(content) as NewsItem
+      newsItem.lastModified = statSync(join(brandDir, file)).mtime.toISOString()
+      return newsItem
     })
 
     return {

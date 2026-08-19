@@ -4,7 +4,7 @@ import ProductCard from '@/components/ProductCard'
 import { getVisibleBrandNames, getVisibleHomeHeroProducts, products as productsData } from '@/data/index'
 import HeroSlider from '@/components/HeroSlider'
 import { Locales, t } from '@/locales'
-import { createPageMetadata, getLocalizedUrl, SITE_NAME } from '@/lib/seo'
+import { createPageMetadata, getLocalizedUrl, SITE_NAME, SITE_URL } from '@/lib/seo'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
@@ -21,22 +21,61 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
     return productsData[b].sort - productsData[a].sort
   })
   const homeHeroProducts = getVisibleHomeHeroProducts(locale)
-  const websiteJsonLd = {
+  const homeJsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'WebSite',
-    name: SITE_NAME,
-    url: getLocalizedUrl(locale),
-    inLanguage: locale,
+    '@graph': [
+      {
+        '@type': 'WebSite',
+        name: SITE_NAME,
+        url: getLocalizedUrl(locale),
+        inLanguage: locale,
+      },
+      {
+        '@type': 'Organization',
+        name: SITE_NAME,
+        legalName: 'Shenzhen Qingfang Technology Co., Ltd.',
+        url: SITE_URL,
+        logo: `${SITE_URL}/vapesooo.webp`,
+        email: 'vapesooo.partner@gmail.com',
+        contactPoint: {
+          '@type': 'ContactPoint',
+          telephone: '+86-137-2871-6463',
+          contactType: 'sales',
+          availableLanguage: locale,
+        },
+      },
+    ],
   }
 
   return (
     <div>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
-      <h1 className="sr-only">{t(locale as Locales, 'meta.title')}</h1>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }} />
       {/* Hero Section */}
       <section className="relative max-w-[1920px] mx-auto aspect-[1920/700] overflow-hidden bg-gray-100 dark:bg-gray-800">
         <div className="relative h-full w-full">
           <HeroSlider images={homeHeroProducts} />
+        </div>
+      </section>
+
+      <section className="border-b border-black/5 bg-white py-10 dark:bg-gray-900">
+        <div className="container mx-auto px-4 text-center">
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">{t(locale as Locales, 'meta.title')}</h1>
+          <p className="mx-auto mt-4 max-w-4xl text-base leading-7 text-gray-600 dark:text-gray-300">
+            {t(locale as Locales, 'meta.description')}
+          </p>
+          <div className="mt-6 flex flex-wrap justify-center gap-4">
+            <LocalizedLink
+              href="/products"
+              className="inline-flex items-center gap-2 rounded-md bg-lime-700 px-5 py-3 font-medium text-white hover:bg-lime-800">
+              {t(locale as Locales, 'common.allProducts')}
+              <ArrowRightIcon className="h-4 w-4" />
+            </LocalizedLink>
+            <LocalizedLink
+              href="/contact"
+              className="inline-flex items-center gap-2 rounded-md border border-gray-300 px-5 py-3 font-medium text-gray-800 hover:border-lime-700 hover:text-lime-700 dark:border-gray-600 dark:text-white">
+              {t(locale as Locales, 'common.contact')}
+            </LocalizedLink>
+          </div>
         </div>
       </section>
 

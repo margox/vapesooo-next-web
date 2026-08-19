@@ -30,7 +30,7 @@ export interface Product {
     description: string
     keywords: string
   }
-  seo: {
+  seo?: {
     [key in Locales]: {
       description: string
       keywords: string

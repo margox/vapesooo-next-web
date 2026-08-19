@@ -12,12 +12,12 @@ export const excludesBandsMap: Record<string, string[]> = {
   zh: ['eonys'],
 }
 
-export const brandNames = Object.keys(products)
+export const brandNames = Object.keys(products).filter((brand) => products[brand].enabled)
 
-export const brands = Object.values(products)
+export const brands = brandNames.map((brand) => products[brand])
 
 export const productsMap = Object.fromEntries(
-  Object.keys(products).flatMap((brand) => {
+  brandNames.flatMap((brand) => {
     const bigscreen = products[brand].bigscreen
     return products[brand].products.map((product) => {
       product.brand = brand
@@ -66,6 +66,7 @@ export interface NewsContent {
 
 export interface NewsItem {
   slug: string
+  lastModified?: string
   en: NewsContent
   es: NewsContent
   fr: NewsContent

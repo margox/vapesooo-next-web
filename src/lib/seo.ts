@@ -6,6 +6,31 @@ export const SITE_URL = (process.env.NEXT_PUBLIC_BASE_URL || 'https://vapesooo.c
 export const DEFAULT_SOCIAL_IMAGE =
   'https://vapesooo-1318551956.cos.accelerate.myqcloud.com/banner/vapesolo-galaxy.webp'
 
+const META_DESCRIPTION_MAX_LENGTH = 160
+
+export const normalizeSeoText = (value: string) =>
+  value
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;|&#160;/gi, ' ')
+    .replace(/&amp;/gi, '&')
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;|&apos;/gi, "'")
+    .replace(/\s+/g, ' ')
+    .trim()
+
+export const createSeoDescription = (value: string, maxLength = META_DESCRIPTION_MAX_LENGTH) => {
+  const normalized = normalizeSeoText(value)
+  const characters = Array.from(normalized)
+
+  if (characters.length <= maxLength) return normalized
+
+  const truncated = characters.slice(0, maxLength - 3).join('').trimEnd()
+  const lastWhitespace = truncated.lastIndexOf(' ')
+  const readableCut = lastWhitespace >= Math.floor(maxLength * 0.7) ? truncated.slice(0, lastWhitespace) : truncated
+
+  return `${readableCut}...`
+}
+
 const normalizePath = (path: string) => {
   if (!path || path === '/') return ''
   return path.startsWith('/') ? path : `/${path}`
@@ -13,8 +38,8 @@ const normalizePath = (path: string) => {
 
 export const getLocalizedUrl = (locale: string, path = '') => `${SITE_URL}/${locale}${normalizePath(path)}`
 
-export const getLanguageAlternates = (path = '') => ({
-  ...Object.fromEntries(locales.map((locale) => [locale, getLocalizedUrl(locale, path)])),
+export const getLanguageAlternates = (path = '', availableLocales: readonly string[] = locales) => ({
+  ...Object.fromEntries(availableLocales.map((locale) => [locale, getLocalizedUrl(locale, path)])),
   'x-default': getLocalizedUrl(Locales.EN, path),
 })
 
@@ -26,6 +51,7 @@ interface PageMetadataOptions {
   keywords?: string | string[]
   images?: string[]
   type?: 'website' | 'article'
+  availableLocales?: readonly string[]
 }
 
 export const createPageMetadata = ({
@@ -36,20 +62,22 @@ export const createPageMetadata = ({
   keywords,
   images = [DEFAULT_SOCIAL_IMAGE],
   type = 'website',
+  availableLocales = locales,
 }: PageMetadataOptions): Metadata => {
   const url = getLocalizedUrl(locale, path)
+  const normalizedDescription = createSeoDescription(description)
 
   return {
     title,
-    description,
+    description: normalizedDescription,
     keywords,
     alternates: {
       canonical: url,
-      languages: getLanguageAlternates(path),
+      languages: getLanguageAlternates(path, availableLocales),
     },
     openGraph: {
       title,
-      description,
+      description: normalizedDescription,
       type,
       locale,
       url,
@@ -59,9 +87,8 @@ export const createPageMetadata = ({
     twitter: {
       card: 'summary_large_image',
       title,
-      description,
+      description: normalizedDescription,
       images,
     },
   }
 }
-
