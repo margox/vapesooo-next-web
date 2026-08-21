@@ -10,6 +10,9 @@ const nextConfig: NextConfig = {
       {
         hostname: 'vapesooo-1318551956.cos.accelerate.myqcloud.com',
       },
+      {
+        hostname: 'hifancyvape.com',
+      },
     ],
   },
 }
