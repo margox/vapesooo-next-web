@@ -7,8 +7,16 @@ export interface HomeProductSliderItem {
 
 export type HomeProductSlider = HomeProductSliderItem[]
 
+export interface ProductCategory {
+  slug: string
+  label: {
+    [key in Locales]: string
+  }
+}
+
 export interface Product {
   brand: string
+  category?: string
   name: string
   slug: string
   title: string
@@ -44,6 +52,7 @@ export interface ProductsMap {
 
 export interface Products {
   [brand: string]: {
+    categories?: ProductCategory[]
     products: Product[]
     puffs?: number[]
     sort: number

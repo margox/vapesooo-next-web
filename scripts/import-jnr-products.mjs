@@ -28,6 +28,23 @@ const LOCALES = {
 const PAGE_HOSTS = new Set(Object.values(LOCALES).map((subdomain) => `${subdomain}.jnrvapor.com`))
 const IMAGE_HOSTS = new Set(['ecdn6.globalso.com'])
 const IMAGE_CONTENT_TYPES = new Set(['image/avif', 'image/gif', 'image/jpeg', 'image/png', 'image/webp'])
+const CATEGORY_ID_TO_SLUG = new Map([
+  ['2', 'disposable-vape'],
+  ['3', 'refillable-vape'],
+  ['5', 'prefilled-pod'],
+  ['4', 'e-liquid'],
+])
+const PRIORITY_PRODUCT_SLUGS = [
+  'falcon-pro',
+  'mega-box-pro',
+  'ragegorilla',
+  'windwhip',
+  'quads-4in1',
+  'alien',
+  'triple-3in1',
+  'l-opard',
+  'falcon-x',
+]
 
 const usage = `Usage:
   node scripts/import-jnr-products.mjs [options]
@@ -187,7 +204,17 @@ function truncateAtWord(value, maxLength = 300) {
 function parseArchive(html) {
   const $ = load(html)
   const products = []
+  const categories = []
   const seen = new Set()
+
+  $('section.section-sidenav-wrap-block .side-nav a[href]').each((_, element) => {
+    const href = $(element).attr('href') || ''
+    const slug = href === '/product/' ? 'all' : href.match(/^\/([^/]+)\/?$/)?.[1]
+    if (!slug || (slug !== 'all' && ![...CATEGORY_ID_TO_SLUG.values()].includes(slug))) return
+    const label = cleanText($(element).text())
+    if (label && !categories.some((category) => category.slug === slug)) categories.push({ slug, label })
+  })
+
   $('a.item-inner[href^="/product/"]').each((_, element) => {
     const href = $(element).attr('href') || ''
     const slug = href.match(/^\/product\/([^/]+)\/?$/)?.[1]
@@ -195,10 +222,12 @@ function parseArchive(html) {
     const title = cleanText($(element).find('.item-title').first().text())
     if (!title) return
     const image = $(element).find('img').first().attr('src') || $(element).find('img').first().attr('data-src')
+    const categoryIds = new Set(($(element).parent().attr('data-category-id-str') || '').split(',').filter(Boolean))
+    const category = [...CATEGORY_ID_TO_SLUG].find(([id]) => categoryIds.has(id))?.[1]
     seen.add(slug)
-    products.push({ slug, title, image })
+    products.push({ slug, title, image, category })
   })
-  return products
+  return { categories, products }
 }
 
 function extractPuffs(value) {
@@ -208,6 +237,40 @@ function extractPuffs(value) {
   }
   for (const match of value.matchAll(/\b(\d{3,6})\s*puffs?/gi)) candidates.push(Number(match[1]))
   return candidates.length ? Math.max(...candidates) : undefined
+}
+
+function parseContentImages($, productTitle) {
+  const images = []
+  let afterProductView = false
+
+  $('main > section').each((_, section) => {
+    const node = $(section)
+    if (node.attr('id') === 'sectionIdProduct' || node.is('[productbasics]')) {
+      afterProductView = true
+      return
+    }
+    if (!afterProductView) return
+    if (node.is('[productcorrelations]')) return false
+
+    node.find('img').each((_, element) => {
+      const image = $(element)
+      const source = image.attr('data-src-desktop') || image.attr('src') || image.attr('data-src') || image.attr('data-original')
+      if (!source?.startsWith('https://')) return
+      const mobileSource = image.attr('data-src-mobile')
+      const sourceAlt = cleanText(image.attr('alt') || '')
+      const sourceTitle = cleanText(image.attr('title') || '')
+      const alt = sourceAlt || sourceTitle || `${productTitle} detail image ${images.length + 1}`
+
+      images.push({
+        source,
+        mobileSource: mobileSource?.startsWith('https://') && mobileSource !== source ? mobileSource : undefined,
+        alt,
+        title: sourceTitle || alt,
+      })
+    })
+  })
+
+  return images
 }
 
 function parseDetail(html, archiveImage) {
@@ -231,6 +294,7 @@ function parseDetail(html, archiveImage) {
 
   const excerpt = truncateAtWord(descriptionText || metaDescription)
   return {
+    contentImages: parseContentImages($, title),
     content: `<div class="jnr-product-content">${cleanHtml(descriptionNode.html())}</div>`,
     excerpt,
     images,
@@ -325,6 +389,50 @@ async function uploadImage(source, storage) {
   return `${storage.publicBaseUrl}/${key}`
 }
 
+function buildLocalizedContent(detail, uploads) {
+  if (!detail.contentImages?.length) return detail.content
+
+  const $ = load(detail.content, null, false)
+  const container = $('<div class="jnr-product-content-images not-prose mt-8 overflow-hidden"></div>')
+  for (const image of detail.contentImages) {
+    const figure = $('<figure class="jnr-product-content-image m-0"></figure>')
+    const picture = $('<picture class="block"></picture>')
+    if (image.mobileSource) {
+      picture.append($('<source media="(max-width: 750px)">').attr('srcset', uploads[image.mobileSource] || image.mobileSource))
+    }
+    picture.append($('<img class="block h-auto w-full" loading="lazy" decoding="async">').attr({
+      src: uploads[image.source] || image.source,
+      alt: image.alt,
+      title: image.title,
+    }))
+    figure.append(picture)
+    container.append(figure)
+  }
+
+  const contentRoot = $('.jnr-product-content').first()
+  if (contentRoot.length) contentRoot.append(container)
+  else $.root().append(container)
+  return $.html().trim()
+}
+
+function prioritizeProducts(products) {
+  const priority = new Map(PRIORITY_PRODUCT_SLUGS.map((slug, index) => [slug, index]))
+  return [...products].sort((left, right) =>
+    (priority.get(left.slug) ?? Number.POSITIVE_INFINITY) -
+    (priority.get(right.slug) ?? Number.POSITIVE_INFINITY)
+  )
+}
+
+function buildCategories(archives) {
+  return archives.en.categories.map(({ slug, label: englishLabel }) => ({
+    slug,
+    label: Object.fromEntries(Object.keys(LOCALES).map((locale) => [
+      locale,
+      archives[locale].categories.find((category) => category.slug === slug)?.label || englishLabel,
+    ])),
+  }))
+}
+
 function buildProduct(source, uploads) {
   const english = source.localized.en
   const name = /^jnr\b/i.test(english.title) ? english.title : `JNR ${english.title}`
@@ -336,15 +444,20 @@ function buildProduct(source, uploads) {
     url: uploads[url] || url,
     alt: index === 0 ? name : `${name} - Image ${index + 1}`,
   }))
+  const localizedContent = Object.fromEntries(Object.entries(localized).map(([locale, detail]) => [
+    locale,
+    buildLocalizedContent(detail, uploads),
+  ]))
   const product = {
+    category: source.category,
     name,
     slug: source.slug.startsWith('jnr-') ? source.slug : `jnr-${source.slug}`,
     title: name,
     original_excerpt: english.excerpt,
-    original_content: english.content,
+    original_content: localizedContent.en,
     images,
     original_seo: { description: english.excerpt, keywords: english.keywords },
-    content: Object.fromEntries(Object.entries(localized).map(([locale, detail]) => [locale, detail.content])),
+    content: localizedContent,
     excerpt: Object.fromEntries(Object.entries(localized).map(([locale, detail]) => [locale, detail.excerpt])),
     seo: Object.fromEntries(Object.entries(localized).map(([locale, detail]) => [locale, {
       description: detail.excerpt,
@@ -355,9 +468,9 @@ function buildProduct(source, uploads) {
   return product
 }
 
-async function applyCatalog(products) {
+async function applyCatalog(products, categories) {
   const catalog = JSON.parse(await readFile(PRODUCTS_PATH, 'utf8'))
-  catalog.JNR = { sort: 776, enabled: true, products }
+  catalog.JNR = { sort: 776, enabled: true, categories, products }
   await writeJsonAtomic(PRODUCTS_PATH, catalog)
 }
 
@@ -376,20 +489,27 @@ async function main() {
 
   console.log('[catalog] Fetching official locale archives')
   const archives = Object.fromEntries(await mapLimit(Object.keys(LOCALES), options.concurrency, async (locale) => {
-    const products = parseArchive(await fetchPage(productUrl(locale), options.cacheDir))
-    console.log(`[catalog] ${locale}: ${products.length} products`)
-    return [locale, products]
+    const archive = parseArchive(await fetchPage(productUrl(locale), options.cacheDir))
+    console.log(`[catalog] ${locale}: ${archive.products.length} products, ${archive.categories.length} categories`)
+    return [locale, archive]
   }))
-  if (archives.en.length !== EXPECTED_PRODUCT_COUNT) {
-    throw new Error(`Expected ${EXPECTED_PRODUCT_COUNT} English products, found ${archives.en.length}`)
+  if (archives.en.products.length !== EXPECTED_PRODUCT_COUNT) {
+    throw new Error(`Expected ${EXPECTED_PRODUCT_COUNT} English products, found ${archives.en.products.length}`)
   }
-  const localeSlugs = Object.fromEntries(Object.entries(archives).map(([locale, products]) => [
+  if (archives.en.categories.length !== CATEGORY_ID_TO_SLUG.size + 1) {
+    throw new Error(`Expected ${CATEGORY_ID_TO_SLUG.size + 1} categories including All, found ${archives.en.categories.length}`)
+  }
+  const uncategorized = archives.en.products.filter((product) => !product.category)
+  if (uncategorized.length) {
+    throw new Error(`Products missing categories: ${uncategorized.map((product) => product.slug).join(', ')}`)
+  }
+  const localeSlugs = Object.fromEntries(Object.entries(archives).map(([locale, archive]) => [
     locale,
-    new Set(products.map((product) => product.slug)),
+    new Set(archive.products.map((product) => product.slug)),
   ]))
 
   console.log(`[scrape] Fetching ${EXPECTED_PRODUCT_COUNT} products and official translations`)
-  const sourceProducts = await mapLimit(archives.en, options.concurrency, async (archiveProduct, index) => {
+  const sourceProducts = await mapLimit(archives.en.products, options.concurrency, async (archiveProduct, index) => {
     const localized = {}
     for (const locale of Object.keys(LOCALES)) {
       if (locale !== 'en' && !localeSlugs[locale].has(archiveProduct.slug)) continue
@@ -402,16 +522,22 @@ async function main() {
       }
     }
     console.log(`[scrape] ${index + 1}/${EXPECTED_PRODUCT_COUNT} ${archiveProduct.slug} (${Object.keys(localized).length} locales)`)
-    return { slug: archiveProduct.slug, localized }
+    return { slug: archiveProduct.slug, category: archiveProduct.category, localized }
   })
   const overridesApplied = await applyLocalizationOverrides(sourceProducts, options.overrides)
+  const categories = buildCategories(archives)
   console.log(`[localize] Applied ${overridesApplied} reviewed fallback translations`)
+  manifest.categories = categories
   manifest.sourceProducts = sourceProducts
   manifest.overridesApplied = overridesApplied
   manifest.scrapedAt = new Date().toISOString()
   await writeJsonAtomic(options.manifest, manifest)
 
-  const imageSources = [...new Set(sourceProducts.flatMap((product) => product.localized.en.images))]
+  const galleryImageSources = [...new Set(sourceProducts.flatMap((product) => product.localized.en.images))]
+  const contentImageSources = [...new Set(sourceProducts.flatMap((product) => Object.values(product.localized).flatMap((detail) =>
+    (detail.contentImages || []).flatMap((image) => [image.source, image.mobileSource].filter(Boolean))
+  )))]
+  const imageSources = [...new Set([...galleryImageSources, ...contentImageSources])]
   if (!options.skipUpload) {
     const storage = createS3Client()
     const pending = imageSources.filter((source) => !manifest.uploads[source])
@@ -423,21 +549,29 @@ async function main() {
     })
   }
 
-  const products = sourceProducts.map((product) => buildProduct(product, manifest.uploads))
+  const products = prioritizeProducts(sourceProducts).map((product) => buildProduct(product, manifest.uploads))
   manifest.products = products
   manifest.completedAt = new Date().toISOString()
   manifest.coverage = Object.fromEntries(Object.keys(LOCALES).map((locale) => [
     locale,
     sourceProducts.filter((product) => product.localized[locale]).length,
   ]))
+  manifest.galleryImageCount = galleryImageSources.length
+  manifest.contentImageCount = contentImageSources.length
   manifest.imageCount = imageSources.length
   await writeJsonAtomic(options.manifest, manifest)
 
   if (options.apply) {
-    await applyCatalog(products)
+    await applyCatalog(products, categories)
     console.log(`[apply] Added JNR with ${products.length} products to ${PRODUCTS_PATH}`)
   }
-  console.log(JSON.stringify({ products: products.length, images: imageSources.length, coverage: manifest.coverage }, null, 2))
+  console.log(JSON.stringify({
+    products: products.length,
+    images: imageSources.length,
+    galleryImages: galleryImageSources.length,
+    contentImages: contentImageSources.length,
+    coverage: manifest.coverage,
+  }, null, 2))
 }
 
 main().catch((error) => {

@@ -1,6 +1,7 @@
 import { ArrowLeftIcon } from '@heroicons/react/24/outline'
 import { LocalizedLink } from '@/components/Link'
 import ProductCard from '@/components/ProductCard'
+import ProductCategoryTabs from '@/components/ProductCategoryTabs'
 import { t, Locales } from '@/locales'
 import { getVisibleBrandNames, products as productsData } from '@/data/index'
 import { createPageMetadata } from '@/lib/seo'
@@ -40,10 +41,10 @@ export default async function BrandProductsPage({
   searchParams,
 }: {
   params: Promise<{ brand: string; locale: string }>
-  searchParams: Promise<{ puffs?: string }>
+  searchParams: Promise<{ category?: string; puffs?: string }>
 }) {
   const { brand: brandSlug, locale } = await params
-  const { puffs } = await searchParams
+  const { category, puffs } = await searchParams
   const brands = getVisibleBrandNames(locale)
   const brandName = brands.find((brand) => brand.toLowerCase() === brandSlug.toLowerCase())
 
@@ -51,7 +52,14 @@ export default async function BrandProductsPage({
     notFound()
   }
 
-  let products = productsData[brandName].products
+  const brandData = productsData[brandName]
+  const categories = brandData.categories
+  const activeCategory = categories?.some((item) => item.slug === category) ? category! : 'all'
+  let products = brandData.products
+
+  if (activeCategory !== 'all') {
+    products = products.filter((product) => product.category === activeCategory)
+  }
 
   // Filter by puffs if puffs parameter is provided
   if (puffs) {
@@ -78,17 +86,32 @@ export default async function BrandProductsPage({
           : t(locale as Locales, 'common.brandProducts', { brand: brandName })}
       </h1>
 
-      {products.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {products.map((product) => (
-            <ProductCard key={product.slug} product={product} locale={locale} />
-          ))}
-        </div>
-      ) : (
-        <div className="flex items-center justify-center h-64 bg-white dark:bg-gray-800 rounded-lg">
-          <p className="text-gray-500 dark:text-gray-400">{t(locale as Locales, 'common.noProductsFound')}</p>
-        </div>
+      {categories && categories.length > 0 && (
+        <ProductCategoryTabs
+          activeCategory={activeCategory}
+          brandSlug={brandSlug.toLowerCase()}
+          categories={categories}
+          locale={locale as Locales}
+          puffs={puffs}
+        />
       )}
+
+      <div
+        id={categories ? 'product-category-panel' : undefined}
+        role={categories ? 'tabpanel' : undefined}
+        aria-labelledby={categories ? `product-category-tab-${activeCategory}` : undefined}>
+        {products.length > 0 ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {products.map((product) => (
+              <ProductCard key={product.slug} product={product} locale={locale} />
+            ))}
+          </div>
+        ) : (
+          <div className="flex items-center justify-center h-64 bg-white dark:bg-gray-800 rounded-lg">
+            <p className="text-gray-500 dark:text-gray-400">{t(locale as Locales, 'common.noProductsFound')}</p>
+          </div>
+        )}
+      </div>
     </div>
   )
 }
