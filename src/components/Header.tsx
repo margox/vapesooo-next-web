@@ -116,6 +116,15 @@ export default function Header({ brands }: HeaderProps) {
                   {/* Products submenu for each brand */}
                   {activeBrand === brand.name && hidenMenu !== brand.name && (
                     <div className="absolute left-full top-0 bg-white border border-black/5 bg-clip-padding z-10 min-w-48">
+                      {/* "View all products" link if there are more than 6 products */}
+                      {brand.total > 6 && (
+                        <LocalizedLink
+                          href={`/products/brand/${brand.name.toLowerCase()}`}
+                          className="block px-6 py-4 text-sm text-lime-600 whitespace-nowrap uppercase font-medium hover:text-lime-700 bg-gray-50 border-b border-gray-100">
+                          {t('common.viewAll')} ({brand.total})
+                        </LocalizedLink>
+                      )}
+
                       {brand.products.map((product) => (
                         <LocalizedLink
                           key={product.slug}
@@ -125,15 +134,6 @@ export default function Header({ brands }: HeaderProps) {
                           {product.title}
                         </LocalizedLink>
                       ))}
-
-                      {/* "View all products" link if there are more than 6 products */}
-                      {brand.total > 6 && (
-                        <LocalizedLink
-                          href={`/products/brand/${brand.name.toLowerCase()}`}
-                          className="block px-6 py-4 text-sm text-lime-600 whitespace-nowrap uppercase font-medium hover:text-lime-700 bg-gray-50 border-t border-gray-100">
-                          {t('common.viewAll')} ({brand.total})
-                        </LocalizedLink>
-                      )}
                     </div>
                   )}
                 </div>
