@@ -6,6 +6,21 @@ import HeroSlider from '@/components/HeroSlider'
 import { Locales, t } from '@/locales'
 import { createPageMetadata, getLocalizedUrl, SITE_NAME, SITE_URL } from '@/lib/seo'
 
+const featuredBrandOrder = ['jnr', 'hifancy', 'eonys', 'airmez', 'vapsolo']
+
+function sortHomeBrands(a: string, b: string) {
+  const aPriority = featuredBrandOrder.indexOf(a.toLowerCase())
+  const bPriority = featuredBrandOrder.indexOf(b.toLowerCase())
+
+  if (aPriority !== -1 || bPriority !== -1) {
+    if (aPriority === -1) return 1
+    if (bPriority === -1) return -1
+    return aPriority - bPriority
+  }
+
+  return productsData[b].sort - productsData[a].sort
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
   return createPageMetadata({
@@ -17,9 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
-  const brands = getVisibleBrandNames(locale).sort((a, b) => {
-    return productsData[b].sort - productsData[a].sort
-  })
+  const brands = getVisibleBrandNames(locale).sort(sortHomeBrands)
   const homeHeroProducts = getVisibleHomeHeroProducts(locale)
   const homeJsonLd = {
     '@context': 'https://schema.org',
@@ -106,6 +119,27 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </section>
         )
       })}
+
+      <section className="border-t border-black/5 bg-gray-50 py-12 dark:border-white/10 dark:bg-gray-800/40">
+        <div className="container mx-auto px-4">
+          <h2 className="mb-6 text-center text-xl font-semibold text-gray-900 dark:text-white">
+            {t(locale as Locales, 'common.brands')}
+          </h2>
+          <nav aria-label={t(locale as Locales, 'common.brands')}>
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-10">
+              {brands.map((brand) => (
+                <LocalizedLink
+                  key={brand}
+                  href={`/products/brand/${brand.toLowerCase()}`}
+                  className="group flex min-h-16 items-center justify-center rounded-lg border border-gray-200 bg-white px-3 py-4 text-center text-sm font-semibold text-gray-800 transition-all hover:-translate-y-0.5 hover:border-lime-600 hover:text-lime-700 hover:shadow-md dark:border-gray-700 dark:bg-gray-800 dark:text-gray-100 dark:hover:border-lime-500 dark:hover:text-lime-400">
+                  <span>{brand}</span>
+                  <ArrowRightIcon className="ml-1.5 h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
+                </LocalizedLink>
+              ))}
+            </div>
+          </nav>
+        </div>
+      </section>
     </div>
   )
 }
