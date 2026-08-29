@@ -1,25 +1,10 @@
 import { LocalizedLink } from '@/components/Link'
 import { ArrowRightIcon } from '@heroicons/react/24/outline'
 import ProductCard from '@/components/ProductCard'
-import { getVisibleBrandNames, getVisibleHomeHeroProducts, products as productsData } from '@/data/index'
+import { getVisibleBrandNames, getVisibleHomeHeroProducts, products as productsData, sortBrandsForDisplay } from '@/data/index'
 import HeroSlider from '@/components/HeroSlider'
 import { Locales, t } from '@/locales'
 import { createPageMetadata, getLocalizedUrl, SITE_NAME, SITE_URL } from '@/lib/seo'
-
-const featuredBrandOrder = ['jnr', 'hifancy', 'eonys', 'airmez', 'vapsolo']
-
-function sortHomeBrands(a: string, b: string) {
-  const aPriority = featuredBrandOrder.indexOf(a.toLowerCase())
-  const bPriority = featuredBrandOrder.indexOf(b.toLowerCase())
-
-  if (aPriority !== -1 || bPriority !== -1) {
-    if (aPriority === -1) return 1
-    if (bPriority === -1) return -1
-    return aPriority - bPriority
-  }
-
-  return productsData[b].sort - productsData[a].sort
-}
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
@@ -32,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
-  const brands = getVisibleBrandNames(locale).sort(sortHomeBrands)
+  const brands = getVisibleBrandNames(locale).sort(sortBrandsForDisplay)
   const homeHeroProducts = getVisibleHomeHeroProducts(locale)
   const homeJsonLd = {
     '@context': 'https://schema.org',

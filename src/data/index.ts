@@ -16,6 +16,21 @@ export const brandNames = Object.keys(products).filter((brand) => products[brand
 
 export const brands = brandNames.map((brand) => products[brand])
 
+const featuredBrandOrder = ['jnr', 'hifancy', 'eonys', 'airmez', 'vapsolo']
+
+export const sortBrandsForDisplay = (a: string, b: string) => {
+  const aPriority = featuredBrandOrder.indexOf(a.toLowerCase())
+  const bPriority = featuredBrandOrder.indexOf(b.toLowerCase())
+
+  if (aPriority !== -1 || bPriority !== -1) {
+    if (aPriority === -1) return 1
+    if (bPriority === -1) return -1
+    return aPriority - bPriority
+  }
+
+  return products[b].sort - products[a].sort
+}
+
 export const productsMap = Object.fromEntries(
   brandNames.flatMap((brand) => {
     const bigscreen = products[brand].bigscreen

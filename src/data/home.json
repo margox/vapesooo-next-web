@@ -1,24 +1,20 @@
 {
   "hero_sliders": [
     {
-      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/banner/vapesolo-galaxy.webp",
-      "path": "/products/brand/vapsolo"
+      "image": "/images/home/hero-jnr-falcon-pro-28k.webp",
+      "path": "/products/jnr-falcon-pro"
     },
     {
-      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/banner/hifancy.webp",
-      "path": "/products/brand/hifancy"
+      "image": "/images/home/hero-hifancy-dream-45000.webp",
+      "path": "/products/hifancy-dream-45000"
     },
     {
-      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/banner/groo.webp",
-      "path": "/products/brand/groo"
+      "image": "/images/home/hero-eonys-p36000.webp",
+      "path": "/products/eonys-p36000"
     },
     {
-      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/banner/alibarbar.webp",
-      "path": "/products/brand/alibarbar"
-    },
-    {
-      "image": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/banner/bou.webp",
-      "path": "/products/brand/bou"
+      "image": "/images/home/hero-airmez-fox-4-in-1-120k.webp",
+      "path": "/products/airmez-vape-fox-4in1-120000puffs-disposable-vape-flavor-mixed-e-cig-e-shisha-10-options-available"
     }
   ]
 }

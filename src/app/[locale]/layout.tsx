@@ -8,7 +8,7 @@ import Footer from '@/components/Footer'
 import { ThemeProvider } from '@/components/ThemeProvider'
 import { AgeVerification } from '@/components/AgeVerification'
 import { DEFAULT_SOCIAL_IMAGE, SITE_NAME, SITE_URL } from '@/lib/seo'
-import { getVisibleBrandNames, products } from '@/data'
+import { getVisibleBrandNames, products, sortBrandsForDisplay } from '@/data'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -82,7 +82,7 @@ export default async function RootLayout(props: RootLayoutProps) {
     return notFound()
   }
 
-  const headerBrands = getVisibleBrandNames(locale).map((name) => {
+  const headerBrands = getVisibleBrandNames(locale).sort(sortBrandsForDisplay).map((name) => {
     const brandProducts = products[name].products
     return {
       name,
