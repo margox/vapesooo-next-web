@@ -3,7 +3,9 @@ import { LocalizedLink } from '@/components/Link'
 import ProductCard from '@/components/ProductCard'
 import { products as productsData, productsMap } from '@/data/index'
 import ProductAskButton from '@/components/ProductAskButton'
+import JnrPriceCalculator from '@/components/JnrPriceCalculator'
 import { Locales, t } from '@/locales'
+import { JNR_PRODUCT_COSTS } from '@/lib/jnrPricing'
 import { createPageMetadata, createSeoDescription, getLocalizedUrl } from '@/lib/seo'
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
@@ -83,6 +85,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   const productDescription = createSeoDescription(
     localizedSeo?.description || product.raw_seo?.description || product.name
   )
+  const jnrProductCost = brandName === 'JNR' ? JNR_PRODUCT_COSTS[slug] : undefined
   const relatedProducts = productsData[brandName].products.filter((item) => item.slug !== slug).slice(0, 4)
   const productUrl = getLocalizedUrl(locale, `/products/${slug}`)
   const productJsonLd = {
@@ -193,7 +196,11 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             className="text-lg mb-6 text-gray-700 dark:text-gray-300"
             dangerouslySetInnerHTML={{ __html: product.excerpt[locale as Locales] }}
           />
-          <ProductAskButton productTitle={product.title || product.name} locale={locale as Locales} />
+          {jnrProductCost ? (
+            <JnrPriceCalculator product={jnrProductCost} productTitle={product.title || product.name} />
+          ) : (
+            <ProductAskButton productTitle={product.title || product.name} locale={locale as Locales} />
+          )}
         </div>
       </div>
 
