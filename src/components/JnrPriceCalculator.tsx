@@ -78,7 +78,7 @@ export default function JnrPriceCalculator({ product, productTitle }: { product:
         <label className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300">
           <span>Deliver to</span>
           <select value={country} onChange={(event) => changeCountry(event.target.value)} className="rounded-md border border-gray-300 bg-white px-2 py-1.5 text-gray-900 dark:border-gray-600 dark:bg-gray-900 dark:text-white">
-            <option value="OTHER">Other country (Group C)</option>
+            <option value="OTHER">Other country</option>
             {DELIVERY_COUNTRIES.map(([code, name]) => <option key={code} value={code}>{name}</option>)}
           </select>
         </label>
