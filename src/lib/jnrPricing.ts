@@ -54,7 +54,6 @@ const GROUP_FREIGHT_RATES: Record<JnrPriceGroup, number[]> = {
 }
 
 const OVER_40KG_INCREMENT: Record<JnrPriceGroup, number> = { A: 1.05, B: 1.19, C: 1.59, D: 1.82, E: 2.13, F: 3.15 }
-const FREIGHT_COEFFICIENT = 1.1
 
 export function getJnrPriceGroup(countryCode?: string | null): JnrPriceGroup {
   const normalizedCountryCode = countryCode?.toUpperCase()
@@ -69,7 +68,7 @@ function getFreight(group: JnrPriceGroup, weightGrams: number): number {
   const kilograms = Math.max(1, Math.ceil(weightGrams / 1000))
   const rates = GROUP_FREIGHT_RATES[group]
   const baseRate = kilograms <= 40 ? rates[kilograms - 1] : rates[39] + (kilograms - 40) * OVER_40KG_INCREMENT[group]
-  return baseRate * FREIGHT_COEFFICIENT
+  return baseRate
 }
 
 export function getJnrUnitPrice(product: JnrProductCost, group: JnrPriceGroup, tier: JnrPriceTier): number {
