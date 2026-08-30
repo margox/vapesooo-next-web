@@ -23,7 +23,12 @@ export const JNR_PRODUCT_COSTS: Record<string, JnrProductCost> = {
 }
 
 export const JNR_PRICE_TIERS: JnrPriceTier[] = [
-  { minimum: 1, maximum: 9, margin: 0.104 },
+  { minimum: 1, maximum: 1, margin: 0.104 },
+  { minimum: 2, maximum: 2, margin: 0.104 },
+  { minimum: 3, maximum: 3, margin: 0.104 },
+  { minimum: 4, maximum: 4, margin: 0.104 },
+  { minimum: 5, maximum: 5, margin: 0.104 },
+  { minimum: 6, maximum: 9, margin: 0.104 },
   { minimum: 10, maximum: 29, margin: 0.104 },
   { minimum: 30, maximum: 49, margin: 0.104 },
   { minimum: 50, maximum: 99, margin: 0.104 },
@@ -55,6 +60,8 @@ const GROUP_FREIGHT_RATES: Record<JnrPriceGroup, number[]> = {
 
 const OVER_40KG_INCREMENT: Record<JnrPriceGroup, number> = { A: 1.05, B: 1.19, C: 1.59, D: 1.82, E: 2.13, F: 3.15 }
 
+const roundUpToCent = (amount: number) => Math.ceil((amount - Number.EPSILON) * 100) / 100
+
 export function getJnrPriceGroup(countryCode?: string | null): JnrPriceGroup {
   const normalizedCountryCode = countryCode?.toUpperCase()
   return (Object.entries(GROUP_COUNTRIES).find(([, countries]) => countries.includes(normalizedCountryCode ?? ''))?.[0] as JnrPriceGroup | undefined) ?? 'C'
@@ -72,10 +79,16 @@ function getFreight(group: JnrPriceGroup, weightGrams: number): number {
 }
 
 export function getJnrUnitPrice(product: JnrProductCost, group: JnrPriceGroup, tier: JnrPriceTier): number {
-  // The supplied worksheet prices a tier from its upper bound. For 1,000+ it
-  // uses 1,000 units as the reference quantity.
-  const referenceQuantity = tier.maximum ?? tier.minimum
-  const handlingCost = referenceQuantity === 1 ? 0.96 : 0.54 + 0.4 * (referenceQuantity - 1)
-  const totalCost = product.unitCost * referenceQuantity + handlingCost + 1.99 + getFreight(group, product.unitWeightGrams * referenceQuantity)
-  return totalCost / referenceQuantity / (1 - tier.margin)
+  // Small-quantity tiers use actual quantities so fixed fees are covered.
+  // Existing volume tiers retain their upper-bound pricing behavior.
+  const quantities = tier.maximum !== null && tier.maximum <= 9
+    ? Array.from({ length: tier.maximum - tier.minimum + 1 }, (_, index) => tier.minimum + index)
+    : [tier.maximum ?? tier.minimum]
+  const requiredPrices = quantities.map((quantity) => {
+    const handlingCost = quantity === 1 ? 0.96 : 0.54 + 0.4 * (quantity - 1)
+    const totalCost = product.unitCost * quantity + handlingCost + 1.99 + getFreight(group, product.unitWeightGrams * quantity)
+    return totalCost / quantity / (1 - tier.margin)
+  })
+  const price = Math.max(...requiredPrices)
+  return tier.maximum !== null && tier.maximum <= 9 ? roundUpToCent(price) : price
 }
