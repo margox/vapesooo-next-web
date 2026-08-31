@@ -24,7 +24,11 @@ const countryName = (countryCode: string) => DELIVERY_COUNTRIES.find(([code]) =>
 
 const formatEuro = (amount: number) => `€${amount.toFixed(2)}`
 
-const tierLabel = (minimum: number, maximum: number | null) => (maximum === null ? `${minimum.toLocaleString()}+ pieces` : `${minimum} – ${maximum} pieces`)
+const tierLabel = (minimum: number, maximum: number | null) => {
+  if (maximum === null) return `${minimum.toLocaleString()}+ pieces`
+  if (minimum === maximum) return `${minimum} pieces`
+  return `${minimum} – ${maximum} pieces`
+}
 
 export default function JnrPriceCalculator({ product, productTitle }: { product: JnrProductCost; productTitle: string }) {
   const [quantity, setQuantity] = useState(1)
