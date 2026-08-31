@@ -15,6 +15,7 @@ export const JNR_PRODUCT_COSTS: Record<string, JnrProductCost> = {
   'jnr-falcon-pro': { unitCost: 6.19, unitWeightGrams: 132 },
   'jnr-mega-box-pro': { unitCost: 7.45, unitWeightGrams: 143.7 },
   'jnr-ragegorilla': { unitCost: 7.31, unitWeightGrams: 149.72 },
+  'jnr-windwhip-44000-puffs': { unitCost: 7.1, unitWeightGrams: 111 },
   'jnr-quads-4in1': { unitCost: 7.87, unitWeightGrams: 140.12 },
   'jnr-alien': { unitCost: 3.84, unitWeightGrams: 89 },
   'jnr-triple-3in1': { unitCost: 8.65, unitWeightGrams: 166 },
