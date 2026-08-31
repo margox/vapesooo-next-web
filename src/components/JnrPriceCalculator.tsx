@@ -9,6 +9,7 @@ import {
   type JnrPriceGroup,
   type JnrProductCost,
 } from '@/lib/jnrPricing'
+import ShippingInfoCard from '@/components/ShippingInfoCard'
 
 const WHATSAPP_PHONE = '8613728716463'
 
@@ -108,34 +109,7 @@ export default function JnrPriceCalculator({ product, productTitle }: { product:
         })}
       </div>
 
-      <div className="mb-5 rounded-lg border border-gray-200 bg-gray-50 p-4 dark:border-gray-700 dark:bg-gray-900/50">
-        <div className="mb-2.5 flex items-center gap-2 text-sm font-semibold text-gray-800 dark:text-gray-200">
-          <span aria-hidden="true">📦</span>
-          <span>Shipping &amp; Pricing Information</span>
-        </div>
-        <ul className="grid grid-cols-1 gap-x-6 gap-y-1.5 text-xs text-gray-600 dark:text-gray-400 sm:grid-cols-2">
-          <li className="flex items-start gap-1.5">
-            <span className="mt-px shrink-0 font-semibold text-lime-600 dark:text-lime-500">✓</span>
-            <span>All-inclusive price — VAT &amp; shipping included</span>
-          </li>
-          <li className="flex items-start gap-1.5">
-            <span className="mt-px shrink-0 font-semibold text-lime-600 dark:text-lime-500">✓</span>
-            <span>Ships from EU warehouse</span>
-          </li>
-          <li className="flex items-start gap-1.5">
-            <span className="mt-px shrink-0 font-semibold text-lime-600 dark:text-lime-500">✓</span>
-            <span>Estimated delivery: 5 working days</span>
-          </li>
-          <li className="flex items-start gap-1.5">
-            <span className="mt-px shrink-0 font-semibold text-lime-600 dark:text-lime-500">✓</span>
-            <span>DDP — all duties &amp; taxes prepaid by seller</span>
-          </li>
-          <li className="flex items-start gap-1.5 sm:col-span-2">
-            <span className="mt-px shrink-0 font-semibold text-lime-600 dark:text-lime-500">✓</span>
-            <span>Tracking number provided once shipped</span>
-          </li>
-        </ul>
-      </div>
+      <ShippingInfoCard />
 
       <div className="flex flex-wrap items-center gap-4">
         <div className="inline-flex items-center overflow-hidden rounded-full border border-gray-300 dark:border-gray-600">

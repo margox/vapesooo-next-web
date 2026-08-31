@@ -4,6 +4,7 @@ import ProductCard from '@/components/ProductCard'
 import { products as productsData, productsMap } from '@/data/index'
 import ProductAskButton from '@/components/ProductAskButton'
 import JnrPriceCalculator from '@/components/JnrPriceCalculator'
+import ShippingInfoCard from '@/components/ShippingInfoCard'
 import { Locales, t } from '@/locales'
 import { JNR_PRODUCT_COSTS } from '@/lib/jnrPricing'
 import { createPageMetadata, createSeoDescription, getLocalizedUrl } from '@/lib/seo'
@@ -199,7 +200,10 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
           {jnrProductCost ? (
             <JnrPriceCalculator product={jnrProductCost} productTitle={product.title || product.name} />
           ) : (
-            <ProductAskButton productTitle={product.title || product.name} locale={locale as Locales} />
+            <>
+              <ShippingInfoCard />
+              <ProductAskButton productTitle={product.title || product.name} locale={locale as Locales} />
+            </>
           )}
         </div>
       </div>
