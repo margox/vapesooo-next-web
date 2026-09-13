@@ -69,6 +69,9 @@ export default async function BrandProductsPage({
     }
   }
 
+  // Sort by puff count descending (highest first), keeping original order for products without puffs
+  products = products.sort((a, b) => (b.puffs || 0) - (a.puffs || 0))
+
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="mb-8">

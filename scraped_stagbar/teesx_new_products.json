@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "source": "https://teesxvape.com/ (Stag Bar)",
+    "scraped_at": "2026-09-13"
+  },
+  "products": [
+    {
+      "model": "Stag Bar Gemini 30K",
+      "puffs": 30000,
+      "capacity": "30ml",
+      "battery": "750mAh",
+      "coil": "1.0 Ohm mesh coil",
+      "nicotine": "0% / 2% / 3% / 5%",
+      "type": "double flavor",
+      "features": [
+        "Double flavor",
+        "LED display",
+        "Type-C charging",
+        "30ml e-liquid"
+      ],
+      "flavors": "10 double-flavor combos",
+      "image_files": [
+        "scraped_stagbar/images/gemini.jpg"
+      ],
+      "sources": [
+        "https://teesxvape.com/product/stag-bar-gemini-30000-puffs-disposable-vape-double-flavor"
+      ]
+    },
+    {
+      "model": "Stag Bar Jagger 15K",
+      "puffs": 15000,
+      "capacity": "16ml",
+      "battery": "650mAh",
+      "coil": "1.0 Ohm mesh coil",
+      "nicotine": "2% / 5%",
+      "type": "single",
+      "features": [
+        "Premium cutting-edge disposable",
+        "10 flavors",
+        "Type-C charging"
+      ],
+      "flavors": "10 flavors",
+      "image_files": [
+        "scraped_stagbar/images/jagger15k.jpg"
+      ],
+      "sources": [
+        "https://teesxvape.com/product/stag-bar-jagger-15000-puffs-disposable-vape"
+      ]
+    },
+    {
+      "model": "Stag Bar King 40K",
+      "puffs": 40000,
+      "capacity": "22ml",
+      "battery": "750mAh",
+      "coil": "1.0 Ohm mesh coil",
+      "nicotine": "2% / 5%",
+      "type": "single",
+      "features": [
+        "Premium cutting-edge disposable",
+        "10 flavors",
+        "Type-C charging"
+      ],
+      "flavors": "10 flavors",
+      "image_files": [
+        "scraped_stagbar/images/king.jpg"
+      ],
+      "sources": [
+        "https://teesxvape.com/product/stag-bar-king-40000-puffs-disposable-vape"
+      ]
+    },
+    {
+      "model": "Stag Bar Pulse 35K",
+      "puffs": 35000,
+      "capacity": "30ml",
+      "battery": "750mAh",
+      "coil": "1.0 Ohm mesh coil",
+      "nicotine": "0% / 2% / 3% / 5%",
+      "type": "single",
+      "features": [
+        "LED display",
+        "Type-C charging",
+        "30ml e-liquid",
+        "10 flavors"
+      ],
+      "flavors": "10 flavors",
+      "image_files": [
+        "scraped_stagbar/images/pulse.jpg"
+      ],
+      "sources": [
+        "https://teesxvape.com/product/stag-bar-pulse-35000-puffs-disposable-vape"
+      ]
+    },
+    {
+      "model": "Stag Bar Triple 60K",
+      "puffs": 60000,
+      "capacity": "54ml",
+      "battery": "650mAh",
+      "coil": "0.9 Ohm mesh coil",
+      "nicotine": "2% / 5%",
+      "type": "3-in-1",
+      "features": [
+        "3 flavors in one device",
+        "LCD display",
+        "Type-C charging",
+        "54ml e-liquid"
+      ],
+      "flavors": "10 triple-flavor combos",
+      "image_files": [
+        "scraped_stagbar/images/triple.jpg"
+      ],
+      "sources": [
+        "https://teesxvape.com/product/stag-bar-triple-60000-puffs-3-in-1-disposable-vape"
+      ]
+    }
+  ]
+}

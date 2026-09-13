@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "brand": "Stagbar",
+    "source": "https://stagvape.com/",
+    "scraped_at": "2026-09-13"
+  },
+  "products": [
+    {
+      "model": "Stagbar 4in1 80K",
+      "official_title": "Stagbar 4in1 80,000 Disposable Vape",
+      "puffs": 80000,
+      "capacity": "4 x 18ml",
+      "coil": "1.0 Ohm mesh coil",
+      "battery": "1000mAh",
+      "nicotine": "2% / 5%",
+      "features": [
+        "4 flavors in 1 device",
+        "4 independent mesh coils",
+        "Seamless flavor switching",
+        "Type-C charging"
+      ],
+      "flavors": "15 editions x 4 flavors (Blueberry/Watermelon/Strawberry/Cherry/Fruit/Mixed Fruit/Summer/Juicy/Blue/Exotic/Lime/Cherry Pineapple/Beach/Candy/Tropical)",
+      "description": "The Stagbar 4-in-1 80,000 is a revolutionary high-capacity disposable featuring 4 flavors and 4 independent mesh coils in one device, delivering an industry-leading 80,000 puffs.",
+      "image_files": [
+        "scraped_stagbar/images/4in1_main.jpg"
+      ],
+      "sources": [
+        "https://stagvape.com/product/stagbar-4in1-80k-disposable"
+      ]
+    },
+    {
+      "model": "Stagbar 6in1 180K",
+      "official_title": "Stagbar 6in1 180,000 Disposable Vape",
+      "puffs": 180000,
+      "capacity": "6 x 18ml",
+      "coil": "1.1 Ohm mesh coil",
+      "battery": "1000mAh",
+      "nicotine": "2% / 5%",
+      "features": [
+        "6 flavors in 1 device",
+        "6 independent mesh coils",
+        "Ultimate all-week vape",
+        "Type-C charging"
+      ],
+      "flavors": "Multi-edition x 6 flavors",
+      "description": "The Stagbar 6-in-1 featuring a unique 6-flavor system and six independent mesh coils, this device allows users to switch between six distinct tastes in one device.",
+      "image_files": [
+        "scraped_stagbar/images/6in1_main.jpg"
+      ],
+      "sources": [
+        "https://stagvape.com/product/6in1-180k-disposable"
+      ]
+    },
+    {
+      "model": "Stagbar Jagger Pro 40K",
+      "official_title": "Stagbar Jagger Pro 40,000 Disposable Vape",
+      "puffs": 40000,
+      "capacity": "22ml",
+      "coil": "1.0 Ohm mesh coil",
+      "battery": "750mAh",
+      "nicotine": "2% / 5%",
+      "features": [
+        "High-performance rechargeable disposable",
+        "Precision & power",
+        "22ml flavored ejuice",
+        "Type-C charging"
+      ],
+      "flavors": "Coco Loco, Sex on the Beach, Lemon Lime, Red Bull, Watermelon Ice, Mixed Berries, Strawberry Kiwi, Banana Ice, Blueberry Raspberry, Strawberry Grape, Blue Raspberry Lemonade, White Mamba, Strawberry Banana, Grape Ice, Strawberry Watermelon, Black Dragon Ice, Cola Ice, Triple Melon, Cherry Cranberry, Gummy Candy",
+      "description": "The Stagbar Jagger Pro is a high-performance, rechargeable disposable designed for precision and power.",
+      "image_files": [
+        "scraped_stagbar/images/jagger_main.png"
+      ],
+      "sources": [
+        "https://stagvape.com/product/stagbar-jagger-pro-40k-disposable"
+      ]
+    },
+    {
+      "model": "Stagbar Nexus 60K",
+      "official_title": "Stagbar Nexus 60,000 Disposable Vape",
+      "puffs": 60000,
+      "capacity": "30ml",
+      "coil": "0.9 Ohm mesh coil",
+      "battery": "850mAh",
+      "nicotine": "2% / 5%",
+      "features": [
+        "Premium high-capacity disposable",
+        "Customizable airflow",
+        "30ml flavored ejuice",
+        "Type-C charging"
+      ],
+      "flavors": "Watermelon Ice, Blueberry Raspberry Ice, Mixed Berries, Strawberry Grape, Strawberry Kiwi, Love 66, Raspberry Watermelon, Lemon Lime, Peach Mango, Red Bull",
+      "description": "The Stagbar Nexus 60,000 is a premium, high-capacity disposable vape built for endurance and flavor depth.",
+      "image_files": [
+        "scraped_stagbar/images/nexus_main.png"
+      ],
+      "sources": [
+        "https://stagvape.com/product/stagbar-nexus-60k-disposable"
+      ]
+    },
+    {
+      "model": "Stag Bar Storm 50K",
+      "official_title": "Stag Bar Storm 50K Disposable Vape",
+      "puffs": 50000,
+      "capacity": "20ml",
+      "coil": "1.0 Ohm mesh coil",
+      "battery": "850mAh",
+      "nicotine": "2% / 5%",
+      "features": [
+        "Effortless out-of-the-box use",
+        "Consistently rich flavor",
+        "Smooth vapor",
+        "Type-C charging"
+      ],
+      "flavors": "Black Dragon Ice, Blackberry Pear, Blue Razz Ice, Blueberry Sour Raspberry, Cherry Ice, Lemon Lime, Peach Ice, Strawberry Watermelon, Triple Mango, Watermelon Ice",
+      "description": "Stag Bar Storm 50K delivers consistently rich flavor and smooth vapor from the first puff to the last.",
+      "image_files": [
+        "scraped_stagbar/images/storm_main.png"
+      ],
+      "sources": [
+        "https://stagvape.com/product/stagbar-storm-50k-disposable"
+      ]
+    }
+  ]
+}

@@ -16,7 +16,7 @@ export const brandNames = Object.keys(products).filter((brand) => products[brand
 
 export const brands = brandNames.map((brand) => products[brand])
 
-const featuredBrandOrder = ['jnr', 'hifancy', 'eonys', 'airmez', 'vapsolo']
+const featuredBrandOrder = ['stagbar', 'jnr', 'hifancy', 'eonys', 'airmez', 'vapsolo']
 
 export const sortBrandsForDisplay = (a: string, b: string) => {
   const aPriority = featuredBrandOrder.indexOf(a.toLowerCase())

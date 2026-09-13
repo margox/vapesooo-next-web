@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "brand": "Airmez",
+    "scraped_at": "2026-09-10",
+    "sources": {
+      "lux100k": "https://www.airmezvape.com/products/airmez-lux-100k-puffs-visible-tank-bull-turbo-mode",
+      "habibi120k": "https://www.airmezvape.com/products/airmez-habibi-120k",
+      "fox2in1pro": "https://vzvape.com/products/eu-warehouse-airmez-fox-2in1-pro-80000-puffs-disposable-vape-wholesale",
+      "exclusive12in1": "https://www.airmezvape.com/products/airmez-exclusive-12-in-1-300k-puffs"
+    }
+  },
+  "products": [
+    {
+      "model": "Airmez Lux 100K (Visible Tank · Turbo Mode)",
+      "official_title": "AiRMEZ Lux 100K Puffs [Visible Tank • Turbo Mode]",
+      "puffs": "100,000",
+      "capacity": "30ml visible tank",
+      "coil": "Dual Mesh Coil (Single Mesh Mode + Turbo Boost Mode)",
+      "battery": "650mAh, Type-C fast charging (~45-60 min)",
+      "features": [
+        "Visible oil tank",
+        "Turbo Boost high-output mode",
+        "Smart telemetry display (battery %, liquid level)",
+        "Adjustable bottom airflow (MTL-DTL)"
+      ],
+      "nicotine": [
+        "0%",
+        "2%",
+        "3%"
+      ],
+      "flavors": [
+        "Strawberry Ice",
+        "Watermelon Ice",
+        "Mixed Berries",
+        "Passion Fruit Kiwi",
+        "Dr Blue",
+        "Love 66",
+        "Triple Mango",
+        "Cherry Cola",
+        "Bingo Crush",
+        "Pink Lemonade"
+      ],
+      "description": "The Airmez Lux 100K Puffs redefines the premium vaping experience with a revolutionary 30ml crystal-clear visible tank architecture, giving real-time visibility into remaining juice levels. Driven by an advanced Dual Mesh Coil matrix, it supports both a balanced Single Mesh Mode and an intense Turbo Boost Mode. Fully stocked in the Poland fulfillment hub for fast, duty-free EU delivery.",
+      "image_files": [
+        "images/lux100k.png"
+      ]
+    },
+    {
+      "model": "Airmez HABIBI 120K",
+      "official_title": "AiRMEZ HABIBI 120K Puffs – Shisha Vape",
+      "puffs": "120,000",
+      "capacity": "40ml",
+      "coil": "0.4Ω Mesh Coil",
+      "battery": "1000mAh, Type-C rechargeable",
+      "features": [
+        "Direct-to-Lung (DTL) draw",
+        "Adjustable airflow",
+        "Smart screen (battery & liquid level)",
+        "Immersive LED effects",
+        "Shisha sound",
+        "10 flavors"
+      ],
+      "nicotine": [
+        "5% (50mg)"
+      ],
+      "flavors": [
+        "10 flavors including Coco Loco, etc."
+      ],
+      "description": "The AiRMEZ HABIBI is a portable electronic shisha built for direct-to-lung vaping. It offers a 40ml capacity, a 1000mAh battery, and a choice of 10 different flavors. The integrated smart screen allows usage monitoring at a glance, while adjustable airflow switches from a closed, flavor-rich draw to wide, soft vapor clouds. Perfect for hookah-style sessions anywhere, anytime.",
+      "image_files": [
+        "images/habibi_main.png",
+        "images/habibi.png"
+      ]
+    },
+    {
+      "model": "Airmez FOX 2IN1 PRO 80000",
+      "official_title": "EU Warehouse Airmez FOX 2IN1 PRO 80000 Puffs Disposable Vape",
+      "puffs": "80,000",
+      "capacity": "30ml total (2 × 15ml isolated reservoirs)",
+      "coil": "High-Efficiency Mesh Coil",
+      "battery": "650mAh, Type-C",
+      "features": [
+        "Sliding mouthpiece / mechanical 2-in-1 toggle",
+        "Zero cross-contamination (isolated chambers)",
+        "Dual Mode",
+        "10 new flavor editions"
+      ],
+      "nicotine": [
+        "0% / 2% / 3% / 5%"
+      ],
+      "flavors": [
+        "10 new flavor editions"
+      ],
+      "description": "The Airmez FOX 2IN1 PRO 80000 redefines high-capacity hardware by integrating two distinct flavor profiles into a single engineered chassis. Pre-loaded with a massive 30ml total e-liquid payload (two isolated 15ml reservoirs), it delivers an 80,000-puff lifecycle. The Zero-Cross-Contamination Architecture lets users mechanically toggle between two independent flavor chambers with zero flavor bleeding, supported by a 650mAh high-drain core and Type-C rapid recovery.",
+      "image_files": [
+        "images/fox2in1pro_main.png",
+        "images/fox2in1pro.png"
+      ]
+    },
+    {
+      "model": "Airmez EXCLUSIVE 12-in-1 300K",
+      "official_title": "AiRMEZ Exclusive 12-in-1 300K Puffs",
+      "puffs": "300,000 (30,000 per chamber × 10)",
+      "capacity": "90ml (6 × 15ml tanks)",
+      "coil": "Advanced Mesh Coil",
+      "battery": "Type-C fast charging, 650mAh",
+      "features": [
+        "12-in-1 adjustable mouthpiece dial",
+        "6 Pure Flavors Mode + 6 Flavors Combination Mode",
+        "Isolated liquid chambers (zero cross-contamination)",
+        "Premium telemetry digital screen",
+        "10 curated flavor editions"
+      ],
+      "nicotine": [
+        "2%",
+        "5%"
+      ],
+      "flavors": [
+        "Edition 1-10 (Watermelon Ice, Mango Peach, Dr Blue, Strawberry Kiwi, Love66, Triple Mango, Cola Ice, Mixed Berries, Bingo Crush, Cherry Ice, Strawberry Banana, Pink Lemonade, etc.)"
+      ],
+      "description": "The AiRMEZ Exclusive 12-in-1 300K is the 2026 benchmark of high-capacity hardware, combining an industry-first 12-flavor mechanical rotation system with a historic 300,000 puffs total capacity. The patented 12-in-1 adjustable dial mechanism switches between 12 entirely independent internal liquid chambers, ensuring zero cross-contamination. Divided into Pure Flavors Mode (6 base selections) and Flavors Combination Mode (6 premium blends), it delivers crisp, distinct flavors from first draw to last.",
+      "image_files": [
+        "images/exclusive12in1.png"
+      ]
+    }
+  ]
+}
