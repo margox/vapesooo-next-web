@@ -1,0 +1,22 @@
+[
+  {
+    "source": "/tmp/bubo/imgs/v1_graffitic.png",
+    "key": "products/666082cc-1467-4332-aeb0-b0347ca6dd64",
+    "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/666082cc-1467-4332-aeb0-b0347ca6dd64"
+  },
+  {
+    "source": "/tmp/bubo/imgs/v2_cafe24.jpg",
+    "key": "products/0e0c21d2-7924-40d1-a6f3-87964095a967",
+    "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/0e0c21d2-7924-40d1-a6f3-87964095a967"
+  },
+  {
+    "source": "/tmp/bubo/imgs/v3_cafe24.jpg",
+    "key": "products/29c01adc-b377-440e-aa5d-1be479185cf5",
+    "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/29c01adc-b377-440e-aa5d-1be479185cf5"
+  },
+  {
+    "source": "/tmp/bubo/imgs/v4_thumb.jpg",
+    "key": "products/2c9df73f-1e2e-468a-906f-d702680c2cd4",
+    "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/2c9df73f-1e2e-468a-906f-d702680c2cd4"
+  }
+]
