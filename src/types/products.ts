@@ -58,6 +58,7 @@ export interface Products {
     sort: number
     enabled: boolean
     bigscreen?: boolean
+    featuredProducts?: string[]
   }
 }
 

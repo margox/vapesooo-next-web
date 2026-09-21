@@ -9659,73 +9659,6 @@
   "JNR": {
     "sort": 776,
     "enabled": true,
-    "categories": [
-      {
-        "slug": "all",
-        "label": {
-          "en": "All",
-          "es": "Todo",
-          "fr": "Tous",
-          "de": "Alle",
-          "it": "Tutto",
-          "pt": "Todos",
-          "ru": "Все",
-          "pl": "Wszystko"
-        }
-      },
-      {
-        "slug": "disposable-vape",
-        "label": {
-          "en": "Disposable Vape",
-          "es": "Vaporizador desechable",
-          "fr": "Vapoteuse Jetable",
-          "de": "Einweg-E-Zigarette",
-          "it": "sigaretta elettronica usa e getta",
-          "pt": "Vape descartável",
-          "ru": "Одноразовая электронная сигарета",
-          "pl": "Jednorazowy Vape"
-        }
-      },
-      {
-        "slug": "refillable-vape",
-        "label": {
-          "en": "Refillable Vape",
-          "es": "Vaporizador recargable",
-          "fr": "Puff Remplissable",
-          "de": "Nachfüllbare E-Zigarette",
-          "it": "Vaporizzatore ricaricabile",
-          "pt": "Vape recarregável",
-          "ru": "Многоразовая электронная сигарета",
-          "pl": "Wkładany Vape"
-        }
-      },
-      {
-        "slug": "prefilled-pod",
-        "label": {
-          "en": "Prefilled Pod",
-          "es": "Cápsula precargada",
-          "fr": "Pod Rechargeable",
-          "de": "Vorgefüllte Kapsel",
-          "it": "Pod pre-riempito",
-          "pt": "Cápsula pré-cheia",
-          "ru": "Предварительно заполненная капсула",
-          "pl": "Wstępnie napełniony strąk"
-        }
-      },
-      {
-        "slug": "e-liquid",
-        "label": {
-          "en": "E-liquid",
-          "es": "líquido electrónico",
-          "fr": "E-liquide",
-          "de": "E-Liquid",
-          "it": "Liquido per sigaretta elettronica",
-          "pt": "E-líquido",
-          "ru": "Жидкость для электронных сигарет",
-          "pl": "Płyn do e-papierosów"
-        }
-      }
-    ],
     "products": [
       {
         "category": "disposable-vape",
@@ -9978,16 +9911,43 @@
         "original_excerpt": "JNR WindWhip 44000 Puffs is a dual-flavor disposable vape with two independent 20ml tanks, a rotating flavor switch, mesh coil, 800mAh rechargeable battery, smart screen, dynamic breathing light, and adjustable airflow.",
         "original_content": "<div class=\"jnr-product-content\"><h2>JNR WindWhip 44000 Puffs</h2><p>JNR WindWhip combines two independently pre-filled 20ml tanks in one device. Rotate the mouthpiece to switch between two distinct flavors without mixing them, and enjoy up to 44,000 puffs.</p><p>A mesh coil provides even heating, while the smart screen and dynamic breathing light show battery and e-liquid status. The 800mAh rechargeable battery, Type-C charging, adjustable airflow, ergonomic grip, and metal body make it a feature-rich dual-flavor disposable.</p><h3>Specifications</h3><ul><li>Up to 44,000 puffs</li><li>2 × 20ml independent tanks</li><li>Mesh coil</li><li>2% salt nicotine</li><li>800mAh rechargeable battery with Type-C charging</li><li>Smart screen and dynamic breathing light</li><li>Adjustable airflow</li></ul><h3>Dual-flavor combinations</h3><p>Cherry &amp; Blue Razz Cherry; Mixed Berry &amp; White Peach Razz; Fresh Strawberry Ice &amp; Blueberry Sour Raspberry; Watermelon Ice &amp; Watermelon Bubblegum; Kiwi Watermelon Ice &amp; Strawberry Kiwi; Strawberry Watermelon Ice &amp; Strawberry Banana; Cherry Cola &amp; Summer Peaches; Love 66 &amp; Hawaii; Double Apple &amp; Green Apple Peach Pear; Black Ice &amp; Black Dragon Ice.</p></div>",
         "images": [
-          { "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/7ba8e750-53a8-4717-865c-31f28e303e3e", "alt": "JNR WindWhip 44000 Puffs dual-flavor disposable vape" },
-          { "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/f03ab826-1155-4c89-b63e-a740db35f492", "alt": "JNR WindWhip Blue Razz Cherry flavor combination" },
-          { "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/7a2c149d-5e06-4c1b-8bbf-8bf83ea90976", "alt": "JNR WindWhip Strawberry and Blueberry flavor combination" },
-          { "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/a4cb5e59-9200-4e30-8e3f-cd3eda3ea27b", "alt": "JNR WindWhip Watermelon flavor combination" },
-          { "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/2da719b5-ea18-4168-b90b-42e43f560f12", "alt": "JNR WindWhip Strawberry Watermelon and Strawberry Banana flavors" },
-          { "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/b110bfbf-5cfb-4aba-bf6f-d3e6fa7d6dbf", "alt": "JNR WindWhip Double Apple and Green Apple Peach Pear flavors" },
-          { "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/15824ae5-5553-49c5-bb5d-31d2ff3f2776", "alt": "JNR WindWhip Black Ice and Black Dragon Ice flavors" },
-          { "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/03a8939a-ac86-4caa-aad3-8785ae790157", "alt": "JNR WindWhip 44000 Puffs flavor range" }
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/7ba8e750-53a8-4717-865c-31f28e303e3e",
+            "alt": "JNR WindWhip 44000 Puffs dual-flavor disposable vape"
+          },
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/f03ab826-1155-4c89-b63e-a740db35f492",
+            "alt": "JNR WindWhip Blue Razz Cherry flavor combination"
+          },
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/7a2c149d-5e06-4c1b-8bbf-8bf83ea90976",
+            "alt": "JNR WindWhip Strawberry and Blueberry flavor combination"
+          },
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/a4cb5e59-9200-4e30-8e3f-cd3eda3ea27b",
+            "alt": "JNR WindWhip Watermelon flavor combination"
+          },
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/2da719b5-ea18-4168-b90b-42e43f560f12",
+            "alt": "JNR WindWhip Strawberry Watermelon and Strawberry Banana flavors"
+          },
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/b110bfbf-5cfb-4aba-bf6f-d3e6fa7d6dbf",
+            "alt": "JNR WindWhip Double Apple and Green Apple Peach Pear flavors"
+          },
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/15824ae5-5553-49c5-bb5d-31d2ff3f2776",
+            "alt": "JNR WindWhip Black Ice and Black Dragon Ice flavors"
+          },
+          {
+            "url": "https://vapesooo-1318551956.cos.accelerate.myqcloud.com/products/03a8939a-ac86-4caa-aad3-8785ae790157",
+            "alt": "JNR WindWhip 44000 Puffs flavor range"
+          }
         ],
-        "original_seo": { "description": "JNR WindWhip 44000 Puffs dual-flavor disposable vape: two independent 20ml tanks, rotating flavor switch, mesh coil, 800mAh battery, smart screen, dynamic light, and adjustable airflow.", "keywords": "JNR WindWhip 44000 Puffs, dual flavor vape, 2x20ml vape, rotating switch vape, mesh coil disposable vape" },
+        "original_seo": {
+          "description": "JNR WindWhip 44000 Puffs dual-flavor disposable vape: two independent 20ml tanks, rotating flavor switch, mesh coil, 800mAh battery, smart screen, dynamic light, and adjustable airflow.",
+          "keywords": "JNR WindWhip 44000 Puffs, dual flavor vape, 2x20ml vape, rotating switch vape, mesh coil disposable vape"
+        },
         "content": {
           "en": "<div class=\"jnr-product-content\"><h2>JNR WindWhip 44000 Puffs</h2><p>Switch between two independent flavors with a simple twist. WindWhip combines two 20ml tanks, a mesh coil, smart screen, dynamic breathing light, and adjustable airflow for an interactive dual-flavor experience.</p><h3>Key specifications</h3><ul><li>44,000 puffs</li><li>2 × 20ml independent tanks</li><li>Mesh coil and 2% salt nicotine</li><li>800mAh rechargeable battery with Type-C charging</li><li>Smart screen, dynamic breathing light, and adjustable airflow</li></ul><p>Available pairings include Cherry &amp; Blue Razz Cherry, Mixed Berry &amp; White Peach Razz, Watermelon Ice &amp; Watermelon Bubblegum, Strawberry Watermelon Ice &amp; Strawberry Banana, and more.</p></div>",
           "es": "<div class=\"jnr-product-content\"><h2>JNR WindWhip 44000 caladas</h2><p>Cambia entre dos sabores independientes con un giro. WindWhip reúne dos depósitos de 20 ml, resistencia mesh, pantalla inteligente, luz dinámica y flujo de aire ajustable.</p><h3>Especificaciones</h3><ul><li>44.000 caladas</li><li>2 depósitos independientes de 20 ml</li><li>Resistencia mesh y nicotina salina al 2%</li><li>Batería recargable de 800 mAh con carga Type-C</li><li>Pantalla inteligente, luz respiratoria y flujo de aire ajustable</li></ul><p>Combinaciones disponibles: Cherry &amp; Blue Razz Cherry, Mixed Berry &amp; White Peach Razz, Watermelon Ice &amp; Watermelon Bubblegum y más.</p></div>",
@@ -10009,14 +9969,38 @@
           "pl": "Jednorazowy vape o dwóch smakach i 44 000 zaciągnięć, z 2 niezależnymi zbiornikami 20 ml, przełącznikiem obrotowym, grzałką mesh i regulowanym przepływem powietrza."
         },
         "seo": {
-          "en": { "description": "JNR WindWhip 44000 Puffs dual-flavor vape with 2 × 20ml tanks, rotating switch, mesh coil, 800mAh battery, and adjustable airflow.", "keywords": "JNR WindWhip 44000 Puffs, dual flavor vape, 2x20ml vape" },
-          "es": { "description": "JNR WindWhip de 44.000 caladas con doble sabor, dos depósitos de 20 ml, selector giratorio, resistencia mesh y flujo de aire ajustable.", "keywords": "JNR WindWhip 44000, vape doble sabor, vape 2x20ml" },
-          "fr": { "description": "JNR WindWhip 44 000 bouffées double saveur avec deux réservoirs de 20 ml, sélecteur rotatif, résistance mesh et airflow réglable.", "keywords": "JNR WindWhip 44000, vape double saveur, vape 2x20ml" },
-          "de": { "description": "JNR WindWhip 44.000 Züge mit zwei Geschmacksrichtungen, zwei 20-ml-Tanks, Drehschalter, Mesh-Coil und einstellbarer Airflow.", "keywords": "JNR WindWhip 44000, Dual Flavor Vape, 2x20ml Vape" },
-          "it": { "description": "JNR WindWhip 44.000 tiri a doppio gusto con due serbatoi da 20 ml, selettore rotante, coil mesh e airflow regolabile.", "keywords": "JNR WindWhip 44000, vape doppio gusto, vape 2x20ml" },
-          "pt": { "description": "JNR WindWhip 44.000 tragadas com sabor duplo, dois tanques de 20 ml, seletor rotatório, coil mesh e fluxo de ar ajustável.", "keywords": "JNR WindWhip 44000, vape sabor duplo, vape 2x20ml" },
-          "ru": { "description": "JNR WindWhip на 44 000 затяжек: два вкуса, два резервуара по 20 мл, поворотный переключатель, сетчатый испаритель и регулируемый обдув.", "keywords": "JNR WindWhip 44000, вейп два вкуса, вейп 2x20ml" },
-          "pl": { "description": "JNR WindWhip 44 000 zaciągnięć: dwa smaki, dwa zbiorniki po 20 ml, przełącznik obrotowy, grzałka mesh i regulowany przepływ powietrza.", "keywords": "JNR WindWhip 44000, vape dwa smaki, vape 2x20ml" }
+          "en": {
+            "description": "JNR WindWhip 44000 Puffs dual-flavor vape with 2 × 20ml tanks, rotating switch, mesh coil, 800mAh battery, and adjustable airflow.",
+            "keywords": "JNR WindWhip 44000 Puffs, dual flavor vape, 2x20ml vape"
+          },
+          "es": {
+            "description": "JNR WindWhip de 44.000 caladas con doble sabor, dos depósitos de 20 ml, selector giratorio, resistencia mesh y flujo de aire ajustable.",
+            "keywords": "JNR WindWhip 44000, vape doble sabor, vape 2x20ml"
+          },
+          "fr": {
+            "description": "JNR WindWhip 44 000 bouffées double saveur avec deux réservoirs de 20 ml, sélecteur rotatif, résistance mesh et airflow réglable.",
+            "keywords": "JNR WindWhip 44000, vape double saveur, vape 2x20ml"
+          },
+          "de": {
+            "description": "JNR WindWhip 44.000 Züge mit zwei Geschmacksrichtungen, zwei 20-ml-Tanks, Drehschalter, Mesh-Coil und einstellbarer Airflow.",
+            "keywords": "JNR WindWhip 44000, Dual Flavor Vape, 2x20ml Vape"
+          },
+          "it": {
+            "description": "JNR WindWhip 44.000 tiri a doppio gusto con due serbatoi da 20 ml, selettore rotante, coil mesh e airflow regolabile.",
+            "keywords": "JNR WindWhip 44000, vape doppio gusto, vape 2x20ml"
+          },
+          "pt": {
+            "description": "JNR WindWhip 44.000 tragadas com sabor duplo, dois tanques de 20 ml, seletor rotatório, coil mesh e fluxo de ar ajustável.",
+            "keywords": "JNR WindWhip 44000, vape sabor duplo, vape 2x20ml"
+          },
+          "ru": {
+            "description": "JNR WindWhip на 44 000 затяжек: два вкуса, два резервуара по 20 мл, поворотный переключатель, сетчатый испаритель и регулируемый обдув.",
+            "keywords": "JNR WindWhip 44000, вейп два вкуса, вейп 2x20ml"
+          },
+          "pl": {
+            "description": "JNR WindWhip 44 000 zaciągnięć: dwa smaki, dwa zbiorniki po 20 ml, przełącznik obrotowy, grzałka mesh i regulowany przepływ powietrza.",
+            "keywords": "JNR WindWhip 44000, vape dwa smaki, vape 2x20ml"
+          }
         },
         "puffs": 44000
       },
@@ -13683,6 +13667,17 @@
         },
         "puffs": 16000
       }
+    ],
+    "featuredProducts": [
+      "jnr-falcon-pro",
+      "jnr-mega-box-pro",
+      "jnr-ragegorilla",
+      "jnr-windwhip-44000-puffs",
+      "jnr-quads-4in1",
+      "jnr-alien",
+      "jnr-triple-3in1",
+      "jnr-l-opard",
+      "jnr-falcon-x"
     ]
   },
   "Stagbar": {

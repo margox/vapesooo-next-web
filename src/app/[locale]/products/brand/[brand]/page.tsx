@@ -69,8 +69,21 @@ export default async function BrandProductsPage({
     }
   }
 
-  // Sort by puff count descending (highest first), keeping original order for products without puffs
-  products = products.sort((a, b) => (b.puffs || 0) - (a.puffs || 0))
+  // Sort: featured products first (in given order), then by puff count descending (highest first), keeping original order for products without puffs
+  const featured = brandData.featuredProducts
+  if (featured && featured.length > 0) {
+    const orderMap = new Map(featured.map((slug, index) => [slug, index]))
+    products = products.sort((a, b) => {
+      const ai = orderMap.get(a.slug)
+      const bi = orderMap.get(b.slug)
+      if (ai !== undefined && bi !== undefined) return ai - bi
+      if (ai !== undefined) return -1
+      if (bi !== undefined) return 1
+      return (b.puffs || 0) - (a.puffs || 0)
+    })
+  } else {
+    products = products.sort((a, b) => (b.puffs || 0) - (a.puffs || 0))
+  }
 
   return (
     <div className="container mx-auto px-4 py-8">
