@@ -1,6 +1,10 @@
 {
   "hero_sliders": [
     {
+      "image": "/images/home/hero-stagbar-6in1.webp",
+      "path": "/products/stagbar-6in1-180k-puffs"
+    },
+    {
       "image": "/images/home/hero-jnr-falcon-pro-28k.webp",
       "path": "/products/jnr-falcon-pro"
     },
