@@ -1,0 +1,9 @@
+name = "vapesooo"
+account_id = "6c469841b0fcf4d8dfa768affca367a4"
+main = ".open-next/worker.js"
+compatibility_date = "2026-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
