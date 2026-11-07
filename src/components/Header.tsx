@@ -125,15 +125,20 @@ export default function Header({ brands }: HeaderProps) {
                         </LocalizedLink>
                       )}
 
-                      {brand.products.map((product) => (
-                        <LocalizedLink
+                      {brand.products.map((product) => {
+                        const isStagbar = brand.name.toLowerCase() === 'stagbar'
+                        return (
+                        <a
                           key={product.slug}
                           onClick={() => setHidenMenu(brand.name)}
-                          href={`/products/${product.slug}`}
+                          href={isStagbar ? 'https://stagbaronline.com' : `/products/${product.slug}`}
+                          target={isStagbar ? '_blank' : undefined}
+                          rel={isStagbar ? 'noopener noreferrer' : undefined}
                           className="block px-6 py-4 text-sm text-slate-800 whitespace-nowrap uppercase font-medium hover:text-lime-600">
                           {product.title}
-                        </LocalizedLink>
-                      ))}
+                        </a>
+                        )
+                      })}
                     </div>
                   )}
                 </div>

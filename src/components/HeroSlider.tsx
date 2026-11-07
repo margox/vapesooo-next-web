@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { FreeMode, Navigation, Pagination, Autoplay } from 'swiper/modules'
 import type { HomeProductSliderItem } from '@/types/products'
 import Image from 'next/image'
-import { LocalizedLink } from './Link'
 
 import 'swiper/css'
 import 'swiper/css/free-mode'
@@ -32,10 +31,15 @@ const HeroSlider = ({ images }: SliderProps) => {
         delay: 5000,
         disableOnInteraction: false,
       }}>
-      {images.map((image, index) => (
+      {images.map((image, index) => {
+        const isStagbar = image.path.toLowerCase().includes('stagbar')
+        const href = isStagbar ? 'https://stagbaronline.com' : image.path
+        return (
         <SwiperSlide key={image.image + index}>
-          <LocalizedLink
-            href={`${image.path}`}
+          <a
+            href={href}
+            target={isStagbar ? '_blank' : undefined}
+            rel={isStagbar ? 'noopener noreferrer' : undefined}
             className="relative block aspect-[1920/700] w-full overflow-hidden bg-slate-50">
             {!!image.image && (
               <Image
@@ -50,9 +54,10 @@ const HeroSlider = ({ images }: SliderProps) => {
                 unoptimized
               />
             )}
-          </LocalizedLink>
+          </a>
         </SwiperSlide>
-      ))}
+        )
+      })}
     </Swiper>
   )
 }
