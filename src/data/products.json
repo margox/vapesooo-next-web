@@ -13683,6 +13683,12 @@
   "Stagbar": {
     "sort": 999,
     "enabled": true,
+    "homeFeaturedProducts": [
+      "stagbar-switch-240k-puffs",
+      "stagbar-6in1-180k-puffs",
+      "stagbar-4in1-80k-puffs",
+      "stagbar-storm-50k-puffs"
+    ],
     "products": [
       {
         "name": "Stagbar 4in1 80,000 Puffs Disposable Vape",

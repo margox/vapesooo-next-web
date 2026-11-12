@@ -59,6 +59,7 @@ export interface Products {
     enabled: boolean
     bigscreen?: boolean
     featuredProducts?: string[]
+    homeFeaturedProducts?: string[]
   }
 }
 

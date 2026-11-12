@@ -79,8 +79,16 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
       {/* Brand Sections */}
       {brands.map((brand) => {
-        // Get first 4 products of this brand
-        const products = productsData[brand].products.slice(0, 4)
+        const brandData = productsData[brand]
+        // Use curated homepage products when provided, otherwise the first 4
+        const homeFeaturedProducts = brandData.homeFeaturedProducts?.flatMap((slug) => {
+          const product = brandData.products.find((item) => item.slug === slug)
+          return product ? [product] : []
+        })
+        const products =
+          homeFeaturedProducts && homeFeaturedProducts.length > 0
+            ? homeFeaturedProducts
+            : brandData.products.slice(0, 4)
 
         return (
           <section key={brand} className="py-12">
