@@ -1,6 +1,7 @@
 import { Product } from '@/types/products'
 import Image from 'next/image'
 import Link from 'next/link'
+import { getLocalizedPath } from '@/lib/localePath'
 
 interface ProductCardProps {
   product: Product
@@ -11,7 +12,9 @@ export default function ProductCard({ product, locale }: ProductCardProps) {
   const featuredImage = product.cover ? { url: product.cover, alt: product.name } : product.images[0]
   // Stagbar products link out to official site
   const isStagbar = product.slug?.toLowerCase().startsWith('stagbar-')
-  const href = isStagbar ? 'https://stagbaronline.com' : `/${locale}/products/${product.slug}`
+  const href = isStagbar
+    ? 'https://stagbaronline.com'
+    : getLocalizedPath(locale, `/products/${product.slug}`)
 
   const inner = (
     <div className="group bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-none hover:shadow-xl shadow-black/5 border border-black/10 bg-clip-padding transition-all duration-300">

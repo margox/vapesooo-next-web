@@ -1,5 +1,6 @@
 import { NewsItem } from '@/data'
 import { Locales, t } from '@/locales'
+import { getLocalizedPath } from '@/lib/localePath'
 import Link from 'next/link'
 
 interface BrandNewsPageProps {
@@ -19,11 +20,11 @@ export default function BrandNewsPage({ brand, news, locale }: BrandNewsPageProp
           const content = item[locale] || item.en
           return (
           <div key={item.slug} className="border border-gray-200 rounded-lg p-6 shadow-md">
-            <Link href={`/${locale}/news/${brand}/${item.slug}`}>
+            <Link href={getLocalizedPath(locale, `/news/${brand}/${item.slug}`)}>
               <h2 className="text-xl font-semibold mb-4 hover:underline">{content.title}</h2>
             </Link>
             <p className="text-gray-600 mb-4">{content.description}</p>
-            <Link href={`/${locale}/news/${brand}/${item.slug}`} className="text-lime-600 hover:underline">
+            <Link href={getLocalizedPath(locale, `/news/${brand}/${item.slug}`)} className="text-lime-600 hover:underline">
               {t(locale, 'news.read_more')}
             </Link>
           </div>

@@ -7,6 +7,7 @@ import { usePathname, useParams } from 'next/navigation'
 // import { useTheme } from './ThemeProvider'
 import { Locales } from '@/locales'
 import { LocalizedLink } from '@/components/Link'
+import { getLocalizedPath } from '@/lib/localePath'
 import { useTranslation } from '@/hooks/useTranslation'
 import { Bars3Icon, XMarkIcon, ChevronUpIcon, ChevronDownIcon } from '@heroicons/react/24/outline'
 
@@ -51,17 +52,17 @@ export default function Header({ brands }: HeaderProps) {
   const { brand, locale } = useParams()
   const [hidenMenu, setHidenMenu] = useAutoResetFlag<string>()
   const [activeBrand, setActiveBrand] = useState<string | null>(null)
-  const currentRoute = usePathname().replace(new RegExp(`^/${locale}`), '')
+  const currentRoute = pathname.replace(new RegExp(`^/${locale}(?=/|$)`), '') || '/'
   const { t } = useTranslation()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [mobileLanguageMenuOpen, setMobileLanguageMenuOpen] = useState(false)
   const [mobileBrandsMenuOpen, setMobileBrandsMenuOpen] = useState(false)
 
-  const isStore = pathname === `/${locale}/products`
-  const isAbout = pathname.includes(`/${locale}/about`)
-  const isNews = pathname.includes(`/${locale}/news`)
-  const isBrandsPage = pathname.includes(`/${locale}/products/brand/`)
-  const isFAQ = pathname.includes(`/${locale}/faq`)
+  const isStore = currentRoute === '/products'
+  const isAbout = currentRoute.startsWith('/about')
+  const isNews = currentRoute.startsWith('/news')
+  const isBrandsPage = currentRoute.startsWith('/products/brand/')
+  const isFAQ = currentRoute.startsWith('/faq')
   const currentBrand = brand
 
   // Close mobile menu when route changes
@@ -131,7 +132,11 @@ export default function Header({ brands }: HeaderProps) {
                         <a
                           key={product.slug}
                           onClick={() => setHidenMenu(brand.name)}
-                          href={isStagbar ? 'https://stagbaronline.com' : `/products/${product.slug}`}
+                          href={
+                            isStagbar
+                              ? 'https://stagbaronline.com'
+                              : getLocalizedPath(locale as string, `/products/${product.slug}`)
+                          }
                           target={isStagbar ? '_blank' : undefined}
                           rel={isStagbar ? 'noopener noreferrer' : undefined}
                           className="block px-6 py-4 text-sm text-slate-800 whitespace-nowrap uppercase font-medium hover:text-lime-600">
@@ -173,7 +178,7 @@ export default function Header({ brands }: HeaderProps) {
           <LocalizedLink
             href="/contact"
             className={`flex items-center hover:text-lime-600 h-16 text-gray-700 text-base font-medium uppercase ${
-              pathname.includes(`/${locale}/contact`) ? 'text-lime-600' : 'text-slate-80'
+              currentRoute.startsWith('/contact') ? 'text-lime-600' : 'text-slate-80'
             }`}>
             {t('common.contact')}
           </LocalizedLink>
@@ -189,7 +194,7 @@ export default function Header({ brands }: HeaderProps) {
               {Object.values(Locales).map((loc) => (
                 <Link
                   key={loc}
-                  href={`/${loc}${currentRoute}`}
+                  href={getLocalizedPath(loc, currentRoute)}
                   className={`block px-6 py-4 text-sm whitespace-nowrap uppercase font-medium hover:text-lime-600 ${
                     locale === loc ? 'text-lime-600' : 'text-slate-80'
                   }`}>
@@ -297,7 +302,7 @@ export default function Header({ brands }: HeaderProps) {
           <LocalizedLink
             href="/contact"
             className={`block px-6 py-3 text-base font-medium uppercase ${
-              pathname.includes(`/${locale}/contact`) ? 'text-lime-600' : 'text-slate-800'
+              currentRoute.startsWith('/contact') ? 'text-lime-600' : 'text-slate-800'
             } hover:text-lime-600 hover:bg-gray-50`}>
             {t('common.contact')}
           </LocalizedLink>
@@ -313,7 +318,7 @@ export default function Header({ brands }: HeaderProps) {
           {Object.values(Locales).map((loc) => (
             <Link
               key={loc}
-              href={`/${loc}${currentRoute}`}
+              href={getLocalizedPath(loc, currentRoute)}
               className={`block px-6 py-3 text-base font-medium uppercase ${
                 locale === loc ? 'text-lime-600' : 'text-slate-800'
               } hover:text-lime-600 hover:bg-gray-50`}>

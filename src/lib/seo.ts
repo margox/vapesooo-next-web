@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Locales, locales } from '@/locales'
+import { getLocalizedPath } from '@/lib/localePath'
 
 export const SITE_NAME = 'Vapesooo'
 export const SITE_URL = (process.env.NEXT_PUBLIC_BASE_URL || 'https://vapesooo.com').replace(/\/$/, '')
@@ -31,12 +32,7 @@ export const createSeoDescription = (value: string, maxLength = META_DESCRIPTION
   return `${readableCut}...`
 }
 
-const normalizePath = (path: string) => {
-  if (!path || path === '/') return ''
-  return path.startsWith('/') ? path : `/${path}`
-}
-
-export const getLocalizedUrl = (locale: string, path = '') => `${SITE_URL}/${locale}${normalizePath(path)}`
+export const getLocalizedUrl = (locale: string, path = '') => `${SITE_URL}${getLocalizedPath(locale, path)}`
 
 export const getLanguageAlternates = (path = '', availableLocales: readonly string[] = locales) => ({
   ...Object.fromEntries(availableLocales.map((locale) => [locale, getLocalizedUrl(locale, path)])),
