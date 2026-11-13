@@ -222,9 +222,9 @@ export default function Header({ brands }: HeaderProps) {
             rel="noopener noreferrer"
             aria-label="Contact us on WhatsApp"
             title="WhatsApp"
-            className="flex h-8 w-8 items-center justify-center rounded-full bg-[#25D366] text-white transition-transform hover:scale-105 md:h-9 md:w-9">
+            className="flex h-8 w-8 items-center justify-center rounded-full bg-[#25D366] text-white transition-transform hover:scale-105 md:hidden lg:flex lg:h-9 lg:w-9">
             <svg
-              className="h-4 w-4 md:h-5 md:w-5"
+              className="h-4 w-4 lg:h-5 lg:w-5"
               fill="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
